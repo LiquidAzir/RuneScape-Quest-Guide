@@ -1,0 +1,105 @@
+import type { QuestWalkthrough } from "../types";
+
+export const watchtower: QuestWalkthrough = {
+  startPoint: "Talk to the Watchtower Wizard on the top floor of the Watchtower north of Yanille (climb the trellis).",
+  itemsRequired: [
+    "20 coins",
+    "Gold bar",
+    "Tinderbox",
+    "Death rune",
+    "Pickaxe",
+    "Dragon bones",
+    "2 ropes",
+    "Guam potion (unfinished) — or guam leaf + vial of water",
+    "Light source",
+    "Pestle and mortar",
+    "Bat bones",
+    "Jangerberries (gathered in quest)",
+  ],
+  recommended: [
+    "Combat 35+",
+    "Some food and weapon",
+    "Stamina/energy potions",
+    "Anti-dragon shield + antifire (for Toban's gold path)",
+    "43 Prayer for Protect from Melee",
+  ],
+  enemies: [
+    "Gorad (level 68) — safespottable",
+    "Optional: Giant bat (level 27) for bat bones",
+  ],
+  sections: [
+    {
+      title: "Start the quest",
+      steps: [
+        { text: "Climb the trellis to the top of the Watchtower north of Yanille." },
+        { text: "Talk to the Watchtower Wizard (1•1•1)." },
+        { text: "Search the bush north-west for fingernails." },
+        { text: "Kill a Giant bat in Yanille dungeon for bat bones if needed." },
+        { text: "Talk to the Wizard again (1•1)." },
+      ],
+    },
+    {
+      title: "First crystal — Toban / Og / Grew",
+      steps: [
+        { text: "Talk to Og north-west of Yanille — he gives you Toban's key." },
+        { text: "Use a rope on the tree branch to reach the small island and talk to Grew." },
+        { text: "Enter the tunnel south of Gu'Tanoth." },
+        { text: "Defeat Gorad (level 68) and take his tooth." },
+        { text: "Talk to Toban with dragon bones — get Relic part 3." },
+        { text: "Take Toban's gold from the chest." },
+        { text: "Pick jangerberries on the island." },
+        { text: "Talk to Og again." },
+        { text: "Return to the Watchtower Wizard — he assembles the ogre relic." },
+      ],
+    },
+    {
+      title: "Skavid caves and second crystal",
+      steps: [
+        { text: "Enter Gu'Tanoth carrying the ogre relic." },
+        { text: "Steal a rock cake from the market counter." },
+        { text: "Climb the battlement and talk to the guard." },
+        { text: "Pay 20gp to cross the bridge." },
+        { text: "Talk to the City guard with a death rune to get a skavid map." },
+        { text: "Enter the Skavid caves north of the gate." },
+        { text: "Talk to the scared skavid for hints." },
+        { text: "Find the 4 regular skavids in caves and respond correctly using the map's phrases." },
+        { text: "Talk to the Mad Skavid in the final cave." },
+        { text: "Collect 2 cave nightshades total." },
+        { text: "Give a gold bar to the guard at the eastern gate." },
+        { text: "Use a nightshade on the Enclave guard and enter the cave." },
+      ],
+    },
+    {
+      title: "Brew the magic ogre potion",
+      steps: [
+        { text: "Return to the Watchtower Wizard." },
+        { text: "Add a guam leaf to a vial of water for guam potion (unf)." },
+        { text: "Add jangerberries to the potion." },
+        { text: "Grind bat bones with a pestle and mortar; add to potion." },
+        { text: "Talk to the Wizard with the completed potion." },
+      ],
+    },
+    {
+      title: "Final crystals and finish",
+      steps: [
+        { text: "Bring anti-dragon shield + combat gear." },
+        { text: "Use a nightshade on the Enclave guard to re-enter the cave." },
+        { text: "Use the magic ogre potion on all 6 ogre shamans." },
+        { text: "Mine the Rock of Dalgroth for the fourth crystal." },
+        { text: "Return to the Wizard with all 4 crystals." },
+        {
+          text: "Place crystals on the correct pillars: NE = Magenta, SE = Grey, SW = Yellow, NW = Cyan.",
+        },
+        { text: "Pull the lever to the west." },
+        { text: "Quest complete." },
+      ],
+    },
+  ],
+  rewards: [
+    "4 Quest Points",
+    "15,250 Magic experience",
+    "5,000 coins",
+    "Watchtower Teleport spell unlock",
+    "Friend of the Ogres status (access to Gu'Tanoth and the Ogre Enclave)",
+  ],
+};

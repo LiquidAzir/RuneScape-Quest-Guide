@@ -19,15 +19,20 @@ import { dwarfCannon } from "./dwarf-cannon";
 import { eaglesPeak } from "./eagles-peak";
 import { enakhrasLament } from "./enakhras-lament";
 import { ernestTheChicken } from "./ernest-the-chicken";
+import { familyCrest } from "./family-crest";
 import { fishingContest } from "./fishing-contest";
 import { ghostsAhoy } from "./ghosts-ahoy";
 import { goblinDiplomacy } from "./goblin-diplomacy";
 import { heroesQuest } from "./heroes-quest";
+import { holyGrail } from "./holy-grail";
 import { icthlarinsLittleHelper } from "./icthlarins-little-helper";
 import { impCatcher } from "./imp-catcher";
 import { inAidOfTheMyreque } from "./in-aid-of-the-myreque";
 import { inSearchOfTheMyreque } from "./in-search-of-the-myreque";
+import { kingsRansom } from "./kings-ransom";
 import { lostCity } from "./lost-city";
+import { merlinsCrystal } from "./merlins-crystal";
+import { murderMystery } from "./murder-mystery";
 import { monkeyMadnessI } from "./monkey-madness-i";
 import { mountainDaughter } from "./mountain-daughter";
 import { natureSpirit } from "./nature-spirit";
@@ -37,6 +42,7 @@ import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
 import { ratcatchers } from "./ratcatchers";
+import { recruitmentDrive } from "./recruitment-drive";
 import { romeoAndJuliet } from "./romeo-and-juliet";
 import { rovingElves } from "./roving-elves";
 import { royalTrouble } from "./royal-trouble";
@@ -44,6 +50,7 @@ import { runeMysteries } from "./rune-mysteries";
 import { sheepShearer } from "./sheep-shearer";
 import { sinsOfTheFather } from "./sins-of-the-father";
 import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
+import { theDigSite } from "./the-dig-site";
 import { theEyesOfGlouphrie } from "./the-eyes-of-glouphrie";
 import { theFeud } from "./the-feud";
 import { theFremennikIsles } from "./the-fremennik-isles";
@@ -60,6 +67,7 @@ import { spiritsOfTheElid } from "./spirits-of-the-elid";
 import { trollRomance } from "./troll-romance";
 import { trollStronghold } from "./troll-stronghold";
 import { vampyreSlayer } from "./vampyre-slayer";
+import { watchtower } from "./watchtower";
 import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
 
@@ -84,15 +92,20 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "eagles-peak": eaglesPeak,
   "enakhras-lament": enakhrasLament,
   "ernest-the-chicken": ernestTheChicken,
+  "family-crest": familyCrest,
   "fishing-contest": fishingContest,
   "ghosts-ahoy": ghostsAhoy,
   "goblin-diplomacy": goblinDiplomacy,
   "heroes-quest": heroesQuest,
+  "holy-grail": holyGrail,
   "icthlarins-little-helper": icthlarinsLittleHelper,
   "imp-catcher": impCatcher,
   "in-aid-of-the-myreque": inAidOfTheMyreque,
   "in-search-of-the-myreque": inSearchOfTheMyreque,
+  "kings-ransom": kingsRansom,
   "lost-city": lostCity,
+  "merlins-crystal": merlinsCrystal,
+  "murder-mystery": murderMystery,
   "monkey-madness-i": monkeyMadnessI,
   "mountain-daughter": mountainDaughter,
   "nature-spirit": natureSpirit,
@@ -102,6 +115,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "prince-ali-rescue": princeAliRescue,
   "priest-in-peril": priestInPeril,
   "ratcatchers": ratcatchers,
+  "recruitment-drive": recruitmentDrive,
   "romeo-and-juliet": romeoAndJuliet,
   "roving-elves": rovingElves,
   "royal-trouble": royalTrouble,
@@ -110,6 +124,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "sins-of-the-father": sinsOfTheFather,
   "spirits-of-the-elid": spiritsOfTheElid,
   "tai-bwo-wannai-trio": taiBwoWannaiTrio,
+  "the-dig-site": theDigSite,
   "the-eyes-of-glouphrie": theEyesOfGlouphrie,
   "the-feud": theFeud,
   "the-fremennik-isles": theFremennikIsles,
@@ -125,6 +140,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "troll-romance": trollRomance,
   "troll-stronghold": trollStronghold,
   "vampyre-slayer": vampyreSlayer,
+  "watchtower": watchtower,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
 };
