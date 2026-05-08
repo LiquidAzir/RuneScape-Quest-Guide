@@ -155,7 +155,6 @@ export const QUESTS: QuestMeta[] = [
   q({ name: "Shilo Village", members: true, difficulty: "Intermediate" }),
   q({ name: "Sins of the Father", members: true, difficulty: "Master" }),
   q({ name: "Sleeping Giants", members: true, difficulty: "Intermediate" }),
-  q({ name: "Smoking Kills", members: true, difficulty: "Experienced" }),
   q({ name: "Throne of Miscellania", members: true, difficulty: "Experienced" }),
   q({ name: "Glorious Memories", members: true, difficulty: "Master" }),
   q({ name: "Land of the Goblins", members: true, difficulty: "Experienced" }),
