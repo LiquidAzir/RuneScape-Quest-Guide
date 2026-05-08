@@ -1,0 +1,11 @@
+{
+  "name": "OSRS Quest Guide",
+  "short_name": "OSRS Quests",
+  "description": "Step-by-step Old School RuneScape quest guides with checkable progress.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#1f2937",
+  "orientation": "portrait",
+  "icons": []
+}
