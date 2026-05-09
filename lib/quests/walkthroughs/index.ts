@@ -11,6 +11,7 @@ import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { aPorcineOfInterest } from "./a-porcine-of-interest";
 import { aTailOfTwoCats } from "./a-tail-of-two-cats";
 import { atFirstLight } from "./at-first-light";
+import { betweenARock } from "./between-a-rock";
 import { biohazard } from "./biohazard";
 import { childrenOfTheSun } from "./children-of-the-sun";
 import { clientOfKourend } from "./client-of-kourend";
@@ -20,6 +21,7 @@ import { cabinFever } from "./cabin-fever";
 import { clockTower } from "./clock-tower";
 import { coldWar } from "./cold-war";
 import { contact } from "./contact";
+import { currentAffairs } from "./current-affairs";
 import { cooksAssistant } from "./cooks-assistant";
 import { creatureOfFenkenstrain } from "./creature-of-fenkenstrain";
 import { darknessOfHallowvale } from "./darkness-of-hallowvale";
@@ -37,17 +39,22 @@ import { dragonSlayerII } from "./dragon-slayer-ii";
 import { dreamMentor } from "./dream-mentor";
 import { druidicRitual } from "./druidic-ritual";
 import { dwarfCannon } from "./dwarf-cannon";
+import { eadgarsRuse } from "./eadgars-ruse";
 import { eaglesPeak } from "./eagles-peak";
 import { elementalWorkshopI } from "./elemental-workshop-i";
 import { elementalWorkshopII } from "./elemental-workshop-ii";
 import { enakhrasLament } from "./enakhras-lament";
+import { enlightenedJourney } from "./enlightened-journey";
 import { ernestTheChicken } from "./ernest-the-chicken";
+import { ethicallyAcquiredAntiquities } from "./ethically-acquired-antiquities";
 import { fairytaleIGrowingPains } from "./fairytale-i-growing-pains";
 import { fairytaleIICureAQueen } from "./fairytale-ii-cure-a-queen";
 import { familyCrest } from "./family-crest";
+import { fightArena } from "./fight-arena";
 import { fishingContest } from "./fishing-contest";
 import { forgettableTale } from "./forgettable-tale";
 import { gardenOfTranquillity } from "./garden-of-tranquillity";
+import { gertrudesCat } from "./gertrudes-cat";
 import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
 import { gloriousMemories } from "./glorious-memories";
@@ -64,10 +71,12 @@ import { junglePotion } from "./jungle-potion";
 import { kingsRansom } from "./kings-ransom";
 import { landOfTheGoblins } from "./land-of-the-goblins";
 import { learningTheRopes } from "./learning-the-ropes";
+import { legendsQuest } from "./legends-quest";
 import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
 import { makingFriendsWithMyArm } from "./making-friends-with-my-arm";
 import { makingHistory } from "./making-history";
+import { meatAndGreet } from "./meat-and-greet";
 import { merlinsCrystal } from "./merlins-crystal";
 import { misthalinMystery } from "./misthalin-mystery";
 import { monksFriend } from "./monks-friend";
@@ -77,14 +86,18 @@ import { mountainDaughter } from "./mountain-daughter";
 import { mourningsEndPartI } from "./mournings-end-part-i";
 import { mourningsEndPartII } from "./mournings-end-part-ii";
 import { murderMystery } from "./murder-mystery";
+import { myArmsBigAdventure } from "./my-arms-big-adventure";
 import { perilousMoons } from "./perilous-moons";
 import { natureSpirit } from "./nature-spirit";
+import { observatoryQuest } from "./observatory-quest";
 import { olafsQuest } from "./olafs-quest";
 import { oneSmallFavour } from "./one-small-favour";
+import { pandemonium } from "./pandemonium";
 import { piratesTreasure } from "./pirates-treasure";
 import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
+import { pryingTimes } from "./prying-times";
 import { ragAndBoneManI } from "./rag-and-bone-man-i";
 import { ragAndBoneManII } from "./rag-and-bone-man-ii";
 import { ratcatchers } from "./ratcatchers";
@@ -111,6 +124,7 @@ import { seaSlug } from "./sea-slug";
 import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { shadowOfTheStorm } from "./shadow-of-the-storm";
 import { sheepHerder } from "./sheep-herder";
+import { shieldOfArrav } from "./shield-of-arrav";
 import { sheepShearer } from "./sheep-shearer";
 import { shiloVillage } from "./shilo-village";
 import { sinsOfTheFather } from "./sins-of-the-father";
@@ -121,6 +135,7 @@ import { swanSong } from "./swan-song";
 import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
 import { taleOfTheRighteous } from "./tale-of-the-righteous";
 import { tearsOfGuthix } from "./tears-of-guthix";
+import { templeOfIkov } from "./temple-of-ikov";
 import { templeOfTheEye } from "./temple-of-the-eye";
 import { theCorsairCurse } from "./the-corsair-curse";
 import { theCurseOfArrav } from "./the-curse-of-arrav";
@@ -140,6 +155,8 @@ import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
 import { theHeartOfDarkness } from "./the-heart-of-darkness";
+import { theIdesOfMilk } from "./the-ides-of-milk";
+import { theRibbitingTale } from "./the-ribbiting-tale-of-a-lily-pad-labour-dispute";
 import { theKnightsSword } from "./the-knights-sword";
 import { theLostTribe } from "./the-lost-tribe";
 import { theQueenOfThieves } from "./the-queen-of-thieves";
@@ -157,6 +174,7 @@ import { twilightsPromise } from "./twilights-promise";
 import { undergroundPass } from "./underground-pass";
 import { vampyreSlayer } from "./vampyre-slayer";
 import { wanted } from "./wanted";
+import { waterfallQuest } from "./waterfall-quest";
 import { watchtower } from "./watchtower";
 import { whatLiesBelow } from "./what-lies-below";
 import { witchsHouse } from "./witchs-house";
@@ -173,6 +191,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "another-slice-of-h-a-m": anotherSliceOfHAM,
   "below-ice-mountain": belowIceMountain,
   "beneath-cursed-sands": beneathCursedSands,
+  "between-a-rock": betweenARock,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "a-porcine-of-interest": aPorcineOfInterest,
   "a-tail-of-two-cats": aTailOfTwoCats,
@@ -188,6 +207,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "contact": contact,
   "cooks-assistant": cooksAssistant,
   "creature-of-fenkenstrain": creatureOfFenkenstrain,
+  "current-affairs": currentAffairs,
   "darkness-of-hallowvale": darknessOfHallowvale,
   "death-on-the-isle": deathOnTheIsle,
   "death-plateau": deathPlateau,
@@ -203,17 +223,22 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "dream-mentor": dreamMentor,
   "druidic-ritual": druidicRitual,
   "dwarf-cannon": dwarfCannon,
+  "eadgars-ruse": eadgarsRuse,
   "eagles-peak": eaglesPeak,
   "elemental-workshop-i": elementalWorkshopI,
   "elemental-workshop-ii": elementalWorkshopII,
   "enakhras-lament": enakhrasLament,
+  "enlightened-journey": enlightenedJourney,
   "ernest-the-chicken": ernestTheChicken,
+  "ethically-acquired-antiquities": ethicallyAcquiredAntiquities,
   "fairytale-i-growing-pains": fairytaleIGrowingPains,
   "fairytale-ii-cure-a-queen": fairytaleIICureAQueen,
   "family-crest": familyCrest,
+  "fight-arena": fightArena,
   "fishing-contest": fishingContest,
   "forgettable-tale": forgettableTale,
   "garden-of-tranquillity": gardenOfTranquillity,
+  "gertrudes-cat": gertrudesCat,
   "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
   "glorious-memories": gloriousMemories,
@@ -230,10 +255,12 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "kings-ransom": kingsRansom,
   "land-of-the-goblins": landOfTheGoblins,
   "learning-the-ropes": learningTheRopes,
+  "legends-quest": legendsQuest,
   "lost-city": lostCity,
   "lunar-diplomacy": lunarDiplomacy,
   "making-friends-with-my-arm": makingFriendsWithMyArm,
   "making-history": makingHistory,
+  "meat-and-greet": meatAndGreet,
   "merlins-crystal": merlinsCrystal,
   "misthalin-mystery": misthalinMystery,
   "monks-friend": monksFriend,
@@ -243,14 +270,18 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "mournings-end-part-i": mourningsEndPartI,
   "mournings-end-part-ii": mourningsEndPartII,
   "murder-mystery": murderMystery,
+  "my-arms-big-adventure": myArmsBigAdventure,
   "nature-spirit": natureSpirit,
+  "observatory-quest": observatoryQuest,
   "olafs-quest": olafsQuest,
   "one-small-favour": oneSmallFavour,
+  "pandemonium": pandemonium,
   "perilous-moons": perilousMoons,
   "pirates-treasure": piratesTreasure,
   "plague-city": plagueCity,
   "prince-ali-rescue": princeAliRescue,
   "priest-in-peril": priestInPeril,
+  "prying-times": pryingTimes,
   "rag-and-bone-man-i": ragAndBoneManI,
   "rag-and-bone-man-ii": ragAndBoneManII,
   "ratcatchers": ratcatchers,
@@ -278,6 +309,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "shadow-of-the-storm": shadowOfTheStorm,
   "sheep-herder": sheepHerder,
   "sheep-shearer": sheepShearer,
+  "shield-of-arrav": shieldOfArrav,
   "shilo-village": shiloVillage,
   "sins-of-the-father": sinsOfTheFather,
   "sleeping-giants": sleepingGiants,
@@ -287,6 +319,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "tai-bwo-wannai-trio": taiBwoWannaiTrio,
   "tale-of-the-righteous": taleOfTheRighteous,
   "tears-of-guthix": tearsOfGuthix,
+  "temple-of-ikov": templeOfIkov,
   "temple-of-the-eye": templeOfTheEye,
   "the-corsair-curse": theCorsairCurse,
   "the-curse-of-arrav": theCurseOfArrav,
@@ -306,6 +339,8 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-hand-in-the-sand": theHandInTheSand,
   "the-haunted-mine": theHauntedMine,
   "the-heart-of-darkness": theHeartOfDarkness,
+  "the-ides-of-milk": theIdesOfMilk,
+  "the-ribbiting-tale-of-a-lily-pad-labour-dispute": theRibbitingTale,
   "the-knights-sword": theKnightsSword,
   "the-lost-tribe": theLostTribe,
   "the-path-of-glouphrie": thePathOfGlouphrie,
@@ -324,6 +359,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "vampyre-slayer": vampyreSlayer,
   "wanted": wanted,
   "watchtower": watchtower,
+  "waterfall-quest": waterfallQuest,
   "what-lies-below": whatLiesBelow,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
