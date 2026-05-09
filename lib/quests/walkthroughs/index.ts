@@ -5,7 +5,10 @@ import { aTasteOfHope } from "./a-taste-of-hope";
 import { animalMagnetism } from "./animal-magnetism";
 import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
+import { aPorcineOfInterest } from "./a-porcine-of-interest";
 import { biohazard } from "./biohazard";
+import { childrenOfTheSun } from "./children-of-the-sun";
+import { clientOfKourend } from "./client-of-kourend";
 import { blackKnightsFortress } from "./black-knights-fortress";
 import { boneVoyage } from "./bone-voyage";
 import { coldWar } from "./cold-war";
@@ -28,6 +31,7 @@ import { enakhrasLament } from "./enakhras-lament";
 import { ernestTheChicken } from "./ernest-the-chicken";
 import { familyCrest } from "./family-crest";
 import { fishingContest } from "./fishing-contest";
+import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
 import { goblinDiplomacy } from "./goblin-diplomacy";
 import { heroesQuest } from "./heroes-quest";
@@ -79,6 +83,9 @@ import { songOfTheElves } from "./song-of-the-elves";
 import { spiritsOfTheElid } from "./spirits-of-the-elid";
 import { swanSong } from "./swan-song";
 import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
+import { taleOfTheRighteous } from "./tale-of-the-righteous";
+import { templeOfTheEye } from "./temple-of-the-eye";
+import { theDepthsOfDespair } from "./the-depths-of-despair";
 import { theDigSite } from "./the-dig-site";
 import { theEyesOfGlouphrie } from "./the-eyes-of-glouphrie";
 import { theFeud } from "./the-feud";
@@ -90,6 +97,7 @@ import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
 import { theKnightsSword } from "./the-knights-sword";
+import { theQueenOfThieves } from "./the-queen-of-thieves";
 import { thePathOfGlouphrie } from "./the-path-of-glouphrie";
 import { theRestlessGhost } from "./the-restless-ghost";
 import { theTouristTrap } from "./the-tourist-trap";
@@ -109,7 +117,10 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "animal-magnetism": animalMagnetism,
   "beneath-cursed-sands": beneathCursedSands,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
+  "a-porcine-of-interest": aPorcineOfInterest,
   "biohazard": biohazard,
+  "children-of-the-sun": childrenOfTheSun,
+  "client-of-kourend": clientOfKourend,
   "black-knights-fortress": blackKnightsFortress,
   "bone-voyage": boneVoyage,
   "cold-war": coldWar,
@@ -132,6 +143,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "ernest-the-chicken": ernestTheChicken,
   "family-crest": familyCrest,
   "fishing-contest": fishingContest,
+  "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
   "goblin-diplomacy": goblinDiplomacy,
   "heroes-quest": heroesQuest,
@@ -183,6 +195,9 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "spirits-of-the-elid": spiritsOfTheElid,
   "swan-song": swanSong,
   "tai-bwo-wannai-trio": taiBwoWannaiTrio,
+  "tale-of-the-righteous": taleOfTheRighteous,
+  "temple-of-the-eye": templeOfTheEye,
+  "the-depths-of-despair": theDepthsOfDespair,
   "the-dig-site": theDigSite,
   "the-eyes-of-glouphrie": theEyesOfGlouphrie,
   "the-feud": theFeud,
@@ -195,6 +210,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-haunted-mine": theHauntedMine,
   "the-knights-sword": theKnightsSword,
   "the-path-of-glouphrie": thePathOfGlouphrie,
+  "the-queen-of-thieves": theQueenOfThieves,
   "the-restless-ghost": theRestlessGhost,
   "the-tourist-trap": theTouristTrap,
   "throne-of-miscellania": throneOfMiscellania,
