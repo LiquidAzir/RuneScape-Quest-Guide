@@ -16,7 +16,7 @@ export async function generateMetadata({
   const quest = getQuestBySlug(slug);
   if (!quest) return { title: "Quest not found" };
   return {
-    title: `${quest.name} – OSRS Quest Guide`,
+    title: `${quest.name} - OSRS Quest Guide`,
     description: `Step-by-step walkthrough for ${quest.name} in Old School RuneScape.`,
   };
 }
@@ -36,7 +36,7 @@ export default async function QuestPage({
         href="/"
         className="mb-4 inline-flex items-center gap-1 text-sm text-zinc-400 hover:text-zinc-200"
       >
-        <span aria-hidden="true">←</span> All quests
+        <span aria-hidden="true">&lt;-</span> All quests
       </Link>
 
       <header className="mb-6">
@@ -62,7 +62,7 @@ export default async function QuestPage({
               rel="noopener noreferrer"
               className="ml-auto rounded bg-zinc-800 px-2 py-0.5 text-zinc-300 ring-1 ring-zinc-700 hover:bg-zinc-700"
             >
-              Wiki ↗
+              Wiki
             </a>
           ) : null}
         </div>
@@ -84,7 +84,7 @@ export default async function QuestPage({
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-1 rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-emerald-950 hover:bg-emerald-400"
             >
-              Open wiki walkthrough ↗
+              Open wiki walkthrough
             </a>
           ) : null}
         </div>

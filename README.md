@@ -2,7 +2,7 @@
 
 An interactive step-by-step Old School RuneScape quest guide designed to be opened
 side-by-side with OSRS Mobile (or any other client). Pick a quest, follow the
-checklist, and tap each step as you go — your progress is saved locally in your
+checklist, and tap each step as you go - your progress is saved locally in your
 browser.
 
 ## Features
@@ -12,7 +12,7 @@ browser.
   enemies, and rewards
 - Progress saved per-device in `localStorage` (no account needed)
 - Mobile-first dark UI optimized for split-screen use
-- Built as a static site with Next.js — fast on any device, deployable to Vercel
+- Built as a static site with Next.js - fast on any device, deployable to Vercel
   for free
 
 ## Stack
@@ -37,7 +37,7 @@ npm run build
 npm run start
 ```
 
-The site is statically generated — every quest page is pre-rendered at build
+The site is statically generated - every quest page is pre-rendered at build
 time using `generateStaticParams`, so it deploys cleanly to Vercel, Netlify,
 Cloudflare Pages, or any static host.
 

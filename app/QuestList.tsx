@@ -4,9 +4,21 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { Difficulty, QuestMeta } from "@/lib/quests";
 
-type QuestRow = QuestMeta & { hasGuide: boolean };
+type QuestProgress = {
+  completedSteps: number;
+  complete: boolean;
+};
 
-type Filter = "all" | "f2p" | "members" | "with-guide";
+type QuestRow = QuestMeta & { hasGuide: boolean; stepCount: number };
+
+type Filter =
+  | "all"
+  | "f2p"
+  | "members"
+  | "with-guide"
+  | "in-progress"
+  | "completed"
+  | "not-started";
 
 const DIFFICULTY_COLORS: Record<Difficulty, string> = {
   Novice: "bg-emerald-500/15 text-emerald-300 ring-emerald-500/30",
@@ -22,47 +34,67 @@ const FILTERS: { id: Filter; label: string }[] = [
   { id: "f2p", label: "F2P" },
   { id: "members", label: "Members" },
   { id: "with-guide", label: "Has guide" },
+  { id: "in-progress", label: "In progress" },
+  { id: "completed", label: "Completed" },
+  { id: "not-started", label: "Not started" },
 ];
 
 export default function QuestList({ quests }: { quests: QuestRow[] }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
-  const [completedSlugs, setCompletedSlugs] = useState<Set<string>>(new Set());
+  const [progressBySlug, setProgressBySlug] = useState<
+    Record<string, QuestProgress>
+  >({});
 
-  // Hydrate completion state from localStorage. Reading localStorage during
+  // Hydrate progress state from localStorage. Reading localStorage during
   // SSR isn't possible, so we sync into client state after mount.
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const completed = new Set<string>();
+    const progress: Record<string, QuestProgress> = {};
     for (let i = 0; i < window.localStorage.length; i++) {
       const key = window.localStorage.key(i);
       if (!key || !key.startsWith("quest:")) continue;
       try {
         const value = JSON.parse(window.localStorage.getItem(key) ?? "{}");
-        if (value && value.complete) {
-          completed.add(key.slice("quest:".length));
+        if (value && typeof value === "object") {
+          progress[key.slice("quest:".length)] = {
+            completedSteps: Object.values(value.steps ?? {}).filter(Boolean)
+              .length,
+            complete: Boolean(value.complete),
+          };
         }
       } catch {
         // ignore corrupt entries
       }
     }
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setCompletedSlugs(completed);
+    setProgressBySlug(progress);
   }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return quests.filter((quest) => {
+      const progress = progressBySlug[quest.slug];
+      const completedSteps = progress?.completedSteps ?? 0;
+      const complete = Boolean(progress?.complete);
+
       if (filter === "f2p" && quest.members) return false;
       if (filter === "members" && !quest.members) return false;
       if (filter === "with-guide" && !quest.hasGuide) return false;
+      if (filter === "in-progress" && (complete || completedSteps === 0)) {
+        return false;
+      }
+      if (filter === "completed" && !complete) return false;
+      if (filter === "not-started" && (complete || completedSteps > 0)) {
+        return false;
+      }
       if (q && !quest.name.toLowerCase().includes(q)) return false;
       return true;
     });
-  }, [quests, query, filter]);
+  }, [quests, progressBySlug, query, filter]);
 
   const completedCount = quests.filter((quest) =>
-    completedSlugs.has(quest.slug),
+    progressBySlug[quest.slug]?.complete,
   ).length;
 
   return (
@@ -101,7 +133,9 @@ export default function QuestList({ quests }: { quests: QuestRow[] }) {
 
       <ul className="divide-y divide-zinc-800 overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900">
         {filtered.map((quest) => {
-          const done = completedSlugs.has(quest.slug);
+          const progress = progressBySlug[quest.slug];
+          const done = Boolean(progress?.complete);
+          const completedSteps = progress?.completedSteps ?? 0;
           return (
             <li key={quest.slug}>
               <Link
@@ -115,11 +149,16 @@ export default function QuestList({ quests }: { quests: QuestRow[] }) {
                       ? "bg-emerald-500 text-emerald-950"
                       : "border border-zinc-700"
                   }`}
-                >
-                  {done ? "✓" : ""}
-                </span>
-                <span className="flex-1 truncate font-medium">
-                  {quest.name}
+                />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate font-medium">
+                    {quest.name}
+                  </span>
+                  {quest.hasGuide ? (
+                    <span className="mt-0.5 block text-xs text-zinc-500">
+                      {completedSteps} / {quest.stepCount} steps
+                    </span>
+                  ) : null}
                 </span>
                 <span className="flex items-center gap-1.5 text-xs">
                   {quest.members ? (

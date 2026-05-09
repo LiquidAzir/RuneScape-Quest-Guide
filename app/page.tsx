@@ -1,11 +1,21 @@
-import { getAllQuests, hasWalkthrough } from "@/lib/quests";
+import { getAllQuests, getQuestBySlug } from "@/lib/quests";
 import QuestList from "./QuestList";
 
 export default function Home() {
-  const quests = getAllQuests().map((quest) => ({
-    ...quest,
-    hasGuide: hasWalkthrough(quest.slug),
-  }));
+  const quests = getAllQuests().map((quest) => {
+    const walkthrough = getQuestBySlug(quest.slug)?.walkthrough;
+    const stepCount =
+      walkthrough?.sections.reduce(
+        (count, section) => count + section.steps.length,
+        0,
+      ) ?? 0;
+
+    return {
+      ...quest,
+      hasGuide: Boolean(walkthrough),
+      stepCount,
+    };
+  });
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-6">

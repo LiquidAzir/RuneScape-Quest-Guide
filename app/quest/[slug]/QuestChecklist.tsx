@@ -104,7 +104,7 @@ export default function QuestChecklist({
 
   return (
     <div>
-      {/* Quest meta sidebar — full-width on mobile, before steps */}
+      {/* Quest meta sidebar - full-width on mobile, before steps */}
       <MetaPanels walkthrough={walkthrough} />
 
       {/* Progress bar */}
@@ -168,7 +168,7 @@ export default function QuestChecklist({
                             {step.notes.map((note, nIdx) => (
                               <li key={nIdx} className="flex gap-2">
                                 <span className="select-none text-zinc-600">
-                                  •
+                                  -
                                 </span>
                                 <span>{note}</span>
                               </li>
@@ -194,7 +194,7 @@ export default function QuestChecklist({
               {state.complete
                 ? "Marked complete on this device."
                 : allDone
-                  ? "All steps checked — ready to mark."
+                  ? "All steps checked - ready to mark."
                   : "Save your progress for later."}
             </p>
           </div>
@@ -216,7 +216,7 @@ export default function QuestChecklist({
             <ul className="mt-1 space-y-1 text-sm text-zinc-400">
               {walkthrough.rewards.map((reward, idx) => (
                 <li key={idx} className="flex gap-2">
-                  <span className="select-none text-emerald-400">★</span>
+                  <span className="select-none text-emerald-400">*</span>
                   <span>{reward}</span>
                 </li>
               ))}
