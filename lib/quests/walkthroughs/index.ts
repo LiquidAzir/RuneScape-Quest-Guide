@@ -3,6 +3,7 @@ import { aKingdomDivided } from "./a-kingdom-divided";
 import { aNightAtTheTheatre } from "./a-night-at-the-theatre";
 import { aTasteOfHope } from "./a-taste-of-hope";
 import { animalMagnetism } from "./animal-magnetism";
+import { anotherSliceOfHAM } from "./another-slice-of-h-a-m";
 import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { aPorcineOfInterest } from "./a-porcine-of-interest";
@@ -30,10 +31,15 @@ import { dreamMentor } from "./dream-mentor";
 import { druidicRitual } from "./druidic-ritual";
 import { dwarfCannon } from "./dwarf-cannon";
 import { eaglesPeak } from "./eagles-peak";
+import { elementalWorkshopI } from "./elemental-workshop-i";
+import { elementalWorkshopII } from "./elemental-workshop-ii";
 import { enakhrasLament } from "./enakhras-lament";
 import { ernestTheChicken } from "./ernest-the-chicken";
+import { fairytaleIGrowingPains } from "./fairytale-i-growing-pains";
+import { fairytaleIICureAQueen } from "./fairytale-ii-cure-a-queen";
 import { familyCrest } from "./family-crest";
 import { fishingContest } from "./fishing-contest";
+import { forgettableTale } from "./forgettable-tale";
 import { gardenOfTranquillity } from "./garden-of-tranquillity";
 import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
@@ -49,6 +55,7 @@ import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
 import { makingFriendsWithMyArm } from "./making-friends-with-my-arm";
 import { merlinsCrystal } from "./merlins-crystal";
+import { misthalinMystery } from "./misthalin-mystery";
 import { monkeyMadnessI } from "./monkey-madness-i";
 import { monkeyMadnessII } from "./monkey-madness-ii";
 import { mountainDaughter } from "./mountain-daughter";
@@ -124,6 +131,7 @@ import { vampyreSlayer } from "./vampyre-slayer";
 import { watchtower } from "./watchtower";
 import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
+import { xMarksTheSpot } from "./x-marks-the-spot";
 import { zogreFleshEaters } from "./zogre-flesh-eaters";
 
 export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
@@ -131,6 +139,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "a-night-at-the-theatre": aNightAtTheTheatre,
   "a-taste-of-hope": aTasteOfHope,
   "animal-magnetism": animalMagnetism,
+  "another-slice-of-h-a-m": anotherSliceOfHAM,
   "beneath-cursed-sands": beneathCursedSands,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "a-porcine-of-interest": aPorcineOfInterest,
@@ -158,10 +167,15 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "druidic-ritual": druidicRitual,
   "dwarf-cannon": dwarfCannon,
   "eagles-peak": eaglesPeak,
+  "elemental-workshop-i": elementalWorkshopI,
+  "elemental-workshop-ii": elementalWorkshopII,
   "enakhras-lament": enakhrasLament,
   "ernest-the-chicken": ernestTheChicken,
+  "fairytale-i-growing-pains": fairytaleIGrowingPains,
+  "fairytale-ii-cure-a-queen": fairytaleIICureAQueen,
   "family-crest": familyCrest,
   "fishing-contest": fishingContest,
+  "forgettable-tale": forgettableTale,
   "garden-of-tranquillity": gardenOfTranquillity,
   "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
@@ -177,6 +191,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "lunar-diplomacy": lunarDiplomacy,
   "making-friends-with-my-arm": makingFriendsWithMyArm,
   "merlins-crystal": merlinsCrystal,
+  "misthalin-mystery": misthalinMystery,
   "monkey-madness-i": monkeyMadnessI,
   "monkey-madness-ii": monkeyMadnessII,
   "mountain-daughter": mountainDaughter,
@@ -252,6 +267,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "watchtower": watchtower,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
+  "x-marks-the-spot": xMarksTheSpot,
   "zogre-flesh-eaters": zogreFleshEaters,
 };
 
