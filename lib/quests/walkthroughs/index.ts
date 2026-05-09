@@ -1,4 +1,5 @@
 import type { QuestWalkthrough } from "../types";
+import { aKingdomDivided } from "./a-kingdom-divided";
 import { aNightAtTheTheatre } from "./a-night-at-the-theatre";
 import { aTasteOfHope } from "./a-taste-of-hope";
 import { animalMagnetism } from "./animal-magnetism";
@@ -38,11 +39,14 @@ import { inSearchOfTheMyreque } from "./in-search-of-the-myreque";
 import { kingsRansom } from "./kings-ransom";
 import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
+import { makingFriendsWithMyArm } from "./making-friends-with-my-arm";
 import { merlinsCrystal } from "./merlins-crystal";
-import { monkeyMadnessII } from "./monkey-madness-ii";
-import { murderMystery } from "./murder-mystery";
 import { monkeyMadnessI } from "./monkey-madness-i";
+import { monkeyMadnessII } from "./monkey-madness-ii";
 import { mountainDaughter } from "./mountain-daughter";
+import { mourningsEndPartI } from "./mournings-end-part-i";
+import { mourningsEndPartII } from "./mournings-end-part-ii";
+import { murderMystery } from "./murder-mystery";
 import { natureSpirit } from "./nature-spirit";
 import { olafsQuest } from "./olafs-quest";
 import { oneSmallFavour } from "./one-small-favour";
@@ -67,8 +71,10 @@ import { romeoAndJuliet } from "./romeo-and-juliet";
 import { rovingElves } from "./roving-elves";
 import { royalTrouble } from "./royal-trouble";
 import { runeMysteries } from "./rune-mysteries";
+import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { sheepShearer } from "./sheep-shearer";
 import { sinsOfTheFather } from "./sins-of-the-father";
+import { sleepingGiants } from "./sleeping-giants";
 import { songOfTheElves } from "./song-of-the-elves";
 import { spiritsOfTheElid } from "./spirits-of-the-elid";
 import { swanSong } from "./swan-song";
@@ -76,8 +82,10 @@ import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
 import { theDigSite } from "./the-dig-site";
 import { theEyesOfGlouphrie } from "./the-eyes-of-glouphrie";
 import { theFeud } from "./the-feud";
+import { theFremennikExiles } from "./the-fremennik-exiles";
 import { theFremennikIsles } from "./the-fremennik-isles";
 import { theFremennikTrials } from "./the-fremennik-trials";
+import { theGardenOfDeath } from "./the-garden-of-death";
 import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
@@ -95,6 +103,7 @@ import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
 
 export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
+  "a-kingdom-divided": aKingdomDivided,
   "a-night-at-the-theatre": aNightAtTheTheatre,
   "a-taste-of-hope": aTasteOfHope,
   "animal-magnetism": animalMagnetism,
@@ -134,11 +143,14 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "kings-ransom": kingsRansom,
   "lost-city": lostCity,
   "lunar-diplomacy": lunarDiplomacy,
+  "making-friends-with-my-arm": makingFriendsWithMyArm,
   "merlins-crystal": merlinsCrystal,
-  "murder-mystery": murderMystery,
   "monkey-madness-i": monkeyMadnessI,
   "monkey-madness-ii": monkeyMadnessII,
   "mountain-daughter": mountainDaughter,
+  "mournings-end-part-i": mourningsEndPartI,
+  "mournings-end-part-ii": mourningsEndPartII,
+  "murder-mystery": murderMystery,
   "nature-spirit": natureSpirit,
   "olafs-quest": olafsQuest,
   "one-small-favour": oneSmallFavour,
@@ -163,8 +175,10 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "roving-elves": rovingElves,
   "royal-trouble": royalTrouble,
   "rune-mysteries": runeMysteries,
+  "secrets-of-the-north": secretsOfTheNorth,
   "sheep-shearer": sheepShearer,
   "sins-of-the-father": sinsOfTheFather,
+  "sleeping-giants": sleepingGiants,
   "song-of-the-elves": songOfTheElves,
   "spirits-of-the-elid": spiritsOfTheElid,
   "swan-song": swanSong,
@@ -172,8 +186,10 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-dig-site": theDigSite,
   "the-eyes-of-glouphrie": theEyesOfGlouphrie,
   "the-feud": theFeud,
+  "the-fremennik-exiles": theFremennikExiles,
   "the-fremennik-isles": theFremennikIsles,
   "the-fremennik-trials": theFremennikTrials,
+  "the-garden-of-death": theGardenOfDeath,
   "the-grand-tree": theGrandTree,
   "the-hand-in-the-sand": theHandInTheSand,
   "the-haunted-mine": theHauntedMine,
