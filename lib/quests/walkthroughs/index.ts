@@ -1,6 +1,8 @@
 import type { QuestWalkthrough } from "../types";
+import { aNightAtTheTheatre } from "./a-night-at-the-theatre";
 import { aTasteOfHope } from "./a-taste-of-hope";
 import { animalMagnetism } from "./animal-magnetism";
+import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { biohazard } from "./biohazard";
 import { blackKnightsFortress } from "./black-knights-fortress";
@@ -13,8 +15,10 @@ import { darknessOfHallowvale } from "./darkness-of-hallowvale";
 import { deathPlateau } from "./death-plateau";
 import { demonSlayer } from "./demon-slayer";
 import { desertTreasureI } from "./desert-treasure-i";
+import { desertTreasureII } from "./desert-treasure-ii-the-fallen-empire";
 import { doricsQuest } from "./dorics-quest";
 import { dragonSlayerI } from "./dragon-slayer-i";
+import { dragonSlayerII } from "./dragon-slayer-ii";
 import { dreamMentor } from "./dream-mentor";
 import { druidicRitual } from "./druidic-ritual";
 import { dwarfCannon } from "./dwarf-cannon";
@@ -35,6 +39,7 @@ import { kingsRansom } from "./kings-ransom";
 import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
 import { merlinsCrystal } from "./merlins-crystal";
+import { monkeyMadnessII } from "./monkey-madness-ii";
 import { murderMystery } from "./murder-mystery";
 import { monkeyMadnessI } from "./monkey-madness-i";
 import { mountainDaughter } from "./mountain-daughter";
@@ -64,6 +69,7 @@ import { royalTrouble } from "./royal-trouble";
 import { runeMysteries } from "./rune-mysteries";
 import { sheepShearer } from "./sheep-shearer";
 import { sinsOfTheFather } from "./sins-of-the-father";
+import { songOfTheElves } from "./song-of-the-elves";
 import { spiritsOfTheElid } from "./spirits-of-the-elid";
 import { swanSong } from "./swan-song";
 import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
@@ -89,8 +95,10 @@ import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
 
 export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
+  "a-night-at-the-theatre": aNightAtTheTheatre,
   "a-taste-of-hope": aTasteOfHope,
   "animal-magnetism": animalMagnetism,
+  "beneath-cursed-sands": beneathCursedSands,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "biohazard": biohazard,
   "black-knights-fortress": blackKnightsFortress,
@@ -103,8 +111,10 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "death-plateau": deathPlateau,
   "demon-slayer": demonSlayer,
   "desert-treasure-i": desertTreasureI,
+  "desert-treasure-ii-the-fallen-empire": desertTreasureII,
   "dorics-quest": doricsQuest,
   "dragon-slayer-i": dragonSlayerI,
+  "dragon-slayer-ii": dragonSlayerII,
   "dream-mentor": dreamMentor,
   "druidic-ritual": druidicRitual,
   "dwarf-cannon": dwarfCannon,
@@ -127,6 +137,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "merlins-crystal": merlinsCrystal,
   "murder-mystery": murderMystery,
   "monkey-madness-i": monkeyMadnessI,
+  "monkey-madness-ii": monkeyMadnessII,
   "mountain-daughter": mountainDaughter,
   "nature-spirit": natureSpirit,
   "olafs-quest": olafsQuest,
@@ -154,6 +165,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "rune-mysteries": runeMysteries,
   "sheep-shearer": sheepShearer,
   "sins-of-the-father": sinsOfTheFather,
+  "song-of-the-elves": songOfTheElves,
   "spirits-of-the-elid": spiritsOfTheElid,
   "swan-song": swanSong,
   "tai-bwo-wannai-trio": taiBwoWannaiTrio,

@@ -1,0 +1,102 @@
+import type { QuestWalkthrough } from "../types";
+
+export const monkeyMadnessII: QuestWalkthrough = {
+  startPoint: "Talk to King Narnode Shareen at the Grand Tree.",
+  itemsRequired: [
+    "Lemon + Grapes + Pestle and mortar",
+    "Logs + Tinderbox + Light source",
+    "M'speak amulet + Monkey talisman + Ninja monkey greegree (small or medium)",
+    "Slash weapon",
+    "Translation book (from Narnode)",
+  ],
+  recommended: [
+    "Combat 90+",
+    "Anti-poison + Serpentine helm",
+    "Stamina + prayer potions + monkfish or better food",
+    "Best magic + ranged gear available",
+    "Emergency teleport",
+  ],
+  enemies: [
+    "Kruk (level 207) — boss",
+    "Keef (level 178) and Kob (level 185) — recruit fights",
+    "Tortured gorillas (level 141-142)",
+    "Demonic gorillas (level 275)",
+    "Glough (level 431) — final boss",
+  ],
+  sections: [
+    {
+      title: "Chapter I — Investigation",
+      steps: [
+        { text: "Talk to King Narnode Shareen at the Grand Tree." },
+        { text: "Search Glough's house for a handkerchief and investigate the tree outside." },
+        { text: "Talk to Anita north of the gnome ball field." },
+        { text: "Find the book of spyology, brush, and mysterious note in Glough's house." },
+        { text: "Use a pestle and mortar on a lemon and grapes." },
+        { text: "Apply the juice with the brush on the mysterious note." },
+        { text: "Get the translation book from King Narnode and translate the note." },
+        { text: "Fly to Entrana via balloon and talk to Auguste about Assistant Le Smith." },
+        { text: "Return and report to King Narnode." },
+      ],
+    },
+    {
+      title: "Chapter II — Kruk's Dungeon",
+      steps: [
+        { text: "Teleport to Ape Atoll with monkey/gorilla greegree." },
+        { text: "Talk to Garkor and Awowogei." },
+        { text: "Follow tracks to a trapdoor in the jungle grass." },
+        { text: "Navigate the dungeon (agility or tank pathway)." },
+        { text: "Collect bronze key or combat keys as needed." },
+        { text: "Create a shortcut for future banking." },
+        { text: "Defeat Kruk (level 207) in his chamber." },
+        { text: "Collect Kruk's paw." },
+        { text: "Talk to Zooknock to get a Kruk monkey greegree." },
+      ],
+    },
+    {
+      title: "Chapter III — Recruit allies",
+      steps: [
+        { text: "Defeat Kob at the Troll Stronghold (safespot in the doorway)." },
+        { text: "Defeat Keef at Gu'Tanoth (safespot with a tree)." },
+        { text: "Find Assistant Le Smith on the Marim rooftops (4 possible spawn locations)." },
+        { text: "Talk to a monkey guard and board the airship platform." },
+        { text: "Navigate the maze avoiding ninja monkeys." },
+        { text: "Collect 6 satchels and fill them with explosives." },
+        { text: "Place explosives at 6 weakened structures around the airship." },
+        { text: "Defeat the stunted demonic gorilla." },
+        { text: "Tamper with the device using a chisel and a charged onyx." },
+      ],
+    },
+    {
+      title: "Chapter IV — Gather forces",
+      steps: [
+        { text: "Talk to King Narnode and Nieve." },
+        { text: "Kill 4 tortured gorillas in the Gnome Stronghold." },
+        { text: "Meet Garkor in the north-west area." },
+        { text: "Enter the cave and defeat 2 tortured + 2 demonic gorillas." },
+        { text: "Restock supplies as needed." },
+      ],
+    },
+    {
+      title: "Chapter V — Defeat Glough",
+      steps: [
+        { text: "Attack Glough in the first room (safespot available)." },
+        { text: "Lure Glough to the second room and safespot with ranged or magic." },
+        { text: "Defeat Glough (level 431) in the final room — use Protect from Magic and Protect from Melee at the right moments." },
+        { text: "Talk to Zooknock for a teleport to the Grand Tree." },
+        { text: "Report to King Narnode to finish." },
+        { text: "Quest complete." },
+      ],
+    },
+  ],
+  rewards: [
+    "4 Quest Points",
+    "80,000 Slayer experience",
+    "60,000 Agility experience",
+    "50,000 Thieving / Hunter experience each",
+    "2× 50,000 XP in choice of Magic/Ranged/Attack/Defence/Strength/Hitpoints",
+    "Royal seed pod (unlimited Grand Tree teleports)",
+    "Access to demonic gorillas (zenyte shard drops) and maniacal monkeys (Hunter)",
+    "Heavy ballista wielding ability",
+    "Ape Atoll bank + Javelin store + non-aggressive village",
+  ],
+};
