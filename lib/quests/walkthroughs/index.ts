@@ -8,6 +8,7 @@ import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { aPorcineOfInterest } from "./a-porcine-of-interest";
 import { aTailOfTwoCats } from "./a-tail-of-two-cats";
+import { atFirstLight } from "./at-first-light";
 import { biohazard } from "./biohazard";
 import { childrenOfTheSun } from "./children-of-the-sun";
 import { clientOfKourend } from "./client-of-kourend";
@@ -21,6 +22,7 @@ import { creatureOfFenkenstrain } from "./creature-of-fenkenstrain";
 import { darknessOfHallowvale } from "./darkness-of-hallowvale";
 import { deathPlateau } from "./death-plateau";
 import { deathToTheDorgeshuun } from "./death-to-the-dorgeshuun";
+import { defenderOfVarrock } from "./defender-of-varrock";
 import { demonSlayer } from "./demon-slayer";
 import { desertTreasureI } from "./desert-treasure-i";
 import { desertTreasureII } from "./desert-treasure-ii-the-fallen-empire";
@@ -62,6 +64,7 @@ import { mountainDaughter } from "./mountain-daughter";
 import { mourningsEndPartI } from "./mournings-end-part-i";
 import { mourningsEndPartII } from "./mournings-end-part-ii";
 import { murderMystery } from "./murder-mystery";
+import { perilousMoons } from "./perilous-moons";
 import { natureSpirit } from "./nature-spirit";
 import { olafsQuest } from "./olafs-quest";
 import { oneSmallFavour } from "./one-small-favour";
@@ -101,11 +104,13 @@ import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
 import { taleOfTheRighteous } from "./tale-of-the-righteous";
 import { tearsOfGuthix } from "./tears-of-guthix";
 import { templeOfTheEye } from "./temple-of-the-eye";
+import { theCurseOfArrav } from "./the-curse-of-arrav";
 import { theDepthsOfDespair } from "./the-depths-of-despair";
 import { theDigSite } from "./the-dig-site";
-import { theGreatBrainRobbery } from "./the-great-brain-robbery";
 import { theEyesOfGlouphrie } from "./the-eyes-of-glouphrie";
 import { theFeud } from "./the-feud";
+import { theFinalDawn } from "./the-final-dawn";
+import { theGreatBrainRobbery } from "./the-great-brain-robbery";
 import { theFremennikExiles } from "./the-fremennik-exiles";
 import { theFremennikIsles } from "./the-fremennik-isles";
 import { theFremennikTrials } from "./the-fremennik-trials";
@@ -126,6 +131,7 @@ import { towerOfLife } from "./tower-of-life";
 import { treeGnomeVillage } from "./tree-gnome-village";
 import { trollRomance } from "./troll-romance";
 import { trollStronghold } from "./troll-stronghold";
+import { twilightsPromise } from "./twilights-promise";
 import { undergroundPass } from "./underground-pass";
 import { vampyreSlayer } from "./vampyre-slayer";
 import { watchtower } from "./watchtower";
@@ -144,6 +150,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "a-porcine-of-interest": aPorcineOfInterest,
   "a-tail-of-two-cats": aTailOfTwoCats,
+  "at-first-light": atFirstLight,
   "biohazard": biohazard,
   "children-of-the-sun": childrenOfTheSun,
   "client-of-kourend": clientOfKourend,
@@ -157,6 +164,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "darkness-of-hallowvale": darknessOfHallowvale,
   "death-plateau": deathPlateau,
   "death-to-the-dorgeshuun": deathToTheDorgeshuun,
+  "defender-of-varrock": defenderOfVarrock,
   "demon-slayer": demonSlayer,
   "desert-treasure-i": desertTreasureI,
   "desert-treasure-ii-the-fallen-empire": desertTreasureII,
@@ -201,6 +209,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "nature-spirit": natureSpirit,
   "olafs-quest": olafsQuest,
   "one-small-favour": oneSmallFavour,
+  "perilous-moons": perilousMoons,
   "pirates-treasure": piratesTreasure,
   "plague-city": plagueCity,
   "prince-ali-rescue": princeAliRescue,
@@ -237,10 +246,12 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "tale-of-the-righteous": taleOfTheRighteous,
   "tears-of-guthix": tearsOfGuthix,
   "temple-of-the-eye": templeOfTheEye,
+  "the-curse-of-arrav": theCurseOfArrav,
   "the-depths-of-despair": theDepthsOfDespair,
   "the-dig-site": theDigSite,
   "the-eyes-of-glouphrie": theEyesOfGlouphrie,
   "the-feud": theFeud,
+  "the-final-dawn": theFinalDawn,
   "the-fremennik-exiles": theFremennikExiles,
   "the-fremennik-isles": theFremennikIsles,
   "the-fremennik-trials": theFremennikTrials,
@@ -262,6 +273,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "tree-gnome-village": treeGnomeVillage,
   "troll-romance": trollRomance,
   "troll-stronghold": trollStronghold,
+  "twilights-promise": twilightsPromise,
   "underground-pass": undergroundPass,
   "vampyre-slayer": vampyreSlayer,
   "watchtower": watchtower,
