@@ -1,9 +1,11 @@
 import type { QuestWalkthrough } from "../types";
 import { aKingdomDivided } from "./a-kingdom-divided";
 import { aNightAtTheTheatre } from "./a-night-at-the-theatre";
+import { aSoulsBane } from "./a-souls-bane";
 import { aTasteOfHope } from "./a-taste-of-hope";
 import { animalMagnetism } from "./animal-magnetism";
 import { anotherSliceOfHAM } from "./another-slice-of-h-a-m";
+import { belowIceMountain } from "./below-ice-mountain";
 import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { aPorcineOfInterest } from "./a-porcine-of-interest";
@@ -46,7 +48,9 @@ import { forgettableTale } from "./forgettable-tale";
 import { gardenOfTranquillity } from "./garden-of-tranquillity";
 import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
+import { gloriousMemories } from "./glorious-memories";
 import { goblinDiplomacy } from "./goblin-diplomacy";
+import { grimTales } from "./grim-tales";
 import { hazeelCult } from "./hazeel-cult";
 import { heroesQuest } from "./heroes-quest";
 import { holyGrail } from "./holy-grail";
@@ -76,6 +80,7 @@ import { piratesTreasure } from "./pirates-treasure";
 import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
+import { ragAndBoneManI } from "./rag-and-bone-man-i";
 import { ratcatchers } from "./ratcatchers";
 import { regicide } from "./regicide";
 import { recipeForDisaster } from "./recipe-for-disaster";
@@ -95,6 +100,7 @@ import { rovingElves } from "./roving-elves";
 import { royalTrouble } from "./royal-trouble";
 import { rumDeal } from "./rum-deal";
 import { runeMysteries } from "./rune-mysteries";
+import { scorpionCatcher } from "./scorpion-catcher";
 import { seaSlug } from "./sea-slug";
 import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { shadowOfTheStorm } from "./shadow-of-the-storm";
@@ -122,6 +128,7 @@ import { theFremennikIsles } from "./the-fremennik-isles";
 import { theFremennikTrials } from "./the-fremennik-trials";
 import { theGardenOfDeath } from "./the-garden-of-death";
 import { theGiantDwarf } from "./the-giant-dwarf";
+import { theGolem } from "./the-golem";
 import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
@@ -143,6 +150,7 @@ import { undergroundPass } from "./underground-pass";
 import { vampyreSlayer } from "./vampyre-slayer";
 import { wanted } from "./wanted";
 import { watchtower } from "./watchtower";
+import { whatLiesBelow } from "./what-lies-below";
 import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
 import { xMarksTheSpot } from "./x-marks-the-spot";
@@ -151,9 +159,11 @@ import { zogreFleshEaters } from "./zogre-flesh-eaters";
 export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "a-kingdom-divided": aKingdomDivided,
   "a-night-at-the-theatre": aNightAtTheTheatre,
+  "a-souls-bane": aSoulsBane,
   "a-taste-of-hope": aTasteOfHope,
   "animal-magnetism": animalMagnetism,
   "another-slice-of-h-a-m": anotherSliceOfHAM,
+  "below-ice-mountain": belowIceMountain,
   "beneath-cursed-sands": beneathCursedSands,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "a-porcine-of-interest": aPorcineOfInterest,
@@ -196,7 +206,9 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "garden-of-tranquillity": gardenOfTranquillity,
   "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
+  "glorious-memories": gloriousMemories,
   "goblin-diplomacy": goblinDiplomacy,
+  "grim-tales": grimTales,
   "hazeel-cult": hazeelCult,
   "heroes-quest": heroesQuest,
   "holy-grail": holyGrail,
@@ -226,6 +238,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "plague-city": plagueCity,
   "prince-ali-rescue": princeAliRescue,
   "priest-in-peril": priestInPeril,
+  "rag-and-bone-man-i": ragAndBoneManI,
   "ratcatchers": ratcatchers,
   "recipe-for-disaster": recipeForDisaster,
   "recipe-for-disaster-another-cooks-quest": rfdAnotherCooksQuest,
@@ -245,6 +258,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "roving-elves": rovingElves,
   "royal-trouble": royalTrouble,
   "rune-mysteries": runeMysteries,
+  "scorpion-catcher": scorpionCatcher,
   "sea-slug": seaSlug,
   "secrets-of-the-north": secretsOfTheNorth,
   "shadow-of-the-storm": shadowOfTheStorm,
@@ -271,6 +285,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-fremennik-trials": theFremennikTrials,
   "the-garden-of-death": theGardenOfDeath,
   "the-giant-dwarf": theGiantDwarf,
+  "the-golem": theGolem,
   "the-grand-tree": theGrandTree,
   "the-great-brain-robbery": theGreatBrainRobbery,
   "the-hand-in-the-sand": theHandInTheSand,
@@ -293,6 +308,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "vampyre-slayer": vampyreSlayer,
   "wanted": wanted,
   "watchtower": watchtower,
+  "what-lies-below": whatLiesBelow,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
   "x-marks-the-spot": xMarksTheSpot,
