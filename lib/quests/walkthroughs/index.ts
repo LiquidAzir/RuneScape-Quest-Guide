@@ -46,6 +46,17 @@ import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
 import { ratcatchers } from "./ratcatchers";
+import { recipeForDisaster } from "./recipe-for-disaster";
+import { rfdAnotherCooksQuest } from "./recipe-for-disaster-another-cooks-quest";
+import { rfdCulinaromancer } from "./recipe-for-disaster-defeating-the-culinaromancer";
+import { rfdEvilDave } from "./recipe-for-disaster-freeing-evil-dave";
+import { rfdKingAwowogei } from "./recipe-for-disaster-freeing-king-awowogei";
+import { rfdPiratePete } from "./recipe-for-disaster-freeing-pirate-pete";
+import { rfdSirAmikVarze } from "./recipe-for-disaster-freeing-sir-amik-varze";
+import { rfdSkrachUglogwee } from "./recipe-for-disaster-freeing-skrach-uglogwee";
+import { rfdGoblinGenerals } from "./recipe-for-disaster-freeing-the-goblin-generals";
+import { rfdLumbridgeGuide } from "./recipe-for-disaster-freeing-the-lumbridge-guide";
+import { rfdMountainDwarf } from "./recipe-for-disaster-freeing-the-mountain-dwarf";
 import { recruitmentDrive } from "./recruitment-drive";
 import { romeoAndJuliet } from "./romeo-and-juliet";
 import { rovingElves } from "./roving-elves";
@@ -125,6 +136,17 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "prince-ali-rescue": princeAliRescue,
   "priest-in-peril": priestInPeril,
   "ratcatchers": ratcatchers,
+  "recipe-for-disaster": recipeForDisaster,
+  "recipe-for-disaster-another-cooks-quest": rfdAnotherCooksQuest,
+  "recipe-for-disaster-defeating-the-culinaromancer": rfdCulinaromancer,
+  "recipe-for-disaster-freeing-evil-dave": rfdEvilDave,
+  "recipe-for-disaster-freeing-king-awowogei": rfdKingAwowogei,
+  "recipe-for-disaster-freeing-pirate-pete": rfdPiratePete,
+  "recipe-for-disaster-freeing-sir-amik-varze": rfdSirAmikVarze,
+  "recipe-for-disaster-freeing-skrach-uglogwee": rfdSkrachUglogwee,
+  "recipe-for-disaster-freeing-the-goblin-generals": rfdGoblinGenerals,
+  "recipe-for-disaster-freeing-the-lumbridge-guide": rfdLumbridgeGuide,
+  "recipe-for-disaster-freeing-the-mountain-dwarf": rfdMountainDwarf,
   "recruitment-drive": recruitmentDrive,
   "romeo-and-juliet": romeoAndJuliet,
   "roving-elves": rovingElves,
