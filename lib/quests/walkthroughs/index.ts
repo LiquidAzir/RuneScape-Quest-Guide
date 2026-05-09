@@ -17,12 +17,14 @@ import { clientOfKourend } from "./client-of-kourend";
 import { blackKnightsFortress } from "./black-knights-fortress";
 import { boneVoyage } from "./bone-voyage";
 import { cabinFever } from "./cabin-fever";
+import { clockTower } from "./clock-tower";
 import { coldWar } from "./cold-war";
 import { contact } from "./contact";
 import { cooksAssistant } from "./cooks-assistant";
 import { creatureOfFenkenstrain } from "./creature-of-fenkenstrain";
 import { darknessOfHallowvale } from "./darkness-of-hallowvale";
 import { deathPlateau } from "./death-plateau";
+import { deathOnTheIsle } from "./death-on-the-isle";
 import { deathToTheDorgeshuun } from "./death-to-the-dorgeshuun";
 import { defenderOfVarrock } from "./defender-of-varrock";
 import { demonSlayer } from "./demon-slayer";
@@ -58,14 +60,17 @@ import { icthlarinsLittleHelper } from "./icthlarins-little-helper";
 import { impCatcher } from "./imp-catcher";
 import { inAidOfTheMyreque } from "./in-aid-of-the-myreque";
 import { inSearchOfTheMyreque } from "./in-search-of-the-myreque";
+import { junglePotion } from "./jungle-potion";
 import { kingsRansom } from "./kings-ransom";
 import { landOfTheGoblins } from "./land-of-the-goblins";
+import { learningTheRopes } from "./learning-the-ropes";
 import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
 import { makingFriendsWithMyArm } from "./making-friends-with-my-arm";
 import { makingHistory } from "./making-history";
 import { merlinsCrystal } from "./merlins-crystal";
 import { misthalinMystery } from "./misthalin-mystery";
+import { monksFriend } from "./monks-friend";
 import { monkeyMadnessI } from "./monkey-madness-i";
 import { monkeyMadnessII } from "./monkey-madness-ii";
 import { mountainDaughter } from "./mountain-daughter";
@@ -81,6 +86,7 @@ import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
 import { ragAndBoneManI } from "./rag-and-bone-man-i";
+import { ragAndBoneManII } from "./rag-and-bone-man-ii";
 import { ratcatchers } from "./ratcatchers";
 import { regicide } from "./regicide";
 import { recipeForDisaster } from "./recipe-for-disaster";
@@ -104,6 +110,7 @@ import { scorpionCatcher } from "./scorpion-catcher";
 import { seaSlug } from "./sea-slug";
 import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { shadowOfTheStorm } from "./shadow-of-the-storm";
+import { sheepHerder } from "./sheep-herder";
 import { sheepShearer } from "./sheep-shearer";
 import { shiloVillage } from "./shilo-village";
 import { sinsOfTheFather } from "./sins-of-the-father";
@@ -132,6 +139,7 @@ import { theGolem } from "./the-golem";
 import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
+import { theHeartOfDarkness } from "./the-heart-of-darkness";
 import { theKnightsSword } from "./the-knights-sword";
 import { theLostTribe } from "./the-lost-tribe";
 import { theQueenOfThieves } from "./the-queen-of-thieves";
@@ -172,6 +180,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "biohazard": biohazard,
   "children-of-the-sun": childrenOfTheSun,
   "client-of-kourend": clientOfKourend,
+  "clock-tower": clockTower,
   "black-knights-fortress": blackKnightsFortress,
   "bone-voyage": boneVoyage,
   "cabin-fever": cabinFever,
@@ -180,6 +189,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "cooks-assistant": cooksAssistant,
   "creature-of-fenkenstrain": creatureOfFenkenstrain,
   "darkness-of-hallowvale": darknessOfHallowvale,
+  "death-on-the-isle": deathOnTheIsle,
   "death-plateau": deathPlateau,
   "death-to-the-dorgeshuun": deathToTheDorgeshuun,
   "defender-of-varrock": defenderOfVarrock,
@@ -216,14 +226,17 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "imp-catcher": impCatcher,
   "in-aid-of-the-myreque": inAidOfTheMyreque,
   "in-search-of-the-myreque": inSearchOfTheMyreque,
+  "jungle-potion": junglePotion,
   "kings-ransom": kingsRansom,
   "land-of-the-goblins": landOfTheGoblins,
+  "learning-the-ropes": learningTheRopes,
   "lost-city": lostCity,
   "lunar-diplomacy": lunarDiplomacy,
   "making-friends-with-my-arm": makingFriendsWithMyArm,
   "making-history": makingHistory,
   "merlins-crystal": merlinsCrystal,
   "misthalin-mystery": misthalinMystery,
+  "monks-friend": monksFriend,
   "monkey-madness-i": monkeyMadnessI,
   "monkey-madness-ii": monkeyMadnessII,
   "mountain-daughter": mountainDaughter,
@@ -239,6 +252,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "prince-ali-rescue": princeAliRescue,
   "priest-in-peril": priestInPeril,
   "rag-and-bone-man-i": ragAndBoneManI,
+  "rag-and-bone-man-ii": ragAndBoneManII,
   "ratcatchers": ratcatchers,
   "recipe-for-disaster": recipeForDisaster,
   "recipe-for-disaster-another-cooks-quest": rfdAnotherCooksQuest,
@@ -262,6 +276,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "sea-slug": seaSlug,
   "secrets-of-the-north": secretsOfTheNorth,
   "shadow-of-the-storm": shadowOfTheStorm,
+  "sheep-herder": sheepHerder,
   "sheep-shearer": sheepShearer,
   "shilo-village": shiloVillage,
   "sins-of-the-father": sinsOfTheFather,
@@ -290,6 +305,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-great-brain-robbery": theGreatBrainRobbery,
   "the-hand-in-the-sand": theHandInTheSand,
   "the-haunted-mine": theHauntedMine,
+  "the-heart-of-darkness": theHeartOfDarkness,
   "the-knights-sword": theKnightsSword,
   "the-lost-tribe": theLostTribe,
   "the-path-of-glouphrie": thePathOfGlouphrie,
