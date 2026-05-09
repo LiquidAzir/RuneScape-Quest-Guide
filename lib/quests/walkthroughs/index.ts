@@ -6,6 +6,7 @@ import { animalMagnetism } from "./animal-magnetism";
 import { beneathCursedSands } from "./beneath-cursed-sands";
 import { bigChompyBirdHunting } from "./big-chompy-bird-hunting";
 import { aPorcineOfInterest } from "./a-porcine-of-interest";
+import { aTailOfTwoCats } from "./a-tail-of-two-cats";
 import { biohazard } from "./biohazard";
 import { childrenOfTheSun } from "./children-of-the-sun";
 import { clientOfKourend } from "./client-of-kourend";
@@ -17,6 +18,7 @@ import { cooksAssistant } from "./cooks-assistant";
 import { creatureOfFenkenstrain } from "./creature-of-fenkenstrain";
 import { darknessOfHallowvale } from "./darkness-of-hallowvale";
 import { deathPlateau } from "./death-plateau";
+import { deathToTheDorgeshuun } from "./death-to-the-dorgeshuun";
 import { demonSlayer } from "./demon-slayer";
 import { desertTreasureI } from "./desert-treasure-i";
 import { desertTreasureII } from "./desert-treasure-ii-the-fallen-empire";
@@ -31,6 +33,7 @@ import { enakhrasLament } from "./enakhras-lament";
 import { ernestTheChicken } from "./ernest-the-chicken";
 import { familyCrest } from "./family-crest";
 import { fishingContest } from "./fishing-contest";
+import { gardenOfTranquillity } from "./garden-of-tranquillity";
 import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
 import { goblinDiplomacy } from "./goblin-diplomacy";
@@ -59,6 +62,7 @@ import { plagueCity } from "./plague-city";
 import { princeAliRescue } from "./prince-ali-rescue";
 import { priestInPeril } from "./priest-in-peril";
 import { ratcatchers } from "./ratcatchers";
+import { regicide } from "./regicide";
 import { recipeForDisaster } from "./recipe-for-disaster";
 import { rfdAnotherCooksQuest } from "./recipe-for-disaster-another-cooks-quest";
 import { rfdCulinaromancer } from "./recipe-for-disaster-defeating-the-culinaromancer";
@@ -77,6 +81,7 @@ import { royalTrouble } from "./royal-trouble";
 import { runeMysteries } from "./rune-mysteries";
 import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { sheepShearer } from "./sheep-shearer";
+import { shiloVillage } from "./shilo-village";
 import { sinsOfTheFather } from "./sins-of-the-father";
 import { sleepingGiants } from "./sleeping-giants";
 import { songOfTheElves } from "./song-of-the-elves";
@@ -93,10 +98,12 @@ import { theFremennikExiles } from "./the-fremennik-exiles";
 import { theFremennikIsles } from "./the-fremennik-isles";
 import { theFremennikTrials } from "./the-fremennik-trials";
 import { theGardenOfDeath } from "./the-garden-of-death";
+import { theGiantDwarf } from "./the-giant-dwarf";
 import { theGrandTree } from "./the-grand-tree";
 import { theHandInTheSand } from "./the-hand-in-the-sand";
 import { theHauntedMine } from "./the-haunted-mine";
 import { theKnightsSword } from "./the-knights-sword";
+import { theLostTribe } from "./the-lost-tribe";
 import { theQueenOfThieves } from "./the-queen-of-thieves";
 import { thePathOfGlouphrie } from "./the-path-of-glouphrie";
 import { theRestlessGhost } from "./the-restless-ghost";
@@ -105,6 +112,7 @@ import { throneOfMiscellania } from "./throne-of-miscellania";
 import { treeGnomeVillage } from "./tree-gnome-village";
 import { trollRomance } from "./troll-romance";
 import { trollStronghold } from "./troll-stronghold";
+import { undergroundPass } from "./underground-pass";
 import { vampyreSlayer } from "./vampyre-slayer";
 import { watchtower } from "./watchtower";
 import { witchsHouse } from "./witchs-house";
@@ -118,6 +126,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "beneath-cursed-sands": beneathCursedSands,
   "big-chompy-bird-hunting": bigChompyBirdHunting,
   "a-porcine-of-interest": aPorcineOfInterest,
+  "a-tail-of-two-cats": aTailOfTwoCats,
   "biohazard": biohazard,
   "children-of-the-sun": childrenOfTheSun,
   "client-of-kourend": clientOfKourend,
@@ -129,6 +138,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "creature-of-fenkenstrain": creatureOfFenkenstrain,
   "darkness-of-hallowvale": darknessOfHallowvale,
   "death-plateau": deathPlateau,
+  "death-to-the-dorgeshuun": deathToTheDorgeshuun,
   "demon-slayer": demonSlayer,
   "desert-treasure-i": desertTreasureI,
   "desert-treasure-ii-the-fallen-empire": desertTreasureII,
@@ -143,6 +153,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "ernest-the-chicken": ernestTheChicken,
   "family-crest": familyCrest,
   "fishing-contest": fishingContest,
+  "garden-of-tranquillity": gardenOfTranquillity,
   "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
   "goblin-diplomacy": goblinDiplomacy,
@@ -183,12 +194,14 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "recipe-for-disaster-freeing-the-lumbridge-guide": rfdLumbridgeGuide,
   "recipe-for-disaster-freeing-the-mountain-dwarf": rfdMountainDwarf,
   "recruitment-drive": recruitmentDrive,
+  "regicide": regicide,
   "romeo-and-juliet": romeoAndJuliet,
   "roving-elves": rovingElves,
   "royal-trouble": royalTrouble,
   "rune-mysteries": runeMysteries,
   "secrets-of-the-north": secretsOfTheNorth,
   "sheep-shearer": sheepShearer,
+  "shilo-village": shiloVillage,
   "sins-of-the-father": sinsOfTheFather,
   "sleeping-giants": sleepingGiants,
   "song-of-the-elves": songOfTheElves,
@@ -205,10 +218,12 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-fremennik-isles": theFremennikIsles,
   "the-fremennik-trials": theFremennikTrials,
   "the-garden-of-death": theGardenOfDeath,
+  "the-giant-dwarf": theGiantDwarf,
   "the-grand-tree": theGrandTree,
   "the-hand-in-the-sand": theHandInTheSand,
   "the-haunted-mine": theHauntedMine,
   "the-knights-sword": theKnightsSword,
+  "the-lost-tribe": theLostTribe,
   "the-path-of-glouphrie": thePathOfGlouphrie,
   "the-queen-of-thieves": theQueenOfThieves,
   "the-restless-ghost": theRestlessGhost,
@@ -217,6 +232,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "tree-gnome-village": treeGnomeVillage,
   "troll-romance": trollRomance,
   "troll-stronghold": trollStronghold,
+  "underground-pass": undergroundPass,
   "vampyre-slayer": vampyreSlayer,
   "watchtower": watchtower,
   "witchs-house": witchsHouse,
