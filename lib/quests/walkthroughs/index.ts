@@ -12,6 +12,7 @@ import { childrenOfTheSun } from "./children-of-the-sun";
 import { clientOfKourend } from "./client-of-kourend";
 import { blackKnightsFortress } from "./black-knights-fortress";
 import { boneVoyage } from "./bone-voyage";
+import { cabinFever } from "./cabin-fever";
 import { coldWar } from "./cold-war";
 import { contact } from "./contact";
 import { cooksAssistant } from "./cooks-assistant";
@@ -78,8 +79,10 @@ import { recruitmentDrive } from "./recruitment-drive";
 import { romeoAndJuliet } from "./romeo-and-juliet";
 import { rovingElves } from "./roving-elves";
 import { royalTrouble } from "./royal-trouble";
+import { rumDeal } from "./rum-deal";
 import { runeMysteries } from "./rune-mysteries";
 import { secretsOfTheNorth } from "./secrets-of-the-north";
+import { seaSlug } from "./sea-slug";
 import { sheepShearer } from "./sheep-shearer";
 import { shiloVillage } from "./shilo-village";
 import { sinsOfTheFather } from "./sins-of-the-father";
@@ -89,9 +92,11 @@ import { spiritsOfTheElid } from "./spirits-of-the-elid";
 import { swanSong } from "./swan-song";
 import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
 import { taleOfTheRighteous } from "./tale-of-the-righteous";
+import { tearsOfGuthix } from "./tears-of-guthix";
 import { templeOfTheEye } from "./temple-of-the-eye";
 import { theDepthsOfDespair } from "./the-depths-of-despair";
 import { theDigSite } from "./the-dig-site";
+import { theGreatBrainRobbery } from "./the-great-brain-robbery";
 import { theEyesOfGlouphrie } from "./the-eyes-of-glouphrie";
 import { theFeud } from "./the-feud";
 import { theFremennikExiles } from "./the-fremennik-exiles";
@@ -105,10 +110,12 @@ import { theHauntedMine } from "./the-haunted-mine";
 import { theKnightsSword } from "./the-knights-sword";
 import { theLostTribe } from "./the-lost-tribe";
 import { theQueenOfThieves } from "./the-queen-of-thieves";
+import { theSlugMenace } from "./the-slug-menace";
 import { thePathOfGlouphrie } from "./the-path-of-glouphrie";
 import { theRestlessGhost } from "./the-restless-ghost";
 import { theTouristTrap } from "./the-tourist-trap";
 import { throneOfMiscellania } from "./throne-of-miscellania";
+import { towerOfLife } from "./tower-of-life";
 import { treeGnomeVillage } from "./tree-gnome-village";
 import { trollRomance } from "./troll-romance";
 import { trollStronghold } from "./troll-stronghold";
@@ -117,6 +124,7 @@ import { vampyreSlayer } from "./vampyre-slayer";
 import { watchtower } from "./watchtower";
 import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
+import { zogreFleshEaters } from "./zogre-flesh-eaters";
 
 export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "a-kingdom-divided": aKingdomDivided,
@@ -132,6 +140,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "client-of-kourend": clientOfKourend,
   "black-knights-fortress": blackKnightsFortress,
   "bone-voyage": boneVoyage,
+  "cabin-fever": cabinFever,
   "cold-war": coldWar,
   "contact": contact,
   "cooks-assistant": cooksAssistant,
@@ -196,9 +205,11 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "recruitment-drive": recruitmentDrive,
   "regicide": regicide,
   "romeo-and-juliet": romeoAndJuliet,
+  "rum-deal": rumDeal,
   "roving-elves": rovingElves,
   "royal-trouble": royalTrouble,
   "rune-mysteries": runeMysteries,
+  "sea-slug": seaSlug,
   "secrets-of-the-north": secretsOfTheNorth,
   "sheep-shearer": sheepShearer,
   "shilo-village": shiloVillage,
@@ -209,6 +220,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "swan-song": swanSong,
   "tai-bwo-wannai-trio": taiBwoWannaiTrio,
   "tale-of-the-righteous": taleOfTheRighteous,
+  "tears-of-guthix": tearsOfGuthix,
   "temple-of-the-eye": templeOfTheEye,
   "the-depths-of-despair": theDepthsOfDespair,
   "the-dig-site": theDigSite,
@@ -220,15 +232,18 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "the-garden-of-death": theGardenOfDeath,
   "the-giant-dwarf": theGiantDwarf,
   "the-grand-tree": theGrandTree,
+  "the-great-brain-robbery": theGreatBrainRobbery,
   "the-hand-in-the-sand": theHandInTheSand,
   "the-haunted-mine": theHauntedMine,
   "the-knights-sword": theKnightsSword,
   "the-lost-tribe": theLostTribe,
   "the-path-of-glouphrie": thePathOfGlouphrie,
   "the-queen-of-thieves": theQueenOfThieves,
+  "the-slug-menace": theSlugMenace,
   "the-restless-ghost": theRestlessGhost,
   "the-tourist-trap": theTouristTrap,
   "throne-of-miscellania": throneOfMiscellania,
+  "tower-of-life": towerOfLife,
   "tree-gnome-village": treeGnomeVillage,
   "troll-romance": trollRomance,
   "troll-stronghold": trollStronghold,
@@ -237,6 +252,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "watchtower": watchtower,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
+  "zogre-flesh-eaters": zogreFleshEaters,
 };
 
 export function getWalkthrough(slug: string): QuestWalkthrough | undefined {
