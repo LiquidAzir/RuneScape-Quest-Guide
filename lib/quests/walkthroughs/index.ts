@@ -24,6 +24,7 @@ import { deathPlateau } from "./death-plateau";
 import { deathToTheDorgeshuun } from "./death-to-the-dorgeshuun";
 import { defenderOfVarrock } from "./defender-of-varrock";
 import { demonSlayer } from "./demon-slayer";
+import { deviousMinds } from "./devious-minds";
 import { desertTreasureI } from "./desert-treasure-i";
 import { desertTreasureII } from "./desert-treasure-ii-the-fallen-empire";
 import { doricsQuest } from "./dorics-quest";
@@ -46,6 +47,7 @@ import { gardenOfTranquillity } from "./garden-of-tranquillity";
 import { gettingAhead } from "./getting-ahead";
 import { ghostsAhoy } from "./ghosts-ahoy";
 import { goblinDiplomacy } from "./goblin-diplomacy";
+import { hazeelCult } from "./hazeel-cult";
 import { heroesQuest } from "./heroes-quest";
 import { holyGrail } from "./holy-grail";
 import { icthlarinsLittleHelper } from "./icthlarins-little-helper";
@@ -53,9 +55,11 @@ import { impCatcher } from "./imp-catcher";
 import { inAidOfTheMyreque } from "./in-aid-of-the-myreque";
 import { inSearchOfTheMyreque } from "./in-search-of-the-myreque";
 import { kingsRansom } from "./kings-ransom";
+import { landOfTheGoblins } from "./land-of-the-goblins";
 import { lostCity } from "./lost-city";
 import { lunarDiplomacy } from "./lunar-diplomacy";
 import { makingFriendsWithMyArm } from "./making-friends-with-my-arm";
+import { makingHistory } from "./making-history";
 import { merlinsCrystal } from "./merlins-crystal";
 import { misthalinMystery } from "./misthalin-mystery";
 import { monkeyMadnessI } from "./monkey-madness-i";
@@ -91,8 +95,9 @@ import { rovingElves } from "./roving-elves";
 import { royalTrouble } from "./royal-trouble";
 import { rumDeal } from "./rum-deal";
 import { runeMysteries } from "./rune-mysteries";
-import { secretsOfTheNorth } from "./secrets-of-the-north";
 import { seaSlug } from "./sea-slug";
+import { secretsOfTheNorth } from "./secrets-of-the-north";
+import { shadowOfTheStorm } from "./shadow-of-the-storm";
 import { sheepShearer } from "./sheep-shearer";
 import { shiloVillage } from "./shilo-village";
 import { sinsOfTheFather } from "./sins-of-the-father";
@@ -104,6 +109,7 @@ import { taiBwoWannaiTrio } from "./tai-bwo-wannai-trio";
 import { taleOfTheRighteous } from "./tale-of-the-righteous";
 import { tearsOfGuthix } from "./tears-of-guthix";
 import { templeOfTheEye } from "./temple-of-the-eye";
+import { theCorsairCurse } from "./the-corsair-curse";
 import { theCurseOfArrav } from "./the-curse-of-arrav";
 import { theDepthsOfDespair } from "./the-depths-of-despair";
 import { theDigSite } from "./the-dig-site";
@@ -129,11 +135,13 @@ import { theTouristTrap } from "./the-tourist-trap";
 import { throneOfMiscellania } from "./throne-of-miscellania";
 import { towerOfLife } from "./tower-of-life";
 import { treeGnomeVillage } from "./tree-gnome-village";
+import { tribalTotem } from "./tribal-totem";
 import { trollRomance } from "./troll-romance";
 import { trollStronghold } from "./troll-stronghold";
 import { twilightsPromise } from "./twilights-promise";
 import { undergroundPass } from "./underground-pass";
 import { vampyreSlayer } from "./vampyre-slayer";
+import { wanted } from "./wanted";
 import { watchtower } from "./watchtower";
 import { witchsHouse } from "./witchs-house";
 import { witchsPotion } from "./witchs-potion";
@@ -167,6 +175,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "defender-of-varrock": defenderOfVarrock,
   "demon-slayer": demonSlayer,
   "desert-treasure-i": desertTreasureI,
+  "devious-minds": deviousMinds,
   "desert-treasure-ii-the-fallen-empire": desertTreasureII,
   "dorics-quest": doricsQuest,
   "dragon-slayer-i": dragonSlayerI,
@@ -188,6 +197,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "getting-ahead": gettingAhead,
   "ghosts-ahoy": ghostsAhoy,
   "goblin-diplomacy": goblinDiplomacy,
+  "hazeel-cult": hazeelCult,
   "heroes-quest": heroesQuest,
   "holy-grail": holyGrail,
   "icthlarins-little-helper": icthlarinsLittleHelper,
@@ -195,9 +205,11 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "in-aid-of-the-myreque": inAidOfTheMyreque,
   "in-search-of-the-myreque": inSearchOfTheMyreque,
   "kings-ransom": kingsRansom,
+  "land-of-the-goblins": landOfTheGoblins,
   "lost-city": lostCity,
   "lunar-diplomacy": lunarDiplomacy,
   "making-friends-with-my-arm": makingFriendsWithMyArm,
+  "making-history": makingHistory,
   "merlins-crystal": merlinsCrystal,
   "misthalin-mystery": misthalinMystery,
   "monkey-madness-i": monkeyMadnessI,
@@ -235,6 +247,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "rune-mysteries": runeMysteries,
   "sea-slug": seaSlug,
   "secrets-of-the-north": secretsOfTheNorth,
+  "shadow-of-the-storm": shadowOfTheStorm,
   "sheep-shearer": sheepShearer,
   "shilo-village": shiloVillage,
   "sins-of-the-father": sinsOfTheFather,
@@ -246,6 +259,7 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "tale-of-the-righteous": taleOfTheRighteous,
   "tears-of-guthix": tearsOfGuthix,
   "temple-of-the-eye": templeOfTheEye,
+  "the-corsair-curse": theCorsairCurse,
   "the-curse-of-arrav": theCurseOfArrav,
   "the-depths-of-despair": theDepthsOfDespair,
   "the-dig-site": theDigSite,
@@ -271,11 +285,13 @@ export const WALKTHROUGHS: Record<string, QuestWalkthrough> = {
   "throne-of-miscellania": throneOfMiscellania,
   "tower-of-life": towerOfLife,
   "tree-gnome-village": treeGnomeVillage,
+  "tribal-totem": tribalTotem,
   "troll-romance": trollRomance,
   "troll-stronghold": trollStronghold,
   "twilights-promise": twilightsPromise,
   "underground-pass": undergroundPass,
   "vampyre-slayer": vampyreSlayer,
+  "wanted": wanted,
   "watchtower": watchtower,
   "witchs-house": witchsHouse,
   "witchs-potion": witchsPotion,
