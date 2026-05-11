@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const contact: QuestWalkthrough = {
-  startPoint: "Talk to the High Priest of Icthlarin in Sophanem.",
+  startPoint:
+    "Talk to the High Priest of Icthlarin inside the Temple of Icthlarin in central Sophanem (the desert city south of Pollnivneach — Pharaoh's sceptre → Sophanem, or magic carpet from Shantay Pass to Pollnivneach + walk south). The temple is the large stone-pillared building in the centre of the city.",
   itemsRequired: [
     "A reliable light source (Bullseye lantern or better — Kandarin headgear/Firemaking cape/Bruma torch ideal)",
     "Tinderbox (unless using a non-extinguishable light)",
@@ -27,9 +28,15 @@ export const contact: QuestWalkthrough = {
     {
       title: "Initial dialogue",
       steps: [
-        { text: "Talk to the High Priest in Sophanem (option 1 or 4)." },
-        { text: "Walk to the north-eastern building and talk to Jex." },
-        { text: "Pick option 2 — 'Better get down there'." },
+        {
+          text: "Talk to the High Priest inside the Temple of Icthlarin in central Sophanem (chat option 1 or 4).",
+        },
+        {
+          text: "Walk to the building in the north-east corner of Sophanem (the small house in the north-east — Jex's house, the only building with a trapdoor in the floor). Talk to Jex inside.",
+        },
+        {
+          text: "Pick option 2 — 'Better get down there'.",
+        },
       ],
     },
     {
@@ -48,11 +55,21 @@ export const contact: QuestWalkthrough = {
     {
       title: "Gather information",
       steps: [
-        { text: "Search Kaleef's body deep in the dungeon." },
-        { text: "Read the parchment you find." },
-        { text: "Talk to Maisa west of the dungeon (option 2 or 3)." },
-        { text: "Talk to Osman at Al Kharid Palace (option 2 or 3)." },
-        { text: "Return to Sophanem's north gate and talk to Osman outside the gate (option 3)." },
+        {
+          text: "In the deep western chamber of the dungeon, search Kaleef's body on the floor for a parchment.",
+        },
+        {
+          text: "Read the parchment.",
+        },
+        {
+          text: "Travel west of Sophanem to Maisa's small camp just outside the city walls (north-west of Sophanem near the Menaphos canyon). Talk to Maisa (option 2 or 3).",
+        },
+        {
+          text: "Travel to Al Kharid Palace and talk to Osman in the central market square just south-west of the palace (the hooded NPC). Pick option 2 or 3.",
+        },
+        {
+          text: "Return to Sophanem and talk to Osman, who now stands outside the north gate of the city (option 3).",
+        },
       ],
     },
     {
@@ -71,8 +88,12 @@ export const contact: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Pick up the Keris dagger (drops from the boss; needed for Desert Hard Diary)." },
-        { text: "Return to Sophanem outside the gates (option 3) and talk to the High Priest." },
+        {
+          text: "Pick up the Keris dagger (drops from the boss; needed for Desert Hard Diary).",
+        },
+        {
+          text: "Climb back out of the dungeon and return to Sophanem. Talk to the High Priest inside the Temple of Icthlarin to finish.",
+        },
         { text: "Quest complete." },
       ],
     },

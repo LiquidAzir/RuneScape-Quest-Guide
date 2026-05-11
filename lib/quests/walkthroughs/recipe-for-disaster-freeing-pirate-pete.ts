@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const rfdPiratePete: QuestWalkthrough = {
-  startPoint: "Inspect Pirate Pete in Lumbridge Castle dining room.",
+    startPoint:
+      "Inspect Pirate Pete frozen in time inside the Lumbridge Castle dining room (the long banquet hall on the ground floor of Lumbridge Castle, just east of the kitchen — Pete is the pirate at the long table with the other guests).",
   itemsRequired: [
     "Raw cod",
     "Bread",
@@ -21,17 +22,29 @@ export const rfdPiratePete: QuestWalkthrough = {
     {
       title: "Get the recipe",
       steps: [
-        { text: "Inspect Pirate Pete." },
-        { text: "Talk to the Lumbridge Cook about protecting the pirate." },
-        { text: "Read all 5 chat options about ingredients to learn the recipe." },
-        { text: "Use a pestle and mortar on raw cod to make ground cod." },
-        { text: "Use a knife on bread to make breadcrumbs." },
+        {
+          text: "Inspect Pirate Pete in the Lumbridge Castle dining room.",
+        },
+        {
+          text: "Walk west to the Lumbridge Castle kitchen (next room over) and talk to the Cook about protecting Pirate Pete.",
+        },
+        {
+          text: "Read all 5 chat options with the Cook about each ingredient (cod, bread, kelp, crab meat, fishbowl helmet) to learn the full fishcake recipe.",
+        },
+        {
+          text: "Use a pestle and mortar on raw cod to make ground cod.",
+        },
+        {
+          text: "Use a knife on bread to make breadcrumbs.",
+        },
       ],
     },
     {
       title: "Diving in Port Khazard",
       steps: [
-        { text: "Travel to Port Khazard and talk to Murphy on the docks." },
+        {
+          text: "Travel to Port Khazard (south of East Ardougne, on the south coast — Charter ship from any port, fairy ring AKQ + run east, or Khazard teleport tab from Pet Shop). Walk to the docks on the east side of Port Khazard and find Murphy at the diving boat.",
+        },
         { text: "Agree to go diving with him." },
         { text: "Make the fishbowl helmet (use needle + 3 bronze wires + empty fishbowl)." },
         { text: "Equip the fishbowl helmet and diving apparatus (must be under 27kg)." },

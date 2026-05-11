@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const plagueCity: QuestWalkthrough = {
-  startPoint: "Talk to Edmond just outside the wall of West Ardougne, north of Ardougne Castle.",
+  startPoint:
+    "Talk to Edmond outside his small house just east of the West Ardougne wall, north of Ardougne Castle (East Ardougne side — north of the Ardougne lighthouse path, beside the small mud yard).",
   itemsRequired: [
     "Spade",
     "Rope",
@@ -39,28 +40,46 @@ export const plagueCity: QuestWalkthrough = {
     {
       title: "Find Elena",
       steps: [
-        { text: "Talk to Jethick (wandering nearby) — he'll give you a book." },
-        { text: "Travel to the Rehnison family's house and talk to the family inside (Martha or Ted on the ground floor, then Milli upstairs)." },
         {
-          text: "She tells you Elena was taken to a Mourner house with red Xs on its doors — find that building south.",
+          text: "Talk to Jethick wandering the West Ardougne town square (just north-east of where the pipe drops you in). He gives you a book.",
+        },
+        {
+          text: "Travel to the Rehnison family's small house in northern West Ardougne (just west of the West Ardougne well). Talk to Martha or Ted on the ground floor, then climb the stairs and talk to Milli (their daughter) upstairs.",
+        },
+        {
+          text: "Milli tells you Elena was taken to a Mourner-marked house in southern West Ardougne — look for the house with red Xs on its doors.",
         },
       ],
     },
     {
       title: "Get Bravek's warrant",
       steps: [
-        { text: "Walk to the Civic Office (the large central building north of the manhole)." },
-        { text: "Talk to the Clerk in the East Ardougne civic office and ask to see Bravek." },
-        { text: "Talk to Bravek in the East Ardougne civic office and use the hangover cure on him." },
-        { text: "He gives you a search warrant." },
+        {
+          text: "Walk to the West Ardougne Civic Office — the large central building north of the manhole, with the West Ardougne council's flag outside.",
+        },
+        {
+          text: "Talk to the Clerk on the ground floor and ask to see Bravek (the city governor).",
+        },
+        {
+          text: "Climb the stairs and talk to Bravek upstairs. Use the hangover cure on him.",
+        },
+        {
+          text: "He gives you a search warrant for the Mourner house.",
+        },
       ],
     },
     {
       title: "Free Elena",
       steps: [
-        { text: "Return to the Mourner house with the X on the doors and use the warrant to enter." },
-        { text: "Search the barrel west of the staircase for a small key." },
-        { text: "Go downstairs, unlock the cell, and talk to Elena." },
+        {
+          text: "Walk south in West Ardougne to the Mourner house with red Xs on its doors (the small house in southern West Ardougne). Use the warrant on the door to enter.",
+        },
+        {
+          text: "Inside the house, search the barrel just west of the staircase for a small key.",
+        },
+        {
+          text: "Climb down the stairs into the basement, unlock Elena's cell with the small key, and talk to Elena.",
+        },
       ],
     },
     {
