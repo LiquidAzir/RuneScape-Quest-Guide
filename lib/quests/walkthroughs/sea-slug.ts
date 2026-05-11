@@ -1,18 +1,29 @@
 import type { QuestWalkthrough } from "../types";
 
 export const seaSlug: QuestWalkthrough = {
-  startPoint: "Talk to Caroline north of Witchaven (north-east of East Ardougne).",
+  startPoint:
+    "Talk to Caroline standing on the docks at the north end of Witchaven (the small fishing village north-east of East Ardougne — walk east out of Ardougne, then north along the coast).",
   itemsRequired: ["Swamp paste"],
   recommended: ["Small fishing net", "Unlit torch (you can find one in-quest)"],
   sections: [
     {
       title: "The Fishing Platform",
       steps: [
-        { text: "Talk to Caroline in Witchaven." },
-        { text: "Give Holgart the swamp paste; sail to the Fishing Platform." },
-        { text: "Pick up Broken glass from the western hut." },
-        { text: "Collect Damp sticks from the north-east corner." },
-        { text: "Climb the nearby ladder." },
+        {
+          text: "Talk to Caroline at the north Witchaven docks to start.",
+        },
+        {
+          text: "Walk down the dock and find Holgart standing beside his small boat. Give him the swamp paste — he uses it to repair the boat, then sails you to the Fishing Platform.",
+        },
+        {
+          text: "On the Fishing Platform's lower level, walk into the western cabin and pick up the Broken glass off the floor.",
+        },
+        {
+          text: "Walk to the north-east corner of the platform and collect the Damp sticks beside the broken crate.",
+        },
+        {
+          text: "Climb the ladder beside the central building up to the upper platform.",
+        },
       ],
     },
     {

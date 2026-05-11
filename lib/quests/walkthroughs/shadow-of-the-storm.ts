@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const shadowOfTheStorm: QuestWalkthrough = {
-  startPoint: "Talk to Father Reen south of Al Kharid bank.",
+  startPoint:
+    "Talk to Father Reen at the small chapel just south of the Al Kharid bank (the priest stands by the small altar inside the chapel south of the central market). Requires Demon Slayer + Shadow of the Storm prerequisites.",
   itemsRequired: [
     "Silverlight (from Demon Slayer)",
     "Strange implement (in-quest)",
@@ -21,40 +22,88 @@ export const shadowOfTheStorm: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Father Reen outside Al Kharid bank." },
-        { text: "Travel to Uzer (magic carpet or fairy ring)." },
-        { text: "Talk to Father Badden near the ruin entrance." },
-        { text: "Dye Silverlight black using a black mushroom." },
-        { text: "Grab the Strange implement from the north-west corner." },
-        { text: "Talk to Evil Dave in his mother's basement in Edgeville wearing 3 black items + dyed Silverlight." },
+        {
+          text: "Talk to Father Reen at the small chapel just south of the Al Kharid bank.",
+        },
+        {
+          text: "Travel to Uzer (magic carpet from Shantay Pass to Uzer, fairy ring DLQ + run east, or run east through the desert from Pollnivneach).",
+        },
+        {
+          text: "At the Uzer ruins (the half-buried desert ruin south of the Uzer oasis), talk to Father Badden standing near the entrance.",
+        },
+        {
+          text: "Pick a black mushroom from inside the Uzer ruins (the dark fungus growing on the walls). Use it on Silverlight to dye Silverlight black.",
+        },
+        {
+          text: "Grab the Strange implement from the north-west corner of the Uzer ruins (small wooden tool on the floor).",
+        },
+        {
+          text: "Travel to Edgeville and find Doris's house (north-east of the bank). Climb down the trapdoor in her basement and talk to Evil Dave wearing 3+ pieces of black clothing AND the black-dyed Silverlight.",
+        },
       ],
     },
     {
       title: "Demon ritual prep",
       steps: [
-        { text: "Talk to Denath through the portal." },
-        { text: "Get the demonic sigil mould from Jennifer." },
-        { text: "Talk to Matthew at the ruins south of Uzer." },
-        { text: "Smelt the demonic sigil at any furnace." },
-        { text: "Swap to combat gear." },
-        { text: "Talk to the clay golem outside." },
-        { text: "Search 4 kilns for a book." },
-        { text: "Read the book and take it to Matthew." },
-        { text: "Get the incantation from Denath (write it down)." },
-        { text: "Chant the incantation to complete the circle." },
-        { text: "Take the dropped demonic sigil." },
-        { text: "Exit and collect Tanya's sigil." },
-        { text: "Tell Evil Dave to return to the throne room." },
+        {
+          text: "Inside Evil Dave's basement, Denath the demon appears in a portal — talk to Denath through it.",
+        },
+        {
+          text: "Get the demonic sigil mould from Jennifer (Evil Dave's friend, also in the basement).",
+        },
+        {
+          text: "Travel back to the Uzer ruins; talk to Matthew (the demonologist) inside the ruins.",
+        },
+        {
+          text: "Smelt the silver bar in the demonic sigil mould at any furnace (Al Kharid is closest) to make a demonic sigil.",
+        },
+        {
+          text: "Bank for combat — best melee gear + food.",
+        },
+        {
+          text: "Return to the Uzer ruins and talk to the clay golem standing just outside.",
+        },
+        {
+          text: "Search the 4 kilns inside the Uzer ruins until one drops a book.",
+        },
+        {
+          text: "Read the book, then take it to Matthew inside the ruins.",
+        },
+        {
+          text: "Travel back to Evil Dave's basement and talk to Denath through the portal — get the incantation (write it down — random per player).",
+        },
+        {
+          text: "Chant the incantation in front of the summoning circle in Evil Dave's basement.",
+        },
+        {
+          text: "Take the demonic sigil that drops on the floor.",
+        },
+        {
+          text: "Exit Evil Dave's basement and travel back to the Uzer ruins; collect Tanya's sigil from the ruins.",
+        },
+        {
+          text: "Tell Evil Dave (in his Edgeville basement) to return to the throne room of the Uzer ruins.",
+        },
       ],
     },
     {
       title: "Rally the troops",
       steps: [
-        { text: "Talk to Father Badden near the ruin entrance." },
-        { text: "Convince Father Reen to join the ritual." },
-        { text: "Talk to the golem at the Uzer ruins (he refuses)." },
-        { text: "Use the Strange implement to reprogram the golem." },
-        { text: "Talk to the golem again — he goes into the dungeon." },
+        {
+          text: "Talk to Father Badden at the entrance of the Uzer ruins.",
+        },
+        {
+          text: "Travel to Al Kharid; convince Father Reen at the Al Kharid chapel south of the bank to join the ritual.",
+        },
+        {
+          text: "Return to the Uzer ruins and talk to the clay golem outside — he refuses to enter.",
+        },
+        {
+          text: "Use the Strange implement on the clay golem to reprogram him.",
+        },
+        {
+          text: "Talk to the golem again — he agrees and walks into the ruins.",
+        },
       ],
     },
     {
