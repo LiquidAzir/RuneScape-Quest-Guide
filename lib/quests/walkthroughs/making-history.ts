@@ -36,7 +36,7 @@ export const makingHistory: QuestWalkthrough = {
         { text: "Equip a Ghostspeak amulet." },
         { text: "Talk to Droalak outside the Port Phasmatys general store." },
         { text: "Give a strung sapphire amulet to Melina in the nearby building." },
-        { text: "Talk to Droalak to receive a scroll." },
+        { text: "Talk to Droalak outside the Port Phasmatys general store to receive a scroll." },
       ],
     },
     {
@@ -50,9 +50,9 @@ export const makingHistory: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Jorral with the scroll + journal." },
+        { text: "Return to Jorral at the outpost north-west of West Ardougne with the scroll + journal." },
         { text: "Talk to King Lathas at Ardougne Castle (1st floor)." },
-        { text: "Return to Jorral." },
+        { text: "Return to Jorral at the outpost north-west of West Ardougne." },
         { text: "Quest complete." },
       ],
     },

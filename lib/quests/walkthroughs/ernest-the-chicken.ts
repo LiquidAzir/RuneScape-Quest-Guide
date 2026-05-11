@@ -51,7 +51,7 @@ export const ernestTheChicken: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to Professor Oddenstein on the top floor with the pressure gauge, rubber tube, and oil can." },
-        { text: "Talk to him to finish his repair." },
+        { text: "Talk to Professor Oddenstein on the top floor of Draynor Manor to finish his repair." },
         { text: "Quest complete." },
       ],
     },

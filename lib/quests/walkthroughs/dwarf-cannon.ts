@@ -13,7 +13,7 @@ export const dwarfCannon: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Captain Lawgof at the dwarf camp by the Coal Trucks west of Seers' Village." },
-        { text: "Talk to him and agree to help." },
+        { text: "Talk to Captain Lawgof at the dwarf camp by the Coal Trucks west of Seers' Village and agree to help." },
       ],
     },
     {
@@ -21,7 +21,7 @@ export const dwarfCannon: QuestWalkthrough = {
       steps: [
         { text: "If you don't have a hammer, take one from the nearby house." },
         { text: "Use the hammer to repair all 6 broken railings around the camp's west and south fence." },
-        { text: "Talk to Captain Lawgof again." },
+        { text: "Talk to Captain Lawgof again south of the Coal Trucks (north-west of the Fishing Guild)." },
         { text: "Walk south to the watchtower and climb both ladders to the top." },
         { text: "Pick up the dwarf remains from the top." },
         { text: "Return them to Captain Lawgof." },
@@ -39,11 +39,11 @@ export const dwarfCannon: QuestWalkthrough = {
     {
       title: "Repair the multicannon",
       steps: [
-        { text: "Talk to Captain Lawgof. He hands you cannon parts and tools." },
+        { text: "Talk to Captain Lawgof south of the Coal Trucks (north-west of the Fishing Guild). He hands you cannon parts and tools." },
         { text: "Use the hook tool on the spring." },
         { text: "Use the pliers on the safety switch at the bottom." },
         { text: "Use the tooth tool on the gear at the bottom of the hammer mechanism." },
-        { text: "Talk to Captain Lawgof to confirm." },
+        { text: "Talk to Captain Lawgof south of the Coal Trucks (north-west of the Fishing Guild) to confirm." },
       ],
     },
     {
@@ -51,7 +51,7 @@ export const dwarfCannon: QuestWalkthrough = {
       steps: [
         { text: "Travel to the Black Guard camp north-east of Falador." },
         { text: "Enter the house on the west side and talk to Nulodion. He gives you his notes and the cannonball mould." },
-        { text: "Return to Captain Lawgof and hand both over." },
+        { text: "Return to Captain Lawgof south of the Coal Trucks (north-west of the Fishing Guild) and hand both over." },
         { text: "Quest complete." },
       ],
     },

@@ -21,7 +21,7 @@ export const fairytaleIGrowingPains: QuestWalkthrough = {
     {
       title: "Investigate the Group of Advanced Gardeners",
       steps: [
-        { text: "Talk to Martin the Master Gardener." },
+        { text: "Talk to Martin the Master Gardener by the pig pen in Draynor Village." },
         { text: "Talk to all 5 Group of Advanced Gardeners members at their farming patches." },
         { text: "Return to Martin in Draynor Village." },
       ],

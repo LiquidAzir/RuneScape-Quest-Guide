@@ -11,7 +11,7 @@ export const xMarksTheSpot: QuestWalkthrough = {
     {
       title: "Treasure hunt",
       steps: [
-        { text: "Talk to Veos and accept the quest." },
+        { text: "Talk to Veos in The Sheared Ram in Lumbridge and accept the quest." },
         {
           text: "Dig north-west of Bob's Brilliant Axes shop window, one tile west of the wall plant.",
         },

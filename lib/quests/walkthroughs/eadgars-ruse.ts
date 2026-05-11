@@ -23,7 +23,7 @@ export const eadgarsRuse: QuestWalkthrough = {
     {
       title: "Find Eadgar",
       steps: [
-        { text: "Talk to Sanfew." },
+        { text: "Talk to Sanfew on the upper floor of Jatix's Herblore Shop in Taverley." },
         { text: "Travel to Mad Eadgar's cave (Trollheim)." },
         { text: "Free Eadgar from the cell if needed (pickpocket or kill Berry)." },
         { text: "Talk to Eadgar about finding goutweed." },

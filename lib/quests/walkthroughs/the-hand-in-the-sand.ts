@@ -21,7 +21,7 @@ export const theHandInTheSand: QuestWalkthrough = {
     {
       title: "Sandy hand",
       steps: [
-        { text: "Talk to Bert and get the Sandy hand." },
+        { text: "Talk to Bert in Yanille (near the south-west sand pit) and get the Sandy hand." },
         { text: "Buy a beer at the Dragon Inn." },
         { text: "Give the beer to the Guard Captain near the Wizards' Guild." },
         { text: "Ring the bell at the Wizards' Guild door (or enter directly with 66 Magic)." },

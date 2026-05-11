@@ -26,7 +26,7 @@ export const sheepHerder: QuestWalkthrough = {
     {
       title: "Finish",
       steps: [
-        { text: "Return to Councillor Halgrive." },
+        { text: "Return to Councillor Halgrive outside the East Ardougne church." },
         { text: "Quest complete." },
       ],
     },

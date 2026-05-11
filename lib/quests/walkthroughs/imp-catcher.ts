@@ -21,7 +21,7 @@ export const impCatcher: QuestWalkthrough = {
           notes: ["Use the home teleport to Lumbridge then run south-west, or take a charter ship."],
         },
         { text: "Climb the stairs to the second floor." },
-        { text: "Talk to Wizard Mizgog and agree to recover his beads." },
+        { text: "Talk to Wizard Mizgog on the second floor of the Wizards' Tower and agree to recover his beads." },
       ],
     },
     {
@@ -39,8 +39,8 @@ export const impCatcher: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Wizard Mizgog with all four beads in your inventory." },
-        { text: "Talk to him to hand the beads in." },
+        { text: "Return to Wizard Mizgog on the second floor of the Wizards' Tower with all four beads in your inventory." },
+        { text: "Talk to Wizard Mizgog on the top floor of the Wizards' Tower to hand the beads in." },
         { text: "Quest complete." },
       ],
     },

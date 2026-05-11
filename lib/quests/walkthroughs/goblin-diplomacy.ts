@@ -1,7 +1,7 @@
 import type { QuestWalkthrough } from "../types";
 
 export const goblinDiplomacy: QuestWalkthrough = {
-  startPoint: "Talk to Generals Bentnoze and Wartface in Goblin Village, north of Falador.",
+  startPoint: "Talk to Generals Bentnoze and Wartface in the largest hut in Goblin Village, north of Falador.",
   itemsRequired: [
     "Orange goblin mail",
     "Blue goblin mail",
@@ -42,7 +42,7 @@ export const goblinDiplomacy: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Generals Bentnoze and Wartface with both the orange and blue goblin mail." },
+        { text: "Return to Generals Bentnoze and Wartface in the largest hut in Goblin Village with both the orange and blue goblin mail." },
         { text: "Show them each colour. They both dislike them." },
         { text: "Then show them the brown goblin mail to settle the argument." },
         { text: "Quest complete." },

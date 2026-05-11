@@ -16,7 +16,7 @@ export const doricsQuest: QuestWalkthrough = {
           text: "Travel to Doric's house, north of Falador on the path to Taverley.",
           notes: ["Use a Falador teleport and run north, or follow the path north out of Falador."],
         },
-        { text: "Talk to Doric and agree to fetch ore for him." },
+        { text: "Talk to Doric in his house north of Falador and agree to fetch ore for him." },
       ],
     },
     {
@@ -34,8 +34,8 @@ export const doricsQuest: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Doric with all the ore in your inventory." },
-        { text: "Talk to him to hand it over." },
+        { text: "Return to Doric in his house north of Falador with all the ore in your inventory." },
+        { text: "Talk to Doric in his house north of Falador to hand over the ore." },
         { text: "Quest complete." },
       ],
     },

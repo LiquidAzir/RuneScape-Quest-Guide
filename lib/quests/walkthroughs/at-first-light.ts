@@ -12,7 +12,7 @@ export const atFirstLight: QuestWalkthrough = {
     {
       title: "Investigate the guild",
       steps: [
-        { text: "Talk to Guildmaster Apatura." },
+        { text: "Talk to Guildmaster Apatura at the Hunter Guild (Civitas illa Fortis, Varlamore)." },
         { text: "Go downstairs and talk to Guild Scribe Verity." },
         { text: "Get a toy mouse from Guild Hunter Wolf (the Master)." },
         { text: "Wind up the toy mouse and use it on Guild Hunter Kiko." },
@@ -40,7 +40,7 @@ export const atFirstLight: QuestWalkthrough = {
         { text: "Receive trimmed fur from Atza." },
         { text: "Bring the report back to Guild Scribe Verity." },
         { text: "Fix the cat bed with the remaining jerboa tail." },
-        { text: "Talk to Guildmaster Apatura." },
+        { text: "Talk to Guildmaster Apatura at the Hunter Guild (Civitas illa Fortis, Varlamore)." },
         { text: "Quest complete." },
       ],
     },

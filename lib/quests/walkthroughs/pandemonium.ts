@@ -1,7 +1,7 @@
 import type { QuestWalkthrough } from "../types";
 
 export const pandemonium: QuestWalkthrough = {
-  startPoint: "Talk to Will and Anne on the docks of Port Sarim.",
+  startPoint: "Talk to Will on the docks of Port Sarim and Anne on the docks of Port Sarim.",
   itemsRequired: ["Hammer (in-quest)", "Saw (in-quest)"],
   recommended: [
     "Skills necklace / Amulet of glory / Explorer's ring for fast travel to Port Sarim",

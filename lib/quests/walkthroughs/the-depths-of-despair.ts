@@ -34,7 +34,7 @@ export const theDepthsOfDespair: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Lord Kandur Hosidius." },
+        { text: "Return to Lord Kandur Hosidius at his home in Hosidius (north-west of the Vinery)." },
         { text: "Quest complete." },
       ],
     },

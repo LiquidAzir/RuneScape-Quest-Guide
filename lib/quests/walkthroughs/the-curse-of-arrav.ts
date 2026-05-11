@@ -53,7 +53,7 @@ export const theCurseOfArrav: QuestWalkthrough = {
     {
       title: "Hearty heist",
       steps: [
-        { text: "Return to Elias with plans + key." },
+        { text: "Return to Elias at the Uzer Oasis with plans + key." },
         { text: "Travel to Zemouregal's Base north of the Digsite." },
         { text: "Navigate to the kitchen via the dungeon." },
         { text: "Wear insulated boots; enter the sewer via the pipe." },

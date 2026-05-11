@@ -28,7 +28,7 @@ export const gettingAhead: QuestWalkthrough = {
         { text: "Use a pot of flour on the southern gate by the cow pen." },
         { text: "Follow the flour trail north into the Kebos Lowlands mine." },
         { text: "Defeat the Headless Beast (level 82)." },
-        { text: "Return to Gordon." },
+        { text: "Return to Gordon on his farm south of the Farming Guild." },
       ],
     },
     {
@@ -38,7 +38,7 @@ export const gettingAhead: QuestWalkthrough = {
         { text: "Use bear fur with needle + thread to make a fur head." },
         { text: "Apply red dye for a bloody look." },
         { text: "Mount the head on the wall using planks + nails." },
-        { text: "Talk to Gordon to finish." },
+        { text: "Talk to Gordon on his farm south of the Farming Guild to finish." },
         { text: "Quest complete." },
       ],
     },

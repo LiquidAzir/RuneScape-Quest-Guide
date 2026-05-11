@@ -12,7 +12,7 @@ export const templeOfTheEye: QuestWalkthrough = {
     {
       title: "An eye for a favour",
       steps: [
-        { text: "Talk to Wizard Persten to get the eye amulet." },
+        { text: "Talk to Wizard Persten in Al Kharid; accept the teleport to the Wizards' Tower to get the eye amulet." },
         { text: "Use the eye amulet on the Mage of Zamorak at the Altar of Chaos in Varrock." },
         { text: "Talk to the Tea Seller at the eastern entrance of Varrock for a strong cup of tea." },
         { text: "Use the tea on the Mage of Zamorak; accept the teleport into the Abyss." },

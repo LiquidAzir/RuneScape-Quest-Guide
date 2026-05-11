@@ -51,7 +51,7 @@ export const aTailOfTwoCats: QuestWalkthrough = {
       steps: [
         { text: "Talk to the Sphinx in Sophanem; ask for help for Bob." },
         {
-          text: "Return to Unferth and complete his chores: rake patch, plant potato seeds, make bed, light fireplace, place cake + milk on table, cut Unferth's hair.",
+          text: "Return to Unferth at his house in northern Burthorpe (with a catspeak amulet equipped and your cat) and complete his chores: rake patch, plant potato seeds, make bed, light fireplace, place cake + milk on table, cut Unferth's hair.",
         },
         { text: "Talk to Unferth when chores are finished." },
       ],
@@ -62,7 +62,7 @@ export const aTailOfTwoCats: QuestWalkthrough = {
         { text: "Talk to the Apothecary in Varrock about the quest." },
         { text: "Return to Unferth wearing white robes + a doctor/nurse hat with a vial of water." },
         { text: "Find and talk to Bob again." },
-        { text: "Talk to Unferth to finish." },
+        { text: "Talk to Unferth at his house in northern Burthorpe (with a catspeak amulet equipped and your cat) to finish." },
         { text: "Quest complete." },
       ],
     },

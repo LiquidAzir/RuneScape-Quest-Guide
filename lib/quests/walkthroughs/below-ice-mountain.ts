@@ -28,7 +28,7 @@ export const belowIceMountain: QuestWalkthrough = {
         { text: "Talk to Checkal in Barbarian Village near the pottery oven." },
         { text: "Talk to Atlas in The Long Hall tavern; complete the training dialogue." },
         { text: "Take cooked meat and a beer from the tavern tables." },
-        { text: "Return to Checkal and do the Flex emote when prompted." },
+        { text: "Return to Checkal in Barbarian Village near the pottery oven and do the Flex emote when prompted." },
       ],
     },
     {
@@ -37,7 +37,7 @@ export const belowIceMountain: QuestWalkthrough = {
         { text: "Talk to Marley at the yew trees in Edgeville first." },
         { text: "Visit the cook in the Blue Moon Inn east room in Varrock for the steak sandwich recipe." },
         { text: "Use a knife on cooked meat with bread in inventory to make a steak sandwich." },
-        { text: "Return to Marley with the sandwich." },
+        { text: "Return to Marley at the yew trees in Edgeville with the sandwich." },
       ],
     },
     {

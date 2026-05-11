@@ -52,7 +52,7 @@ export const deathPlateau: QuestWalkthrough = {
       title: "Make the spiked boots",
       steps: [
         { text: "Walk to Dunstan the smith in north-east Burthorpe (by the anvil)." },
-        { text: "Return to Denulth to get a certificate authorising Dunstan to use Imperial Guard equipment." },
+        { text: "Return to Denulth in the soldier tent in Burthorpe to get a certificate authorising Dunstan to use Imperial Guard equipment." },
         { text: "Bring Dunstan: climbing boots (Tenzing sells them), the certificate, and an iron bar — he forges spiked boots." },
       ],
     },

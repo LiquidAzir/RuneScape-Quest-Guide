@@ -29,7 +29,7 @@ export const icthlarinsLittleHelper: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to the Wanderer west of the Agility Pyramid." },
-        { text: "Talk to her about your cat." },
+        { text: "Talk to the Sphinx in Sophanem about your cat." },
         { text: "Give her a tinderbox and a full waterskin." },
         { text: "Touch the pyramid door to enter." },
       ],

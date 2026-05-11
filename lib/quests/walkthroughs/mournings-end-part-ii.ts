@@ -26,7 +26,7 @@ export const mourningsEndPartII: QuestWalkthrough = {
         { text: "Run west through the cave to find dead bodies." },
         { text: "Search the guard corpse for Edern's journal." },
         { text: "Navigate to the black crystal and chisel a piece off." },
-        { text: "Return to Arianwyn to enchant the new crystal." },
+        { text: "Return to Arianwyn in Lletya to enchant the new crystal." },
       ],
     },
     {

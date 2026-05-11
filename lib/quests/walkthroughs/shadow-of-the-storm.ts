@@ -50,7 +50,7 @@ export const shadowOfTheStorm: QuestWalkthrough = {
     {
       title: "Rally the troops",
       steps: [
-        { text: "Talk to Father Badden." },
+        { text: "Talk to Father Badden near the ruin entrance." },
         { text: "Convince Father Reen to join the ritual." },
         { text: "Talk to the golem (he refuses)." },
         { text: "Use the Strange implement to reprogram the golem." },

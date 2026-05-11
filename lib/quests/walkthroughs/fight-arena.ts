@@ -42,7 +42,7 @@ export const fightArena: QuestWalkthrough = {
         { text: "Defeat the Khazard Scorpion." },
         { text: "Defeat Bouncer (level 137)." },
         { text: "Defeat or escape General Khazard." },
-        { text: "Return to Lady Servil to finish." },
+        { text: "Return to Lady Servil south-west of the Ardougne Monastery to finish." },
         { text: "Quest complete." },
       ],
     },

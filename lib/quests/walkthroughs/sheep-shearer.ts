@@ -32,8 +32,8 @@ export const sheepShearer: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Fred the Farmer with 20 balls of wool in your inventory." },
-        { text: "Talk to him and hand them over." },
+        { text: "Return to Fred the Farmer in the small house just north of Lumbridge with 20 balls of wool in your inventory." },
+        { text: "Talk to Fred the Farmer in the small house north of Lumbridge and hand over the balls of wool." },
         { text: "Quest complete." },
       ],
     },

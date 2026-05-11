@@ -22,7 +22,7 @@ export const rovingElves: QuestWalkthrough = {
       steps: [
         { text: "Travel to Tirannwn (charter ship to Port Tyras or via Underground Pass)." },
         { text: "Find Islwyn west of Lletya or north-east of Tyras Camp." },
-        { text: "Talk to him and agree to help. He directs you to Eluned." },
+        { text: "Talk to Islwyn in the forest clearing south-east of Prifddinas and agree to help. He directs you to Eluned." },
         { text: "Talk to Eluned — she needs a consecration seed from Glarial's tomb." },
       ],
     },

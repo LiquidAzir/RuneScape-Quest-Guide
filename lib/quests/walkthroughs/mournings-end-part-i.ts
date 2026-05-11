@@ -46,7 +46,7 @@ export const mourningsEndPartI: QuestWalkthrough = {
       title: "Mend the trousers",
       steps: [
         { text: "Teleport to Lletya using a crystal." },
-        { text: "Talk to Arianwyn." },
+        { text: "Talk to Arianwyn in Lletya." },
         { text: "Talk to Oronwen north-west; pick 'Do you mend clothes?'." },
         { text: "Give her silk, bear fur, and the trousers." },
         { text: "Buy dyes if you don't have them." },
@@ -77,7 +77,7 @@ export const mourningsEndPartI: QuestWalkthrough = {
     {
       title: "Poison the food supply",
       steps: [
-        { text: "Talk to Essyllt." },
+        { text: "Talk to Essyllt in the basement." },
         { text: "Collect a rotten apple north-west of the Mourner HQ." },
         { text: "Talk to Elena west of Ardougne; receive a sieve." },
         { text: "Travel to the apple orchard north-west; pick up an empty barrel and use it on rotten apple piles." },

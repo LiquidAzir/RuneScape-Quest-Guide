@@ -18,7 +18,7 @@ export const waterfallQuest: QuestWalkthrough = {
     {
       title: "Read the book",
       steps: [
-        { text: "Talk to Almera." },
+        { text: "Talk to Almera north-east of Baxtorian Falls." },
         { text: "Board the raft west of her house." },
         { text: "Talk to Hudon (go through all dialogue)." },
         { text: "Swim in the water at the south end of the island." },

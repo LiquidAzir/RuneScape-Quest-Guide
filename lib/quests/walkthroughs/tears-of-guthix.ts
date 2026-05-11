@@ -15,7 +15,7 @@ export const tearsOfGuthix: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Juna in the Lumbridge Swamp Caves." },
-        { text: "Talk to Juna and pick 'Okay...'." },
+        { text: "Talk to Juna in the Lumbridge Swamp Caves and pick 'Okay...'." },
       ],
     },
     {
@@ -25,7 +25,7 @@ export const tearsOfGuthix: QuestWalkthrough = {
         { text: "Light the sapphire lantern with a tinderbox." },
         { text: "Climb the north rock and use the lantern on a Light creature above the chasm." },
         { text: "Mine a rock; chisel it; climb down the eastern rocks." },
-        { text: "Talk to Juna to finish." },
+        { text: "Talk to Juna in the Lumbridge Swamp Caves to finish." },
         { text: "Quest complete." },
       ],
     },

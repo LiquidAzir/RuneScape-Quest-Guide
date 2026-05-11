@@ -34,7 +34,7 @@ export const forgettableTale: QuestWalkthrough = {
         { text: "Talk to the rowdy dwarf outside the East Keldagrim pub; bring his random item." },
         { text: "Travel to the White Wolf Mountain tunnel." },
         { text: "Talk to Khorvak; offer him a drink and give him dwarven stout." },
-        { text: "Return to Keldagrim and talk to Gauss in the bar south of the bank; give another beer." },
+        { text: "Return to the bar south of the Keldagrim bank; give another beer and talk to Gauss there." },
       ],
     },
     {

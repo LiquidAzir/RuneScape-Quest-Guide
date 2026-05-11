@@ -20,7 +20,7 @@ export const makingFriendsWithMyArm: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Burntmeat and accept the quest." },
+        { text: "Talk to Burntmeat in the Troll Stronghold's kitchen and accept the quest." },
         { text: "Talk to My Arm at the Trollheim herb patch." },
         { text: "Travel to Larry via fairy ring DKS." },
         { text: "Board the boat to Weiss." },

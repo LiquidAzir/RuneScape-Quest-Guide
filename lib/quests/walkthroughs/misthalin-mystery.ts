@@ -12,7 +12,7 @@ export const misthalinMystery: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Abigale and offer help." },
+        { text: "Talk to Abigale in the south-eastern corner of Lumbridge Swamp, near the fishing spots and offer help." },
         { text: "Take the boat south." },
         { text: "Collect a bucket from the fountain if needed." },
         { text: "Walk west of the manor." },

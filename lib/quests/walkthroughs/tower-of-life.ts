@@ -50,7 +50,7 @@ export const towerOfLife: QuestWalkthrough = {
       steps: [
         { text: "Talk to Effigy; watch the cutscene." },
         { text: "Answer the Homunculus's questions (Logic or Magic approach)." },
-        { text: "Talk to Effigy again." },
+        { text: "Talk to Effigy again south of East Ardougne, near fairy ring DJP." },
         { text: "Talk to the Homunculus in the dungeon." },
         { text: "Quest complete." },
       ],

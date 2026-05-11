@@ -76,7 +76,7 @@ export const heroesQuest: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Achietties with the lava eel, fire feather, and thieves' armband." },
+        { text: "Return to Achietties outside the Heroes' Guild (between Taverley and Burthorpe) with the lava eel, fire feather, and thieves' armband." },
         { text: "Quest complete." },
       ],
     },

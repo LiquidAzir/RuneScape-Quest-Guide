@@ -22,7 +22,7 @@ export const enakhrasLament: QuestWalkthrough = {
     {
       title: "Build the statue",
       steps: [
-        { text: "Talk to Lazim. He needs a statue built before he can let you in." },
+        { text: "Talk to Lazim north-east of the Desert Quarry (south of Bedabin Camp). He needs a statue built before he can let you in." },
         { text: "Mine 32kg of sandstone in the quarry; chisel it down." },
         { text: "Place the base on the flat ground." },
         { text: "Mine 20kg of sandstone; chisel it into a body." },

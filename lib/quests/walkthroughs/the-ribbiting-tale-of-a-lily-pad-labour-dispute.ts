@@ -15,7 +15,7 @@ export const theRibbitingTale: QuestWalkthrough = {
         { text: "Go south to the yellow frogs; chop the orange tree to distract them." },
         { text: "Sabotage the lily pad near the yellow frogs." },
         { text: "Start the election with your chosen frog leader." },
-        { text: "Talk to Marcellus again." },
+        { text: "Talk to Marcellus again at the Locus Oasis (Varlamore)." },
         { text: "Blame the flies with your frog leader." },
       ],
     },

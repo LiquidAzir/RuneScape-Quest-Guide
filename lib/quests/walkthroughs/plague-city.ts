@@ -23,7 +23,7 @@ export const plagueCity: QuestWalkthrough = {
         { text: "Travel to East Ardougne and find Edmond's house north of Ardougne Castle." },
         { text: "Talk to Edmond, then talk to his wife Alrena inside the house." },
         { text: "Pick up the Picture of Elena from the table." },
-        { text: "Talk to Edmond again." },
+        { text: "Talk to Edmond again at his house in East Ardougne." },
       ],
     },
     {
@@ -51,7 +51,7 @@ export const plagueCity: QuestWalkthrough = {
       steps: [
         { text: "Walk to the Civic Office (the large central building north of the manhole)." },
         { text: "Talk to the Clerk and ask to see Bravek." },
-        { text: "Talk to Bravek and use the hangover cure on him." },
+        { text: "Talk to Bravek in the East Ardougne civic office and use the hangover cure on him." },
         { text: "He gives you a search warrant." },
       ],
     },

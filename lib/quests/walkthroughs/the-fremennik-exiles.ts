@@ -69,7 +69,7 @@ export const theFremennikExiles: QuestWalkthrough = {
     {
       title: "Island of Stone",
       steps: [
-        { text: "Talk to Brundt to learn the cave door puzzle (Mastermind-style)." },
+        { text: "Talk to Brundt in the Longhall to start to learn the cave door puzzle (Mastermind-style)." },
         {
           text: "Solve the puzzle using feedback (red = wrong position, green = correct).",
         },

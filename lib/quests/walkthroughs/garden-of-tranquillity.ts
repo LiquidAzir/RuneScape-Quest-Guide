@@ -60,7 +60,7 @@ export const gardenOfTranquillity: QuestWalkthrough = {
       steps: [
         { text: "Fill plant pots with compost." },
         { text: "Plant all the seeds (10-15 mins to grow)." },
-        { text: "Talk to Ellamaria." },
+        { text: "Talk to Ellamaria in the garden east of Varrock Palace." },
         { text: "Talk to King Roald with the ring equipped." },
         { text: "Watch the cutscene." },
         { text: "Quest complete." },

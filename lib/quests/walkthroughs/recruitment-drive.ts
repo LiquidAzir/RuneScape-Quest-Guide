@@ -9,7 +9,7 @@ export const recruitmentDrive: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Sir Amik Varze and pick 'Yes please'." },
+        { text: "Talk to Sir Amik Varze on the top floor of the western tower in the White Knights' Castle, Falador (after Black Knights' Fortress and Druidic Ritual) and pick 'Yes please'." },
         {
           text: "Bank ALL your equipped items and inventory before continuing.",
           notes: ["Anything you bring will be confiscated. You must complete the quest with only the tools the rooms give you."],

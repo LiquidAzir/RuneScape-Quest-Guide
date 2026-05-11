@@ -29,7 +29,7 @@ export const perilousMoons: QuestWalkthrough = {
       steps: [
         { text: "Talk to Attala near the temple entrance." },
         { text: "Climb the rocks (47 Agility) or kill a Sulphur Nagua." },
-        { text: "Return to Attala and cross the drawbridge." },
+        { text: "Return to Attala near the temple entrance and cross the drawbridge." },
         { text: "Talk to Jessamine in the northern part of the city." },
         { text: "Enter the Neypotzli dungeon to the north." },
       ],

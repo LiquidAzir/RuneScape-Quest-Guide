@@ -25,7 +25,7 @@ export const thePathOfGlouphrie: QuestWalkthrough = {
     {
       title: "Help Golrie under the village",
       steps: [
-        { text: "Talk to King Bolren and agree to help — the maze elder Golrie has gone missing." },
+        { text: "Talk to King Bolren in the centre of the Tree Gnome Village maze and agree to help — the maze elder Golrie has gone missing." },
         { text: "Squeeze through the loose railing in the village and climb down the ladder." },
         { text: "Talk to Golrie. He explains the village needs an anti-illusion device." },
         { text: "If you don't have it, find the dungeon key in a nearby crate. Unlock the gate." },

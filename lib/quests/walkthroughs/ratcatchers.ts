@@ -38,7 +38,7 @@ export const ratcatchers: QuestWalkthrough = {
         {
           text: "Sneak through the mansion avoiding guards and catch 6 rats: 1 in the NW, 2 in the SE upstairs, 3 downstairs.",
         },
-        { text: "Return to Jimmy Dazzler." },
+        { text: "Return to Jimmy Dazzler west of the Ardougne pub." },
       ],
     },
     {
@@ -49,7 +49,7 @@ export const ratcatchers: QuestWalkthrough = {
         { text: "Poison 4 cheeses with the rat poison." },
         { text: "Place the poisoned cheese in the rat holes around the warehouse." },
         { text: "Use your cat on the corner hole and heal it with fish during the fight." },
-        { text: "Return to Hooknosed Jack." },
+        { text: "Return to Hooknosed Jack near the Varrock rat pits." },
       ],
     },
     {

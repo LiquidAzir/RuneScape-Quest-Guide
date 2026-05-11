@@ -19,7 +19,7 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Falador and find the Squire in the courtyard of the White Knights' Castle." },
-        { text: "Talk to him. He's lost Sir Vyvin's ceremonial sword and asks you to replace it." },
+        { text: "Talk to the Squire in the White Knights' Castle courtyard. He's lost Sir Vyvin's ceremonial sword and asks you to replace it." },
         { text: "He says you'll need to find an Imcando dwarf to forge a new one." },
       ],
     },
@@ -65,7 +65,7 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to Thurgo with the picture, blurite ore, and 2 iron bars." },
-        { text: "Talk to him to forge the sword." },
+        { text: "Talk to Thurgo at his beach hut south of Port Sarim to forge the sword." },
         { text: "Take the sword back to the Squire in Falador." },
         { text: "Quest complete." },
       ],

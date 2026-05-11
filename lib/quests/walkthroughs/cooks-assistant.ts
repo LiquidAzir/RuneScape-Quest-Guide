@@ -46,7 +46,7 @@ export const cooksAssistant: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to the Cook in Lumbridge Castle's kitchen." },
-        { text: "Talk to him to give him the egg, bucket of milk, and pot of flour." },
+        { text: "Talk to the Cook in Lumbridge Castle's kitchen to give him the egg, bucket of milk, and pot of flour." },
         { text: "Quest complete." },
       ],
     },

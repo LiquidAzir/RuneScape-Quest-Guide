@@ -28,7 +28,7 @@ export const ghostsAhoy: QuestWalkthrough = {
       steps: [
         { text: "Travel to Port Phasmatys (east of Canifis through the Haunted Woods)." },
         { text: "Pay 1 ecto-token to enter or sneak in via the back." },
-        { text: "Talk to Velorina to start the quest." },
+        { text: "Talk to Velorina in her house in Port Phasmatys (east of the gates) to start the quest." },
         { text: "Talk to Necrovarus at the Ectofuntus — he won't help, so you'll need to bring proof." },
       ],
     },
@@ -39,7 +39,7 @@ export const ghostsAhoy: QuestWalkthrough = {
         { text: "Use the nettles on a fire near the Slayer Tower to cook nettle tea." },
         { text: "Find the Old Crone east of the Slayer Tower." },
         { text: "Add a bucket of milk to the nettle tea and give it to her." },
-        { text: "Talk to her again to get the model ship and instructions." },
+        { text: "Talk to the Old Crone east of the Slayer Tower again to get the model ship and instructions." },
       ],
     },
     {
@@ -79,7 +79,7 @@ export const ghostsAhoy: QuestWalkthrough = {
         { text: "Return to the Old Crone with the robes and items." },
         { text: "Wear the robes and go talk to Necrovarus with the spell components." },
         { text: "Cast the freeing spell." },
-        { text: "Talk to Velorina to finish the quest." },
+        { text: "Talk to Velorina in her house in Port Phasmatys (east of the gates) to finish the quest." },
         { text: "Quest complete." },
       ],
     },

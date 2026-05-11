@@ -31,7 +31,7 @@ export const theIdesOfMilk: QuestWalkthrough = {
         { text: "Open the pen in the north-east corner of the cow farm." },
         { text: "Defeat the bull (Brutus)." },
         { text: "Talk to Gillie Groats." },
-        { text: "Talk to Cassius." },
+        { text: "Talk to Cassius by the pond north-west of Lumbridge." },
         { text: "Quest complete." },
       ],
     },

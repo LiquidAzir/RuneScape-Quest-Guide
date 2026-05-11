@@ -62,7 +62,7 @@ export const merlinsCrystal: QuestWalkthrough = {
       steps: [
         { text: "Enter the castle and climb the south-east tower." },
         { text: "Use Excalibur on the crystal trapping Merlin." },
-        { text: "Talk to King Arthur to complete the quest." },
+        { text: "Talk to King Arthur in Camelot to complete the quest." },
         { text: "Quest complete." },
       ],
     },

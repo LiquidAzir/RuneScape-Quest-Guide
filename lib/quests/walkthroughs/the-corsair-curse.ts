@@ -36,7 +36,7 @@ export const theCorsairCurse: QuestWalkthrough = {
       title: "Final confrontation",
       steps: [
         { text: "Defeat Ithoi the Navigator (level 35) in combat." },
-        { text: "Return to Captain Tock." },
+        { text: "Return to Captain Tock at the crossroads north of Port Sarim." },
         { text: "Quest complete." },
       ],
     },

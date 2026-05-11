@@ -17,7 +17,7 @@ export const meatAndGreet: QuestWalkthrough = {
     {
       title: "Initial setup",
       steps: [
-        { text: "Talk to Emelio and confirm." },
+        { text: "Talk to Emelio at his home in Outer Fortis (Varlamore) and confirm." },
         { text: "Talk to the Spice Merchant at the Bazaar about the missing delivery." },
         { text: "Open the box with code 2546." },
         { text: "Talk to Alba north of Ortus Farm." },
@@ -33,8 +33,8 @@ export const meatAndGreet: QuestWalkthrough = {
     {
       title: "Make the kebab",
       steps: [
-        { text: "Return to Alba." },
-        { text: "Return to Emelio." },
+        { text: "Return to Alba north of Ortus Farm." },
+        { text: "Return to Emelio at his home in Outer Fortis (Varlamore)." },
         { text: "Provide the recipe: 4 meat, 2 salad, 1 spice, 3 sauce." },
         { text: "Give the test kebab to Vincens, Renata, or Lucas." },
       ],
@@ -42,7 +42,7 @@ export const meatAndGreet: QuestWalkthrough = {
     {
       title: "Defeat the Minotaur",
       steps: [
-        { text: "Talk to Emelio." },
+        { text: "Talk to Emelio at his home in Outer Fortis (Varlamore)." },
         { text: "Visit Lelia at the Fortis Colosseum (southern room)." },
         { text: "Use Protect from Melee; switch to Magic when it says 'Moo!'." },
         { text: "Defeat the Minotaur (level 193)." },

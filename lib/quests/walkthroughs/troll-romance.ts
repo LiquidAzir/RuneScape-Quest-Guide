@@ -52,10 +52,10 @@ export const trollRomance: QuestWalkthrough = {
     {
       title: "Defeat Arrg",
       steps: [
-        { text: "Return to Ug with the Trollweiss." },
+        { text: "Return to Ug in the south-west corner of the Troll Stronghold's middle level with the Trollweiss." },
         { text: "Talk to Arrg and pick the combat option." },
         { text: "Defeat Arrg (level 113) in the arena." },
-        { text: "Return to Ug to finish the quest." },
+        { text: "Return to Ug in the south-west corner of the Troll Stronghold's middle level to finish the quest." },
         { text: "Quest complete." },
       ],
     },

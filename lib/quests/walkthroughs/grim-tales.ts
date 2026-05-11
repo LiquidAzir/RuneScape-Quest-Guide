@@ -25,7 +25,7 @@ export const grimTales: QuestWalkthrough = {
     {
       title: "Get the griffin's feather",
       steps: [
-        { text: "Talk to Sylas." },
+        { text: "Talk to Sylas by the POH portal in Taverley." },
         { text: "Travel to the north-east side of White Wolf Mountain." },
         { text: "Talk to Grimgnash the griffin with the specific dialogue." },
         { text: "Steal a feather from his nest." },
@@ -64,7 +64,7 @@ export const grimTales: QuestWalkthrough = {
         { text: "Defeat Glod (level 138) and collect the golden goblin." },
         { text: "Use a shrinking potion on the beanstalk." },
         { text: "Chop the beanstalk (71 Woodcutting)." },
-        { text: "Talk to Sylas." },
+        { text: "Talk to Sylas by the POH portal in Taverley." },
         { text: "Quest complete." },
       ],
     },

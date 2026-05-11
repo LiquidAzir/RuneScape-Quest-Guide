@@ -23,7 +23,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Phileas Rimor's house in Shayzien." },
-        { text: "Talk to him and agree to help." },
+        { text: "Talk to Phileas Rimor in his Shayzien house west of The Cloak and Stagger tavern and agree to help." },
       ],
     },
     {
@@ -40,7 +40,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
     {
       title: "War tent and the mountain",
       steps: [
-        { text: "Return to Phileas Rimor." },
+        { text: "Return to Phileas Rimor at his house west of The Cloak and Stagger tavern in Shayzien." },
         { text: "Talk to Lord Shiro Shayzien at the War Tent." },
         { text: "Travel to the summit of Mount Quidamortem." },
       ],
@@ -59,7 +59,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Lord Shiro Shayzien." },
+        { text: "Return to Lord Shiro Shayzien at the War Tent." },
         { text: "Visit Phileas's house." },
         { text: "Talk to Lord Shiro one final time." },
         { text: "Quest complete." },

@@ -37,7 +37,7 @@ export const tribalTotem: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Kangai Mau." },
+        { text: "Return to Kangai Mau at The Shrimp and Parrot restaurant in Brimhaven." },
         { text: "Quest complete." },
       ],
     },

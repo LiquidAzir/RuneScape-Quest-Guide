@@ -65,7 +65,7 @@ export const kingsRansom: QuestWalkthrough = {
         { text: "Climb down the ladder." },
         { text: "Use the granite + animate rock scroll on the statue trapping King Arthur." },
         { text: "Give Arthur the bronze med helm and iron chainbody." },
-        { text: "Return to Camelot and talk to Arthur by the round table." },
+        { text: "Return to Camelot Castle and talk to Arthur by the round table." },
         { text: "Quest complete." },
       ],
     },

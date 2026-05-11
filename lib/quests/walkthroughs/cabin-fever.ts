@@ -31,7 +31,7 @@ export const cabinFever: QuestWalkthrough = {
         { text: "Use the fuse on their powder barrel." },
         { text: "Light the fuse with the tinderbox." },
         { text: "Climb their net and rope their sail." },
-        { text: "Talk to Bill Teach." },
+        { text: "Talk to Bill Teach at The Green Ghost inn in Port Phasmatys." },
       ],
     },
     {
@@ -41,7 +41,7 @@ export const cabinFever: QuestWalkthrough = {
         { text: "Take 6 planks, hammer, 30 tacks, 3 swamp paste from the repair locker." },
         { text: "Repair leaky holes using planks + tacks." },
         { text: "Waterproof with swamp paste." },
-        { text: "Talk to Bill Teach." },
+        { text: "Talk to Bill Teach at The Green Ghost inn in Port Phasmatys." },
       ],
     },
     {
@@ -52,7 +52,7 @@ export const cabinFever: QuestWalkthrough = {
         { text: "Gather 10 plunder from chest, barrel, and crate." },
         { text: "Swing back with the plunder." },
         { text: "Deposit it in the chest on the lower deck." },
-        { text: "Talk to Bill Teach." },
+        { text: "Talk to Bill Teach at The Green Ghost inn in Port Phasmatys." },
       ],
     },
     {
@@ -60,11 +60,11 @@ export const cabinFever: QuestWalkthrough = {
       steps: [
         { text: "Take a cannon barrel from the gun locker." },
         { text: "Repair the broken cannon on the top deck." },
-        { text: "Talk to Bill Teach." },
+        { text: "Talk to Bill Teach at The Green Ghost inn in Port Phasmatys." },
         { text: "Gather ramrod, fuses, canisters, and gunpowder." },
         { text: "Fire the cannon at pirates (3 must die with canisters)." },
         { text: "Take cannonballs and repeat firing until 3 holes blown in the enemy ship." },
-        { text: "Talk to Bill Teach." },
+        { text: "Talk to Bill Teach at The Green Ghost inn in Port Phasmatys." },
         { text: "Quest complete." },
       ],
     },

@@ -27,14 +27,14 @@ export const animalMagnetism: QuestWalkthrough = {
         { text: "Walk west to the old crone's house (near Slayer Tower)." },
         { text: "Talk to the old crone twice to get a crone-made amulet." },
         { text: "Bring the amulet back to Malcolm." },
-        { text: "Talk to him through the dialogue and buy 2 undead chickens for 20 ecto-tokens." },
+        { text: "Talk to Malcolm at the farm west of the Ectofuntus and buy 2 undead chickens for 20 ecto-tokens." },
       ],
     },
     {
       title: "Make the magnet",
       steps: [
-        { text: "Return to Ava with 5 iron bars, a hammer, and the 2 undead chickens." },
-        { text: "Talk to her, then talk to the Witch in the north-west corner of Draynor Manor." },
+        { text: "Return to Ava in the west wing of Draynor Manor with 5 iron bars, a hammer, and the 2 undead chickens." },
+        { text: "Talk to Ava in the west wing of Draynor Manor, then talk to the Witch in the north-west corner of Draynor Manor." },
         { text: "She gives you the selected iron." },
         { text: "Travel to the Rimmington mine. Stand in the centre of the mine facing north and use the hammer on the selected iron — this makes a magnet." },
         { text: "Return the magnet to Ava." },

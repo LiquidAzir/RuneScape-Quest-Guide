@@ -31,8 +31,8 @@ export const aTasteOfHope: QuestWalkthrough = {
       steps: [
         { text: "Talk to Garth at the Theatre of Blood entrance." },
         { text: "Travel to the Myreque Hideout via the Meiyerditch mines." },
-        { text: "Talk to Safalaan." },
-        { text: "Return to the Theatre of Blood." },
+        { text: "Talk to Safalaan in the Myreque Hideout under Old Man Ral's house in southern Meiyerditch." },
+        { text: "Return to the Theatre of Blood entrance in Ver Sinhaza." },
       ],
     },
     {
@@ -46,7 +46,7 @@ export const aTasteOfHope: QuestWalkthrough = {
     {
       title: "The myth of Serafina",
       steps: [
-        { text: "Return to Safalaan and talk to Flaygian Screwte." },
+        { text: "Return to Safalaan in the Myreque Hideout and talk to Flaygian Screwte there." },
         { text: "Travel to Serafina's basement house in Meiyerditch." },
         { text: "Collect mysterious meat, herb, vial, and pestle/mortar from the basement." },
         { text: "Make a potion using the vial of water; use it on the locked door." },
@@ -73,14 +73,14 @@ export const aTasteOfHope: QuestWalkthrough = {
           text: "Manage his two summoned helpers and the final berserk phase.",
           notes: ["Eat through his special hits; the flail does massive damage to him."],
         },
-        { text: "Talk to Kael after victory." },
+        { text: "Talk to Kael Forshaw at the Theatre of Blood entrance after victory." },
       ],
     },
     {
       title: "Finish the quest",
       steps: [
         { text: "Return to the Myreque Hideout under Old Man Ral's house." },
-        { text: "Talk to Safalaan to finish the quest." },
+        { text: "Talk to Safalaan in the Myreque Hideout under Old Man Ral's house to finish the quest." },
         { text: "Quest complete." },
       ],
     },

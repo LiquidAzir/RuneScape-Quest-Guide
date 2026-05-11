@@ -29,7 +29,7 @@ export const enlightenedJourney: QuestWalkthrough = {
       steps: [
         { text: "Leave Entrana to gather tinderbox + 10 logs + 12 willow branches." },
         { text: "Return and attach the willow branches to the balloon frame." },
-        { text: "Talk to Auguste to proceed." },
+        { text: "Talk to Auguste on Entrana, north of the Herblore shop to proceed." },
       ],
     },
     {
@@ -49,7 +49,7 @@ export const enlightenedJourney: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Auguste." },
+        { text: "Talk to Auguste on Entrana, north of the Herblore shop." },
         { text: "Quest complete." },
       ],
     },

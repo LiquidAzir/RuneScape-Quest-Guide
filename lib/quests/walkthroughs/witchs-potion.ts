@@ -42,8 +42,8 @@ export const witchsPotion: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Hetty with all four ingredients in your inventory." },
-        { text: "Talk to her — she brews the potion and asks you to drink it." },
+        { text: "Return to Hetty's house in Rimmington with all four ingredients in your inventory." },
+        { text: "Talk to Hetty in her Rimmington house — she brews the potion and asks you to drink it." },
         { text: "Drink the potion when prompted." },
         { text: "Quest complete." },
       ],

@@ -30,7 +30,7 @@ export const swanSong: QuestWalkthrough = {
       steps: [
         { text: "Talk to Herman Caranos at Piscatoris Fishing Colony." },
         { text: "Travel to Draynor Village and talk to the Wise Old Man." },
-        { text: "Return to Piscatoris and talk to the Wise Old Man at the colony." },
+        { text: "Return to Piscatoris Fishing Colony and talk to the Wise Old Man inside the colony." },
       ],
     },
     {
@@ -61,18 +61,18 @@ export const swanSong: QuestWalkthrough = {
         { text: "Talk to Malignius Mortifer south of Falador." },
         { text: "Talk to the Master Crafter in the Crafting Guild." },
         { text: "Make an airtight pot from soft clay (combine pot + pot lid + fire/pottery oven)." },
-        { text: "Return to Malignius Mortifer to teleport back to the colony." },
+        { text: "Return to Malignius Mortifer south of Falador to teleport back to the colony." },
       ],
     },
     {
       title: "Defeat the Sea Troll Queen",
       steps: [
-        { text: "Talk to Herman to start the fight." },
+        { text: "Talk to Herman inside the eastern building to start the fight." },
         {
           text: "Defeat the Sea Troll Queen (level 170).",
           notes: ["Use prayer potions and high-tier food. Magic works well."],
         },
-        { text: "Talk to Herman to finish." },
+        { text: "Talk to Herman inside the eastern building to finish." },
         { text: "Quest complete." },
       ],
     },

@@ -42,7 +42,7 @@ export const theQueenOfThieves: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Tomas Lawry with the letter." },
+        { text: "Return to Tomas Lawry outside the Port Piscarilius bank with the letter." },
         { text: "Return to the Queen of Thieves (Lady Shauna Piscarilius)." },
         { text: "Quest complete." },
       ],

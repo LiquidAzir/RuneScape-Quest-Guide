@@ -56,7 +56,7 @@ export const junglePotion: QuestWalkthrough = {
         { text: "Return to the Harpie Bug Swarm area; head north-west to the cave." },
         { text: "Enter the cave and travel south." },
         { text: "Search the fungus-covered cavern wall and clean the herb." },
-        { text: "Return to Trufitus." },
+        { text: "Return to Trufitus in his house in Tai Bwo Wannai Village." },
         { text: "Quest complete." },
       ],
     },

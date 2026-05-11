@@ -13,7 +13,7 @@ export const piratesTreasure: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Port Sarim and enter the Rusty Anchor Inn." },
-        { text: "Talk to Redbeard Frank. He wants a bottle of Karamja rum from the island." },
+        { text: "Talk to Redbeard Frank in the Port Sarim pub. He wants a bottle of Karamja rum from the island." },
       ],
     },
     {
@@ -26,7 +26,7 @@ export const piratesTreasure: QuestWalkthrough = {
         },
         { text: "Talk to Luthas at the plantation hut and agree to fill a crate with bananas for him." },
         { text: "Pick bananas and put them in the crate. Hide the rum in the crate before the last banana." },
-        { text: "Talk to Luthas to claim your pay." },
+        { text: "Talk to Luthas at the Karamja plantation hut to claim your pay." },
         { text: "Sail back to Port Sarim." },
       ],
     },
@@ -35,7 +35,7 @@ export const piratesTreasure: QuestWalkthrough = {
       steps: [
         { text: "Talk to Wydin in his food shop in Port Sarim and ask for a job." },
         { text: "Enter the back room of the shop and search the crate to recover your hidden rum." },
-        { text: "Return to Redbeard Frank and give him the Karamja rum." },
+        { text: "Return to Redbeard Frank in the Port Sarim pub and give him the Karamja rum." },
         { text: "He gives you the key to a chest containing a treasure map." },
       ],
     },

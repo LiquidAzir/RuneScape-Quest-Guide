@@ -128,7 +128,7 @@ export const dragonSlayerII: QuestWalkthrough = {
             "Use range-tank gear; bring your absolute best food.",
           ],
         },
-        { text: "Return to Alec Kincade to finish." },
+        { text: "Return to Alec Kincade outside the Myths' Guild (south-west of Brimhaven peninsula) to finish." },
         { text: "Quest complete." },
       ],
     },

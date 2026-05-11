@@ -38,7 +38,7 @@ export const aKingdomDivided: QuestWalkthrough = {
         { text: "Talk to Commander Fullore after the cutscene; return to Martin Holt." },
         { text: "Teleport to Arceuus Library and pickpocket Istoria for a Bluish key." },
         { text: "Search the pink case for Rose's diary." },
-        { text: "Return to Martin Holt with the diary." },
+        { text: "Return to Martin Holt at Kourend Castle entrance in Kingstown with the diary." },
       ],
     },
     {

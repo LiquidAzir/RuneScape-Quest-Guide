@@ -14,7 +14,7 @@ export const clientOfKourend: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Sail with Veos from Port Sarim northern dock to Port Piscarilius." },
-        { text: "Talk to Veos and pick options 4 then 1." },
+        { text: "Talk to Veos at Port Piscarilius (sail from Port Sarim's northern dock) and pick options 4 then 1." },
         { text: "Receive the enchanted scroll." },
         { text: "Use a feather on the scroll to make an enchanted quill." },
       ],
@@ -37,7 +37,7 @@ export const clientOfKourend: QuestWalkthrough = {
           text: "Travel to the Dark Altar in Arceuus (Games necklace to Wintertodt then south-east, or fairy ring CIS).",
         },
         { text: "Activate the mysterious orb near the altar." },
-        { text: "Return to Veos and pick option 4." },
+        { text: "Return to Veos at Port Piscarilius (sail from Port Sarim's northern dock) and pick option 4." },
         { text: "Quest complete." },
       ],
     },

@@ -35,7 +35,7 @@ export const sleepingGiants: QuestWalkthrough = {
         { text: "Cool in the waterfall until high green." },
         { text: "Use the grindstone until green progress." },
         { text: "Polish with the polishing wheel until complete." },
-        { text: "Talk to Kovac to finish." },
+        { text: "Talk to Kovac at the Giants' Foundry and accept the quest to finish." },
         { text: "Quest complete." },
       ],
     },

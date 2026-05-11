@@ -28,7 +28,7 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
     {
       title: "Scout Harmony Island",
       steps: [
-        { text: "Talk to Brother Tranquility and complete the dialogue." },
+        { text: "Talk to Brother Tranquility on Mos Le'Harmless near the dock and complete the dialogue." },
         { text: "Head north, pull the statue, climb down." },
         { text: "Equip diving gear and descend underwater." },
         { text: "Repair the stairs and climb up." },
@@ -42,9 +42,9 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
         { text: "Go to Edgeville Monastery; search the SW bookcase for the prayer book." },
         { text: "Read the book." },
         { text: "Equip a holy symbol and return to Mos Le'Harmless." },
-        { text: "Talk to Brother Tranquility to return to Harmony Island." },
+        { text: "Talk to Brother Tranquility on Mos Le'Harmless near the dock to return to Harmony Island." },
         { text: "Right-click the book and recite the prayer in the windmill." },
-        { text: "Talk to Brother Tranquility." },
+        { text: "Talk to Brother Tranquility on Mos Le'Harmless near the dock." },
       ],
     },
     {
@@ -63,7 +63,7 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
       title: "Make medical transplants",
       steps: [
         { text: "Return to Harmony Island and enter the windmill basement." },
-        { text: "Talk to Dr Fenkenstrain." },
+        { text: "Talk to Dr Fenkenstrain in his castle jail (top floor)." },
         { text: "Go north to the shipwreck (in diving gear)." },
         { text: "Search the locker for fuse; climb the ladder for tinderbox + keg." },
         { text: "Go south to the monastery; use keg + fuse on the door; light the fuse." },
@@ -77,7 +77,7 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
         { text: "Confront Mi-Gor at the monastery to fight Barrelchest." },
         { text: "Wear underwater breathing gear during the fight." },
         { text: "Re-enable prayer after each hit to avoid drain damage (or safespot from the entrance)." },
-        { text: "Talk to Brother Tranquility to finish." },
+        { text: "Talk to Brother Tranquility on Mos Le'Harmless near the dock to finish." },
         { text: "Quest complete." },
       ],
     },

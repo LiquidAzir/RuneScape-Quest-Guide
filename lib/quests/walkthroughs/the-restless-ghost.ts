@@ -11,7 +11,7 @@ export const theRestlessGhost: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Enter the Lumbridge church, just east of Lumbridge Castle." },
-        { text: "Talk to Father Aereck. He'll mention a ghost in the graveyard." },
+        { text: "Talk to Father Aereck in the Lumbridge church (east side of Lumbridge Castle). He'll mention a ghost in the graveyard." },
         { text: "Agree to help him deal with it." },
         { text: "He directs you to Father Urhney." },
       ],
@@ -31,7 +31,7 @@ export const theRestlessGhost: QuestWalkthrough = {
       title: "Find and return the ghost's skull",
       steps: [
         { text: "Return to the Lumbridge church graveyard and search the coffin near the ghost." },
-        { text: "Talk to the ghost (with the amulet equipped). He says his skull is missing." },
+        { text: "Talk to the ghost in Lumbridge graveyard (with the amulet equipped). He says his skull is missing." },
         {
           text: "Travel to the Wizards' Tower, south-west of Lumbridge across the river.",
           notes: ["Cross the bridge south of Draynor or use the south-west exit out of Lumbridge."],
@@ -47,7 +47,7 @@ export const theRestlessGhost: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to the ghost one final time to free his spirit." },
+        { text: "Talk to the ghost in Lumbridge graveyard one final time to free his spirit." },
         { text: "Quest complete." },
       ],
     },

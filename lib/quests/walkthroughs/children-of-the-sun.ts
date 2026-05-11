@@ -30,7 +30,7 @@ export const childrenOfTheSun: QuestWalkthrough = {
     {
       title: "Identify the bandits",
       steps: [
-        { text: "Return to Varrock Square and talk to Sergeant Tobyn by the castle wall." },
+        { text: "Return to Varrock Square by the castle wall and talk to Sergeant Tobyn by the castle wall." },
         {
           text: "Identify the 4 bandits dressed as guards by their tells:",
           notes: [

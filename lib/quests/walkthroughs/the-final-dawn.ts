@@ -26,7 +26,7 @@ export const theFinalDawn: QuestWalkthrough = {
     {
       title: "Infiltrate the Twilight Temple",
       steps: [
-        { text: "Talk to Servius and confirm." },
+        { text: "Talk to Servius at the Sunrise Palace ground floor and confirm." },
         { text: "Get emissary robes from the Tower of Ascension chest if needed." },
         { text: "Enter the Twilight Temple wearing the robes." },
         { text: "Use the passcode 'Final Dawn' for basement access." },
@@ -67,7 +67,7 @@ export const theFinalDawn: QuestWalkthrough = {
         { text: "Drink the beer at the southern barrel; place the glass." },
         { text: "Pull the hidden lever at the fireplace." },
         { text: "Climb through the wall hole (cutscene)." },
-        { text: "Talk to Servius and Attala." },
+        { text: "Talk to Servius on the Sunrise Palace ground floor, then talk to Attala there." },
       ],
     },
     {

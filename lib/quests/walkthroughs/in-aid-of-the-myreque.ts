@@ -37,7 +37,7 @@ export const inAidOfTheMyreque: QuestWalkthrough = {
       title: "Travel to Burgh de Rott",
       steps: [
         { text: "Descend the trapdoor behind the Canifis pub and enter the Myreque cave." },
-        { text: "Talk to Veliaf Hurtz and accept his next assignment." },
+        { text: "Talk to Veliaf Hurtz in the cave hideout under the Hair of the Dog tavern in Canifis and accept his next assignment." },
         { text: "Travel south to Burgh de Rott (long walk through swamp)." },
       ],
     },
@@ -49,7 +49,7 @@ export const inAidOfTheMyreque: QuestWalkthrough = {
         { text: "Enter the pub, climb the broken wall, mine the rubble blocking a trapdoor." },
         { text: "Mine the remaining rubble in the basement and pick up fragments + scroll." },
         { text: "Use a spade to fill buckets with rubble; dump them on the pile outside." },
-        { text: "Talk to Razvan again." },
+        { text: "Talk to Razvan again near the pub." },
         { text: "Talk to Aurel at the general store." },
         { text: "Repair the store roof (3 planks + 12 nails) and the wall (3 planks + 12 nails)." },
         { text: "Aurel gives you a crate — add 10 bronze axes, 10 mackerel/snails, 3 tinderboxes." },
@@ -59,12 +59,12 @@ export const inAidOfTheMyreque: QuestWalkthrough = {
     {
       title: "Defend the village",
       steps: [
-        { text: "Talk to Razvan." },
+        { text: "Talk to Razvan near the pub." },
         { text: "Repair the furnace using steel bars + coal + tinderbox." },
         { text: "Talk to Gadderanks in the general store." },
         { text: "Defeat Gadderanks and 2 Vampyre Juvinates with silver weapons." },
         { text: "Talk to Gadderanks again after the fight." },
-        { text: "Talk to Veliaf Hurtz." },
+        { text: "Talk to Veliaf Hurtz in the cave hideout under the Hair of the Dog tavern in Canifis." },
       ],
     },
     {

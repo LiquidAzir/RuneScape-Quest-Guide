@@ -13,7 +13,7 @@ export const wanted: QuestWalkthrough = {
     {
       title: "Become a recruit",
       steps: [
-        { text: "Talk to Sir Tiffy Cashien." },
+        { text: "Talk to Sir Tiffy Cashien in Falador Park." },
         { text: "Talk to Sir Amik Varze on the 2nd floor of the White Knights' Castle." },
         { text: "Return to Tiffy, then back to Amik, then to Tiffy again." },
         { text: "Buy or craft the Commorb." },

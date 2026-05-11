@@ -35,7 +35,7 @@ export const songOfTheElves: QuestWalkthrough = {
     {
       title: "Free Elena from the castle",
       steps: [
-        { text: "Talk to Edmond and accept the quest." },
+        { text: "Talk to Edmond at his home in East Ardougne, north of the Flying Horse Inn (after Mourning's End Part II and Making Friends with My Arm) and accept the quest." },
         { text: "Talk to King Lathas in Ardougne Castle." },
         { text: "Dye the steel helm red; have Alrena make a tabard with purple dye + silk; combine with the steel platebody." },
         { text: "Wear Ardougne knight armour, go to the castle basement, talk to Elena." },

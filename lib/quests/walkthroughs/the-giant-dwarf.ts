@@ -55,7 +55,7 @@ export const theGiantDwarf: QuestWalkthrough = {
         { text: "Deliver metal bars to the director for additional points (need 100 total)." },
         { text: "Complete bar delivery tasks for the director." },
         { text: "Join the company and confirm." },
-        { text: "Return to Commander Veldaban." },
+        { text: "Return to Commander Veldaban in Keldagrim." },
         { text: "Quest complete." },
       ],
     },

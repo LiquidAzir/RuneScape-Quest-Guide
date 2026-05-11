@@ -45,7 +45,7 @@ export const creatureOfFenkenstrain: QuestWalkthrough = {
     {
       title: "Build the lightning conductor",
       steps: [
-        { text: "Return to Dr Fenkenstrain with all the body parts." },
+        { text: "Return to Dr Fenkenstrain in Fenkenstrain's Castle with all the body parts." },
         { text: "Give him the needle and thread." },
         { text: "Equip your ghostspeak amulet and talk to the Gardener Ghost outside for the shed key." },
         { text: "Search the cupboard in the shed for the garden brush." },
@@ -59,7 +59,7 @@ export const creatureOfFenkenstrain: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Dr Fenkenstrain." },
+        { text: "Talk to Dr Fenkenstrain in the castle and agree to help." },
         { text: "Climb upstairs through the metal door, then up the northern ladder." },
         { text: "Talk to Fenkenstrain's monster." },
         { text: "Return downstairs and pickpocket the doctor for a Ring of Charos." },

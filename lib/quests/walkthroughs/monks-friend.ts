@@ -8,7 +8,7 @@ export const monksFriend: QuestWalkthrough = {
     {
       title: "Retrieve the blanket",
       steps: [
-        { text: "Talk to Brother Omad." },
+        { text: "Talk to Brother Omad at the Ardougne Monastery south of East Ardougne." },
         { text: "Travel west to the stone circle near the Clock Tower." },
         { text: "Enter the circle and descend the ladder." },
         { text: "Follow the south path and pick up the Child's blanket." },
@@ -17,11 +17,11 @@ export const monksFriend: QuestWalkthrough = {
     {
       title: "Help organise Brother Cedric's party",
       steps: [
-        { text: "Return to Brother Omad and talk twice." },
+        { text: "Return to Brother Omad at the Ardougne Monastery south of East Ardougne and talk twice." },
         { text: "Travel north to Brother Cedric near Ardougne Zoo." },
         { text: "Give him a jug of water." },
         { text: "Give him logs (or a plank) on the next interaction." },
-        { text: "Return to Brother Omad." },
+        { text: "Return to Brother Omad at the Ardougne Monastery south of East Ardougne." },
         { text: "Quest complete." },
       ],
     },

@@ -28,7 +28,7 @@ export const beneathCursedSands: QuestWalkthrough = {
     {
       title: "Entranced Menaphites",
       steps: [
-        { text: "Talk to Jamila to receive a message." },
+        { text: "Talk to Jamila at her stall in Sophanem to receive a message." },
         { text: "Travel east of Sophanem to the campsite north of the mining site." },
         { text: "Talk to Maisa at the camp." },
         { text: "Inspect the blocked entry at the Jaltevas Pyramid." },

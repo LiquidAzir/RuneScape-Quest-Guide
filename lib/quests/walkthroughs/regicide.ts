@@ -28,7 +28,7 @@ export const regicide: QuestWalkthrough = {
     {
       title: "Through the Underground Pass again",
       steps: [
-        { text: "Talk to King Lathas." },
+        { text: "Talk to King Lathas on the first floor of Ardougne Castle (after Underground Pass)." },
         { text: "Navigate the Underground Pass with bow + arrows." },
         { text: "Use cloth-lit arrows to open the gate." },
         { text: "Cross gaps with rope; pull the lever; search the odd markings." },
@@ -45,7 +45,7 @@ export const regicide: QuestWalkthrough = {
         { text: "Jump the leaves trap, pass the sticks trap, reach the Iorwerth Camp." },
         { text: "Talk to Lord Iorwerth." },
         { text: "Follow the map to the Elf Tracker." },
-        { text: "Talk to him twice; collect the crystal pendant from Iorwerth." },
+        { text: "Talk to Lord Iorwerth at the Elf Camp twice; collect the crystal pendant from him." },
         { text: "Follow the tracks north-west of the blue mushrooms." },
         { text: "Defeat the Tyras Guard (level 110) — safespot available." },
         { text: "Reach General Hining's camp; collect 2-3 barrels." },

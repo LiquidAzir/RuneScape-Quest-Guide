@@ -27,7 +27,7 @@ export const bigChompyBirdHunting: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Rantz's cave in eastern Feldip Hills (fairy ring AKS)." },
-        { text: "Talk to him and agree to help hunt big chompy birds." },
+        { text: "Talk to Rantz at his cave in eastern Feldip Hills and agree to help hunt big chompy birds." },
       ],
     },
     {
@@ -56,13 +56,13 @@ export const bigChompyBirdHunting: QuestWalkthrough = {
     {
       title: "Hunt and kill a chompy",
       steps: [
-        { text: "Talk to Rantz to set up the hunt." },
+        { text: "Talk to Rantz in his cave far east of Feldip Hills (fairy ring AKS) to set up the hunt." },
         { text: "Drop a bloated toad in the clearing where Rantz's arrow points." },
         { text: "Wait for the toad to burst and the chompy bird to appear." },
         { text: "Tell Rantz you'll take the kill yourself." },
         { text: "Kill the chompy with your ogre bow + ogre arrows." },
         { text: "Pluck the carcass for raw chompy meat." },
-        { text: "Talk to Rantz." },
+        { text: "Talk to Rantz in his cave far east of Feldip Hills (fairy ring AKS)." },
       ],
     },
     {
@@ -71,7 +71,7 @@ export const bigChompyBirdHunting: QuestWalkthrough = {
         { text: "Return to the cave and ask Fycie and Bugs about seasoning." },
         { text: "Gather the four seasoning ingredients (cabbage, tomato, onion, potato) and equa + doogle leaves." },
         { text: "Use the raw chompy on the spit-roast outside the cave." },
-        { text: "Talk to Rantz to finish." },
+        { text: "Talk to Rantz in his cave far east of Feldip Hills (fairy ring AKS) to finish." },
         { text: "Quest complete." },
       ],
     },

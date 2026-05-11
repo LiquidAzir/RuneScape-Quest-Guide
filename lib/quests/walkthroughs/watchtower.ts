@@ -48,7 +48,7 @@ export const watchtower: QuestWalkthrough = {
         { text: "Talk to Toban with dragon bones — get Relic part 3." },
         { text: "Take Toban's gold from the chest." },
         { text: "Pick jangerberries on the island." },
-        { text: "Talk to Og again." },
+        { text: "Talk to Og again north-west of Yanille — he gives you Toban's key." },
         { text: "Return to the Watchtower Wizard — he assembles the ogre relic." },
       ],
     },

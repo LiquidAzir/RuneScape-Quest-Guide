@@ -50,7 +50,7 @@ export const anotherSliceOfHAM: QuestWalkthrough = {
         { text: "Talk to General Wartface or Bentnoze to start the cutscene." },
         { text: "Run south to the ladder, staying west of the houses." },
         { text: "Kill the H.A.M. Mage and Archer using magic or ranged ONLY." },
-        { text: "Talk to the general — receive the Ancient mace and goblin warriors." },
+        { text: "Talk to General Wartface or Bentnoze in Goblin Village to receive the Ancient mace and goblin warriors." },
       ],
     },
     {

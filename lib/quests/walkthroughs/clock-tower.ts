@@ -12,7 +12,7 @@ export const clockTower: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Brother Kojo." },
+        { text: "Talk to Brother Kojo in the Clock Tower south of East Ardougne." },
         { text: "Descend the middle ladder." },
         { text: "Follow the path to the hub with four doors." },
       ],
@@ -62,7 +62,7 @@ export const clockTower: QuestWalkthrough = {
     {
       title: "Finish",
       steps: [
-        { text: "Talk to Brother Kojo." },
+        { text: "Talk to Brother Kojo in the Clock Tower south of East Ardougne." },
         { text: "Quest complete." },
       ],
     },

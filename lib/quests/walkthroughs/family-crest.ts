@@ -22,7 +22,7 @@ export const familyCrest: QuestWalkthrough = {
       steps: [
         { text: "Talk to Dimintheis in south-east Varrock — he wants his family crest reassembled from his three sons." },
         { text: "Travel to Catherby and give the cooked fish to Caleb." },
-        { text: "Talk to him about the remaining crest parts — he gives you his piece." },
+        { text: "Talk to Caleb in Catherby about the remaining crest parts — he gives you his piece." },
         { text: "Travel to the Al Kharid Gem Trader and talk to him." },
         { text: "Find Avan at the scorpion mining pit north of the Gem Trader." },
       ],

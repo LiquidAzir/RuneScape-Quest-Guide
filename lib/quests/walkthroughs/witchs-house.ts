@@ -15,7 +15,7 @@ export const witchsHouse: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Taverley (west of Falador) and find the boy near the eastern gate." },
-        { text: "Talk to him. He's lost his ball over the Witch's garden wall — agree to retrieve it." },
+        { text: "Talk to the boy outside Taverley's eastern gate. He's lost his ball over the Witch's garden wall — agree to retrieve it." },
       ],
     },
     {

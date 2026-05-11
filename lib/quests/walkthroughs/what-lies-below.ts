@@ -46,7 +46,7 @@ export const whatLiesBelow: QuestWalkthrough = {
         { text: "Meet Zaff and report back." },
         { text: "Reduce King Roald to 2 HP or less." },
         { text: "Operate the Beacon ring to summon Zaff." },
-        { text: "Talk to Rat Burgiss." },
+        { text: "Talk to Rat Burgiss south of Varrock." },
         { text: "Quest complete." },
       ],
     },

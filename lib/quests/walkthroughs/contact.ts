@@ -52,7 +52,7 @@ export const contact: QuestWalkthrough = {
         { text: "Read the parchment you find." },
         { text: "Talk to Maisa west of the dungeon (option 2 or 3)." },
         { text: "Talk to Osman at Al Kharid Palace (option 2 or 3)." },
-        { text: "Return to Sophanem and talk to Osman outside the gates (option 3)." },
+        { text: "Return to Sophanem's north gate and talk to Osman outside the gate (option 3)." },
       ],
     },
     {
@@ -65,14 +65,14 @@ export const contact: QuestWalkthrough = {
           notes: ["Scarab Mages and Locust riders spawn during the fight — kill or run from them."],
         },
         { text: "Defeat the boss." },
-        { text: "Talk to Osman." },
+        { text: "Talk to Osman at Al Kharid Palace (option 2 or 3)." },
       ],
     },
     {
       title: "Finish the quest",
       steps: [
         { text: "Pick up the Keris dagger (drops from the boss; needed for Desert Hard Diary)." },
-        { text: "Return to Sophanem and talk to the High Priest." },
+        { text: "Return to Sophanem outside the gates (option 3) and talk to the High Priest." },
         { text: "Quest complete." },
       ],
     },

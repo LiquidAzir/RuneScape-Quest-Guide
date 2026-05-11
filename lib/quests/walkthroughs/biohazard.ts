@@ -37,14 +37,14 @@ export const biohazard: QuestWalkthrough = {
         { text: "Equip the medical gown and enter the headquarters." },
         { text: "Climb upstairs and kill a mourner (level 13). Pick up the mourner's key." },
         { text: "Use the key on the gate, then search the third crate from the left for the distillator." },
-        { text: "Return to Elena with the distillator." },
+        { text: "Return to Elena in her house in East Ardougne (after Plague City) with the distillator." },
       ],
     },
     {
       title: "Get the chemicals",
       steps: [
         { text: "Travel to the Chemist in Rimmington (south-west of Falador)." },
-        { text: "Talk to him to get touch paper, then ethenea, liquid honey, and sulphuric broline (three vials)." },
+        { text: "Talk to the Chemist in Rimmington to get touch paper, ethenea, liquid honey, and sulphuric broline (three vials)." },
         {
           text: "Hand each vial to one of his three friends to smuggle into Varrock:",
           notes: [

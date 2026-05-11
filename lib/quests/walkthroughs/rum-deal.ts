@@ -17,19 +17,19 @@ export const rumDeal: QuestWalkthrough = {
     {
       title: "Plant blindweed",
       steps: [
-        { text: "Get a rake and seed dibber from the leprechaun." },
-        { text: "Talk to Pirate Pete; decline his money." },
-        { text: "Finish the dialogue with Captain Braindeath." },
+        { text: "Get a rake and seed dibber from the Tool Leprechaun beside the blindweed patch on Braindeath Island." },
+        { text: "Talk to Pirate Pete at the Braindeath Island dock; decline his money." },
+        { text: "Finish the dialogue with Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Plant blindweed in the south-east patch." },
         { text: "Wait ~5 minutes for it to grow." },
-        { text: "Pick the blindweed and talk to Captain Braindeath." },
+        { text: "Pick the blindweed and talk to Captain Braindeath inside the brewery." },
         { text: "Place the blindweed in the hopper." },
       ],
     },
     {
       title: "Stagnant water",
       steps: [
-        { text: "Talk to Captain Braindeath." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Head west to the bridge; open the gate north of 50% Luke." },
         { text: "Fill the bucket at the water source." },
         { text: "Return and add the water to the hopper." },
@@ -38,7 +38,7 @@ export const rumDeal: QuestWalkthrough = {
     {
       title: "Fish sluglings",
       steps: [
-        { text: "Talk to Captain Braindeath." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Fish 5 sluglings near the farming patch." },
         { text: "Place the sluglings in the pressure barrel." },
         { text: "Pull the lever." },
@@ -47,7 +47,7 @@ export const rumDeal: QuestWalkthrough = {
     {
       title: "Defeat the Evil Spirit",
       steps: [
-        { text: "Talk to Captain Braindeath." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Talk to Davey in the bunk bed room." },
         { text: "Use the holy wrench on the brewing control." },
         { text: "Defeat the Evil Spirit (level 150) — safespot if needed." },
@@ -56,7 +56,7 @@ export const rumDeal: QuestWalkthrough = {
     {
       title: "Spider carcass",
       steps: [
-        { text: "Talk to Captain Braindeath." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Climb down the ladder." },
         { text: "Kill a Fever Spider (wear a spiny helm)." },
         { text: "Place the body in the hopper." },
@@ -65,10 +65,10 @@ export const rumDeal: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Captain Braindeath." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery." },
         { text: "Collect Unsanitary Swill from the output tap." },
         { text: "Give it to Captain Donnie outside." },
-        { text: "Talk to Captain Braindeath one final time." },
+        { text: "Talk to Captain Braindeath inside the Braindeath Island brewery one final time." },
         { text: "Quest complete." },
       ],
     },

@@ -12,7 +12,7 @@ export const gertrudesCat: QuestWalkthrough = {
     {
       title: "Make the seasoned sardine",
       steps: [
-        { text: "Talk to Gertrude and agree to help." },
+        { text: "Talk to Gertrude at her house, west of Varrock and agree to help." },
         { text: "Pick doogle leaves behind her house." },
         { text: "Use the doogle leaves on a raw sardine to make a seasoned sardine." },
       ],
@@ -38,7 +38,7 @@ export const gertrudesCat: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Use the kitten on Gertrude's cat upstairs." },
-        { text: "Return to Gertrude." },
+        { text: "Return to Gertrude at her house, west of Varrock." },
         { text: "Quest complete." },
       ],
     },

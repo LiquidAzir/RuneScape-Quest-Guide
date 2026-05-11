@@ -62,7 +62,7 @@ export const darknessOfHallowvale: QuestWalkthrough = {
         { text: "Search the bush south-west of the temple steps." },
         { text: "Drezel gives you Varrock Teleport runes." },
         { text: "Teleport to Varrock and talk to King Roald in the palace." },
-        { text: "Return to Veliaf." },
+        { text: "Return to Veliaf in the Burgh de Rott pub basement." },
       ],
     },
     {

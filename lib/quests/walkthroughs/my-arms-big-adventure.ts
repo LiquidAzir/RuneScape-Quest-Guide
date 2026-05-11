@@ -26,7 +26,7 @@ export const myArmsBigAdventure: QuestWalkthrough = {
       title: "Help My Arm",
       steps: [
         { text: "Travel to the Troll Stronghold kitchen." },
-        { text: "Talk to Burntmeat." },
+        { text: "Talk to Burntmeat in the Troll Stronghold kitchen." },
         { text: "Talk to My Arm (east of Burntmeat)." },
       ],
     },
@@ -55,7 +55,7 @@ export const myArmsBigAdventure: QuestWalkthrough = {
         { text: "Climb to the Troll Stronghold roof." },
         { text: "Provide farming tools to My Arm." },
         { text: "Defeat Baby Roc and Giant Roc." },
-        { text: "Return to Burntmeat with the final spade." },
+        { text: "Return to Burntmeat in the Troll Stronghold kitchen with the final spade." },
         { text: "Quest complete." },
       ],
     },

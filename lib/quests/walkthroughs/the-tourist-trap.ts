@@ -84,7 +84,7 @@ export const theTouristTrap: QuestWalkthrough = {
         { text: "Place Ana on the wooden cart at the camp centre." },
         { text: "Give the requested jokes to the cart driver." },
         { text: "Board the escape cart." },
-        { text: "Return to Irena." },
+        { text: "Return to Irena south of Shantay Pass (Al Kharid)." },
         { text: "Quest complete." },
       ],
     },

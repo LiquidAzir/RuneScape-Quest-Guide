@@ -24,7 +24,7 @@ export const mountainDaughter: QuestWalkthrough = {
       steps: [
         { text: "Walk north-east from Rellekka to the Mountain Camp entrance." },
         { text: "Use a rope on the boulder blocking the path to climb in." },
-        { text: "Talk to Hamal the Chieftain. Agree to help find his daughter." },
+        { text: "Talk to Hamal the Chieftain in the Mountain Camp east of Rellekka. Agree to help find his daughter." },
       ],
     },
     {

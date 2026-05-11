@@ -9,7 +9,7 @@ export const romeoAndJuliet: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Varrock and find Romeo wandering the central square." },
-        { text: "Talk to Romeo. Agree to help him find Juliet." },
+        { text: "Talk to Romeo in Varrock central square. Agree to help him find Juliet." },
       ],
     },
     {
@@ -21,7 +21,7 @@ export const romeoAndJuliet: QuestWalkthrough = {
         },
         { text: "Climb the ladder upstairs and talk to Juliet." },
         { text: "She gives you a message for Romeo. Take it." },
-        { text: "Return to Romeo and give him the message." },
+        { text: "Return to Romeo in Varrock central square and give him the message." },
       ],
     },
     {

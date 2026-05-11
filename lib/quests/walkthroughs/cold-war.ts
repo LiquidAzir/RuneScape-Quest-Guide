@@ -75,7 +75,7 @@ export const coldWar: QuestWalkthrough = {
         { text: "Use the control panel to access the war room." },
         { text: "Defeat the icicle-wielding Icelord." },
         { text: "Exit via the western door and return to the surface." },
-        { text: "Talk to Larry to finish the quest." },
+        { text: "Talk to Larry at Ardougne Zoo (near the penguin enclosure) to finish the quest." },
         { text: "Quest complete." },
       ],
     },

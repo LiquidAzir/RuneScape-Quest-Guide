@@ -28,8 +28,8 @@ export const olafsQuest: QuestWalkthrough = {
         { text: "Bring the logs back to Olaf." },
         { text: "Travel to Rellekka and talk to Ingrid Hradson by the well." },
         { text: "Talk to Volf Olafson outside the helmet shop." },
-        { text: "Return to Olaf and use the damp planks on his fire pit." },
-        { text: "Talk to Olaf again." },
+        { text: "Return to Olaf at his camp west of fairy ring DKS and use the damp planks on his fire pit." },
+        { text: "Talk to Olaf again at his camp west of fairy ring DKS." },
       ],
     },
     {

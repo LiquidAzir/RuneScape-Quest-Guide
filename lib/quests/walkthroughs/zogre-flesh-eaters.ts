@@ -71,7 +71,7 @@ export const zogreFleshEaters: QuestWalkthrough = {
         { text: "Go through the two sets of doors and down the stairs." },
         { text: "Search the stand and defeat Slash Bash (level 111)." },
         { text: "Collect Zogre bones and an Ogre artefact." },
-        { text: "Return to Grish to complete the quest." },
+        { text: "Return to Grish in Jiggig (south of Castle Wars) to complete the quest." },
         { text: "Quest complete." },
       ],
     },

@@ -46,7 +46,7 @@ export const druidicRitual: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to Kaqemeex at the Taverley stone circle." },
-        { text: "Talk to him to finish the quest." },
+        { text: "Talk to Kaqemeex at the Taverley stone circle to finish the quest." },
         { text: "Quest complete." },
       ],
     },

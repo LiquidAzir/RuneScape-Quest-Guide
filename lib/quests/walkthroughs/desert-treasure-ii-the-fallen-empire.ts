@@ -29,7 +29,7 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "Familiar faces",
       steps: [
         { text: "Enter the Ancient Vault and inspect the statues + plaque." },
-        { text: "Talk to Asgarnia Smith." },
+        { text: "Talk to Asgarnia Smith near the Ancient Vault north-east of Nardah (after Beneath Cursed Sands and Secrets of the North)." },
         { text: "Visit the Exam Centre and talk to Terry Balando." },
         { text: "Operate the winch at the Digsite." },
         { text: "Talk to Dr Banikan and mine the rocks when ready." },

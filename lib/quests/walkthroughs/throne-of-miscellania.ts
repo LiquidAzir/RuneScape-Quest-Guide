@@ -31,7 +31,7 @@ export const throneOfMiscellania: QuestWalkthrough = {
       title: "Get the treaty",
       steps: [
         { text: "Talk to Queen Sigrid in the east castle." },
-        { text: "Return to King Vargas." },
+        { text: "Return to King Vargas in Miscellania Castle (longboat from Rellekka or fairy ring CIP)." },
         { text: "Talk to the Queen again." },
         { text: "Get the Awful anthem from Prince Brand." },
         { text: "Give the anthem to Advisor Ghrim — he turns it into the Good anthem." },
