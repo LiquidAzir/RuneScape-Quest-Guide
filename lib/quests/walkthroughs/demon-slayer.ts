@@ -1,56 +1,74 @@
 import type { QuestWalkthrough } from "../types";
 
 export const demonSlayer: QuestWalkthrough = {
-  startPoint: "Talk to Aris in the small fortune-teller's tent in Varrock central square.",
-  itemsRequired: ["Bucket of water", "A bell (drops from a Wizards' Tower wizard)"],
+  startPoint:
+    "Talk to Aris in the small fortune-teller's tent in Varrock central square (the small striped tent in the middle of the square, between the fountain and the market stalls).",
+  itemsRequired: [
+    "Bucket of water",
+    "25 bones (any normal bones — kill cows, chickens, or rats)",
+  ],
   recommended: [
-    "Decent armour and a weapon — Delrith is level 27 and you must beat him with the Silverlight sword",
+    "Decent armour and a melee weapon — Delrith is level 27 and you must finish him with the Silverlight sword",
     "Food, especially at low combat levels",
   ],
-  enemies: ["Delrith (level 27 demon)"],
+  enemies: ["Delrith (level 27 demon) — fought at the stone circle south of Varrock"],
   sections: [
     {
       title: "Start the quest",
       steps: [
-        { text: "Find Aris's tent in Varrock central square and talk to her." },
-        { text: "She tells you the demon Delrith is returning and you must kill him with Silverlight." },
-        { text: "Travel to Sir Prysin in Varrock Palace and talk to him." },
-        { text: "Sir Prysin explains he hid the three Silverlight keys in different places." },
+        {
+          text: "Travel to Varrock central square and find Aris's small striped fortune-teller tent in the middle of the square. Talk to Aris inside.",
+        },
+        {
+          text: "She tells you the demon Delrith is returning and only Silverlight can banish him.",
+        },
+        {
+          text: "Walk north to Varrock Palace (north side of the central square). Find Sir Prysin on the ground floor of the palace courtyard. Talk to him.",
+        },
+        {
+          text: "Sir Prysin explains he hid the three Silverlight keys in different places.",
+        },
       ],
     },
     {
       title: "Recover the three keys",
       steps: [
         {
-          text: "Key 1 — Captain Rovin's key: climb to the top floor of Varrock Palace and talk to Captain Rovin until he gives it up.",
+          text: "Key 1 — Captain Rovin's key: climb to the top floor of Varrock Palace (stairs in the central tower) and talk to Captain Rovin until he hands over his key.",
         },
         {
-          text: "Key 2 — Drain key: use a bucket of water on the manhole in the south-west corner of the palace kitchen, then search the drain to retrieve the key.",
+          text: "Key 2 — Drain key: walk to the palace kitchen (south-west side of the palace ground floor). Use a bucket of water on the manhole in the south-west corner of the kitchen, then exit the palace and walk south to the city sewer drain. Search the drain to retrieve the key.",
         },
         {
-          text: "Key 3 — Wizards' Tower key: travel to the Wizards' Tower south-west of Draynor.",
-          notes: ["Talk to Traiborn on the second floor and bring him 25 bones."],
+          text: "Key 3 — Wizards' Tower key: travel to the Wizards' Tower south of Draynor Village (south-west of Lumbridge across the river). Climb the stairs to the second floor and find Wizard Traiborn — he has the key.",
         },
         {
-          text: "Bring 25 bones to Traiborn (any normal bones work). He gives you the third key.",
+          text: "Bring 25 bones (any normal bones — pile up cow bones from Lumbridge cow field) to Wizard Traiborn on the second floor of the Wizards' Tower. He gives you the third key in exchange.",
         },
       ],
     },
     {
       title: "Get Silverlight",
       steps: [
-        { text: "Return to Sir Prysin in Varrock Palace with all three keys." },
-        { text: "He hands you Silverlight." },
+        {
+          text: "Return to Sir Prysin in Varrock Palace's courtyard with all three keys.",
+        },
+        {
+          text: "He hands you Silverlight.",
+        },
       ],
     },
     {
       title: "Defeat Delrith",
       steps: [
-        { text: "Travel to the stone circle south of Varrock." },
-        { text: "Wait for the cutscene then attack Delrith with Silverlight equipped." },
         {
-          text: "Use the in-quest dialog: when prompted to read out the incantation, choose the words in this order: Carlem, Aber, Camerinthum, Purchai, Gabindo.",
-          notes: ["You'll be given a list of words and must put them in order to banish Delrith. The order may shuffle for you — pick the words listed in your scroll if displayed."],
+          text: "Travel south of Varrock to the stone circle (just south of Varrock's south gate, in the field between the city and the road to Lumbridge).",
+        },
+        {
+          text: "Wait for the cutscene to play, then attack Delrith with Silverlight equipped.",
+        },
+        {
+          text: "When prompted to read the incantation, choose the words in this order: Carlem, Aber, Camerinthum, Purchai, Gabindo. (Word ORDER may shuffle in the choice list — but the correct sequence is always those 5 words in that order.)",
         },
         { text: "Quest complete." },
       ],
@@ -58,6 +76,6 @@ export const demonSlayer: QuestWalkthrough = {
   ],
   rewards: [
     "3 Quest Points",
-    "Silverlight (a sword effective against demons)",
+    "Silverlight (a sword highly effective against demons)",
   ],
 };
