@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const aTasteOfHope: QuestWalkthrough = {
-  startPoint: "Talk to Garth outside the Theatre of Blood in Ver Sinhaza.",
+  startPoint:
+    "Talk to Garth standing outside the Theatre of Blood entrance in Ver Sinhaza (the vampyre seaport south of Meiyerditch in southern Morytania — Drakan's medallion teleport, or boat from Burgh de Rott).",
   itemsRequired: [
     "1,000 coins",
     "Knife or sickle",
@@ -29,29 +30,55 @@ export const aTasteOfHope: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Garth at the Theatre of Blood entrance." },
-        { text: "Travel to the Myreque Hideout via the Meiyerditch mines." },
-        { text: "Talk to Safalaan in the Myreque Hideout under Old Man Ral's house in southern Meiyerditch." },
-        { text: "Return to the Theatre of Blood entrance in Ver Sinhaza." },
+        {
+          text: "Talk to Garth standing outside the Theatre of Blood gates in Ver Sinhaza.",
+        },
+        {
+          text: "Travel north to Meiyerditch (the vampyre slum north of Ver Sinhaza). Enter the Meiyerditch Mines (the entrance pit on the south side of Meiyerditch) and follow the tunnels north-west to the Myreque Hideout under Old Man Ral's house.",
+        },
+        {
+          text: "Talk to Safalaan in the Myreque Hideout (the basement chamber with the round table).",
+        },
+        {
+          text: "Return south to the Theatre of Blood entrance in Ver Sinhaza.",
+        },
       ],
     },
     {
       title: "Vampyre rooftop scouting",
       steps: [
-        { text: "Pay Harpert 1,000gp to climb the rubble near the Ver Sinhaza bank." },
-        { text: "Navigate the steam vents and roofs northward." },
-        { text: "Look through the red window — finish the dialogue." },
+        {
+          text: "Find Harpert near the rubble heap just east of the Ver Sinhaza bank chest. Pay him 1,000gp to climb the rubble onto the rooftops.",
+        },
+        {
+          text: "Navigate the steam vents and roofs northward across Ver Sinhaza — time your runs between vent bursts.",
+        },
+        {
+          text: "At the northernmost roof, look through the red-glow window of the vampyre house and finish the dialogue.",
+        },
       ],
     },
     {
       title: "The myth of Serafina",
       steps: [
-        { text: "Return to Safalaan in the Myreque Hideout and talk to Flaygian Screwte there." },
-        { text: "Travel to Serafina's basement house in Meiyerditch." },
-        { text: "Collect mysterious meat, herb, vial, and pestle/mortar from the basement." },
-        { text: "Make a potion using the vial of water; use it on the locked door." },
-        { text: "Make a blood potion and unlock the chest for old notes." },
-        { text: "Return to the hideout and defeat the Abomination (level 149) inside." },
+        {
+          text: "Return to the Myreque Hideout under Old Man Ral's house. Talk to Safalaan, then to Flaygian Screwte (the historian Myreque member) standing nearby.",
+        },
+        {
+          text: "Travel back into Meiyerditch and find Serafina's old house (the marked house in central Meiyerditch). Climb down into its basement.",
+        },
+        {
+          text: "Collect mysterious meat, an herb, a vial, and a pestle and mortar from around the basement.",
+        },
+        {
+          text: "Use the herb on the vial of water to make a potion; use it on the locked door inside the basement to corrode the lock.",
+        },
+        {
+          text: "Use the meat with pestle and mortar to make a blood potion; unlock the chest in the next room for old notes.",
+        },
+        {
+          text: "Return to the Myreque Hideout under Old Man Ral's house. The Abomination (level 149) attacks — defeat it inside the hideout.",
+        },
       ],
     },
     {

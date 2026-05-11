@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const theFremennikExiles: QuestWalkthrough = {
-  startPoint: "Talk to Brundt the Chieftain in the Rellekka longhall.",
+  startPoint:
+    "Talk to Brundt the Chieftain inside the Rellekka longhall (the large central building in Rellekka — the Fremennik capital, north-west of Camelot).",
   itemsRequired: [
     "Mirror shield (for the basilisks)",
     "2 Kegs of beer (buy from Thora)",
@@ -32,44 +33,90 @@ export const theFremennikExiles: QuestWalkthrough = {
     {
       title: "Disturbance in Rellekka",
       steps: [
-        { text: "Buy 2 kegs of beer from Thora." },
-        { text: "Talk to Brundt in the Longhall to start." },
-        { text: "Talk to Freygerd south of the sandpit." },
-        { text: "Equip your mirror shield and kill a basilisk youngling in the sandpit." },
-        { text: "Collect the unsealed letter, fang, and venom gland." },
-        { text: "Return them to Freygerd." },
-        { text: "Report to Brundt for the cutscene; receive his note." },
+        {
+          text: "Buy 2 kegs of beer from Thora behind the bar of the Rellekka longhall.",
+        },
+        {
+          text: "Talk to Brundt the Chieftain inside the Rellekka longhall to start.",
+        },
+        {
+          text: "Walk south of the longhall to the Rellekka sandpit (the large open sand area on the south side of Rellekka). Talk to Freygerd standing on the south side of the pit.",
+        },
+        {
+          text: "Equip your mirror shield (basilisks petrify without it) and kill a basilisk youngling inside the sandpit.",
+        },
+        {
+          text: "Collect the unsealed letter, basilisk fang, and venom gland from the youngling's body.",
+        },
+        {
+          text: "Return all 3 items to Freygerd south of the sandpit.",
+        },
+        {
+          text: "Report back to Brundt in the longhall for the cutscene; receive his note.",
+        },
       ],
     },
     {
       title: "Build V's shield",
       steps: [
-        { text: "Get a Fremennik shield (kill dagannoths/warriors or buy from Bardur)." },
-        { text: "Travel to Lunar Isle and convert molten glass at Baba Yaga." },
-        { text: "Mine 3 lunar ore north-east of town." },
-        { text: "Craft lunar glass at the Astral Altar with 100 astral runes." },
-        { text: "Smelt the 3 lunar bars at the furnace." },
-        { text: "Smith the V sigil at the anvil." },
-        { text: "Enchant the sigil via Fossegrimen at the strange altar." },
-        { text: "Use a pet rock on the Large Geyser at Mountain Camp." },
-        { text: "Talk to Peer the Seer in Rellekka." },
-        { text: "Collect the polishing rock from the geyser (wearing ice gloves)." },
-        { text: "Combine all components with the glassblowing pipe." },
+        {
+          text: "Get a Fremennik shield — kill dagannoths in Waterbirth Island dungeon, or kill Fremennik warriors in Rellekka, or buy one from Bardur (the dungeon traveller in Rellekka's longhall).",
+        },
+        {
+          text: "Travel to Lunar Isle (boat from Rellekka western dock; need a Seal of passage). Walk to Baba Yaga's hut on the south-west side of the village; talk to her and use molten glass on her cauldron to start the lunar glass.",
+        },
+        {
+          text: "Mine 3 lunar ore at the lunar mine north-east of Lunar Isle town.",
+        },
+        {
+          text: "Travel to the Astral Altar (centre of Lunar Isle) with 100 astral runes; use the molten glass on the altar to craft lunar glass.",
+        },
+        {
+          text: "Smelt the 3 lunar bars at the furnace just south of Baba Yaga's hut.",
+        },
+        {
+          text: "Smith the V sigil at the anvil beside the furnace.",
+        },
+        {
+          text: "Travel south of Rellekka (use enchanted lyre or fairy ring CIP) to the strange altar in the woods. Talk to Fossegrimen at the altar to enchant the V sigil.",
+        },
+        {
+          text: "Travel to the Mountain Camp (north-east of Rellekka). Use a pet rock on the Large Geyser at the centre of the camp.",
+        },
+        {
+          text: "Return to Rellekka and talk to Peer the Seer at his house in the north of Rellekka.",
+        },
+        {
+          text: "Travel back to the Mountain Camp Geyser. Equip ice gloves and pick up the polishing rock from the geyser's bed.",
+        },
+        {
+          text: "Use the lunar glass + sigil + polishing rock + Fremennik shield with a glassblowing pipe to assemble V's shield.",
+        },
       ],
     },
     {
       title: "Basilisks in the market",
       steps: [
-        { text: "Talk to Brundt south-east of Rellekka." },
-        { text: "Return to the longhall and talk to Brundt again." },
-        { text: "Equip V's shield and fight basilisks until 100% completion." },
-        { text: "Travel via Fremennik boat to the Island of Stone." },
+        {
+          text: "Walk south-east of Rellekka to find Brundt outside the city near the basilisk-infested area. Talk to him.",
+        },
+        {
+          text: "Return to the Rellekka longhall and talk to Brundt again.",
+        },
+        {
+          text: "Equip V's shield and fight basilisks in the marketplace area until your kill counter reaches 100%.",
+        },
+        {
+          text: "Walk to the Rellekka western dock and board the Fremennik boat to the Island of Stone (a one-time captain takes you).",
+        },
       ],
     },
     {
       title: "Island of Stone",
       steps: [
-        { text: "Talk to Brundt in the Longhall to start to learn the cave door puzzle (Mastermind-style)." },
+        {
+          text: "On the Island of Stone, walk north to the cave entrance. Inspect the cave door — it presents a Mastermind-style puzzle.",
+        },
         {
           text: "Solve the puzzle using feedback (red = wrong position, green = correct).",
         },
