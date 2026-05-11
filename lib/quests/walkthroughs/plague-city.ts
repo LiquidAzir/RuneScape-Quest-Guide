@@ -50,7 +50,7 @@ export const plagueCity: QuestWalkthrough = {
       title: "Get Bravek's warrant",
       steps: [
         { text: "Walk to the Civic Office (the large central building north of the manhole)." },
-        { text: "Talk to the Clerk and ask to see Bravek." },
+        { text: "Talk to the Clerk in the East Ardougne civic office and ask to see Bravek." },
         { text: "Talk to Bravek in the East Ardougne civic office and use the hangover cure on him." },
         { text: "He gives you a search warrant." },
       ],

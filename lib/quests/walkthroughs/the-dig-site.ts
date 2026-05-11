@@ -42,7 +42,7 @@ export const theDigSite: QuestWalkthrough = {
       title: "Pass the exams",
       steps: [
         { text: "Talk to the examiner and pass each of the 3 exam questions." },
-        { text: "Talk to all 3 students again between exams as the questions change." },
+        { text: "Talk to all 3 Digsite students again around the Digsite Exam Centre between exams as the questions change." },
       ],
     },
     {
@@ -53,7 +53,7 @@ export const theDigSite: QuestWalkthrough = {
         { text: "Talk to Terry Balando, then use the invitation on a workman to pass the gate." },
         { text: "Climb down the western winch with a rope." },
         { text: "Collect arcenia root and search the bricks." },
-        { text: "Talk to Doug Deeping about moving the rocks." },
+        { text: "Talk to Doug Deeping beside the winches at the Digsite about moving the rocks." },
       ],
     },
     {

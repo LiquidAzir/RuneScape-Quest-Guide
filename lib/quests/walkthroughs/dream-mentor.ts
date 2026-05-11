@@ -30,7 +30,7 @@ export const dreamMentor: QuestWalkthrough = {
       title: "Help Cyrisus",
       steps: [
         { text: "Travel to Lunar Isle and enter the mine." },
-        { text: "Talk to the fallen man (Cyrisus). Feed him 4 food, alternating types." },
+        { text: "Talk to the fallen man (Cyrisus) inside the Lunar Isle mine. Feed him 4 food, alternating types." },
         { text: "Feed him 4 more food, cycling types again." },
         { text: "Reassure him with positive responses until he sits up." },
         { text: "Feed him 6 more food." },
@@ -54,12 +54,12 @@ export const dreamMentor: QuestWalkthrough = {
       title: "Defeat the four nightmares",
       steps: [
         { text: "Light the Ceremonial Brazier in the dream hall." },
-        { text: "Talk to Cyrisus and confirm you're ready." },
+        { text: "Talk to Cyrisus inside the Dream World and confirm you're ready." },
         { text: "Defeat The Inadequacy (level 343)." },
         { text: "Defeat The Everlasting (level 223) — use the lectern safespot." },
         { text: "Defeat The Untouchable (level 274) — use the lectern safespot." },
         { text: "Defeat The Illusive (level 108)." },
-        { text: "Return to the Oneiromancer to finish." },
+        { text: "Return to the Oneiromancer at the Astral Altar on Lunar Isle to finish." },
         { text: "Quest complete." },
       ],
     },

@@ -11,7 +11,7 @@ export const theRibbitingTale: QuestWalkthrough = {
       steps: [
         { text: "Talk to Marcellus at the Locus Oasis." },
         { text: "Talk to the blue frogs (Gary/Sue) north-east of the pond." },
-        { text: "Return to Marcellus, then choose a frog leader." },
+        { text: "Return to Marcellus at the Locus Oasis, then choose a frog leader." },
         { text: "Go south to the yellow frogs; chop the orange tree to distract them." },
         { text: "Sabotage the lily pad near the yellow frogs." },
         { text: "Start the election with your chosen frog leader." },

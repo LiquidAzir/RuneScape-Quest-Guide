@@ -26,7 +26,7 @@ export const shadowOfTheStorm: QuestWalkthrough = {
         { text: "Talk to Father Badden near the ruin entrance." },
         { text: "Dye Silverlight black using a black mushroom." },
         { text: "Grab the Strange implement from the north-west corner." },
-        { text: "Talk to Evil Dave wearing 3 black items + dyed Silverlight." },
+        { text: "Talk to Evil Dave in his mother's basement in Edgeville wearing 3 black items + dyed Silverlight." },
       ],
     },
     {
@@ -34,7 +34,7 @@ export const shadowOfTheStorm: QuestWalkthrough = {
       steps: [
         { text: "Talk to Denath through the portal." },
         { text: "Get the demonic sigil mould from Jennifer." },
-        { text: "Talk to Matthew." },
+        { text: "Talk to Matthew at the ruins south of Uzer." },
         { text: "Smelt the demonic sigil at any furnace." },
         { text: "Swap to combat gear." },
         { text: "Talk to the clay golem outside." },
@@ -52,7 +52,7 @@ export const shadowOfTheStorm: QuestWalkthrough = {
       steps: [
         { text: "Talk to Father Badden near the ruin entrance." },
         { text: "Convince Father Reen to join the ritual." },
-        { text: "Talk to the golem (he refuses)." },
+        { text: "Talk to the golem at the Uzer ruins (he refuses)." },
         { text: "Use the Strange implement to reprogram the golem." },
         { text: "Talk to the golem again — he goes into the dungeon." },
       ],
@@ -60,7 +60,7 @@ export const shadowOfTheStorm: QuestWalkthrough = {
     {
       title: "Defeat Agrith-Naar",
       steps: [
-        { text: "Talk to Matthew to start the incantation." },
+        { text: "Talk to Matthew at the ruins south of Uzer to start the incantation." },
         { text: "Recite the incantation backwards." },
         { text: "Defeat Agrith-Naar (level 100); finish with Silverlight equipped." },
         { text: "Choose your reward." },

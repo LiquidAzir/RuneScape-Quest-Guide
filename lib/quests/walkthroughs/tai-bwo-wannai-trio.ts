@@ -71,7 +71,7 @@ export const taiBwoWannaiTrio: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to fairy ring DKP and use the crafting manual on Tiadeche." },
+        { text: "Return to Tiadeche near fairy ring DKP and use the crafting manual on him." },
         { text: "Travel back to Tai Bwo Wannai and talk to Timfraku." },
         { text: "Quest complete." },
       ],
@@ -79,7 +79,7 @@ export const taiBwoWannaiTrio: QuestWalkthrough = {
     {
       title: "Optional bonus rewards",
       steps: [
-        { text: "Talk to Tiadeche for 5,000 Fishing experience." },
+        { text: "Talk to Tiadeche near fairy ring DKP for 5,000 Fishing experience." },
         {
           text: "Talk to Tinsay for 5,000 Cooking experience and the ability to fish karambwan with him as the source.",
         },

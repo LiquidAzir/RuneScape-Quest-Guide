@@ -37,14 +37,14 @@ export const theGiantDwarf: QuestWalkthrough = {
         { text: "Telegrab the right boot through the window outside his house." },
         { text: "Talk to Santiri at the weapon shop; use 3 sapphires on the axe." },
         { text: "Travel to Thurgo at Mudskipper Point; give him an iron bar to repair the axe." },
-        { text: "Return to Keldagrim immediately via dialogue." },
+        { text: "Return to Keldagrim immediately via the minecart dialogue." },
       ],
     },
     {
       title: "Halfway there",
       steps: [
         { text: "Give the clothes, axe, and boots to Riki the sculptor's model." },
-        { text: "Talk to Blasidar; watch the cutscene." },
+        { text: "Talk to Blasidar the sculptor on the east side of Keldagrim; watch the cutscene." },
       ],
     },
     {

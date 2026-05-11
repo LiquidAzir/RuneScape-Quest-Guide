@@ -23,9 +23,9 @@ export const animalMagnetism: QuestWalkthrough = {
       steps: [
         { text: "Talk to Ava in the west wing of Draynor Manor and agree to help her." },
         { text: "Travel west of the Ectofuntus to find Alice and Malcolm at their farm." },
-        { text: "Talk to Alice, then Malcolm — alternate conversations until they direct you to the old crone." },
+        { text: "Talk to Alice in the farmhouse west of the Ectofuntus, then Malcolm in the cow pen beside the farmhouse — alternate conversations until they direct you to the old crone." },
         { text: "Walk west to the old crone's house (near Slayer Tower)." },
-        { text: "Talk to the old crone twice to get a crone-made amulet." },
+        { text: "Talk to the old crone in her house west of the Ectofuntus and south of the Slayer Tower twice to get a crone-made amulet." },
         { text: "Bring the amulet back to Malcolm." },
         { text: "Talk to Malcolm at the farm west of the Ectofuntus and buy 2 undead chickens for 20 ecto-tokens." },
       ],
@@ -43,7 +43,7 @@ export const animalMagnetism: QuestWalkthrough = {
     {
       title: "Make the undead twigs and finish",
       steps: [
-        { text: "Talk to Ava again — she sends you to make a blessed axe." },
+        { text: "Talk to Ava again in the west wing of Draynor Manor — she sends you to make a blessed axe." },
         { text: "Try chopping the undead tree in front of the manor with your mithril axe (it won't work)." },
         { text: "Travel to Burthorpe and talk to Turael." },
         { text: "Trade the mithril axe + holy symbol for the blessed axe." },

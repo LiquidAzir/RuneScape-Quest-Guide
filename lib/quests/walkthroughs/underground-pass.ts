@@ -29,7 +29,7 @@ export const undergroundPass: QuestWalkthrough = {
     {
       title: "Cross the chasm",
       steps: [
-        { text: "Talk to King Lathas (option 1)." },
+        { text: "Talk to King Lathas on the 1st floor of Ardougne Castle (option 1)." },
         { text: "Meet Koftik in West Ardougne near the cave entrance." },
         { text: "Light an arrow with the tinderbox; shoot the guide rope to cross the bridge." },
         { text: "Navigate the rope swing over the pit." },
@@ -63,7 +63,7 @@ export const undergroundPass: QuestWalkthrough = {
       title: "Iban's cavern",
       steps: [
         { text: "Descend the cave south of the main path." },
-        { text: "Talk to Niloof and Klank (get the gauntlets)." },
+        { text: "Talk to Niloof and Klank in the underground dwarf camp (get the gauntlets)." },
         { text: "Find the witch's house, use a cat on the door." },
         { text: "Open the chest inside the house." },
         { text: "Kill 3 demons west of the witch; take their amulets." },

@@ -14,12 +14,12 @@ export const pryingTimes: QuestWalkthrough = {
     {
       title: "Looty",
       steps: [
-        { text: "Talk to Steve Beanie with the Captain's log to accept the courier task." },
+        { text: "Talk to Steve Beanie in the Port Piscarilius pub with the Captain's log to accept the courier task." },
         { text: "Sail to Port Sarim and take cargo from the ledger table." },
         { text: "Deposit the crate into the cargo hold." },
         { text: "Sail south to The Pandemonium and dock." },
         { text: "Withdraw the crate and deposit at the ledger table." },
-        { text: "Talk to Steve about the delivery." },
+        { text: "Talk to Steve Beanie in the Port Piscarilius pub about the delivery." },
       ],
     },
     {

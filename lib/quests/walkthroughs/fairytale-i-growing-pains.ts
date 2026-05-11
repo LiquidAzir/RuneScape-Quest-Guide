@@ -51,7 +51,7 @@ export const fairytaleIGrowingPains: QuestWalkthrough = {
         { text: "Reach the Cosmic Altar; squeeze through the western gap." },
         { text: "Defeat Tanglefoot (level 111) — Protect from Melee if possible." },
         { text: "Pick up the Queen's secateurs." },
-        { text: "Talk to the Fairy Godfather." },
+        { text: "Talk to the Fairy Godfather in the Zanaris throne room." },
         { text: "Quest complete." },
       ],
     },

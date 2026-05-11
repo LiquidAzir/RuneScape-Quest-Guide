@@ -55,7 +55,7 @@ export const icthlarinsLittleHelper: QuestWalkthrough = {
     {
       title: "Second flashback",
       steps: [
-        { text: "Return to the pyramid and jump the pit again." },
+        { text: "Return to the Sophanem pyramid and jump the pit again." },
         { text: "Open the western door and take a canopic jar." },
         { text: "Defeat the canopic guardian (level 75-81)." },
         { text: "Exit via the pit jump and solve the puzzle to leave." },
@@ -64,7 +64,7 @@ export const icthlarinsLittleHelper: QuestWalkthrough = {
     {
       title: "Ceremony preparations",
       steps: [
-        { text: "Talk to the High Priest." },
+        { text: "Talk to the High Priest inside Sophanem Temple." },
         { text: "Give the Embalmer linen, salt, and a bucket of sap." },
         { text: "Give the Carpenter willow logs to make a holy symbol." },
       ],

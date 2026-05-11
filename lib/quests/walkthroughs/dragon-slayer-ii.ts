@@ -43,7 +43,7 @@ export const dragonSlayerII: QuestWalkthrough = {
         { text: "Travel to Fossil Island and talk to Dallas Jones." },
         { text: "Collect 24 map pieces from various locations across the island." },
         { text: "Solve the map puzzle by rotating and positioning pieces." },
-        { text: "Talk to Dallas and complete the map." },
+        { text: "Talk to Dallas Jones at the Fossil Island Museum Camp and complete the map." },
         { text: "Talk to Jardric at the museum camp." },
       ],
     },
@@ -54,7 +54,7 @@ export const dragonSlayerII: QuestWalkthrough = {
         { text: "Talk to Dallas and board the boat." },
         { text: "Navigate stairs and trapdoors to the underground area." },
         { text: "Search the skeleton and read the diary." },
-        { text: "Talk to Dallas to plan the next step." },
+        { text: "Talk to Dallas Jones at the Fossil Island Museum Camp to plan the next step." },
       ],
     },
     {
@@ -68,7 +68,7 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Defeat Robert the Strong",
       steps: [
         { text: "Travel to Lunar Isle with the dream-potion ingredients." },
-        { text: "Talk to the Oneiromancer." },
+        { text: "Talk to the Oneiromancer at the Astral Altar on Lunar Isle." },
         { text: "Crush an astral rune and grind the shards." },
         { text: "Make the dream potion." },
         { text: "Light the brazier and drink the potion to enter the dream." },
@@ -116,7 +116,7 @@ export const dragonSlayerII: QuestWalkthrough = {
     {
       title: "Final assault",
       steps: [
-        { text: "Return to Rellekka and sail to Ungael." },
+        { text: "Return to the Rellekka docks and sail to Ungael." },
         { text: "Defend the ship by fixing leaks, fires, masts and healing crew." },
         { text: "Fight waves of dragons (red, iron, brutal green, blue)." },
         { text: "Continue through black, steel, brutal red." },

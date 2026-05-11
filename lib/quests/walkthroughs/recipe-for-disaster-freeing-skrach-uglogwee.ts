@@ -24,7 +24,7 @@ export const rfdSkrachUglogwee: QuestWalkthrough = {
     {
       title: "Get a raw chompy and cook it tree-style",
       steps: [
-        { text: "Talk to Skrach Uglogwee on Karamja about freeing him." },
+        { text: "Talk to Skrach Uglogwee south-east of Tai Bwo Wannai on Karamja about freeing him." },
         { text: "Talk to Rantz at the Feldip Hills coast." },
         { text: "Chop the fallen tree twice with your axe." },
         { text: "Hunt a chompy in Feldip Hills the same way as Big Chompy Bird Hunting." },

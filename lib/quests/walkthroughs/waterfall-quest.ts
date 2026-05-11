@@ -20,7 +20,7 @@ export const waterfallQuest: QuestWalkthrough = {
       steps: [
         { text: "Talk to Almera north-east of Baxtorian Falls." },
         { text: "Board the raft west of her house." },
-        { text: "Talk to Hudon (go through all dialogue)." },
+        { text: "Talk to Hudon on the small island in Baxtorian Falls (go through all dialogue)." },
         { text: "Swim in the water at the south end of the island." },
         { text: "Enter the large building and go upstairs." },
         { text: "Search the southernmost bookcase for the Book on Baxtorian and read it." },
@@ -33,7 +33,7 @@ export const waterfallQuest: QuestWalkthrough = {
         { text: "Enter the dungeon at the maze end." },
         { text: "Search the off-coloured crate for a key." },
         { text: "Open the gate." },
-        { text: "Talk to Golrie to receive Glarial's pebble." },
+        { text: "Talk to Golrie in the Tree Gnome Village dungeon to receive Glarial's pebble." },
       ],
     },
     {

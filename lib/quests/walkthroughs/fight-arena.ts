@@ -19,7 +19,7 @@ export const fightArena: QuestWalkthrough = {
     {
       title: "Get into the prison",
       steps: [
-        { text: "Talk to Lady Servil with 'Can I help you?'." },
+        { text: "Talk to Lady Servil south-west of the Ardougne Monastery with 'Can I help you?'." },
         { text: "Search the chest in the north-east corner for Khazard armour." },
         { text: "Equip the armour before entering the prison." },
       ],
@@ -30,7 +30,7 @@ export const fightArena: QuestWalkthrough = {
         { text: "Head to the south-east jail room." },
         { text: "Talk to the Head Guard near the staircase." },
         { text: "Buy a Khali brew from the Khazard Barman for 5gp." },
-        { text: "Return to the guard for keys." },
+        { text: "Return to the Khazard guard outside the prison cells for keys." },
         { text: "Use the keys on Sammy's prison door (north-east cell)." },
       ],
     },
@@ -38,7 +38,7 @@ export const fightArena: QuestWalkthrough = {
       title: "Combat sequence",
       steps: [
         { text: "Defeat the Khazard Ogre." },
-        { text: "Talk to your cellmate Hengrad." },
+        { text: "Talk to your cellmate Hengrad inside the Fight Arena prison cell." },
         { text: "Defeat the Khazard Scorpion." },
         { text: "Defeat Bouncer (level 137)." },
         { text: "Defeat or escape General Khazard." },

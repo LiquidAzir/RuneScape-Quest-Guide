@@ -15,7 +15,7 @@ export const theLostTribe: QuestWalkthrough = {
     {
       title: "Investigate the cellar damage",
       steps: [
-        { text: "Talk to Sigmund about quests." },
+        { text: "Talk to Sigmund in Lumbridge Castle about quests." },
         { text: "Question Duke Horacio, the Cook, Hans, Father Aereck, Bob, and Gee/Donie about the cellar damage." },
         { text: "Report findings back to Duke Horacio." },
         { text: "Descend the kitchen trapdoor; mine the rubble; pick up the brooch from the cave floor." },
@@ -26,7 +26,7 @@ export const theLostTribe: QuestWalkthrough = {
       title: "Research at Varrock library",
       steps: [
         { text: "Travel to Varrock Palace library." },
-        { text: "Talk to Reldo." },
+        { text: "Talk to Reldo in the Varrock Palace library." },
         { text: "Search the western bookcase for the goblin symbol book." },
         { text: "Read the book." },
       ],

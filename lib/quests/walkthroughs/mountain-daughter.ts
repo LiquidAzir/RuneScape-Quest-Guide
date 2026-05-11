@@ -43,13 +43,13 @@ export const mountainDaughter: QuestWalkthrough = {
     {
       title: "Make peace between Mountain Camp and Rellekka",
       steps: [
-        { text: "Talk to Hamal about Rellekka, then talk to Jokul before leaving." },
+        { text: "Talk to Hamal in the Mountain Camp about Rellekka, then talk to Jokul near the Mountain Camp entrance before leaving." },
         { text: "Find Svidi between Rellekka and the Keldagrim entrance." },
         { text: "Travel to Rellekka and talk to Brundt the Chieftain in the longhall." },
         { text: "Return to the Mountain Camp and use a pickaxe on the Ancient Rock." },
         { text: "Bring the half rock to Brundt — he gives you a safety guarantee." },
         { text: "Deliver the safety guarantee to Svidi." },
-        { text: "Return to Hamal." },
+        { text: "Return to Hamal in the Mountain Camp east of Rellekka." },
       ],
     },
     {

@@ -39,8 +39,8 @@ export const theFremennikIsles: QuestWalkthrough = {
         { text: "Travel to Neitiznot via Maria Gunnars from the docks." },
         { text: "Equip the full jester outfit." },
         { text: "Talk to Slug Hemligssen north of the bank." },
-        { text: "Talk to Mawnis Burowgar and follow his cutscene commands (perform jester antics)." },
-        { text: "Return to Slug for 2,500 coins." },
+        { text: "Talk to Mawnis Burowgar in the Neitiznot longhall and follow his cutscene commands (perform jester antics)." },
+        { text: "Return to Slug Hemligssen north of the Neitiznot bank for 2,500 coins." },
       ],
     },
     {
@@ -50,7 +50,7 @@ export const theFremennikIsles: QuestWalkthrough = {
         { text: "Talk to Mawnis Burowgar for bridge instructions." },
         { text: "Bring 8 ropes and 8 split logs (chop arctic pines and split with a knife)." },
         { text: "Use Protect from Missiles while repairing the east and west bridges." },
-        { text: "Return to Mawnis." },
+        { text: "Return to Mawnis Burowgar in the Neitiznot longhall." },
       ],
     },
     {
@@ -66,13 +66,13 @@ export const theFremennikIsles: QuestWalkthrough = {
     {
       title: "Defeat the Ice Troll King",
       steps: [
-        { text: "Return to Neitiznot and equip the jester outfit for another performance for Mawnis." },
+        { text: "Return to Neitiznot longhall and equip the jester outfit for another performance for Mawnis." },
         { text: "Get a royal decree from King Sorvott on Jatizso." },
         { text: "Equip yak-hide armour and a Neitiznot shield." },
         { text: "Travel to the northern ice caves with full combat gear." },
         { text: "Defeat the 10 ice trolls then the Ice Troll King (level 122) with melee." },
         { text: "Decapitate the troll king's corpse." },
-        { text: "Return to Mawnis Burowgar." },
+        { text: "Return to Mawnis Burowgar in the Neitiznot longhall." },
         { text: "Quest complete." },
       ],
     },

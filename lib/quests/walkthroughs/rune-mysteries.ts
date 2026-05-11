@@ -21,7 +21,7 @@ export const runeMysteries: QuestWalkthrough = {
           notes: ["Run south from Lumbridge across the southern bridge then west, or use a teleport."],
         },
         { text: "Climb down to the basement of the Wizards' Tower." },
-        { text: "Talk to Archmage Sedridor and give him the Air talisman." },
+        { text: "Talk to Archmage Sedridor in the Wizards' Tower basement and give him the Air talisman." },
         { text: "He tells you about the Rune essence mystery and asks you to deliver a research package." },
         { text: "He hands you a research package." },
       ],
@@ -30,7 +30,7 @@ export const runeMysteries: QuestWalkthrough = {
       title: "Deliver to Aubury",
       steps: [
         { text: "Travel to Varrock and find Aubury's rune shop in the south-east of the city." },
-        { text: "Talk to Aubury and give him the research package." },
+        { text: "Talk to Aubury in his rune shop in south-east Varrock and give him the research package." },
         { text: "Quest complete." },
       ],
     },

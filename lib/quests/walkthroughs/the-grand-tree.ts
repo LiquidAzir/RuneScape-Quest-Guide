@@ -66,7 +66,7 @@ export const theGrandTree: QuestWalkthrough = {
     {
       title: "Defeat the Black Demon",
       steps: [
-        { text: "Talk to Glough — a Black Demon (level 172) appears." },
+        { text: "Talk to Glough in the cave under the Grand Tree — a Black Demon (level 172) appears." },
         {
           text: "Immediately after the cutscene, run to the tile directly north of the entry ladder.",
           notes: ["The demon gets stuck behind rocks and can be safespotted from this tile."],
@@ -74,7 +74,7 @@ export const theGrandTree: QuestWalkthrough = {
         { text: "Attack with ranged, magic, or a halberd until it dies (10-minute timer)." },
         { text: "Walk east through the new passage to find King Narnode by a ladder." },
         { text: "Talk to King Narnode inside the Grand Tree and search the tree roots until you find the last daconia rock." },
-        { text: "Talk to King Narnode one final time. Quest complete." },
+        { text: "Talk to King Narnode inside the Grand Tree one final time. Quest complete." },
       ],
     },
   ],

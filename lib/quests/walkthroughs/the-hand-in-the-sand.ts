@@ -40,7 +40,7 @@ export const theHandInTheSand: QuestWalkthrough = {
     {
       title: "Make truth serum",
       steps: [
-        { text: "Return to Yanille and talk to Bert for a magic scroll." },
+        { text: "Return to Yanille and talk to Bert in the house west of the sandpit for a magic scroll." },
         { text: "Get a magical orb from Zavistic Rarve in the Wizards' Guild." },
         { text: "Accept the teleport to Port Sarim." },
         { text: "Talk to Betty in her magic shop for bottled water." },
@@ -63,7 +63,7 @@ export const theHandInTheSand: QuestWalkthrough = {
       steps: [
         { text: "Return to Yanille and ring the Wizards' Guild bell." },
         { text: "Travel to Entrana and get the wizard's head from Mazion." },
-        { text: "Return to Yanille, ring the bell again, and finish with Zavistic Rarve." },
+        { text: "Return to Yanille, ring the Wizards' Guild bell again, and finish with Zavistic Rarve in the Wizards' Guild." },
         { text: "Quest complete." },
       ],
     },

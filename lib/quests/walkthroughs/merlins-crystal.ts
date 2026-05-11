@@ -50,7 +50,7 @@ export const merlinsCrystal: QuestWalkthrough = {
       steps: [
         { text: "Travel to the Zamorakian temple in south-east Varrock." },
         { text: "Read the inscription on the Chaos Altar." },
-        { text: "Return to Camelot with a tinderbox." },
+        { text: "Return to Camelot Castle with a tinderbox." },
         { text: "Walk to the ritual site north-east of the castle (the red star among 8 columns)." },
         { text: "Light the black candle while standing on the star." },
         { text: "Drop the bat bones on the star." },

@@ -22,7 +22,7 @@ export const deathPlateau: QuestWalkthrough = {
         { text: "Travel to Burthorpe and talk to Denulth in the soldier tent. Ask about a quest." },
         { text: "Walk to the castle and talk to Eohric (in the castle)." },
         { text: "He says Harold (the bartender) was off duty — go talk to Harold upstairs in the bar." },
-        { text: "Return to Eohric to confirm Harold's story." },
+        { text: "Return to Eohric in the Toad and Chicken pub in Burthorpe to confirm Harold's story." },
       ],
     },
     {
@@ -43,9 +43,9 @@ export const deathPlateau: QuestWalkthrough = {
       title: "Find a route up Death Plateau",
       steps: [
         { text: "Walk north-west of Burthorpe and enter Saba's cave." },
-        { text: "Talk to Saba about another way up Death Plateau." },
+        { text: "Talk to Saba in the cave north-west of Burthorpe about another way up Death Plateau." },
         { text: "Continue west then south to Tenzing's house." },
-        { text: "Talk to Tenzing the sherpa and accept his trade for spiked climbing boots." },
+        { text: "Talk to Tenzing the sherpa in his house on the path to Death Plateau and accept his trade for spiked climbing boots." },
       ],
     },
     {
@@ -59,7 +59,7 @@ export const deathPlateau: QuestWalkthrough = {
     {
       title: "Scout the alternate path",
       steps: [
-        { text: "Return to Tenzing with 10 bread, 10 cooked trout, and the spiked boots." },
+        { text: "Return to Tenzing in his house on the path to Death Plateau with 10 bread, 10 cooked trout, and the spiked boots." },
         { text: "Equip the spiked boots and exit through the north door of his cabin." },
         { text: "Climb the stile and follow the trail north and east past the second mountain goat." },
         { text: "Continue along the path until the message 'I think this is far enough' appears." },

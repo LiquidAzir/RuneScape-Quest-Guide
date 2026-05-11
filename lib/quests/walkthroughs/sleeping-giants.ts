@@ -18,7 +18,7 @@ export const sleepingGiants: QuestWalkthrough = {
         { text: "Talk to Kovac at the Giants' Foundry and accept the quest." },
         { text: "Enter the foundry." },
         { text: "Repair the polishing wheel, grindstone, and trip hammer (with planks, nails, hammer)." },
-        { text: "Talk to Kovac twice." },
+        { text: "Talk to Kovac inside the Giants' Foundry twice." },
         { text: "Search the crate for items." },
         { text: "Deposit all items into the crucible near the bank." },
       ],

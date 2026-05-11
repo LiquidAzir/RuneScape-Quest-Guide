@@ -43,11 +43,11 @@ export const inSearchOfTheMyreque: QuestWalkthrough = {
       steps: [
         { text: "Climb the tree rope bridge northward." },
         { text: "Repair the broken bridge." },
-        { text: "Talk to Curpile Fyod and pick option 1 to introduce yourself." },
+        { text: "Talk to Curpile Fyod at the Hollows entrance and pick option 1 to introduce yourself." },
         { text: "Enter the wooden doors in the hill." },
         { text: "Navigate north-west, following the eastern wall to find an alcove." },
         { text: "Enter the cave and talk to Veliaf Hurtz." },
-        { text: "Talk to all the other Myreque members." },
+        { text: "Talk to all the other Myreque members inside the Myreque Hideout in the Hollows." },
         { text: "Give the steel weapons (longsword, 2 swords, mace, warhammer, dagger) to Veliaf." },
       ],
     },
@@ -56,7 +56,7 @@ export const inSearchOfTheMyreque: QuestWalkthrough = {
       steps: [
         { text: "Walk further into the cave to trigger the Skeleton Hellhound (level 97)." },
         { text: "Defeat it (safespot it from behind a pillar)." },
-        { text: "Talk to Veliaf again." },
+        { text: "Talk to Veliaf again inside the Myreque Hideout in the Hollows." },
         { text: "Search the north wall to find a hidden passage." },
         { text: "Climb the ladder on the north side." },
       ],

@@ -43,7 +43,7 @@ export const regicide: QuestWalkthrough = {
       steps: [
         { text: "Run west through the forest, talking to Idris when she appears." },
         { text: "Jump the leaves trap, pass the sticks trap, reach the Iorwerth Camp." },
-        { text: "Talk to Lord Iorwerth." },
+        { text: "Talk to Lord Iorwerth in the Elf Camp." },
         { text: "Follow the map to the Elf Tracker." },
         { text: "Talk to Lord Iorwerth at the Elf Camp twice; collect the crystal pendant from him." },
         { text: "Follow the tracks north-west of the blue mushrooms." },
@@ -51,7 +51,7 @@ export const regicide: QuestWalkthrough = {
         { text: "Reach General Hining's camp; collect 2-3 barrels." },
         { text: "Use barrels on the tar to make barrels of coal tar." },
         { text: "Collect a sulphur piece nearby." },
-        { text: "Talk to Iorwerth about each item needed." },
+        { text: "Talk to Lord Iorwerth in the Elf Camp about each item needed." },
       ],
     },
     {
@@ -87,7 +87,7 @@ export const regicide: QuestWalkthrough = {
         { text: "Confirm a tinderbox is in your inventory." },
         { text: "Use the cooked rabbit on the guard near the catapult." },
         { text: "Use the bomb on the catapult." },
-        { text: "Talk to Lord Iorwerth." },
+        { text: "Talk to Lord Iorwerth in the Elf Camp." },
         { text: "Try to enter Ardougne Castle, then talk to King Lathas." },
         { text: "Quest complete." },
       ],

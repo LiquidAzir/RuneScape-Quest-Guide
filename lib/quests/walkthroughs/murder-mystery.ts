@@ -39,7 +39,7 @@ export const murderMystery: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Drop the silver necklace if you took one (from Anna's barrel) before final dialogue." },
-        { text: "Talk to the guard and select 'I know who did it!' with the right name." },
+        { text: "Talk to the guard inside Sinclair Mansion and select 'I know who did it!' with the right name." },
         { text: "Quest complete." },
       ],
     },

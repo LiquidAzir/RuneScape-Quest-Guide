@@ -44,7 +44,7 @@ export const theFinalDawn: QuestWalkthrough = {
       title: "Home invasion",
       steps: [
         { text: "Go to the safe house south of the western bank in Civitas illa Fortis." },
-        { text: "Talk to Captain Vibia." },
+        { text: "Talk to Captain Vibia in Civitas illa Fortis." },
         { text: "Inspect the east window and enter." },
         { text: "Use bones or meat on the dog to get the passcode 'GUS'." },
         { text: "Collect the potato sack, knife, coin purse." },
@@ -81,7 +81,7 @@ export const theFinalDawn: QuestWalkthrough = {
         {
           text: "Fight Lucius and Chimalli (alternate Magic/Ranged prayer; dodge specials). Kill Lucius first.",
         },
-        { text: "Talk to Attala after victory." },
+        { text: "Talk to Attala in the Cam Torum market after victory." },
       ],
     },
     {

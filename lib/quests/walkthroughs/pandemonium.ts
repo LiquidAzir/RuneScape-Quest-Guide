@@ -26,7 +26,7 @@ export const pandemonium: QuestWalkthrough = {
         { text: "Trade the old cup salvage to Junior Jim for a raft at the docks." },
         { text: "Grab a hammer and saw from the crates if needed." },
         { text: "Build the cargo hold on the raft at the facility hotspot." },
-        { text: "Return to Pandemonium and receive the Captain's log." },
+        { text: "Return to Pandemonium at the beach camp on the Isle of Souls and receive the Captain's log." },
       ],
     },
     {

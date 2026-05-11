@@ -28,7 +28,7 @@ export const gloriousMemories: QuestWalkthrough = {
     {
       title: "Recover lost memories",
       steps: [
-        { text: "Talk to Brundt — he wants to remember missing pieces of his past." },
+        { text: "Talk to Brundt in the Rellekka longhall — he wants to remember missing pieces of his past." },
         {
           text: "Visit each of the four other Fremennik chieftains across Rellekka, Jatizso, Neitiznot, and Miscellania.",
         },

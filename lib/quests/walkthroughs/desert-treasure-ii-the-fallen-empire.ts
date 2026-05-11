@@ -39,7 +39,7 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "Ancient Guardian",
       steps: [
         { text: "Defeat the Ancient Guardian (200 HP, melee-only — dodge falling rocks)." },
-        { text: "Talk to Dr Banikan." },
+        { text: "Talk to Dr Banikan in the Digsite Exam Centre." },
         { text: "Inspect the golem machine and search crates for uncharged cells." },
         { text: "Cast Burst spells on matching totems." },
         { text: "Charge cells at the altar and solve the golem puzzle." },
@@ -65,7 +65,7 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "The Leviathan (Praefectus Classis)",
       steps: [
         { text: "Travel to the Guardians of the Rift area." },
-        { text: "Talk to the Catalytic Guardian and enter The Scar." },
+        { text: "Talk to the Catalytic Guardian at the Guardians of the Rift temple and enter The Scar." },
         { text: "Complete 3 puzzle passages: Axon Terminal, Nerve Endings, Summoning Circle." },
         { text: "Collect tinderbox, gunpowder, slimy key, and tablet from shipwrecks." },
         { text: "Burn the ship sections." },
@@ -78,7 +78,7 @@ export const desertTreasureII: QuestWalkthrough = {
       steps: [
         { text: "Navigate the Ghorrock Prison maze." },
         { text: "Solve the cell puzzle; find the letter, knife, and lockpick." },
-        { text: "Talk to the assassin and complete path puzzles." },
+        { text: "Talk to the assassin inside the Lassar Undercity and complete the path puzzles." },
         { text: "Collect sapphire, emerald, ruby, and diamond keys." },
         { text: "Survive Jhallan with firecracker defence." },
         { text: "Prepare arder-musca poison using mushrooms and salt." },
@@ -103,7 +103,7 @@ export const desertTreasureII: QuestWalkthrough = {
         { text: "Return all four medallions and unlock the inner cell." },
         { text: "Defeat the Mysterious Figure." },
         { text: "Fight 4 wight clones sequentially: Forsaken Assassin → Ketla → Kasonde → Persten." },
-        { text: "Talk to Azzanadra to finish." },
+        { text: "Talk to Azzanadra inside the Ancient Vault to finish." },
         { text: "Quest complete." },
       ],
     },

@@ -22,7 +22,7 @@ export const theGolem: QuestWalkthrough = {
       steps: [
         { text: "Travel to the Uzer ruins." },
         { text: "Pick up and read the letter west of the golem." },
-        { text: "Talk to the golem; pick 'Shall I try to repair you?'." },
+        { text: "Talk to the golem at the Uzer ruins; pick 'Shall I try to repair you?'." },
         { text: "Use 4 soft clay on the golem." },
         { text: "Talk again; pick 'How do I open the portal?'." },
       ],

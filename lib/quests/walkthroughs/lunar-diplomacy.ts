@@ -33,7 +33,7 @@ export const lunarDiplomacy: QuestWalkthrough = {
         { text: "Talk to Lokar Searunner at the western Rellekka dock." },
         { text: "Talk to Brundt the Chieftain in the longhall for the seal of passage." },
         { text: "Return to Lokar and board the pirate ship Lady Zay." },
-        { text: "Talk to Captain Bentley about sailing to Lunar Isle." },
+        { text: "Talk to Captain Bentley on the Lady Zay about sailing to Lunar Isle." },
       ],
     },
     {
@@ -88,7 +88,7 @@ export const lunarDiplomacy: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Read the lectern to return to Lunar Isle." },
-        { text: "Talk to the Oneiromancer." },
+        { text: "Talk to the Oneiromancer at the Astral Altar on Lunar Isle." },
         { text: "Quest complete." },
       ],
     },

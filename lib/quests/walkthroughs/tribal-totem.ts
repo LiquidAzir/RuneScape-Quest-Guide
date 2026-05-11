@@ -12,7 +12,7 @@ export const tribalTotem: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Kangai Mau (options 2 then 1)." },
+        { text: "Talk to Kangai Mau at The Shrimp and Parrot restaurant in Brimhaven (options 2 then 1)." },
         { text: "Travel to Ardougne." },
       ],
     },
@@ -22,7 +22,7 @@ export const tribalTotem: QuestWalkthrough = {
         { text: "Head to the depot south of the eastern bank." },
         { text: "Investigate the north-eastern crate for an address label." },
         { text: "Use the label on the crate 2 tiles south." },
-        { text: "Talk to the GPDT employee (option 1)." },
+        { text: "Talk to the GPDT employee at the Ardougne depot south of the east bank (option 1)." },
       ],
     },
     {

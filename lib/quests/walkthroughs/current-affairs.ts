@@ -18,11 +18,11 @@ export const currentAffairs: QuestWalkthrough = {
     {
       title: "Fish mayor",
       steps: [
-        { text: "Talk to Arhein about finding the Mayor." },
+        { text: "Talk to Arhein at Catherby docks about finding the Mayor." },
         { text: "Visit Harry at the fishing shop in east Catherby." },
         { text: "Buy a mayoral fishbowl + tiny net for 50gp." },
         { text: "Fish in the aquarium to catch a mayorfish." },
-        { text: "Return to Arhein for his mayoral chain." },
+        { text: "Return to Arhein at Catherby docks for his mayoral chain." },
         { text: "Match your earlier form answers with Councillor Catherine." },
         { text: "Have the Mayor sign form 7r4-5h." },
         { text: "Return the signed form to Catherine." },

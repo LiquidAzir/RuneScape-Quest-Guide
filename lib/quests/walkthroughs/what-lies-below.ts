@@ -22,7 +22,7 @@ export const whatLiesBelow: QuestWalkthrough = {
     {
       title: "Recover the documents",
       steps: [
-        { text: "Talk to Rat Burgiss using dialogue option 3." },
+        { text: "Talk to Rat Burgiss on the road south of Varrock using dialogue option 3." },
         { text: "Kill 5 Outlaws west of the Grand Exchange." },
         { text: "Collect the rat's paper drops." },
         { text: "Fill the folder with papers." },
@@ -41,7 +41,7 @@ export const whatLiesBelow: QuestWalkthrough = {
     {
       title: "Confrontation",
       steps: [
-        { text: "Return to Surok with the infused wand and an empty bowl." },
+        { text: "Return to Surok Magis in the Varrock Palace library with the infused wand and an empty bowl." },
         { text: "Deliver the letter to Rat Burgiss." },
         { text: "Meet Zaff and report back." },
         { text: "Reduce King Roald to 2 HP or less." },

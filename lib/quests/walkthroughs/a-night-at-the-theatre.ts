@@ -27,7 +27,7 @@ export const aNightAtTheTheatre: QuestWalkthrough = {
     {
       title: "Memories of a friend",
       steps: [
-        { text: "Talk to the Mysterious Stranger." },
+        { text: "Talk to the Mysterious Stranger by the Theatre of Blood entrance in Ver Sinhaza." },
         { text: "Go down the stairs to the north-east; kill a Vyrewatch for a key." },
         { text: "Unlock the gate, open the coffin, retrieve Ranis's head." },
         { text: "Return with the head and watch the cutscene." },
@@ -43,7 +43,7 @@ export const aNightAtTheTheatre: QuestWalkthrough = {
       title: "In touch with nature",
       steps: [
         { text: "Travel to the Nature Grotto via fairy ring BIP with a ghostspeak amulet." },
-        { text: "Talk to Filliman Tarlock." },
+        { text: "Talk to Filliman Tarlock at the Nature Grotto in Mort Myre Swamp." },
         { text: "Cross the stepping stone east to the small island." },
         { text: "Defeat Hespori (level 302) and chop for hespori bark." },
         { text: "Return with the bark." },
@@ -56,7 +56,7 @@ export const aNightAtTheTheatre: QuestWalkthrough = {
           text: "Complete a full Theatre of Blood raid (entry mode is recommended for the quest).",
           notes: ["This is THE raid — six boss rooms in succession. Bring a team or use entry mode solo."],
         },
-        { text: "Talk to the Mysterious Stranger after the raid." },
+        { text: "Talk to the Mysterious Stranger by the Theatre of Blood entrance in Ver Sinhaza after the raid." },
         { text: "Quest complete." },
       ],
     },

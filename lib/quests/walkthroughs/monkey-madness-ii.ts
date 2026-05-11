@@ -42,14 +42,14 @@ export const monkeyMadnessII: QuestWalkthrough = {
       title: "Chapter II — Kruk's Dungeon",
       steps: [
         { text: "Teleport to Ape Atoll with monkey/gorilla greegree." },
-        { text: "Talk to Garkor and Awowogei." },
+        { text: "Talk to Garkor in the Ape Atoll jungle, then talk to King Awowogei in the Ape Atoll palace." },
         { text: "Follow tracks to a trapdoor in the jungle grass." },
         { text: "Navigate the dungeon (agility or tank pathway)." },
         { text: "Collect bronze key or combat keys as needed." },
         { text: "Create a shortcut for future banking." },
         { text: "Defeat Kruk (level 207) in his chamber." },
         { text: "Collect Kruk's paw." },
-        { text: "Talk to Zooknock to get a Kruk monkey greegree." },
+        { text: "Talk to Zooknock at the end of the Ape Atoll Dungeon to get a Kruk monkey greegree." },
       ],
     },
     {
@@ -69,7 +69,7 @@ export const monkeyMadnessII: QuestWalkthrough = {
     {
       title: "Chapter IV — Gather forces",
       steps: [
-        { text: "Talk to King Narnode and Nieve." },
+        { text: "Talk to King Narnode inside the Grand Tree, then talk to Nieve outside the Stronghold Slayer Cave." },
         { text: "Kill 4 tortured gorillas in the Gnome Stronghold." },
         { text: "Meet Garkor in the north-west area." },
         { text: "Enter the cave and defeat 2 tortured + 2 demonic gorillas." },

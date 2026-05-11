@@ -29,7 +29,7 @@ export const romeoAndJuliet: QuestWalkthrough = {
       steps: [
         { text: "Romeo asks you to find Father Lawrence." },
         { text: "Walk to the Varrock church (north-east of the central square)." },
-        { text: "Talk to Father Lawrence. He sends you to Apothecary." },
+        { text: "Talk to Father Lawrence inside Varrock church. He sends you to the Apothecary." },
       ],
     },
     {
@@ -39,13 +39,13 @@ export const romeoAndJuliet: QuestWalkthrough = {
           text: "Walk south-west to the Apothecary's shop in southern Varrock.",
           notes: ["Just south of the central square, near the south-west gate."],
         },
-        { text: "Talk to the Apothecary about the Cadava potion. He needs Cadava berries." },
+        { text: "Talk to the Apothecary in south-west Varrock about the Cadava potion. He needs Cadava berries." },
         {
           text: "Travel south to the Cadava bushes south-east of Varrock.",
           notes: ["The bushes are between Varrock and the Champions' Guild path."],
         },
         { text: "Pick Cadava berries from the bush." },
-        { text: "Return to the Apothecary and give him the berries." },
+        { text: "Return to the Apothecary in south-west Varrock and give him the berries." },
         { text: "He gives you the Cadava potion." },
       ],
     },

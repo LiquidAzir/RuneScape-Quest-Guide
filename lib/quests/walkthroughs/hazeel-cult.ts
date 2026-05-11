@@ -15,7 +15,7 @@ export const hazeelCult: QuestWalkthrough = {
       steps: [
         { text: "Talk to Ceril at the house." },
         { text: "Enter Ardougne Sewers east of the clocktower." },
-        { text: "Talk to Clivet and refuse to help." },
+        { text: "Talk to Clivet in the Ardougne Sewers east of the Clock Tower and refuse to help." },
         { text: "Adjust valves: 1-RIGHT, 2-RIGHT, 3-LEFT, 4-RIGHT, 5-RIGHT." },
         { text: "Board the raft, defeat Alomone, loot the Carnillean armour." },
         { text: "Return to Ceril at the house." },
@@ -28,7 +28,7 @@ export const hazeelCult: QuestWalkthrough = {
       steps: [
         { text: "Talk to Ceril at the house." },
         { text: "Enter the Ardougne Sewers." },
-        { text: "Talk to Clivet and agree to help." },
+        { text: "Talk to Clivet in the Ardougne Sewers east of the Clock Tower and agree to help." },
         { text: "Adjust valves: 1-RIGHT, 2-RIGHT." },
         { text: "Use poison on the cooking range in the Carnillean basement." },
         { text: "Talk to Ceril at the house and Clivet again." },

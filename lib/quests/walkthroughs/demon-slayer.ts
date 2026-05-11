@@ -39,7 +39,7 @@ export const demonSlayer: QuestWalkthrough = {
     {
       title: "Get Silverlight",
       steps: [
-        { text: "Return to Sir Prysin with all three keys." },
+        { text: "Return to Sir Prysin in Varrock Palace with all three keys." },
         { text: "He hands you Silverlight." },
       ],
     },

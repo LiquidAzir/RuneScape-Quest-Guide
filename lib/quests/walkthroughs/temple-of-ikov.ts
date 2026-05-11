@@ -54,7 +54,7 @@ export const templeOfIkov: QuestWalkthrough = {
       title: "Final choice — Good (Guardians of Armadyl)",
       steps: [
         { text: "Remove the Pendant of Lucien." },
-        { text: "Talk to Guardian of Armadyl; pick righteous dialogue." },
+        { text: "Talk to the Guardian of Armadyl inside the Temple of Ikov; pick righteous dialogue." },
         { text: "Receive an Armadyl pendant." },
         { text: "Travel to the building west of the Grand Exchange." },
         { text: "Defeat Lucien (level 14) wearing the Armadyl pendant." },

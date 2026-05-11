@@ -32,7 +32,7 @@ export const deviousMinds: QuestWalkthrough = {
     {
       title: "Smuggle to Entrana",
       steps: [
-        { text: "Return to the monk and confirm." },
+        { text: "Return to the monk at Paterdomus Temple and confirm." },
         { text: "Use the orb on a large pouch (smuggling the bow-sword)." },
         { text: "Bank weapons/armour; gather essence supplies for the Abyss." },
         { text: "Travel through the Abyss to the Law altar." },
@@ -43,9 +43,9 @@ export const deviousMinds: QuestWalkthrough = {
       title: "Reveal the plot",
       steps: [
         { text: "Use the pouch on the church altar; watch the cutscene." },
-        { text: "Talk to the High Priest." },
-        { text: "Return to Paterdomus and search the Dead Monk." },
-        { text: "Return to Entrana and talk to the High Priest." },
+        { text: "Talk to the High Priest inside Sophanem Temple." },
+        { text: "Return to Paterdomus Temple east of Varrock and search the Dead Monk." },
+        { text: "Return to Entrana church and talk to the High Priest." },
         { text: "Travel to Falador Park and talk to Sir Tiffy Cashien (option: Devious Minds)." },
         { text: "Quest complete." },
       ],

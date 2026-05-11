@@ -30,10 +30,10 @@ export const anotherSliceOfHAM: QuestWalkthrough = {
       steps: [
         { text: "Go to the south-west corner of the city's middle level." },
         { text: "Enter the transportation doorway." },
-        { text: "Talk to Tegdak." },
+        { text: "Talk to Tegdak in the Dorgesh-Kaan transportation room on the south-west middle level." },
         { text: "Use the trowel to dig 6 artefacts." },
         { text: "Clean the artefacts at the specimen table." },
-        { text: "Talk to Tegdak — Zanik joins you automatically." },
+        { text: "Talk to Tegdak in the Dorgesh-Kaan transportation room — Zanik joins you automatically." },
       ],
     },
     {
@@ -47,7 +47,7 @@ export const anotherSliceOfHAM: QuestWalkthrough = {
     {
       title: "H.A.M. ambush",
       steps: [
-        { text: "Talk to General Wartface or Bentnoze to start the cutscene." },
+        { text: "Talk to General Wartface or Bentnoze in the largest hut in Goblin Village to start the cutscene." },
         { text: "Run south to the ladder, staying west of the houses." },
         { text: "Kill the H.A.M. Mage and Archer using magic or ranged ONLY." },
         { text: "Talk to General Wartface or Bentnoze in Goblin Village to receive the Ancient mace and goblin warriors." },
@@ -57,7 +57,7 @@ export const anotherSliceOfHAM: QuestWalkthrough = {
       title: "Ambush past the guards + defeat Sigmund",
       steps: [
         { text: "Go to the Lumbridge Swamp Cave entrance." },
-        { text: "Talk to the goblin sergeant." },
+        { text: "Talk to the goblin sergeant at the Lumbridge Swamp Cave entrance." },
         { text: "Climb down and tell the sergeant to wait." },
         { text: "Enter the room and wait for two guards to pass." },
         { text: "Tell the sergeant to wait inside the room." },

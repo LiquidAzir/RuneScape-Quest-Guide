@@ -33,7 +33,7 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
         { text: "Equip diving gear and descend underwater." },
         { text: "Repair the stairs and climb up." },
         { text: "Climb a ladder and peer through the peephole." },
-        { text: "Return to Brother Tranquility for transport back." },
+        { text: "Return to Brother Tranquility near the Mos Le'Harmless dock for transport back." },
       ],
     },
     {
@@ -62,7 +62,7 @@ export const theGreatBrainRobbery: QuestWalkthrough = {
     {
       title: "Make medical transplants",
       steps: [
-        { text: "Return to Harmony Island and enter the windmill basement." },
+        { text: "Return to Harmony Island and enter the windmill basement north of the dock." },
         { text: "Talk to Dr Fenkenstrain in his castle jail (top floor)." },
         { text: "Go north to the shipwreck (in diving gear)." },
         { text: "Search the locker for fuse; climb the ladder for tinderbox + keg." },

@@ -68,8 +68,8 @@ export const theFeud: QuestWalkthrough = {
     {
       title: "Identify the traitor",
       steps: [
-        { text: "Talk to Ali the Operator, then a Menaphite Thug." },
-        { text: "Talk to Ali the Barman about Traitorous Ali." },
+        { text: "Talk to Ali the Operator in Pollnivneach, then a Menaphite Thug in Pollnivneach." },
+        { text: "Talk to Ali the Barman in the Pollnivneach bar about Traitorous Ali." },
         { text: "Buy special sauce from the kebab seller (north-west of the well)." },
         { text: "Use the sauce on the trough behind the camel shop." },
         { text: "Collect Ugthanki dung in a bucket(s)." },

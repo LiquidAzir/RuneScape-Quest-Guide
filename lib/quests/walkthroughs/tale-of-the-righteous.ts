@@ -30,7 +30,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
       title: "Tower of Magic prison",
       steps: [
         { text: "Travel to the Arceuus Library." },
-        { text: "Talk to Archeio then Pagida." },
+        { text: "Talk to Archeio and Pagida in Phileas Rimor?s house in Shayzien." },
         { text: "Get teleported to the Tower of Magic prison." },
         { text: "Push the strange device west; attack with magic from the north." },
         { text: "Push the device east; attack with melee from the south, then ranged from the south." },
@@ -48,7 +48,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
     {
       title: "Cave exploration",
       steps: [
-        { text: "Talk to Historian Duffy." },
+        { text: "Talk to Historian Duffy in the Shayzien Graveyard of Heroes." },
         { text: "Use a rope on the western crevice to descend." },
         { text: "Mine and push the boulder." },
         { text: "Defeat the Corrupt Lizardman (level 46) at the magic gate." },
@@ -61,7 +61,7 @@ export const taleOfTheRighteous: QuestWalkthrough = {
       steps: [
         { text: "Return to Lord Shiro Shayzien at the War Tent." },
         { text: "Visit Phileas's house." },
-        { text: "Talk to Lord Shiro one final time." },
+        { text: "Talk to Lord Shiro Shayzien at the War Tent one final time." },
         { text: "Quest complete." },
       ],
     },

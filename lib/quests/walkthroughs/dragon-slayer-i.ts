@@ -42,7 +42,7 @@ export const dragonSlayerI: QuestWalkthrough = {
           text: "Travel to Edgeville and find Oziach's hut in the north-east of town.",
           notes: ["He is the only person who'll sell you a rune platebody after this quest."],
         },
-        { text: "Talk to Oziach about the quest." },
+        { text: "Talk to Oziach in his house north-west of Edgeville about the quest." },
       ],
     },
     {

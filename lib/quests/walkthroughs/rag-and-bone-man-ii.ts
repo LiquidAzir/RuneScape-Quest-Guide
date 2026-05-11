@@ -27,7 +27,7 @@ export const ragAndBoneManII: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Silvarea, north of the limestone mine." },
-        { text: "Talk to the Odd Old Man." },
+        { text: "Talk to the Odd Old Man at the Silvarea limestone mine." },
       ],
     },
     {
@@ -44,11 +44,11 @@ export const ragAndBoneManII: QuestWalkthrough = {
       steps: [
         { text: "Buy 27 jugs of vinegar from Fortunato in Draynor." },
         { text: "Combine vinegar with pots; combine bones with vinegar pots." },
-        { text: "Return to the Odd Old Man with all the cleaned bones + 27 logs." },
+        { text: "Return to the Odd Old Man at the Silvarea limestone mine with all the cleaned bones + 27 logs." },
         {
           text: "For each bone: place logs on the pot-boiler, add bone-in-vinegar, light the logs, wait 12 seconds, remove the pot.",
         },
-        { text: "Talk to the Odd Old Man to finish." },
+        { text: "Talk to the Odd Old Man at the Silvarea limestone mine to finish." },
         { text: "Quest complete." },
       ],
     },

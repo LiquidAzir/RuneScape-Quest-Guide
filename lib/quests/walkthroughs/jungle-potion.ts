@@ -23,7 +23,7 @@ export const junglePotion: QuestWalkthrough = {
       steps: [
         { text: "Go south-west to find marshy jungle vines." },
         { text: "Search the vines and clean the herb." },
-        { text: "Return to Trufitus (option 1)." },
+        { text: "Return to Trufitus in his house in Tai Bwo Wannai Village (option 1)." },
       ],
     },
     {
@@ -31,7 +31,7 @@ export const junglePotion: QuestWalkthrough = {
       steps: [
         { text: "Travel north-east from Trufitus to palm trees near Harpie Bug Swarms." },
         { text: "Search palm trees and clean the herb." },
-        { text: "Return to Trufitus (option 1)." },
+        { text: "Return to Trufitus in his house in Tai Bwo Wannai Village (option 1)." },
       ],
     },
     {
@@ -39,7 +39,7 @@ export const junglePotion: QuestWalkthrough = {
       steps: [
         { text: "Go south to the scorched-earth patch." },
         { text: "Search squares next to the fire and clean the herb." },
-        { text: "Return to Trufitus (option 1)." },
+        { text: "Return to Trufitus in his house in Tai Bwo Wannai Village (option 1)." },
       ],
     },
     {
@@ -47,7 +47,7 @@ export const junglePotion: QuestWalkthrough = {
       steps: [
         { text: "Travel south-east to the Karamja Jungle mine." },
         { text: "Search rocks and clean the herb." },
-        { text: "Return to Trufitus (option 1)." },
+        { text: "Return to Trufitus in his house in Tai Bwo Wannai Village (option 1)." },
       ],
     },
     {

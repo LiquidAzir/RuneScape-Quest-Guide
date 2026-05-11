@@ -31,7 +31,7 @@ export const landOfTheGoblins: QuestWalkthrough = {
       steps: [
         { text: "Talk to Grubfoot outside Dorgesh-Kaan." },
         { text: "Enter the city and head to Oldak's laboratory." },
-        { text: "Talk to Zanik about her dream." },
+        { text: "Talk to Zanik in Dorgesh-Kaan about her dream." },
       ],
     },
     {
@@ -60,7 +60,7 @@ export const landOfTheGoblins: QuestWalkthrough = {
       steps: [
         { text: "Talk to Aggie in Draynor Village." },
         { text: "Catch whitefish in Hemenster." },
-        { text: "Return to Aggie for white goblin mail." },
+        { text: "Return to Aggie in Draynor Village for white goblin mail." },
         { text: "Steal the remaining keys from priests in different rooms." },
         { text: "Dye your mails yellow, purple, orange, blue accordingly." },
         { text: "Unlock the crypt with all 6 keys." },
@@ -71,14 +71,14 @@ export const landOfTheGoblins: QuestWalkthrough = {
       steps: [
         { text: "Enter the crypt and fight 5 goblin high priests." },
         { text: "Use the 'Say-name' option on each grave." },
-        { text: "Talk to defeated priests asking about their predecessors." },
+        { text: "Talk to the defeated goblin priests inside the Land of the Goblins crypt, asking about their predecessors." },
         { text: "For Strongbones (level 184): Protect from Magic; ask his location." },
       ],
     },
     {
       title: "Path to Yu'biusk",
       steps: [
-        { text: "Return to Dorgesh-Kaan and talk to Zanik." },
+        { text: "Return to Dorgesh-Kaan and talk to Zanik near Oldak on the lower level." },
         { text: "Go to Oldak in the South Dungeon (fairy ring AJQ)." },
         { text: "Use the machine combination 9-4-1." },
         { text: "Open the strange box in north-west Yu'biusk." },

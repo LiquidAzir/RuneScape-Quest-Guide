@@ -25,7 +25,7 @@ export const shiloVillage: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Mosol Rei (1, 1, 1, 4, 2)." },
+        { text: "Talk to Mosol Rei outside Shilo Village (1, 1, 1, 4, 2)." },
         { text: "Use the wampum belt on Trufitus in Tai Bwo Wannai." },
         { text: "Follow the chat (2, 2, 1, 3, 1)." },
       ],
@@ -75,7 +75,7 @@ export const shiloVillage: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Cairn Isle." },
+        { text: "Return to Cairn Isle, south-west of Tai Bwo Wannai." },
         { text: "Go through the well-stacked rocks." },
         { text: "Use the corpse on the dolmen." },
         { text: "Quest complete." },

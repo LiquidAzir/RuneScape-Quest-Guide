@@ -21,7 +21,7 @@ export const natureSpirit: QuestWalkthrough = {
         { text: "Talk to Drezel in the Paterdomus Temple basement — he gives you meat and apple pies for the journey." },
         { text: "Travel south through the Mort Myre swamp to the Nature Grotto in the north-west of Mort'ton." },
         { text: "Equip your ghostspeak amulet." },
-        { text: "Talk to Filliman Tarlock when he appears." },
+        { text: "Talk to Filliman Tarlock at the Nature Grotto when he appears." },
       ],
     },
     {

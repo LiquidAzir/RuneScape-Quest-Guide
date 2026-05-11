@@ -27,7 +27,7 @@ export const grimTales: QuestWalkthrough = {
       steps: [
         { text: "Talk to Sylas by the POH portal in Taverley." },
         { text: "Travel to the north-east side of White Wolf Mountain." },
-        { text: "Talk to Grimgnash the griffin with the specific dialogue." },
+        { text: "Talk to Grimgnash the griffin at his nest on White Wolf Mountain with the specific dialogue." },
         { text: "Steal a feather from his nest." },
         { text: "Return the feather to Sylas." },
       ],
@@ -39,8 +39,8 @@ export const grimTales: QuestWalkthrough = {
         { text: "Climb the crumbling wall (58 Thieving)." },
         { text: "Talk into the drain pipe twice." },
         { text: "Climb the beard (59 Agility)." },
-        { text: "Talk to Rupert." },
-        { text: "Talk to Miazrqa for a key." },
+        { text: "Talk to Rupert in the tower south-east of the Mind Altar." },
+        { text: "Talk to Miazrqa in the tower south-east of the Mind Altar for a key." },
       ],
     },
     {

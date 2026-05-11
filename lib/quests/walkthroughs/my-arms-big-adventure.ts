@@ -44,7 +44,7 @@ export const myArmsBigAdventure: QuestWalkthrough = {
       title: "Get the tubers",
       steps: [
         { text: "Meet My Arm at Tai Bwo Wannai." },
-        { text: "Talk to Murcaily (need 60% favour)." },
+        { text: "Talk to Murcaily by the hardwood grove in Tai Bwo Wannai (need 60% favour)." },
         { text: "Watch the cutscene; return to Ardougne." },
       ],
     },

@@ -23,7 +23,7 @@ export const theRestlessGhost: QuestWalkthrough = {
           text: "Walk south-west into Lumbridge Swamp to Father Urhney's small house.",
           notes: ["His shack sits in the middle of the swamp, west of the candle-maker."],
         },
-        { text: "Talk to Father Urhney. He gives you the Amulet of Ghostspeak." },
+        { text: "Talk to Father Urhney in the small house in Lumbridge Swamp. He gives you the Amulet of Ghostspeak." },
         { text: "Wear the Amulet of Ghostspeak." },
       ],
     },

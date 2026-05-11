@@ -26,7 +26,7 @@ export const theDepthsOfDespair: QuestWalkthrough = {
       steps: [
         { text: "Enter the Crabclaw Caves south of the Woodcutting Guild." },
         { text: "Navigate to the tunnel at the cave's end and climb down." },
-        { text: "Talk to Artur Hosidius." },
+        { text: "Talk to Artur Hosidius in the Hosidius mine." },
         { text: "Defeat the Sand Snake (level 36)." },
         { text: "Search the chest." },
       ],

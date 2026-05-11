@@ -49,7 +49,7 @@ export const theEyesOfGlouphrie: QuestWalkthrough = {
     {
       title: "Solve the disc puzzle",
       steps: [
-        { text: "Talk to Brimstail twice to receive coloured shape discs." },
+        { text: "Talk to Brimstail in his cave south-west of the Tree Gnome Stronghold twice to receive coloured shape discs." },
         {
           text: "Open Oaknock's machine and insert discs whose total values match the green target number for each slot.",
           notes: [

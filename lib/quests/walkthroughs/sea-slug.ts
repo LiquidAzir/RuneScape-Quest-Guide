@@ -26,7 +26,7 @@ export const seaSlug: QuestWalkthrough = {
       title: "Remote island",
       steps: [
         { text: "Ask Holgart to travel to the remote island." },
-        { text: "Talk to Kent." },
+        { text: "Talk to Kent on the Fishing Platform." },
         { text: "Return to the Fishing Platform with Holgart." },
       ],
     },
@@ -38,7 +38,7 @@ export const seaSlug: QuestWalkthrough = {
         { text: "Rub the dry sticks together to light the torch." },
         { text: "Climb the ladder and talk to Kennith again." },
         { text: "Kick the badly repaired wall outside the cabin." },
-        { text: "Talk to Kennith again." },
+        { text: "Talk to Kennith in the western cabin on the Fishing Platform again." },
         { text: "Activate the crane controls outside the cabin." },
         { text: "Descend the ladder." },
       ],
@@ -46,7 +46,7 @@ export const seaSlug: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to shore with Holgart." },
+        { text: "Return to the Witchaven shore by talking to Holgart on the Fishing Platform." },
         { text: "Report to Caroline." },
         { text: "Quest complete." },
       ],

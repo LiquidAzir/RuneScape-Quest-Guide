@@ -17,8 +17,8 @@ export const twilightsPromise: QuestWalkthrough = {
         { text: "Talk to Ennius/Furia outside the Sunrise Palace (answer Yes)." },
         { text: "Head south to the temple; talk to Metzli." },
         { text: "Go down into the crypt." },
-        { text: "Talk to Prince Itzla and Servius." },
-        { text: "Return to Ennius/Furia for the Varlamore crest." },
+        { text: "Talk to Prince Itzla and Servius in front of the Sunrise Palace in Civitas illa Fortis." },
+        { text: "Return to Ennius or Furia in front of the Sunrise Palace for the Varlamore crest." },
       ],
     },
     {
@@ -30,7 +30,7 @@ export const twilightsPromise: QuestWalkthrough = {
         { text: "Mezan: fight at the Colosseum (swap combat styles between rounds)." },
         { text: "Velam & Azali: lead the knight to the fountain east of the pub." },
         { text: "Search the Kualti Headquarters chest for the incriminating letter." },
-        { text: "Return to Ennius/Furia." },
+        { text: "Return to Ennius or Furia in front of the Sunrise Palace." },
       ],
     },
     {

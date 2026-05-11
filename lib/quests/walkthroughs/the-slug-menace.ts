@@ -42,7 +42,7 @@ export const theSlugMenace: QuestWalkthrough = {
       title: "The pages",
       steps: [
         { text: "Search the mayor's study desk for a page." },
-        { text: "Talk to Ezekial Lovecraft." },
+        { text: "Talk to Ezekial Lovecraft in Witchaven." },
         { text: "Travel to the Fishing Platform." },
         { text: "Give the dead slug to Bailey." },
         { text: "Use sea slug glue on the page fragments and solve the puzzle." },

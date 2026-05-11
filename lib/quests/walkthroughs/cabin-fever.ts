@@ -17,7 +17,7 @@ export const cabinFever: QuestWalkthrough = {
         { text: "Travel to Port Phasmatys (charter ship if needed)." },
         { text: "Talk to Bill Teach in the inn; agree to become a pirate." },
         { text: "Run to the dock and board the easternmost ship." },
-        { text: "Talk to Bill Teach on board." },
+        { text: "Talk to Bill Teach on his ship docked at Port Phasmatys." },
       ],
     },
     {

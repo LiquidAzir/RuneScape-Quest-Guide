@@ -46,7 +46,7 @@ export const theHeartOfDarkness: QuestWalkthrough = {
       steps: [
         { text: "Complete the wave-based combat trial vs. melee + mage enemies." },
         { text: "Use bandages to heal Prince Itzla during the fight." },
-        { text: "Talk to Forebearer Janus." },
+        { text: "Talk to Forebearer Janus at Quetzacalli Gorge." },
       ],
     },
     {

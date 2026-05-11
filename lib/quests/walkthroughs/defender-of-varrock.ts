@@ -41,7 +41,7 @@ export const defenderOfVarrock: QuestWalkthrough = {
       title: "Sacred Forge",
       steps: [
         { text: "Report findings to Elias at Varrock Palace." },
-        { text: "Talk to Captain Rovin." },
+        { text: "Talk to Captain Rovin on the 2nd floor of Varrock Palace." },
         { text: "Travel to the Ruins of Camdozaal." },
         { text: "Talk to Ramarno at the Sacred Forge about the shield." },
         { text: "Use a chaos core on a barronite deposit." },
@@ -55,7 +55,7 @@ export const defenderOfVarrock: QuestWalkthrough = {
         { text: "Visit the library; talk to Reldo." },
         { text: "Search the scrolls near the flipped table for the elder list." },
         { text: "Read the List of elders and the Varrock Census." },
-        { text: "Talk to candidates until one mentions the Fitzharmon family." },
+        { text: "Talk to the Varrock Palace librarian candidates until one mentions the Fitzharmon family." },
         { text: "Travel to south-east Varrock; talk to Dimintheis." },
         { text: "Watch the cutscene and finish dialogue with Captain Rovin." },
         { text: "Quest complete." },

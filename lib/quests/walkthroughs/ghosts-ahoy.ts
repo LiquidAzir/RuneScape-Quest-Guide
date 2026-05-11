@@ -76,7 +76,7 @@ export const ghostsAhoy: QuestWalkthrough = {
     {
       title: "Free the spirits",
       steps: [
-        { text: "Return to the Old Crone with the robes and items." },
+        { text: "Return to the Old Crone in her house east of the Slayer Tower with the robes and items." },
         { text: "Wear the robes and go talk to Necrovarus with the spell components." },
         { text: "Cast the freeing spell." },
         { text: "Talk to Velorina in her house in Port Phasmatys (east of the gates) to finish the quest." },

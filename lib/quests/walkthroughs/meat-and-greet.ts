@@ -46,7 +46,7 @@ export const meatAndGreet: QuestWalkthrough = {
         { text: "Visit Lelia at the Fortis Colosseum (southern room)." },
         { text: "Use Protect from Melee; switch to Magic when it says 'Moo!'." },
         { text: "Defeat the Minotaur (level 193)." },
-        { text: "Talk to Lelia and Emelio." },
+        { text: "Talk to Lelia and Emelio at Ortus Farm in Varlamore." },
         { text: "Quest complete." },
       ],
     },

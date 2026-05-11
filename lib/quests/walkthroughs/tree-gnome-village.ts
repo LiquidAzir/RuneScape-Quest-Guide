@@ -21,7 +21,7 @@ export const treeGnomeVillage: QuestWalkthrough = {
           text: "Enter the Tree Gnome Village maze and follow the path to King Bolren in the centre.",
           notes: ["The maze entrance is on the north side. Talk to Elkoy at the entrance — he can lead you through."],
         },
-        { text: "Talk to King Bolren and agree to help the gnomes." },
+        { text: "Talk to King Bolren in the centre of Tree Gnome Village and agree to help the gnomes." },
         { text: "Have Elkoy guide you back out of the maze." },
         { text: "Walk south-west to the Khazard battlefield." },
         { text: "Talk to Commander Montai at the gnome encampment on the western edge." },
@@ -56,7 +56,7 @@ export const treeGnomeVillage: QuestWalkthrough = {
     {
       title: "Defeat the Khazard warlord",
       steps: [
-        { text: "Talk to King Bolren — he tells you the warlord stole the other two orbs." },
+        { text: "Talk to King Bolren in the centre of Tree Gnome Village — he tells you the warlord stole the other two orbs." },
         { text: "Travel back to the Khazard battlefield and find the warlord." },
         {
           text: "Defeat the Khazard warlord (level 112) and pick up both orbs.",

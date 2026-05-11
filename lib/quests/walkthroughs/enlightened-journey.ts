@@ -15,7 +15,7 @@ export const enlightenedJourney: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Entrana via the Port Sarim monks." },
-        { text: "Talk to Auguste 3 times with specific dialogue choices." },
+        { text: "Talk to Auguste on Entrana, south-west of the law altar, 3 times with specific dialogue choices." },
         { text: "Use papyrus on a ball of wool." },
         { text: "Use an unlit candle on the balloon structure." },
         { text: "Fill 8 sacks with sand south of Auguste." },

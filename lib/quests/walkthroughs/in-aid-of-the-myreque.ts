@@ -63,7 +63,7 @@ export const inAidOfTheMyreque: QuestWalkthrough = {
         { text: "Repair the furnace using steel bars + coal + tinderbox." },
         { text: "Talk to Gadderanks in the general store." },
         { text: "Defeat Gadderanks and 2 Vampyre Juvinates with silver weapons." },
-        { text: "Talk to Gadderanks again after the fight." },
+        { text: "Talk to Gadderanks in the Burgh de Rott general store again after the fight." },
         { text: "Talk to Veliaf Hurtz in the cave hideout under the Hair of the Dog tavern in Canifis." },
       ],
     },
@@ -71,7 +71,7 @@ export const inAidOfTheMyreque: QuestWalkthrough = {
       title: "Escort Ivan via Temple Trekking",
       steps: [
         { text: "Return to the hideout under Canifis pub." },
-        { text: "Talk to Polmafi Ferdygris." },
+        { text: "Talk to Polmafi Ferdygris in Burgh de Rott." },
         { text: "(Optional) Equip Ivan Strom with steel armour and food." },
         { text: "Pick a Temple Trekking route (short or long) and escort Ivan to the Paterdomus temple." },
         { text: "Defeat any Vampyre Juvinates encountered along the way." },

@@ -9,7 +9,7 @@ export const cooksAssistant: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Enter Lumbridge Castle and head to the kitchen on the ground floor (north-west corner)." },
-        { text: "Talk to the Cook. He needs ingredients to bake the Duke's birthday cake." },
+        { text: "Talk to the Cook in Lumbridge Castle's kitchen. He needs ingredients to bake the Duke's birthday cake." },
         { text: "Agree to help him." },
       ],
     },

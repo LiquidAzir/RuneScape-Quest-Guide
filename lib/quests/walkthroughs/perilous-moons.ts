@@ -46,11 +46,11 @@ export const perilousMoons: QuestWalkthrough = {
     {
       title: "Get the talismans",
       steps: [
-        { text: "Talk to Attala for water + earth talismans." },
+        { text: "Talk to Attala in the Neypotzli antechamber for water + earth talismans." },
         { text: "Visit Nahta at the Cam Torum magic shop." },
         { text: "Visit the blacksmith at the furnace for talisman infusion." },
         { text: "Use the talismans to locate Eyatlalli (location varies per player)." },
-        { text: "Return to the antechamber and talk to Eyatlalli." },
+        { text: "Return to the Neypotzli antechamber and talk to Eyatlalli." },
       ],
     },
     {
@@ -59,7 +59,7 @@ export const perilousMoons: QuestWalkthrough = {
         { text: "Gather from a grubby sapling and process into paste." },
         { text: "Fish raw bream and process into scales." },
         { text: "Trap a moss lizard and process into a tail." },
-        { text: "Talk to Eyatlalli with all 3 items to begin the ritual." },
+        { text: "Talk to Eyatlalli in the Neypotzli antechamber with all 3 items to begin the ritual." },
       ],
     },
     {
@@ -76,9 +76,9 @@ export const perilousMoons: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to the antechamber after defeating all 3." },
-        { text: "Talk to all three NPCs." },
-        { text: "Talk to Eyatlalli." },
+        { text: "Return to the Neypotzli antechamber after defeating all 3 moons." },
+        { text: "Talk to Attala, Jessamine, and Eyatlalli in the Neypotzli antechamber." },
+        { text: "Talk to Eyatlalli in the Neypotzli antechamber." },
         { text: "Quest complete." },
       ],
     },

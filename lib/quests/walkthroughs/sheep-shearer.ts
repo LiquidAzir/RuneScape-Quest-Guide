@@ -9,7 +9,7 @@ export const sheepShearer: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         { text: "Travel to Fred the Farmer's house, north of Lumbridge near the windmill." },
-        { text: "Talk to Fred. Agree to bring him 20 balls of wool." },
+        { text: "Talk to Fred the Farmer in the small house north of Lumbridge. Agree to bring him 20 balls of wool." },
         { text: "Take a pair of shears from his house if you don't have any." },
       ],
     },

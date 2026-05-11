@@ -22,7 +22,7 @@ export const forgettableTale: QuestWalkthrough = {
     {
       title: "Start the chain",
       steps: [
-        { text: "Talk to Commander Veldaban (1, 1, 1)." },
+        { text: "Talk to Commander Veldaban in the Black Guard headquarters west of the Keldagrim bank (1, 1, 1)." },
         { text: "Buy 3 beers from the pub south of the drunken dwarf's house." },
         { text: "Talk to the drunken dwarf in East Keldagrim — pick 'I need to know about Red Axe'." },
         { text: "Give him a beer and repeat the dialogue." },
@@ -33,7 +33,7 @@ export const forgettableTale: QuestWalkthrough = {
       steps: [
         { text: "Talk to the rowdy dwarf outside the East Keldagrim pub; bring his random item." },
         { text: "Travel to the White Wolf Mountain tunnel." },
-        { text: "Talk to Khorvak; offer him a drink and give him dwarven stout." },
+        { text: "Talk to Khorvak in the White Wolf Mountain pub; offer him a drink and give him dwarven stout." },
         { text: "Return to the bar south of the Keldagrim bank; give another beer and talk to Gauss there." },
       ],
     },

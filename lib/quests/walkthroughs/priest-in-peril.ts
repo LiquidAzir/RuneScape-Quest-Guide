@@ -46,7 +46,7 @@ export const priestInPeril: QuestWalkthrough = {
     {
       title: "Cross the River Salve",
       steps: [
-        { text: "Talk to Drezel — he says he'll bless the river if you bring him 50 unnoted essence." },
+        { text: "Talk to Drezel in the Paterdomus Temple cell — he says he'll bless the river if you bring him 50 unnoted essence." },
         {
           text: "Bring him the 50 essence (typically 2 trips with a pouch or 1 trip with an essence pouch set).",
         },

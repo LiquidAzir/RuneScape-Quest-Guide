@@ -17,7 +17,7 @@ export const towerOfLife: QuestWalkthrough = {
       title: "Get the builder's costume",
       steps: [
         { text: "Talk to Bonafido at the tower entrance." },
-        { text: "Talk to 'Black-eye' for a hard hat (answers: Three / Torn curtains / 10 clay pieces)." },
+        { text: "Talk to 'Black-eye' at the Tower of Life construction site for a hard hat (answers: Three / Torn curtains / 10 clay pieces)." },
         { text: "Give a beer to 'The Guns' for the shirt." },
         { text: "Search the plants south-east of the tower for trousers." },
         { text: "Pickpocket 'No fingers' for boots." },
@@ -48,7 +48,7 @@ export const towerOfLife: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Effigy; watch the cutscene." },
+        { text: "Talk to Effigy inside the Tower of Life; watch the cutscene." },
         { text: "Answer the Homunculus's questions (Logic or Magic approach)." },
         { text: "Talk to Effigy again south of East Ardougne, near fairy ring DJP." },
         { text: "Talk to the Homunculus in the dungeon." },

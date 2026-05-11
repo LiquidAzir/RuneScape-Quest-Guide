@@ -29,7 +29,7 @@ export const legendsQuest: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to the Legends' Guard (3, 1, 2)." },
+        { text: "Talk to the Legends' Guard outside the Legends' Guild (3, 1, 2)." },
         { text: "Talk to Radimus at the Legends' Guild." },
         { text: "Accept the quest challenge." },
       ],
@@ -90,7 +90,7 @@ export const legendsQuest: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Radimus with the gilded totem and notes." },
+        { text: "Talk to Radimus Erkle in the Legends' Guild with the gilded totem and notes." },
         { text: "Choose 4 skills for 30,000 XP each." },
         { text: "Quest complete." },
       ],

@@ -24,7 +24,7 @@ export const rfdSirAmikVarze: QuestWalkthrough = {
     {
       title: "Make the brulee base",
       steps: [
-        { text: "Talk to the Cook about protecting Sir Amik Varze." },
+        { text: "Talk to the Lumbridge Cook in Lumbridge Castle's kitchen about protecting Sir Amik Varze." },
         { text: "Mix bucket of milk with the pot of cream." },
         { text: "Add the pot of cornflour to the milky mixture." },
         { text: "Travel to the Kharazi Jungle (Legends' Quest area) and pick a vanilla pod." },

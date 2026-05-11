@@ -20,7 +20,7 @@ export const shieldOfArrav: QuestWalkthrough = {
       steps: [
         { text: "Talk to Reldo in the Varrock Palace library." },
         { text: "Check the bookcase with the bright blue book on the top shelf and read it." },
-        { text: "Talk to Reldo again and choose your gang affiliation." },
+        { text: "Talk to Reldo again in the Varrock Palace library and choose your gang affiliation." },
       ],
     },
     {
@@ -40,7 +40,7 @@ export const shieldOfArrav: QuestWalkthrough = {
       steps: [
         { text: "Talk to Baraek the fur trader in Varrock Square with 20gp." },
         { text: "Travel to the Phoenix Gang Hideout (south-east Varrock basement)." },
-        { text: "Talk to Straven and accept the membership task." },
+        { text: "Talk to Straven in the Phoenix Gang hideout in south-west Varrock and accept the membership task." },
         { text: "Kill Jonny the Beard at the Blue Moon Inn; pick up the Intel report." },
         { text: "Return the report to Straven." },
         { text: "Open the chest in the hideout's south-west corner for the shield half." },

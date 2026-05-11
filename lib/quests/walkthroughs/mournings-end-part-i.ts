@@ -27,7 +27,7 @@ export const mourningsEndPartI: QuestWalkthrough = {
     {
       title: "Get the mourner outfit",
       steps: [
-        { text: "Talk to Eluned, pick 'Yes, I should go see him now'." },
+        { text: "Talk to Eluned in Lletya, pick 'Yes, I should go see him now'." },
         { text: "Talk to Arianwyn in Lletya." },
         { text: "Travel to the Arandar Pass gate; defeat a mourner." },
         { text: "Collect all 7 dropped items." },
@@ -58,7 +58,7 @@ export const mourningsEndPartI: QuestWalkthrough = {
         { text: "Equip the full mourner outfit and enter the HQ in West Ardougne." },
         { text: "Go down the trapdoor." },
         { text: "Talk to Essyllt in the basement." },
-        { text: "Talk to the gnome on the rack; pick the toad crunchies option." },
+        { text: "Talk to the gnome on the rack in the Mourner headquarters basement; pick the toad crunchies option." },
         {
           text: "Use a feather on the gnome, release him, and talk while carrying soft leather + magic log + toad crunchies.",
         },

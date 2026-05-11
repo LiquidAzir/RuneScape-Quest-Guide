@@ -15,15 +15,15 @@ export const observatoryQuest: QuestWalkthrough = {
     {
       title: "Fix the observatory",
       steps: [
-        { text: "Talk to the Observatory professor about the quest." },
+        { text: "Talk to the Observatory professor in the Observatory reception building about the quest." },
         { text: "Deliver 3 planks, a bronze bar, and molten glass in separate conversations." },
-        { text: "Talk to the assistant." },
+        { text: "Talk to the Observatory assistant in the Observatory reception building." },
         { text: "Go upstairs and descend into the dungeon." },
         { text: "Search chests to find the goblin kitchen key." },
         { text: "Travel north then west to the kitchen gate." },
         { text: "Prod the sleeping guard; defeat or trap them." },
         { text: "Inspect the goblin stove for the lens mould." },
-        { text: "Return to the professor with the mould." },
+        { text: "Return to the Observatory professor in the Observatory reception building with the mould." },
         { text: "Use molten glass on the lens mould." },
         { text: "Give the lens and mould to the professor." },
         { text: "Return to the dungeon and climb the south stairs (don't click during cutscene)." },
@@ -34,7 +34,7 @@ export const observatoryQuest: QuestWalkthrough = {
       steps: [
         { text: "Talk to the professor upstairs and view the telescope." },
         { text: "Identify your constellation." },
-        { text: "Talk to the professor with your answer." },
+        { text: "Talk to the Observatory professor in the Observatory reception building with your answer." },
         { text: "Quest complete." },
       ],
     },

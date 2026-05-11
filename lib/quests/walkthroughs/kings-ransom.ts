@@ -26,14 +26,14 @@ export const kingsRansom: QuestWalkthrough = {
         { text: "Take the address form from the library upstairs." },
         { text: "Search the western bookcase for a black knight helm." },
         { text: "Return all 3 items to the guard, exhausting all dialogue options." },
-        { text: "Talk to Gossip again exhausting all dialogue options." },
+        { text: "Talk to Gossip outside Sinclair Mansion again, exhausting all dialogue options." },
       ],
     },
     {
       title: "Anna's trial",
       steps: [
         { text: "Travel to the Seers' Village courthouse." },
-        { text: "Talk to Anna." },
+        { text: "Talk to Anna inside Sinclair Mansion." },
         { text: "Call the Dog Handler; ask about poison." },
         { text: "Call the Butler; ask about the dagger." },
         { text: "Call the Maid; ask about the night of the murder." },

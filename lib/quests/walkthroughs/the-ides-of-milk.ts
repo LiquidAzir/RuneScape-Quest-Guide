@@ -9,9 +9,9 @@ export const theIdesOfMilk: QuestWalkthrough = {
     {
       title: "Investigate the cows",
       steps: [
-        { text: "Talk to Cassius by the pond." },
-        { text: "Talk to Gillie Groats about cow productivity." },
-        { text: "Talk to Seth Groats." },
+        { text: "Talk to Cassius by the pond north-west of Lumbridge." },
+        { text: "Talk to Gillie Groats at the Lumbridge cow farm, north-east of Lumbridge Castle, about cow productivity." },
+        { text: "Talk to Seth Groats inside the farmhouse at the Lumbridge cow farm, north-east of Lumbridge Castle." },
         { text: "Search the shelves in Seth's farmhouse for The Groats Principles book." },
         { text: "Return the book to Cassius for a milk sample." },
       ],
@@ -21,7 +21,7 @@ export const theIdesOfMilk: QuestWalkthrough = {
       steps: [
         { text: "Drink the milk sample in front of Cassius." },
         { text: "Take a second milk sample to Duke Horacio in Lumbridge Castle." },
-        { text: "Talk to Gillie Groats again." },
+        { text: "Talk to Gillie Groats again at the Lumbridge cow farm, north-east of Lumbridge Castle." },
         { text: "Drink the milk sample in front of Gillie to receive a permit." },
       ],
     },
@@ -30,7 +30,7 @@ export const theIdesOfMilk: QuestWalkthrough = {
       steps: [
         { text: "Open the pen in the north-east corner of the cow farm." },
         { text: "Defeat the bull (Brutus)." },
-        { text: "Talk to Gillie Groats." },
+        { text: "Talk to Gillie Groats at the Lumbridge cow farm, north-east of Lumbridge Castle." },
         { text: "Talk to Cassius by the pond north-west of Lumbridge." },
         { text: "Quest complete." },
       ],

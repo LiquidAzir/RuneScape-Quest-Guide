@@ -61,7 +61,7 @@ export const creatureOfFenkenstrain: QuestWalkthrough = {
       steps: [
         { text: "Talk to Dr Fenkenstrain in the castle and agree to help." },
         { text: "Climb upstairs through the metal door, then up the northern ladder." },
-        { text: "Talk to Fenkenstrain's monster." },
+        { text: "Talk to Fenkenstrain's monster in the tower room of Fenkenstrain's Castle." },
         { text: "Return downstairs and pickpocket the doctor for a Ring of Charos." },
         { text: "Quest complete." },
       ],

@@ -31,10 +31,10 @@ export const makingFriendsWithMyArm: QuestWalkthrough = {
       steps: [
         { text: "Mine the cave entrance (boost if needed)." },
         { text: "Navigate the obstacle course with ropes and rockslides." },
-        { text: "Talk to Boulder; sneak past angry trolls." },
+        { text: "Talk to Boulder near the Trollheim herb patch; sneak past angry trolls." },
         { text: "Cross the water by avoiding thrown rocks." },
         { text: "Mine the exit." },
-        { text: "Talk to Mother — pick the dialogue about goutweed, strength, and respect." },
+        { text: "Talk to Mother inside the troll cave north of the Trollheim herb patch — pick the dialogue about goutweed, strength, and respect." },
       ],
     },
     {
@@ -43,7 +43,7 @@ export const makingFriendsWithMyArm: QuestWalkthrough = {
         { text: "Talk to the Wise Old Man in Draynor Village." },
         { text: "Build the coffin using hammer + saw + planks + cloth." },
         { text: "Talk to the Apothecary in Varrock." },
-        { text: "Return to the Wise Old Man and collect the coffin." },
+        { text: "Return to the Wise Old Man in Draynor Village and collect the coffin." },
       ],
     },
     {

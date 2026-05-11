@@ -27,7 +27,7 @@ export const theQueenOfThieves: QuestWalkthrough = {
         { text: "Return to the surface and find Conrad King on the dock." },
         { text: "Confront Conrad King (no fight)." },
         { text: "Return underground and enter the tent." },
-        { text: "Talk to the Queen of Thieves." },
+        { text: "Talk to the Queen of Thieves in the Port Piscarilius house south of the bank." },
       ],
     },
     {
@@ -43,7 +43,7 @@ export const theQueenOfThieves: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to Tomas Lawry outside the Port Piscarilius bank with the letter." },
-        { text: "Return to the Queen of Thieves (Lady Shauna Piscarilius)." },
+        { text: "Return to the Queen of Thieves (Lady Shauna Piscarilius) in the Port Piscarilius house south of the bank." },
         { text: "Quest complete." },
       ],
     },

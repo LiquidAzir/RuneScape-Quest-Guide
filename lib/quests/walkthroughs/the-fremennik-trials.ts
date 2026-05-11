@@ -59,7 +59,7 @@ export const theFremennikTrials: QuestWalkthrough = {
     {
       title: "Merchant trial",
       steps: [
-        { text: "Talk to all council members about the merchant's trial to gather information." },
+        { text: "Talk to all Rellekka council members around Rellekka about the merchant's trial to gather information." },
         { text: "Pay Askeladden 5,000 coins to learn the secret." },
       ],
     },
@@ -73,13 +73,13 @@ export const theFremennikTrials: QuestWalkthrough = {
         { text: "Descend into Thorvald's chamber and equip your branch as a weapon." },
         { text: "Fight Koschei the Deathless and beat his first three forms." },
         { text: "Either let his fourth form kill you (you'll wake up unhurt) or kill it yourself." },
-        { text: "Talk to Thorvald to finish this trial." },
+        { text: "Talk to Thorvald the Warrior in Rellekka to finish this trial." },
       ],
     },
     {
       title: "Seer trial — Peer's puzzle",
       steps: [
-        { text: "Talk to Peer the Seer to deposit your inventory." },
+        { text: "Talk to Peer the Seer in Rellekka to deposit your inventory." },
         {
           text: "Solve the riddle: gather a bucket, disks, jug and red herring from various containers.",
         },

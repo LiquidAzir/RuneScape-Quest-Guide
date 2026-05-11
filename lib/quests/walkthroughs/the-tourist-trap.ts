@@ -50,10 +50,10 @@ export const theTouristTrap: QuestWalkthrough = {
       title: "Get the technical plans",
       steps: [
         { text: "Travel west to the Bedabin Camp." },
-        { text: "Talk to Al Shabim and get a Bedabin key." },
+        { text: "Talk to Al Shabim at the Bedabin Camp and get a Bedabin key." },
         { text: "Return to the Mining Camp in slave clothes." },
         { text: "Search the bookcase on the upper floor of the jail building." },
-        { text: "Talk to Captain Siad and open his chest for the technical plans." },
+        { text: "Talk to Captain Siad inside the Desert Mining Camp and open his chest for the technical plans." },
       ],
     },
     {
@@ -73,14 +73,14 @@ export const theTouristTrap: QuestWalkthrough = {
         { text: "Search barrels for an empty one and enter the mine cart." },
         { text: "Travel west-northwest to find Ana." },
         { text: "Put Ana in your barrel." },
-        { text: "Return to the cart with Ana." },
+        { text: "Return to the mine cart inside the Desert Mining Camp with Ana." },
       ],
     },
     {
       title: "Escape and finish",
       steps: [
         { text: "Put Ana in the winch bucket and raise it." },
-        { text: "Talk to the surface guard — let him help operate the winch." },
+        { text: "Talk to the surface guard at the Desert Mining Camp winch — let him help operate the winch." },
         { text: "Place Ana on the wooden cart at the camp centre." },
         { text: "Give the requested jokes to the cart driver." },
         { text: "Board the escape cart." },

@@ -56,7 +56,7 @@ export const ratcatchers: QuestWalkthrough = {
       title: "Smokin' Joe — Keldagrim",
       steps: [
         { text: "Travel to Keldagrim." },
-        { text: "Talk to Smokin' Joe." },
+        { text: "Talk to Smokin' Joe beside the river in Keldagrim." },
         { text: "Combine the pot of weeds with a tinderbox to make a smouldering pot." },
         { text: "Use the smouldering pot on the rat hole." },
         { text: "Equip the catspeak amulet and accept your cat's offer of help." },

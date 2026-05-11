@@ -53,7 +53,7 @@ export const songOfTheElves: QuestWalkthrough = {
         { text: "Battle of West Ardougne: defeat 10 mourners at the headquarters." },
         { text: "Defeat 11 more mourners in the basement via the trapdoor." },
         { text: "Battle of East Ardougne: defeat 15 knights and paladins in the castle." },
-        { text: "Talk to King Lathas; watch the cutscene." },
+        { text: "Talk to King Lathas inside Ardougne Castle; watch the cutscene." },
       ],
     },
     {

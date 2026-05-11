@@ -38,8 +38,8 @@ export const secretsOfTheNorth: QuestWalkthrough = {
       title: "The Mysterious Benefactor",
       steps: [
         { text: "Access the Hazeel Cult hideout via the Ardougne Sewers." },
-        { text: "Talk to Alomone or Clivet, then Hazeel." },
-        { text: "Return to Carnillean Mansion; talk to the guard and Claus." },
+        { text: "Talk to Alomone or Clivet in the Hazeel Cult cave under the Carnillean Mansion, then Hazeel." },
+        { text: "Return to Carnillean Mansion in East Ardougne; talk to the guard outside and Claus inside." },
         { text: "Find the button on the cooking shelves to open the secret passage." },
         { text: "Enter, pick the lock on the chest." },
         { text: "Retrieve the dusty scroll and deliver it to Hazeel." },

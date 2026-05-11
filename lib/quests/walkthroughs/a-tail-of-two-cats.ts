@@ -25,7 +25,7 @@ export const aTailOfTwoCats: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Unferth with catspeak amulet equipped." },
+        { text: "Talk to Unferth in his house in northern Burthorpe with a catspeak amulet equipped." },
         { text: "Talk to Hild north-east of Unferth's house." },
         { text: "Give 5 death runes to enchant the amulet." },
       ],
@@ -53,14 +53,14 @@ export const aTailOfTwoCats: QuestWalkthrough = {
         {
           text: "Return to Unferth at his house in northern Burthorpe (with a catspeak amulet equipped and your cat) and complete his chores: rake patch, plant potato seeds, make bed, light fireplace, place cake + milk on table, cut Unferth's hair.",
         },
-        { text: "Talk to Unferth when chores are finished." },
+        { text: "Talk to Unferth in his house in northern Burthorpe when chores are finished." },
       ],
     },
     {
       title: "Cure Unferth and finish",
       steps: [
         { text: "Talk to the Apothecary in Varrock about the quest." },
-        { text: "Return to Unferth wearing white robes + a doctor/nurse hat with a vial of water." },
+        { text: "Return to Unferth's house in northern Burthorpe wearing white robes + a doctor/nurse hat with a vial of water." },
         { text: "Find and talk to Bob again." },
         { text: "Talk to Unferth at his house in northern Burthorpe (with a catspeak amulet equipped and your cat) to finish." },
         { text: "Quest complete." },

@@ -64,7 +64,7 @@ export const biohazard: QuestWalkthrough = {
         },
         { text: "Go to the Dancing Donkey Inn upstairs and collect the three vials back from Hops, Da Vinci, and Chancy." },
         { text: "Walk south to Guidor's house (in the fenced area south-east of Varrock)." },
-        { text: "Talk to Guidor — he runs the test on Elena's plague sample." },
+        { text: "Talk to Guidor in his house south-east of Varrock Palace — he runs the test on Elena's plague sample." },
       ],
     },
     {

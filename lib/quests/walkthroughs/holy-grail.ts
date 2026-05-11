@@ -17,7 +17,7 @@ export const holyGrail: QuestWalkthrough = {
       steps: [
         { text: "Talk to King Arthur in Camelot and accept the quest." },
         { text: "Find Merlin in the eastern room on the first floor." },
-        { text: "Talk to Merlin for guidance." },
+        { text: "Talk to Merlin on the 1st floor of Camelot Castle for guidance." },
       ],
     },
     {
@@ -26,7 +26,7 @@ export const holyGrail: QuestWalkthrough = {
         { text: "Bank ALL weapons and armour." },
         { text: "Travel to Entrana and talk to the High Priest." },
         { text: "Travel to Galahad's house west of McGrubor's Wood." },
-        { text: "Talk to Galahad to receive the holy table napkin." },
+        { text: "Talk to Galahad in his house west of McGrubor's Wood to receive the holy table napkin." },
         { text: "Travel to the second floor of Draynor Manor and pick up 2 magic whistles from the south-room table." },
       ],
     },
@@ -45,8 +45,8 @@ export const holyGrail: QuestWalkthrough = {
     {
       title: "Find Sir Percival",
       steps: [
-        { text: "Return to Camelot with one free inventory slot." },
-        { text: "Talk to King Arthur — he gives you a magic gold feather." },
+        { text: "Return to Camelot Castle with one free inventory slot." },
+        { text: "Talk to King Arthur in Camelot Castle — he gives you a magic gold feather." },
         { text: "Travel to Goblin Village and open the sacks in the eastern house to find Sir Percival." },
         { text: "Give him your second magic whistle." },
       ],
@@ -54,7 +54,7 @@ export const holyGrail: QuestWalkthrough = {
     {
       title: "Get the Grail and finish",
       steps: [
-        { text: "Return to the Fisher Realm using the remaining whistle." },
+        { text: "Return to the Fisher Realm from the fairy-ring peninsula south of Brimhaven using the remaining whistle." },
         { text: "Climb to the top floor of the eastern tower." },
         { text: "Take the Holy Grail." },
         { text: "Return to King Arthur in Camelot." },

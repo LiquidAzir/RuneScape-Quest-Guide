@@ -22,14 +22,14 @@ export const rfdLumbridgeGuide: QuestWalkthrough = {
     {
       title: "Enchant the milk",
       steps: [
-        { text: "Talk to Traiborn again." },
+        { text: "Talk to Wizard Traiborn on the 1st floor of the Wizards' Tower again." },
         { text: "Answer his trivia questions about RuneScape lore to enchant the milk." },
       ],
     },
     {
       title: "Enchant the flour",
       steps: [
-        { text: "Talk to Traiborn a third time." },
+        { text: "Talk to Wizard Traiborn on the 1st floor of the Wizards' Tower a third time." },
         { text: "Complete his memory test to enchant the flour." },
       ],
     },

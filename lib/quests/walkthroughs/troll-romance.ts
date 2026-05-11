@@ -24,7 +24,7 @@ export const trollRomance: QuestWalkthrough = {
       steps: [
         { text: "Talk to Ug in the south-west of the Troll Stronghold middle level." },
         { text: "Talk to Aga in the room to the north about her demands." },
-        { text: "Return to Ug — he wants Trollweiss flowers, sledding gear, and Arrg's defeat." },
+        { text: "Return to Ug in the south-west room of the Troll Stronghold middle level — he wants Trollweiss flowers, sledding gear, and Arrg's defeat." },
       ],
     },
     {
@@ -53,7 +53,7 @@ export const trollRomance: QuestWalkthrough = {
       title: "Defeat Arrg",
       steps: [
         { text: "Return to Ug in the south-west corner of the Troll Stronghold's middle level with the Trollweiss." },
-        { text: "Talk to Arrg and pick the combat option." },
+        { text: "Talk to Arrg in the northern room of the Troll Stronghold middle level and pick the combat option." },
         { text: "Defeat Arrg (level 113) in the arena." },
         { text: "Return to Ug in the south-west corner of the Troll Stronghold's middle level to finish the quest." },
         { text: "Quest complete." },

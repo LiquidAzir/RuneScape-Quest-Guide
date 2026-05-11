@@ -23,7 +23,7 @@ export const rovingElves: QuestWalkthrough = {
         { text: "Travel to Tirannwn (charter ship to Port Tyras or via Underground Pass)." },
         { text: "Find Islwyn west of Lletya or north-east of Tyras Camp." },
         { text: "Talk to Islwyn in the forest clearing south-east of Prifddinas and agree to help. He directs you to Eluned." },
-        { text: "Talk to Eluned — she needs a consecration seed from Glarial's tomb." },
+        { text: "Talk to Eluned in Tirannwn — she needs a consecration seed from Glarial's tomb." },
       ],
     },
     {
@@ -55,7 +55,7 @@ export const rovingElves: QuestWalkthrough = {
         },
         { text: "Follow the western path north all the way to the final small room at the dungeon's end." },
         { text: "Use the seed to plant it." },
-        { text: "Return to Islwyn for your reward." },
+        { text: "Return to Islwyn in the forest clearing south-east of Prifddinas for your reward." },
         { text: "Quest complete." },
       ],
     },

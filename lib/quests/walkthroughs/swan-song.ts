@@ -50,7 +50,7 @@ export const swanSong: QuestWalkthrough = {
         { text: "Talk to Arnold Lydspor in the bank." },
         { text: "Fish 5 fresh monkfish at the spot north-west of the colony." },
         { text: "Cook the monkfish in the kitchen." },
-        { text: "Talk to Arnold, then Franklin again." },
+        { text: "Talk to Arnold Lydspor in the Piscatoris bank, then Franklin Caranos in the furnace building again." },
         { text: "Talk to the Wise Old Man and Herman in the eastern building." },
       ],
     },

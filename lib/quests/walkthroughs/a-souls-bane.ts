@@ -57,7 +57,7 @@ export const aSoulsBane: QuestWalkthrough = {
       steps: [
         { text: "Complete the final dialogue before attacking." },
         { text: "Kill 3 heads using protection prayers." },
-        { text: "Talk to Tolna twice." },
+        { text: "Talk to Tolna at the end of the rift east of Varrock twice." },
         { text: "Quest complete." },
       ],
     },

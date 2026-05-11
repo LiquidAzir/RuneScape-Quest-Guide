@@ -30,7 +30,7 @@ export const theKnightsSword: QuestWalkthrough = {
           text: "Travel to south of Rimmington, on the beach.",
           notes: ["Walk west from Rimmington and follow the coast south to the small camp."],
         },
-        { text: "Talk to Thurgo, the Imcando dwarf. He won't help you." },
+        { text: "Talk to Thurgo at his beach hut south of Port Sarim. He won't help you." },
         { text: "Bring him a redberry pie (he'll talk to you after eating it)." },
         {
           text: "He explains he needs blurite ore to forge a sword and a picture to copy.",
@@ -64,7 +64,7 @@ export const theKnightsSword: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to Thurgo with the picture, blurite ore, and 2 iron bars." },
+        { text: "Return to Thurgo at his beach hut south of Port Sarim with the picture, blurite ore, and 2 iron bars." },
         { text: "Talk to Thurgo at his beach hut south of Port Sarim to forge the sword." },
         { text: "Take the sword back to the Squire in Falador." },
         { text: "Quest complete." },

@@ -15,7 +15,7 @@ export const wanted: QuestWalkthrough = {
       steps: [
         { text: "Talk to Sir Tiffy Cashien in Falador Park." },
         { text: "Talk to Sir Amik Varze on the 2nd floor of the White Knights' Castle." },
-        { text: "Return to Tiffy, then back to Amik, then to Tiffy again." },
+        { text: "Return to Sir Tiffy Cashien in Falador Park, then back to Sir Amik Varze in White Knights' Castle, then to Tiffy again." },
         { text: "Buy or craft the Commorb." },
         { text: "Use the Commorb's contact option for your assignment." },
       ],
@@ -25,7 +25,7 @@ export const wanted: QuestWalkthrough = {
       steps: [
         { text: "Travel to Taverley Dungeon." },
         { text: "Navigate to the Black Knights' Base." },
-        { text: "Talk to Lord Daquarius." },
+        { text: "Talk to Lord Daquarius in the Black Knights? base inside Taverley Dungeon." },
         { text: "Defeat a Black Knight." },
         { text: "Finish dialogue with Daquarius." },
       ],

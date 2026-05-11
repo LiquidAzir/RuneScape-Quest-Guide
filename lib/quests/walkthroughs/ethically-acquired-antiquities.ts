@@ -14,7 +14,7 @@ export const ethicallyAcquiredAntiquities: QuestWalkthrough = {
       title: "Investigate the museum",
       steps: [
         { text: "Inspect the empty display case." },
-        { text: "Talk to Curator Herminius about the display." },
+        { text: "Talk to Curator Herminius in the Varrock Museum about the display." },
         { text: "Investigate the tools behind the case." },
         { text: "Inspect the display case again." },
         { text: "Question citizens, academics, and tourists until suspicious activity is mentioned." },
@@ -23,10 +23,10 @@ export const ethicallyAcquiredAntiquities: QuestWalkthrough = {
     {
       title: "Track the thief",
       steps: [
-        { text: "Talk to Regulus Cento about suspicious individuals." },
+        { text: "Talk to Regulus Cento south-east of the Sunrise Palace about suspicious individuals." },
         { text: "Chat with the Trader Crewmember about a man with a case." },
         { text: "Get the sail repaired by Artima at the crafting shop." },
-        { text: "Return to the Crewmember for updated info." },
+        { text: "Return to the Crewmember at the Varlamore Museum ship display for updated info." },
         { text: "Question Trader Stan and crew at Port Sarim's south dock." },
         { text: "Talk to Betty at the Port Sarim runeshop for the critical lead." },
       ],
@@ -37,7 +37,7 @@ export const ethicallyAcquiredAntiquities: QuestWalkthrough = {
         { text: "Visit Varrock Museum curator Haig Halen." },
         { text: "Pickpocket the storeroom key from him." },
         { text: "Search crates in the museum's north-east storeroom." },
-        { text: "Return to Haig Halen with the recovered item." },
+        { text: "Return to Curator Haig Halen in the Varrock Museum with the recovered item." },
         { text: "Pick the shaming dialogue options." },
         { text: "Report findings to Curator Herminius." },
         { text: "Quest complete." },

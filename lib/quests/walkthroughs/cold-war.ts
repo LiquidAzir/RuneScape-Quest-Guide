@@ -31,7 +31,7 @@ export const coldWar: QuestWalkthrough = {
         { text: "Build a hut using oak planks + steel nails on the build spot." },
         { text: "Cover the hut in snow with your spade." },
         { text: "Enter the bird hide and watch the penguin emotes." },
-        { text: "Return to Rellekka and read the clockwork book Larry gave you." },
+        { text: "Return to Rellekka near the dock west of town and read the clockwork book Larry gave you." },
       ],
     },
     {
@@ -44,7 +44,7 @@ export const coldWar: QuestWalkthrough = {
         { text: "Greet the disguised penguins with the right emotes." },
         { text: "Get info from Fred the Farmer about penguin activity." },
         { text: "Pick up the cowbell and 5 feathers from the Lumbridge area." },
-        { text: "Return to the iceberg." },
+        { text: "Return to the iceberg north of Rellekka by talking to Larry at the Rellekka dock." },
       ],
     },
     {

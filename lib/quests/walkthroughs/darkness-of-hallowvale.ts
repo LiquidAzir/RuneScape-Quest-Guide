@@ -73,7 +73,7 @@ export const darknessOfHallowvale: QuestWalkthrough = {
         { text: "Mine 15 daeyalt ore from the wall rocks." },
         { text: "Place the ore on the mine cart and talk to the Vampyre Juvinate." },
         { text: "Navigate back to the hideout." },
-        { text: "Talk to Vertida again." },
+        { text: "Talk to Vertida Sefalatis in the Myreque Hideout in Meiyerditch again." },
         { text: "Climb the castle wall from Meiyerditch and find the 3 sickle logos on the north, west, and south walls." },
         { text: "Use papyrus on the charcoal to make the 3 sketches." },
         { text: "Endure 5 attacks from Vanstrom Klause (you can't kill him, just survive)." },
