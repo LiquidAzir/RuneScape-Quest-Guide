@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const thePathOfGlouphrie: QuestWalkthrough = {
-  startPoint: "Talk to King Bolren in the centre of the Tree Gnome Village maze.",
+  startPoint:
+    "Talk to King Bolren at the totem pole in the centre of the Tree Gnome Village maze (south-west of Castle Wars; the village is hidden inside the giant hedge maze — let Elkoy at the maze entrance lead you in).",
   itemsRequired: [
     "Tree Gnome Village dungeon key",
     "Mith grapple",
@@ -61,7 +62,9 @@ export const thePathOfGlouphrie: QuestWalkthrough = {
       steps: [
         { text: "Take a Spirit tree to the Tree Gnome Stronghold." },
         { text: "Climb the ladder up the Grand Tree once and talk to Gianne jnr." },
-        { text: "Travel east of the Poison Waste to the Galarpos Mountains." },
+        {
+          text: "Travel south through Tirannwn from the Tree Gnome Stronghold gate, then east of the Poison Waste to the Galarpos Mountains (the snowy peaks east of the Poison Waste; fairy ring CKR drops you closest in southern Kebos but the route via Tirannwn is still required).",
+        },
         { text: "Use a crossbow + mith grapple on the tall tree to swing across the river." },
         { text: "Talk to Longramble, then to the dying spirit tree." },
         { text: "Use the crystal chime on the dying spirit tree (keep it in your inventory)." },
@@ -70,9 +73,15 @@ export const thePathOfGlouphrie: QuestWalkthrough = {
     {
       title: "Defeat the Warped Terrorbirds",
       steps: [
-        { text: "Travel west into the Poison Waste Dungeon via the sewer entrance." },
-        { text: "Navigate to the central pit room with three exits." },
-        { text: "Enter the east room and defeat the 3 Warped terrorbirds (level 138)." },
+        {
+          text: "Travel west of the Galarpos Mountains, back across to the Poison Waste, and enter the Poison Waste Dungeon via the sewer-grate entrance on the western edge of the waste.",
+        },
+        {
+          text: "Inside the dungeon, navigate north-east to the central pit room — a large round chamber with three exit corridors.",
+        },
+        {
+          text: "Enter the east corridor and defeat the 3 Warped terrorbirds (level 138) inside.",
+        },
         { text: "Talk to Hazelmere on the island east of Yanille to finish the quest." },
         { text: "Quest complete." },
       ],
