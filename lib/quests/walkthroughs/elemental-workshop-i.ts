@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const elementalWorkshopI: QuestWalkthrough = {
   startPoint:
-    "Search the eastern bookcase inside the small house south of the anvil in Seers' Village (the anvil is on the east side of the village; the house is the small one immediately south of it). The book triggers the quest.",
+    "Search the eastern bookcase inside the small house next to the anvil in south-east Seers' Village. Getting there: Camelot Teleport drops you at the Camelot castle gates — run south-east past the Seers' Village bank and the anvil building is the small one just south-east of it. No Camelot teleport: take the Catherby/Seers' boat or run north from Ardougne along the coast road, or use a Games necklace to Barbarian Outpost and run south-east through the Seers' Village gate.",
   itemsRequired: [
     "Knife (or any slash weapon)",
     "Pickaxe (any — used to mine elemental ore)",
@@ -21,7 +21,9 @@ export const elementalWorkshopI: QuestWalkthrough = {
       title: "Find the workshop",
       steps: [
         {
-          text: "Travel to Seers' Village (Camelot teleport, then walk one screen east) and enter the small house south of the anvil on the east side of the village.",
+          text: "Enter the small house beside the anvil in south-east Seers' Village.",
+          travel:
+            "Camelot Teleport, then run south-east through Seers' Village past the bank. The anvil sits outdoors on the east side of the village; the house you want is the small one immediately south of it. Without the teleport, use a Games necklace to Barbarian Outpost and run south-east, or a Skills necklace to the Fishing Guild and run east.",
         },
         {
           text: "Search the eastern bookcase inside the house to take the battered book.",
@@ -30,7 +32,7 @@ export const elementalWorkshopI: QuestWalkthrough = {
           text: "Use a knife (or any slash weapon) on the battered book to slash it open and find the battered key inside.",
         },
         {
-          text: "Walk north to the odd-looking wall just north of the anvil. Use the battered key on it to reveal a hidden door.",
+          text: "Walk north to the odd-looking wall just north of the anvil and use the battered key on it to reveal a hidden door.",
         },
         {
           text: "Open the door and descend the stairs into the Elemental Workshop.",
@@ -41,7 +43,9 @@ export const elementalWorkshopI: QuestWalkthrough = {
       title: "Repair the workshop",
       steps: [
         {
-          text: "Walk into the northern room (with the broken water wheel). Turn the water control valve on the east side of the wheel.",
+          text: "Turn the water control valve on the east side of the broken water wheel in the northern room.",
+          travel:
+            "From the bottom of the entry stairs, follow the corridor north into the room dominated by the stalled water wheel.",
         },
         {
           text: "Walk to the second water control valve west of the water wheel and turn it as well.",
@@ -53,7 +57,9 @@ export const elementalWorkshopI: QuestWalkthrough = {
           text: "If you don't have leather, a needle, and thread, search the crates around the workshop floor — leather and needles spawn in the workshop crates.",
         },
         {
-          text: "Walk to the eastern room (with the broken bellows). Use needle + thread + leather on the broken bellows to repair them.",
+          text: "Use needle + thread + leather on the broken bellows in the eastern room to repair them.",
+          travel:
+            "Head back south out of the water wheel room and take the east passage; the bellows are the large sagging leather machine against the east wall.",
         },
         {
           text: "Pull the lever next to the now-repaired bellows to fire them up.",
@@ -63,6 +69,7 @@ export const elementalWorkshopI: QuestWalkthrough = {
         },
         {
           text: "Use the stone bowl on the lava trough at the south end of the workshop to fill it.",
+          travel: "The lava trough runs along the southern wall of the workshop, below the furnace room.",
         },
         {
           text: "Use the bowl of lava on the furnace in the central workshop room to fuel it.",
@@ -73,16 +80,18 @@ export const elementalWorkshopI: QuestWalkthrough = {
       title: "Forge the elemental shield",
       steps: [
         {
-          text: "Walk to the western room and mine an elemental rock there with your pickaxe.",
+          text: "Mine an elemental rock in the western room with your pickaxe.",
+          travel:
+            "From the central furnace room take the west passage — the elemental rocks are the pale glowing rocks along the far west wall.",
         },
         {
-          text: "An Earth elemental (level 35) appears when you mine — defeat it. Pick up the elemental ore.",
+          text: "An Earth elemental (level 35) appears when you mine — defeat it, then pick up the elemental ore.",
         },
         {
           text: "Take the elemental ore + 4 coal to the central furnace and use them on it to smelt an elemental bar.",
         },
         {
-          text: "Walk to the workbench in the workshop (south side) and use the elemental bar on the workbench together with the slashed (opened) battered book to smith an elemental shield.",
+          text: "Use the elemental bar and the slashed battered book on the workbench on the south side of the workshop to smith an elemental shield.",
         },
         { text: "Quest complete." },
       ],

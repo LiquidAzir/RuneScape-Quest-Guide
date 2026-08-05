@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const templeOfIkov: QuestWalkthrough = {
-  startPoint: "Talk to Lucien at the Flying Horse Inn in north-west East Ardougne.",
+  startPoint:
+    "Talk to Lucien upstairs in the Flying Horse Inn in north-west East Ardougne. Ardougne Teleport (51 Magic) to the market square then run north-west, or fairy ring BLR at Ardougne zoo and run south-east into the city.",
   itemsRequired: [
     "Yew bow or better (to shoot ice arrows)",
     "20 unnoted limpwurt roots",
@@ -24,15 +25,23 @@ export const templeOfIkov: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Lucien at the Flying Horse Inn." },
-        { text: "Pick the dialogue about retrieving the artifact." },
+        {
+          text: "Talk to Lucien upstairs in the Flying Horse Inn in north-west East Ardougne.",
+          travel:
+            "Ardougne Teleport to the market square, then run north-west — the inn is the two-storey pub near Edmond's house. No spell: fairy ring BLR at Ardougne zoo and run south-east, or Ardougne cloak to the Monastery and run east.",
+        },
+        { text: "Pick the dialogue about retrieving the artifact and take the Pendant of Lucien." },
       ],
     },
     {
       title: "Temple exploration",
       steps: [
-        { text: "Enter the temple south of the Ranging Guild via the ladder." },
-        { text: "Get Boots of lightness from the western area." },
+        {
+          text: "Climb down the ladder into the Temple of Ikov, directly south of the Ranging Guild.",
+          travel:
+            "Combat bracelet to the Ranging Guild, then run a few steps south to the ladder in the grass. Alternatives: skills necklace to the Fishing Guild and run south-west, or fairy ring BLR at Ardougne zoo and run north-east.",
+        },
+        { text: "Slash the webs in the western area with a knife and take the Boots of lightness — a light source is required down there." },
         { text: "Equip the Pendant of Lucien and cross the north gate." },
         { text: "Cross the lava bridge (weight must be -1kg or less)." },
         { text: "Take the lever from the large door; attach to bracket near the entrance." },
@@ -47,7 +56,7 @@ export const templeOfIkov: QuestWalkthrough = {
         { text: "Find the lever room to the north; search for traps (42 Thieving)." },
         { text: "Pull the lever and proceed west then north." },
         { text: "Kill the Fire Warrior using ice arrows + Protect from Magic." },
-        { text: "Give Winelda 20 unnoted limpwurt roots — she teleports you across." },
+        { text: "Give Winelda all 20 unnoted limpwurt roots at once — she teleports you across the lava." },
       ],
     },
     {
@@ -56,8 +65,12 @@ export const templeOfIkov: QuestWalkthrough = {
         { text: "Remove the Pendant of Lucien." },
         { text: "Talk to the Guardian of Armadyl inside the Temple of Ikov; pick righteous dialogue." },
         { text: "Receive an Armadyl pendant." },
-        { text: "Travel to the building west of the Grand Exchange." },
-        { text: "Defeat Lucien (level 14) wearing the Armadyl pendant." },
+        {
+          text: "Travel to Lucien in the small building just west of the Grand Exchange in Varrock.",
+          travel:
+            "Varrock Teleport, then run north-west through the city to the Grand Exchange; Lucien is inside the house on its western edge, beside the road to Edgeville.",
+        },
+        { text: "Defeat Lucien (level 14) while wearing the Armadyl pendant." },
       ],
     },
     {
@@ -65,7 +78,11 @@ export const templeOfIkov: QuestWalkthrough = {
       steps: [
         { text: "Take the Staff of Armadyl from the table." },
         { text: "Defeat Guardian of Armadyl if blocking (safespottable)." },
-        { text: "Travel to Lucien at the building west of the Grand Exchange." },
+        {
+          text: "Travel to Lucien in the small building just west of the Grand Exchange in Varrock.",
+          travel:
+            "Varrock Teleport, then run north-west through the city to the Grand Exchange; Lucien is inside the house on its western edge, beside the road to Edgeville.",
+        },
         { text: "Give the Staff of Armadyl to Lucien." },
       ],
     },

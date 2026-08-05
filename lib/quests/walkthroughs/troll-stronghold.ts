@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const trollStronghold: QuestWalkthrough = {
   startPoint:
-    "Talk to Denulth inside the Imperial Guard soldier tent in central Burthorpe (the large blue-and-white tent in the centre of the village — Burthorpe is north of Taverley/Falador).",
+    "Talk to Denulth inside the Imperial Guard soldier tent in central Burthorpe (the large tent in the middle of the village). Fastest route: rub a games necklace and pick Burthorpe, which lands you beside the village. Otherwise walk north from Falador through Taverley and up the road to Burthorpe.",
   itemsRequired: ["Climbing boots (or 12gp from Tenzing)"],
   recommended: [
     "Combat 50+",
@@ -10,7 +10,7 @@ export const trollStronghold: QuestWalkthrough = {
     "43 Prayer for Protect from Melee",
     "30+ Thieving to pickpocket the troll guards",
     "Food + armour",
-    "Games necklace for fast escape",
+    "Games necklace for fast travel to Burthorpe and a fast escape",
     "Stamina/energy potions",
   ],
   enemies: [
@@ -24,21 +24,27 @@ export const trollStronghold: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to Denulth inside the Imperial Guard tent in central Burthorpe and accept the rescue mission for Godric.",
+          travel:
+            "Games necklace to Burthorpe drops you right by the village. No games necklace: Falador Teleport, run west out of the west gate to Taverley, then follow the road north past the Warriors' Guild into Burthorpe. Denulth is in the big soldier tent in the middle of the village.",
         },
         {
-          text: "Walk north-west out of Burthorpe along the path Tenzing showed you in Death Plateau (the spiked-boot route). Death Plateau must be complete.",
+          text: "Buy climbing boots (12gp) from Tenzing the Sherpa at his hut west of Burthorpe if you do not already own a pair.",
+          travel:
+            "From the soldier tent run west along the village path; Tenzing's hut is the last building before the ground rises into Death Plateau.",
         },
         {
-          text: "Buy climbing boots (12gp) from Tenzing the Sherpa at his hut west of Burthorpe if you don't have any.",
+          text: "Walk north-west out of Burthorpe and up the Death Plateau path that Tenzing showed you (Death Plateau must be complete). Climbing boots must be equipped.",
         },
         {
-          text: "Continue north up Death Plateau to the troll arena (the small open arena at the top of the plateau). Talk to Dad (level 101) to start the fight; damage him until the fight ends automatically (his head pops off after enough damage).",
+          text: "Continue north up Death Plateau to the troll arena at the top. Talk to Dad (level 101) to start the fight, then damage him until the fight ends automatically.",
+          travel:
+            "From the top of the climb keep heading north-east along the ridge; the arena is the fenced circle of sand at the plateau's summit with Dad standing in it.",
         },
         {
           text: "Exit the arena through the gate to the north.",
         },
         {
-          text: "Run north through the cave corridor past the Thrower trolls — use Protect from Missiles or sprint with stamina.",
+          text: "Run north through the rocky corridor past the Thrower trolls — use Protect from Missiles or just sprint with stamina.",
         },
         {
           text: "Enter the Troll Stronghold cave entrance at the end of the corridor.",
@@ -49,28 +55,30 @@ export const trollStronghold: QuestWalkthrough = {
       title: "Inside the stronghold",
       steps: [
         {
-          text: "Inside the Troll Stronghold (ground floor), follow the corridor north-east to the Troll General's chamber.",
+          text: "Inside the Troll Stronghold, follow the corridor north-east to the Troll General's chamber.",
         },
         {
           text: "Defeat the Troll General (level 113) using ranged/magic from a safespot behind the chamber pillar. Pick up the prison key from his body.",
         },
         {
-          text: "Walk west then south to the jail area on the lower floor of the stronghold (climb down the trapdoor near the General's chamber).",
+          text: "Walk west then south and climb down to the jail level of the stronghold.",
         },
         {
-          text: "At the cell block, pickpocket Twig and Berry (the two troll guards, level 71) to bypass them — pickpocketing them gives a chance per attempt. Kill them if pickpocketing fails too many times.",
+          text: "At the cell block, pickpocket Twig and Berry (the two troll guards, level 71) to slip past them — each attempt has a chance to work. Kill them if pickpocketing keeps failing.",
         },
         {
-          text: "Use the prison key on the cell doors and free both prisoners (Godric and Eadgar) from their cells.",
+          text: "Use the prison key on the cell doors and free both prisoners (Godric and Eadgar).",
         },
       ],
     },
     {
       title: "Finish the quest",
       steps: [
-        { text: "Teleport out (Games necklace to Burthorpe is fastest), or follow the prisoners through the secret exit." },
+        { text: "Leave the stronghold — a games necklace to Burthorpe is by far the fastest exit, otherwise retrace the corridor and Death Plateau path south." },
         {
-          text: "Travel to Burthorpe and find Dunstan the smith at his anvil in north-east Burthorpe (the open-air anvil east of the soldier tent). Talk to him to finish.",
+          text: "Talk to Dunstan the smith at his open-air anvil in north-east Burthorpe (east of the Imperial Guard soldier tent) to finish.",
+          travel:
+            "Games necklace to Burthorpe, then run to the north-east corner of the village — Dunstan is at the anvil just east of the soldier tent.",
         },
         { text: "Quest complete." },
       ],

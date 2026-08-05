@@ -17,7 +17,7 @@ export async function generateMetadata({
   if (!quest) return { title: "Quest not found" };
   return {
     title: `${quest.name} - OSRS Quest Guide`,
-    description: `Step-by-step walkthrough for ${quest.name} in Old School RuneScape.`,
+    description: `Step-by-step walkthrough for ${quest.name} in Old School RuneScape, with exact directions to every NPC and location.`,
   };
 }
 
@@ -31,17 +31,31 @@ export default async function QuestPage({
   if (!quest) notFound();
 
   return (
-    <article className="mx-auto max-w-3xl px-4 py-6">
+    <article className="mx-auto max-w-3xl px-4 py-5">
       <Link
         href="/"
-        className="mb-4 inline-flex items-center gap-1 text-sm text-zinc-400 hover:text-zinc-200"
+        className="-ml-1 mb-3 inline-flex items-center gap-1.5 rounded-lg px-1 py-1 text-sm text-zinc-400 active:bg-zinc-800"
       >
-        <span aria-hidden="true">&lt;-</span> All quests
+        <svg
+          viewBox="0 0 24 24"
+          className="h-4 w-4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <path d="m15 18-6-6 6-6" />
+        </svg>
+        All quests
       </Link>
 
-      <header className="mb-6">
-        <h1 className="text-3xl font-bold tracking-tight">{quest.name}</h1>
-        <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
+      <header className="mb-5">
+        <h1 className="text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
+          {quest.name}
+        </h1>
+        <div className="mt-2.5 flex flex-wrap items-center gap-1.5 text-xs">
           <span
             className={
               "rounded px-2 py-0.5 ring-1 " +
@@ -55,12 +69,17 @@ export default async function QuestPage({
           <span className="rounded bg-zinc-800 px-2 py-0.5 text-zinc-300 ring-1 ring-zinc-700">
             {quest.difficulty}
           </span>
+          {quest.length ? (
+            <span className="rounded bg-zinc-800 px-2 py-0.5 text-zinc-300 ring-1 ring-zinc-700">
+              {quest.length}
+            </span>
+          ) : null}
           {quest.wikiUrl ? (
             <a
               href={quest.wikiUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-auto rounded bg-zinc-800 px-2 py-0.5 text-zinc-300 ring-1 ring-zinc-700 hover:bg-zinc-700"
+              className="ml-auto rounded bg-zinc-800 px-2 py-0.5 text-zinc-300 ring-1 ring-zinc-700 active:bg-zinc-700"
             >
               Wiki
             </a>
@@ -71,7 +90,7 @@ export default async function QuestPage({
       {quest.walkthrough ? (
         <QuestChecklist slug={quest.slug} walkthrough={quest.walkthrough} />
       ) : (
-        <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-6">
+        <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
           <h2 className="text-lg font-semibold">Walkthrough coming soon</h2>
           <p className="mt-2 text-sm text-zinc-400">
             We haven&apos;t written a step-by-step guide for this quest yet.
@@ -82,7 +101,7 @@ export default async function QuestPage({
               href={quest.wikiUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-flex items-center gap-1 rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-emerald-950 hover:bg-emerald-400"
+              className="mt-4 inline-flex items-center gap-1 rounded-lg bg-emerald-500 px-4 py-2.5 text-sm font-medium text-emerald-950 active:bg-emerald-400"
             >
               Open wiki walkthrough
             </a>

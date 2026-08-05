@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const regicide: QuestWalkthrough = {
   startPoint:
-    "Talk to King Lathas on the first floor of Ardougne Castle (centre of East Ardougne — climb the central staircase). Underground Pass must be complete.",
+    "Talk to King Lathas on the first floor of Ardougne Castle (centre of East Ardougne). Ardougne Teleport (51 Magic) drops you in the market square just south of the castle — run north through the gates and climb the staircase in the entrance hall. Underground Pass must be complete.",
   itemsRequired: [
     "5+ coal in your bank (25+ recommended for retries)",
     "Bow + a few un-poisoned arrows",
@@ -10,7 +10,7 @@ export const regicide: QuestWalkthrough = {
     "Spade",
     "Limestone (mine in the Limestone Mine north-east of Paterdomus, or buy from Razmire)",
     "Tinderbox",
-    "Strip of cloth (or 4 balls of wool to spin into a strip on a loom — Falador or Lumbridge windmill)",
+    "Strip of cloth (or 4 balls of wool to spin into a strip on a loom — Crafting Guild)",
     "Pestle and mortar",
     "Gloves (any — protect from quicklime burn)",
     "Pot",
@@ -31,9 +31,13 @@ export const regicide: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to King Lathas on the first floor of Ardougne Castle to start the quest. He sends you back through the Underground Pass.",
+          travel:
+            "Ardougne Teleport (51 Magic) or an Ardougne teleport tab lands you in East Ardougne's market square; run north through the castle gates and up the staircase in the entrance hall. No teleport: skills necklace to the Fishing Guild and run south, combat bracelet to the Ranging Guild and run south-west, or take a charter ship to Port Khazard and run north.",
         },
         {
-          text: "Travel to West Ardougne and enter the Underground Pass at its western edge (same cave entrance as the original quest). Bring bow + arrows.",
+          text: "Travel to West Ardougne and enter the Underground Pass at its western edge (the cave Koftik guards). Bring bow + arrows.",
+          travel:
+            "Get into West Ardougne through the tunnel in Edmond's garden in north-west East Ardougne (the house you used in Plague City — climb down and crawl through the pipe), or straight through the city-wall gates if they are open to you. From West Ardougne run west out of the far gate into the border wasteland; Koftik stands beside the cave entrance at the western end.",
         },
         {
           text: "Light a cloth-wrapped arrow with a tinderbox and shoot it across the chasm to ignite the rope, opening the gate.",
@@ -60,12 +64,16 @@ export const regicide: QuestWalkthrough = {
       steps: [
         {
           text: "Run west through the Isafdar forest, talking to Idris when she appears (a Tyras forest scout — gives directions).",
+          travel:
+            "You surface on the eastern edge of Isafdar. Keep heading west along the forest paths; the trail bends south-west toward the elf camp. Watch for the trap tiles — they hit hard and poison.",
         },
         {
           text: "Navigate the forest traps: jump the leaves trap, dodge the sticks trap. The trail leads south-west.",
         },
         {
           text: "Reach the Iorwerth Camp (the elven camp in southern Isafdar — small tents around a central tree).",
+          travel:
+            "From the trap trail keep running south-west through Isafdar; the camp is the cluster of tents in the south-west of the forest, north-east of Tyras Camp.",
         },
         {
           text: "Talk to Lord Iorwerth at the Iorwerth Camp central tent.",
@@ -83,7 +91,9 @@ export const regicide: QuestWalkthrough = {
           text: "Defeat the Tyras Guard (level 110) — safespot him behind the nearby trees with ranged or magic.",
         },
         {
-          text: "Reach General Hining's camp (the human Tyras military camp west of the elf camp). Collect 2-3 empty barrels from the camp's storage area.",
+          text: "Reach General Hining's camp (the human Tyras military camp on the west coast). Collect 2-3 empty barrels from the camp's storage area.",
+          travel:
+            "From the Iorwerth Camp keep running west/north-west through Isafdar until the trees open onto the coast — Tyras Camp is the palisaded military camp on the shore, with the docks to the south.",
         },
         {
           text: "Use the barrels on the bubbling tar pool inside General Hining's camp to fill them with coal tar.",
@@ -100,7 +110,9 @@ export const regicide: QuestWalkthrough = {
       title: "Make the bomb materials",
       steps: [
         {
-          text: "Travel to a furnace (Al Kharid is closest from Ardougne via Necklace of Passage; or use the Edgeville furnace) wearing gloves. Use limestone on the furnace to make quicklime.",
+          text: "Travel to a furnace wearing gloves and use the limestone on it to make quicklime.",
+          travel:
+            "Amulet of glory to Al Kharid drops you between the bank and the palace — the furnace is the open-fronted building a short run west, near the scimitar shop. Alternatively glory to Edgeville: the furnace is just south-west of the bank, beside the general store.",
         },
         {
           text: "Use pestle and mortar on the quicklime with an empty pot in your inventory to grind it into a pot of quicklime.",
@@ -109,7 +121,9 @@ export const regicide: QuestWalkthrough = {
           text: "Use pestle and mortar on the sulphur piece to grind it into ground sulphur.",
         },
         {
-          text: "Make a strip of cloth on a loom (Falador upstairs east house, or Lumbridge attic) using 4 balls of wool.",
+          text: "Make a strip of cloth on a loom using 4 balls of wool.",
+          travel:
+            "The reliable loom is in the Crafting Guild south-west of Falador (40 Crafting + brown apron worn): Falador Teleport, then run south-west out of the city along the road past the cow field to the walled guild.",
         },
       ],
     },
@@ -117,10 +131,12 @@ export const regicide: QuestWalkthrough = {
       title: "Deadly chemistry — make the bomb in Rimmington",
       steps: [
         {
-          text: "Travel to the Chemist in Rimmington (south-west of Falador, on the south coast). Talk to him with the Chemist's book in inventory (received during The Tourist Trap or Biohazard).",
+          text: "Travel to the Chemist in Rimmington and talk to him with the Chemist's book in your inventory (received during Biohazard).",
+          travel:
+            "Falador Teleport, then run south-west out of Falador's south gate along the road past the Crafting Guild and down to Rimmington on the south coast. Alternative: Port Sarim (boat/charter) and run west. The Chemist's house is at the north-west end of the village, near the general store.",
         },
         {
-          text: "Buy/un-note 5+ coal at the Rimmington general store.",
+          text: "Buy/un-note 5+ coal at the Rimmington general store (sell noted coal, then buy it back unnoted).",
         },
         {
           text: "Walk into the Chemist's house and use the barrel of coal tar on the fractionalising still beside him.",
@@ -147,12 +163,16 @@ export const regicide: QuestWalkthrough = {
       steps: [
         {
           text: "Travel back through the Underground Pass with the bomb (don't use teleports that drop the bomb).",
+          travel:
+            "Ardougne Teleport to the market square, into West Ardougne via Edmond's tunnel in the north-west of the city, then west to Koftik's cave and back along the pass route to the Well of Voyage.",
         },
         {
-          text: "Bring a cooked rabbit (kill a rabbit west of Falador and cook on a fire if needed).",
+          text: "Bring a cooked rabbit (kill a rabbit west of Falador and cook it on a fire if needed).",
         },
         {
-          text: "Run north through Isafdar past the Iorwerth Camp to the catapult near Tyras Camp (the wooden siege engine north-west of General Hining's camp).",
+          text: "Run north-west through Isafdar past the Iorwerth Camp to the catapult outside Tyras Camp (the wooden siege engine on the ridge east of the camp walls).",
+          travel:
+            "From the Well of Voyage exit run west then north-west through Isafdar; pass the Iorwerth Camp and keep going toward the coast — the catapult sits on the high ground just outside Tyras Camp's east wall, with one human guard beside it.",
         },
         {
           text: "Confirm you have a tinderbox in your inventory.",
@@ -164,10 +184,10 @@ export const regicide: QuestWalkthrough = {
           text: "Use the bomb on the catapult, then light the fuse with the tinderbox. The catapult flings the bomb into Tyras Camp.",
         },
         {
-          text: "Run back south to the Iorwerth Camp and talk to Lord Iorwerth.",
+          text: "Run back south-east to the Iorwerth Camp and talk to Lord Iorwerth.",
         },
         {
-          text: "Travel to Ardougne Castle (use Iban's staff teleport, gnome glider, or run back through the Pass). Try to enter the castle — King Lathas summons you.",
+          text: "Travel to Ardougne Castle — Iban's staff teleport, the Tyras Camp charter ship, or run back through the Pass. Try to enter the castle and King Lathas summons you.",
         },
         {
           text: "Talk to King Lathas on the first floor of Ardougne Castle to finish.",

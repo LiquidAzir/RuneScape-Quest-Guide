@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const aTasteOfHope: QuestWalkthrough = {
   startPoint:
-    "Talk to Garth standing outside the Theatre of Blood entrance in Ver Sinhaza (the vampyre seaport south of Meiyerditch in southern Morytania — Drakan's medallion teleport, or boat from Burgh de Rott).",
+    "Talk to Garth standing outside the Theatre of Blood gates in Ver Sinhaza, the vampyre seaport south-east of Meiyerditch. Fairy ring CKS or Kharyrll Teleport to Canifis, run south through Mort Myre to Mort'ton and on to Burgh de Rott (Morytania legs 2+ teleport straight there), then north into Meiyerditch and east along the shore road to Ver Sinhaza.",
   itemsRequired: [
     "1,000 coins",
     "Knife or sickle",
@@ -32,15 +32,20 @@ export const aTasteOfHope: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to Garth standing outside the Theatre of Blood gates in Ver Sinhaza.",
+          travel:
+            "Morytania legs 2+ teleport to Burgh de Rott, then run north through the wall gap into Meiyerditch and follow the eastern shore road south-east to Ver Sinhaza. No legs: fairy ring CKS or Kharyrll Teleport to Canifis and run south through Mort Myre to Mort'ton, then take the Burgh de Rott road.",
         },
         {
-          text: "Travel north to Meiyerditch (the vampyre slum north of Ver Sinhaza). Enter the Meiyerditch Mines (the entrance pit on the south side of Meiyerditch) and follow the tunnels north-west to the Myreque Hideout under Old Man Ral's house.",
+          text: "Enter the Meiyerditch Mines through the pit on the south side of Meiyerditch and follow the tunnels north-west to the Myreque Hideout under Old Man Ral's house.",
+          travel:
+            "From Ver Sinhaza run north-west up the shore road into Meiyerditch; the mine pit is in the southern slums, just inside the town from the Burgh de Rott wall.",
         },
         {
           text: "Talk to Safalaan in the Myreque Hideout (the basement chamber with the round table).",
         },
         {
           text: "Return south to the Theatre of Blood entrance in Ver Sinhaza.",
+          travel: "Back out through the mine tunnels, then south-east down the Meiyerditch shore road to Ver Sinhaza.",
         },
       ],
     },
@@ -48,7 +53,8 @@ export const aTasteOfHope: QuestWalkthrough = {
       title: "Vampyre rooftop scouting",
       steps: [
         {
-          text: "Find Harpert near the rubble heap just east of the Ver Sinhaza bank chest. Pay him 1,000gp to climb the rubble onto the rooftops.",
+          text: "Find Harpert near the rubble heap just east of the Ver Sinhaza bank chest and pay him 1,000gp to climb onto the rooftops.",
+          travel: "From Garth at the theatre gates walk north along the Ver Sinhaza waterfront to the bank chest, then a few steps east to the rubble.",
         },
         {
           text: "Navigate the steam vents and roofs northward across Ver Sinhaza — time your runs between vent bursts.",
@@ -62,10 +68,12 @@ export const aTasteOfHope: QuestWalkthrough = {
       title: "The myth of Serafina",
       steps: [
         {
-          text: "Return to the Myreque Hideout under Old Man Ral's house. Talk to Safalaan, then to Flaygian Screwte (the historian Myreque member) standing nearby.",
+          text: "Return to the Myreque Hideout under Old Man Ral's house, talk to Safalaan, then to Flaygian Screwte (the historian Myreque member) standing nearby.",
+          travel: "Run north-west out of Ver Sinhaza into Meiyerditch, down the southern mine pit, and through the tunnels north-west to the hideout.",
         },
         {
-          text: "Travel back into Meiyerditch and find Serafina's old house (the marked house in central Meiyerditch). Climb down into its basement.",
+          text: "Find Serafina's old house in central Meiyerditch and climb down into its basement.",
+          travel: "Leave the hideout up into Old Man Ral's house, then head north through the Meiyerditch slum alleys — Serafina's is the boarded-up house in the middle of the town with a trapdoor inside.",
         },
         {
           text: "Collect mysterious meat, an herb, a vial, and a pestle and mortar from around the basement.",
@@ -78,6 +86,7 @@ export const aTasteOfHope: QuestWalkthrough = {
         },
         {
           text: "Return to the Myreque Hideout under Old Man Ral's house. The Abomination (level 149) attacks — defeat it inside the hideout.",
+          travel: "Back up out of Serafina's basement and south-west through Meiyerditch to Old Man Ral's house, then down into the hideout.",
         },
       ],
     },
@@ -94,7 +103,10 @@ export const aTasteOfHope: QuestWalkthrough = {
     {
       title: "Defeat Ranis Drakan",
       steps: [
-        { text: "Travel to the Theatre of Blood and talk to Kael Forshaw." },
+        {
+          text: "Talk to Kael Forshaw at the Theatre of Blood entrance in Ver Sinhaza.",
+          travel: "Out of the hideout, then south-east down the Meiyerditch shore road to the Ver Sinhaza quay.",
+        },
         { text: "Fight Ranis Drakan (level 233) using the Ivandis flail." },
         {
           text: "Manage his two summoned helpers and the final berserk phase.",
@@ -106,8 +118,11 @@ export const aTasteOfHope: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to the Myreque Hideout under Old Man Ral's house." },
-        { text: "Talk to Safalaan in the Myreque Hideout under Old Man Ral's house to finish the quest." },
+        {
+          text: "Return to the Myreque Hideout under Old Man Ral's house.",
+          travel: "Drakan's medallion (rewarded during the quest) → Meiyerditch, then run to Old Man Ral's house in the southern slums and climb down.",
+        },
+        { text: "Talk to Safalaan in the Myreque Hideout to finish the quest." },
         { text: "Quest complete." },
       ],
     },

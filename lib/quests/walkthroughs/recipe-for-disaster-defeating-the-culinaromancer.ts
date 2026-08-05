@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const rfdCulinaromancer: QuestWalkthrough = {
-  startPoint: "After freeing all 9 trapped guests, talk to Gypsy Aris in Varrock Square — she gives you a barrel to take to Lumbridge Cellar.",
+  startPoint:
+    "After freeing all 9 trapped guests, talk to Gypsy Aris in her tent in Varrock Square — Varrock teleport drops you in the square and the tent is on its south-west side, opposite the general store. She gives you the go-ahead for the Lumbridge Castle cellar.",
   itemsRequired: [
     "All 9 RFD subquests complete",
     "Strong combat gear (your best melee/ranged setup)",
@@ -29,14 +30,22 @@ export const rfdCulinaromancer: QuestWalkthrough = {
       title: "Final preparations",
       steps: [
         { text: "Make sure all 9 sub-quests are complete (Mountain Dwarf, Goblin Generals, Pirate Pete, Lumbridge Guide, Evil Dave, King Awowogei, Sir Amik Varze, Skrach Uglogwee, Another Cook's Quest)." },
-        { text: "Talk to Gypsy Aris in Varrock Square — she summarises what you need." },
+        {
+          text: "Talk to Gypsy Aris in her tent in Varrock Square — she summarises what you need.",
+          travel:
+            "Varrock teleport puts you in Varrock Square; her striped tent is on the south-west side of the square, across from the general store.",
+        },
         { text: "Bring the listed counter-items to the cellar: Silverlight, pizza, ice gloves, dragon battleaxe (and the spell runes for Gelatinnoth Mother)." },
       ],
     },
     {
       title: "Defeat the 5 boss minions",
       steps: [
-        { text: "Enter the Lumbridge Castle cellar and head down to the Culinaromancer's chamber." },
+        {
+          text: "Enter the Lumbridge Castle cellar and head down to the Culinaromancer's chamber.",
+          travel:
+            "Lumbridge Home Teleport, walk into the castle and take the staircase down in the ground-floor kitchen (north-west corner, beside the Cook). At the bottom, run past the Culinaromancer's Chest to the far end of the cellar — the portal to the boss chamber is there.",
+        },
         { text: "Defeat Agrith Naar with Silverlight." },
         { text: "Defeat Flambeed with a pizza in your inventory." },
         { text: "Defeat Karamel with ice gloves equipped." },

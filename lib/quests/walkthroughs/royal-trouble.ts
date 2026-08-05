@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const royalTrouble: QuestWalkthrough = {
-  startPoint: "Talk to Advisor Ghrim in Miscellania castle (after Throne of Miscellania).",
+  startPoint:
+    "Talk to Advisor Ghrim on the ground floor of Miscellania Castle (after Throne of Miscellania). Get to Miscellania by taking the boat from Rellekka's western pier — enchanted lyre or Fremennik boat to Rellekka first — or with fairy ring CIP if you have one.",
   itemsRequired: [
     "5 coal (mineable in the dungeon)",
     "2 ropes",
@@ -20,23 +21,49 @@ export const royalTrouble: QuestWalkthrough = {
     {
       title: "Investigate the Etceteria thefts",
       steps: [
-        { text: "Talk to Advisor Ghrim in Miscellania castle, choosing dialogue options 2 then 1." },
+        {
+          text: "Talk to Advisor Ghrim on the ground floor of Miscellania Castle, choosing dialogue options 2 then 1.",
+          travel:
+            "Enchanted lyre (or the Rellekka boat from Port Sarim) to Rellekka, then walk to the pier on the west side of town and take the ferry to Miscellania. Fairy ring CIP lands on the island directly. From the Miscellania dock follow the path north to the castle — Ghrim stands on the ground floor beside the throne room.",
+        },
         { text: "Talk to Princess Astrid or Prince Brand inside Miscellania Castle and watch the cutscene." },
         { text: "Talk to King Vargas on the first floor of Miscellania Castle to confirm." },
-        { text: "Talk to Gardener Gunnhild by the flax patch." },
-        { text: "Travel to Etceteria castle and talk to Queen Sigrid." },
-        { text: "Talk to Matilda in the southern building." },
+        {
+          text: "Talk to Gardener Gunnhild out at the Miscellania flax field.",
+          travel: "Leave the castle by the main gate and follow the path to the blue flax plants growing just outside the castle grounds — Gunnhild works the field there.",
+        },
+        {
+          text: "Travel north-east to Etceteria Castle and talk to Queen Sigrid in her throne room.",
+          travel:
+            "From Miscellania Castle run north-east across the bridge into Etceteria; the castle is the building straight ahead, with the bank just outside its door. Sigrid is in the throne room on the ground floor.",
+        },
+        {
+          text: "Talk to Matilda in the southern building of Etceteria.",
+          travel: "Leave Etceteria Castle and walk south — Matilda is inside the house nearest the Miscellania border.",
+        },
         { text: "Return to Queen Sigrid inside Etceteria Castle (option 2 dialogue)." },
-        { text: "Bank at Etceteria and equip combat gear + antipoison." },
+        {
+          text: "Bank at Etceteria and equip combat gear + antipoison.",
+          travel: "The Etceteria bank is the small building right beside the castle entrance, a few steps from Sigrid.",
+        },
       ],
     },
     {
       title: "The dungeon",
       steps: [
-        { text: "Talk to King Vargas, then Advisor Ghrim back in Miscellania." },
-        { text: "Talk to the Sailor at Miscellania docks." },
+        {
+          text: "Talk to King Vargas, then Advisor Ghrim back in Miscellania Castle.",
+          travel: "Run back south-west over the bridge from Etceteria into Miscellania and into the castle; Vargas is upstairs, Ghrim on the ground floor.",
+        },
+        {
+          text: "Talk to the Sailor at Miscellania docks.",
+          travel: "Head south from the castle down to the shore — the docks are the pier you arrived at from Rellekka.",
+        },
         { text: "Return to King Vargas on the first floor of Miscellania Castle with 1 free inventory slot for a scroll." },
-        { text: "Enter the dungeon via the ladder in the southern courtyard." },
+        {
+          text: "Enter the dungeon via the ladder in the castle's southern courtyard.",
+          travel: "The ladder is in the walled courtyard on the south side of Miscellania Castle — climb down to reach the tunnels.",
+        },
         { text: "Talk to Donal in the pub and accept the monster challenge." },
       ],
     },
@@ -69,9 +96,12 @@ export const royalTrouble: QuestWalkthrough = {
           text: "Kill the Giant Sea Snake (level 149) using Protect from Missiles and ranged or magic from distance.",
         },
         { text: "Take the heavy box after the kill." },
-        { text: "Climb the rope shortcut back to Etceteria castle." },
+        { text: "Climb the rope shortcut back up to Etceteria castle." },
         { text: "Talk to Queen Sigrid inside Etceteria Castle for a letter and 20,000gp." },
-        { text: "Talk to King Vargas on the first floor of Miscellania Castle to complete the quest." },
+        {
+          text: "Talk to King Vargas on the first floor of Miscellania Castle to complete the quest.",
+          travel: "Run south-west from Etceteria over the bridge into Miscellania, into the castle and up the stairs to Vargas.",
+        },
         { text: "Quest complete." },
       ],
     },

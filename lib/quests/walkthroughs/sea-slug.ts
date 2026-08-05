@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const seaSlug: QuestWalkthrough = {
   startPoint:
-    "Talk to Caroline standing on the docks at the north end of Witchaven (the small fishing village north-east of East Ardougne — walk east out of Ardougne, then north along the coast).",
+    "Talk to Caroline on the dock at the north end of Witchaven, the small fishing village on the coast east of East Ardougne. Ardougne Teleport (51 Magic) into the market square, then run east out of the city gate and follow the road east to the sea.",
   itemsRequired: ["Swamp paste"],
   recommended: ["Small fishing net", "Unlit torch (you can find one in-quest)"],
   sections: [
@@ -10,7 +10,9 @@ export const seaSlug: QuestWalkthrough = {
       title: "The Fishing Platform",
       steps: [
         {
-          text: "Talk to Caroline at the north Witchaven docks to start.",
+          text: "Talk to Caroline on the dock at the north end of Witchaven to start.",
+          travel:
+            "Ardougne Teleport or an Ardougne teleport tab into East Ardougne's market square, then run east out of the eastern gate and follow the road east to the coast — Witchaven is the little village with the church. Caroline stands on the wooden dock at its northern end. No teleport: charter ship to Port Khazard and run north-east through Ardougne.",
         },
         {
           text: "Walk down the dock and find Holgart standing beside his small boat. Give him the swamp paste — he uses it to repair the boat, then sails you to the Fishing Platform.",
@@ -29,22 +31,25 @@ export const seaSlug: QuestWalkthrough = {
     {
       title: "Upper platform",
       steps: [
-        { text: "Enter the western cabin and talk to Kennith." },
+        { text: "Enter the western cabin on the upper level and talk to Kennith." },
         { text: "Climb back down to the sea level." },
       ],
     },
     {
       title: "Remote island",
       steps: [
-        { text: "Ask Holgart to travel to the remote island." },
-        { text: "Talk to Kent on the Fishing Platform." },
-        { text: "Return to the Fishing Platform with Holgart." },
+        {
+          text: "Ask Holgart, waiting by his boat on the platform's lower deck, to sail you to the remote island.",
+          travel: "Holgart stays with his boat at the platform's boarding point on the lower level — pick the 'remote island' travel option in his dialogue.",
+        },
+        { text: "Talk to Kent on the remote island." },
+        { text: "Sail back to the Fishing Platform with Holgart." },
       ],
     },
     {
       title: "Save Kennith",
       steps: [
-        { text: "Get an unlit torch from Bailey in the south-west cabin." },
+        { text: "Get an unlit torch from Bailey in the south-west cabin of the platform." },
         { text: "Use the broken glass on the damp sticks to dry them." },
         { text: "Rub the dry sticks together to light the torch." },
         { text: "Climb the ladder and talk to Kennith again." },
@@ -58,7 +63,7 @@ export const seaSlug: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Return to the Witchaven shore by talking to Holgart on the Fishing Platform." },
-        { text: "Report to Caroline." },
+        { text: "Report to Caroline on the Witchaven dock." },
         { text: "Quest complete." },
       ],
     },

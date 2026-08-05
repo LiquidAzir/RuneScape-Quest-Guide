@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const dragonSlayerII: QuestWalkthrough = {
   startPoint:
-    "Talk to Alec Kincade outside the Myths' Guild on the small peninsula south-west of Brimhaven (the guild building sits at the southern tip of the Brimhaven peninsula on Karamja).",
+    "Talk to Alec Kincade outside the Myths' Guild, at the southern tip of the Brimhaven peninsula on Karamja. Charter ship to Brimhaven (or the 30gp boat from Ardougne's south docks), then run south along the coast road to the guild.",
   itemsRequired: [
     "Pickaxe + Axe + Hammer + Saw + Spade + Glassblowing pipe + Tinderbox + Pestle and mortar + Machete",
     "8 Oak planks + 12+ Steel nails + 10 Swamp paste",
@@ -31,13 +31,19 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Investigate Crandor",
       steps: [
         {
-          text: "Travel to the Myths' Guild on the south-west tip of the Brimhaven peninsula on Karamja (charter ship to Brimhaven, then run south-west). Talk to Alec Kincade outside the front door.",
+          text: "Talk to Alec Kincade outside the front door of the Myths' Guild on the southern tip of the Brimhaven peninsula.",
+          travel:
+            "Charter ship to Brimhaven, or take the 30gp boat from the Ardougne south docks. From Brimhaven run south down the coast — the guild is the domed building at the very southern point of the peninsula.",
         },
         {
-          text: "Travel back to Musa Point on Karamja and find Dallas Jones at the small bar in the centre of Musa Point. Talk to him.",
+          text: "Travel to Musa Point on Karamja and talk to Dallas Jones in the small bar in the centre of the settlement.",
+          travel:
+            "From Brimhaven run east along the northern coast road to Musa Point, or sail from Port Sarim (30gp to the Customs Officer) straight to the Musa Point dock. The bar is the building just inland from the dock.",
         },
         {
-          text: "Travel to Crandor (Karamja volcano dungeon shortcut) and walk into Elvarg's old lair under the volcano.",
+          text: "Travel to Crandor and walk into Elvarg's old lair.",
+          travel:
+            "From Musa Point run north-west to the volcano and climb down the rope into the Karamja volcano dungeon, then take the Crandor crevice shortcut opened by Dragon Slayer I. Elvarg's lair is at the far end.",
         },
         {
           text: "Use a pickaxe on the cracked northern wall of Elvarg's lair to dig through into a hidden tunnel.",
@@ -54,7 +60,9 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Solve the map at Fossil Island",
       steps: [
         {
-          text: "Travel to Fossil Island (sail with Dallas via the Museum Camp ferry, or use the Fossil Island Teleport tablet) and find Dallas at the Museum Camp on the south coast.",
+          text: "Travel to Fossil Island and find Dallas at the Museum Camp on the south coast.",
+          travel:
+            "Digsite pendant → Fossil Island puts you at the Museum Camp. Otherwise Digsite pendant (or Varrock Teleport then run south-east) to the Digsite and take the barge on the northern river bank across to the island — requires Bone Voyage.",
         },
         {
           text: "Collect 24 map pieces from various landmarks across Fossil Island (Mushroom Forest, Hardwood grove, Tar Swamp, Volcanic Mine, etc. — the quest shows you each location).",
@@ -74,10 +82,12 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Travel to Lithkren",
       steps: [
         {
-          text: "Bring building supplies (8 oak planks + 12+ steel nails + 10 swamp paste + hammer + saw) to the western coast of Fossil Island. Build a rowboat at the marked construction spot on the coast.",
+          text: "Bring building supplies (8 oak planks + 12+ steel nails + 10 swamp paste + hammer + saw) to Fossil Island's north-west coast and build a rowboat at the marked construction spot.",
+          travel:
+            "Digsite pendant → Fossil Island, then run north-west past the Mushroom Forest to the shoreline; the construction spot is on the beach.",
         },
         {
-          text: "Talk to Dallas and board the boat to sail to Lithkren (the dragonkin island far east).",
+          text: "Talk to Dallas and board the boat to sail to Lithkren, the dragonkin island to the north.",
         },
         {
           text: "On Lithkren, navigate the stairs and trapdoors to the underground vault (follow the quest arrows).",
@@ -87,6 +97,7 @@ export const dragonSlayerII: QuestWalkthrough = {
         },
         {
           text: "Return to Dallas at the Fossil Island Museum Camp to plan the next step.",
+          travel: "Sail back on the same rowboat and run south-east across the island to the Museum Camp.",
         },
       ],
     },
@@ -94,10 +105,14 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Bob the Cat in the dream",
       steps: [
         {
-          text: "Equip a Catspeak amulet and find Bob the Cat (he wanders in Lumbridge near the bank — locate via the catspeak amulet's Find option).",
+          text: "Equip a Catspeak amulet and find Bob the Cat, who wanders around Lumbridge.",
+          travel:
+            "Lumbridge Home Teleport. Bob usually paces between the castle and the general store — use the catspeak amulet's Find option to point you at him.",
         },
         {
-          text: "After the cutscene, travel to Sophanem (Pharaoh's sceptre or Necropolis teleport) and talk to the Sphinx outside the city — she gives you the permanent cat-speak ability.",
+          text: "After the cutscene, travel to Sophanem and talk to the Sphinx — she gives you the permanent cat-speak ability.",
+          travel:
+            "Pharaoh's sceptre → Jaltevas/Necropolis and run south, or magic carpet from Shantay Pass to Pollnivneach then a second carpet to Sophanem. The Sphinx sits in the city.",
         },
       ],
     },
@@ -105,10 +120,12 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Defeat Robert the Strong",
       steps: [
         {
-          text: "Travel to Lunar Isle (boat from Rellekka's western dock; need a Seal of passage if Lunar Diplomacy isn't fully done) with the dream-potion ingredients.",
+          text: "Travel to Lunar Isle with the dream-potion ingredients.",
+          travel:
+            "Enchanted lyre → Rellekka (or Camelot Teleport and run north-west through the Sinclair Mansion path). On Rellekka's western dock talk to Lokar Searunner for a lift to Pirates' Cove, then talk to Jarvald there to sail on to Lunar Isle. Bring a Seal of passage unless Lunar Diplomacy is fully complete.",
         },
         {
-          text: "Talk to the Oneiromancer at the Astral Altar in the centre of Lunar Isle.",
+          text: "Talk to the Oneiromancer at the Astral Altar, outside the town wall in the south-east of Lunar Isle.",
         },
         {
           text: "Use a hammer on an astral rune to crush it, then use a pestle and mortar on the shards.",
@@ -128,16 +145,24 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Collect the four dragon key pieces",
       steps: [
         {
-          text: "Karamja key piece: enter the Karamja temple maze (deep in Brimhaven dungeon area), avoiding spike traps and golems, to collect the first piece.",
+          text: "Karamja key piece: enter the temple maze near Brimhaven and pick your way past the spike traps and golems to the first piece.",
+          travel:
+            "Charter ship to Brimhaven (or the 30gp Ardougne boat), then follow the quest marker south-east of town to the temple entrance.",
         },
         {
-          text: "Morytania key piece: use the locator orb (received from the Karamja maze) in the Mort Myre swamp — it pulses to point you to the buried piece. Dig with a spade.",
+          text: "Morytania key piece: use the locator orb in Mort Myre swamp — it pulses to point you at the buried piece. Dig it up with a spade.",
+          travel:
+            "Ectophial → Port Phasmatys, then run west and south into Mort Myre. Alternatively run south out of Canifis into the swamp.",
         },
         {
-          text: "Ungael key piece: travel to Ungael (small island west of Lunar Isle, sailed via the Lithkren ferry from Fossil Island). Defeat Vorkath (level 392, single-fight version) inside the lab basement, then retrieve the piece from the chest. Equip ranged + anti-venom + antifire and kill spawns the moment they appear.",
+          text: "Ungael key piece: sail to Ungael, defeat Vorkath (level 392, single-fight version) in the lab basement, then take the piece from the chest.",
+          travel:
+            "Digsite pendant → Fossil Island, run north-west to the rowboat you built and sail to Ungael, the frozen island north of the coast. Bring ranged gear, anti-venom+ and antifire, and kill the zombified spawn the moment it lands.",
         },
         {
-          text: "Kourend key piece: travel to the Graveyard of Heroes in Shayzien (south-west Kourend). Enter the crypt and solve the statue rotation puzzle to access the chest holding the piece.",
+          text: "Kourend key piece: enter the crypt at the Graveyard of Heroes in Shayzien and solve the statue rotation puzzle to reach the chest.",
+          travel:
+            "Kharedst's memoirs → Shayzien (or Xeric's talisman → Xeric's Glade and run west). The Graveyard of Heroes is the walled cemetery out towards the Shayzien coast; the crypt entrance is inside it.",
         },
       ],
     },
@@ -145,7 +170,9 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Reforge the dragon key",
       steps: [
         {
-          text: "Travel to the Ancient Cavern under Baxtorian Falls (north of the Fishing Guild — board the log raft, use a rope on the rock + dead tree, then enter the door behind the falls).",
+          text: "Travel to the Ancient Cavern beneath Baxtorian Falls.",
+          travel:
+            "Games necklace → Barbarian Outpost, then run south-west to Otto's Grotto at the top of Baxtorian Falls and dive into the whirlpool in the lake beside Otto's hut. Speak to Otto first if you have never entered before.",
         },
         {
           text: "Use the ancient key (assembled from your 4 pieces) on the mithril door inside the cavern.",
@@ -157,7 +184,9 @@ export const dragonSlayerII: QuestWalkthrough = {
           text: "Forge the dragon key at the anvil in the centre of the room.",
         },
         {
-          text: "Return to Lithkren via Fossil Island and use the dragon key on the ancient doors deep inside the vault to unlock the next area.",
+          text: "Return to Lithkren and use the dragon key on the ancient doors deep inside the vault.",
+          travel:
+            "Digsite pendant → Fossil Island, run north-west to the rowboat and sail to Lithkren, then head down into the vault.",
         },
       ],
     },
@@ -166,18 +195,27 @@ export const dragonSlayerII: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to King Roald in the Varrock Palace throne room about the dragon threat.",
+          travel:
+            "Varrock Teleport to the central square, then run north through the palace gates; the throne room is straight ahead on the ground floor.",
         },
         {
           text: "Talk to Sir Amik Varze on the top floor of the White Knights' Castle in Falador.",
+          travel:
+            "Falador Teleport, then run north-west to the castle gates and climb the stairs in the western tower to the top.",
         },
         {
-          text: "Talk to King Lathas (or Thoros) on the first floor of Ardougne Castle.",
+          text: "Talk to King Lathas on the first floor of Ardougne Castle.",
+          travel:
+            "Ardougne Teleport (or Ardougne cloak → Ardougne Monastery and run south-east). The castle is west of the market square; take the staircase up one floor.",
         },
         {
           text: "Talk to Brundt the Chieftain inside the Rellekka longhall.",
+          travel:
+            "Enchanted lyre → Rellekka, or Camelot Teleport and run north-west. The longhall is the big hall in the middle of the village.",
         },
         {
-          text: "Return to the Varrock Palace dining room (east wing of the palace) for the war council meeting.",
+          text: "Return to the Varrock Palace dining room in the east wing for the war council meeting.",
+          travel: "Varrock Teleport, run north into the palace and east through the ground floor to the dining hall.",
         },
       ],
     },
@@ -185,7 +223,9 @@ export const dragonSlayerII: QuestWalkthrough = {
       title: "Final assault",
       steps: [
         {
-          text: "Travel back to the Rellekka docks (west dock) and sail with the assembled fleet to Ungael.",
+          text: "Travel back to the Rellekka docks and sail with the assembled fleet.",
+          travel:
+            "Enchanted lyre → Rellekka, then run west to the dock where Lokar Searunner normally waits.",
         },
         {
           text: "During the voyage, defend the ship by alternately fixing leaks, putting out fires, repairing masts, and healing crew with bandages — the captain calls out tasks.",
@@ -204,6 +244,8 @@ export const dragonSlayerII: QuestWalkthrough = {
         },
         {
           text: "Return to Alec Kincade outside the Myths' Guild on Karamja to finish.",
+          travel:
+            "Charter ship to Brimhaven (or the 30gp Ardougne boat) and run south down the coast to the guild at the tip of the peninsula.",
         },
         { text: "Quest complete." },
       ],

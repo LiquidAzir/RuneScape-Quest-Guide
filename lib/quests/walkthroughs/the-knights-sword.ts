@@ -2,17 +2,17 @@ import type { QuestWalkthrough } from "../types";
 
 export const theKnightsSword: QuestWalkthrough = {
   startPoint:
-    "Talk to the Squire in the courtyard of the White Knights' Castle in Falador (the courtyard inside the central castle keep — climb the steps to the open courtyard with the soldiers training).",
+    "Talk to the Squire in the courtyard of the White Knights' Castle in central Falador. Falador Teleport (37 Magic) or a Falador tablet lands you at the central fountain — run west to the castle gates, then climb the steps into the open courtyard where the soldiers train. Without the teleport, take the boat/walk from Port Sarim or run north-west from Draynor Village.",
   itemsRequired: [
     "Pickaxe (any kind — to mine blurite)",
-    "Redberry pie (bake one or buy from the Grand Exchange / Aubury's bakery)",
+    "Redberry pie (bake one or buy from the Grand Exchange)",
     "2 Iron bars",
-    "Blurite ore (mined in-quest from the ice dungeon)",
+    "Blurite ore (mined in-quest from the Asgarnian Ice Dungeon)",
   ],
   recommended: [
     "Mining 10 (required to mine blurite ore)",
     "Armour and food: ice giants in the dungeon are level 53 and aggressive",
-    "Combat bracelet, Falador teleport for fast travel",
+    "Falador teleports and a Port Sarim/Rimmington teleport for fast travel",
   ],
   enemies: [
     "Ice giants (level 53) — wander the south end of the ice dungeon; usually avoidable around the walls",
@@ -23,13 +23,12 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Travel to Falador (Falador teleport) and enter the White Knights' Castle in the centre of the city. Climb the steps into the central courtyard.",
+          text: "Talk to the Squire in the White Knights' Castle courtyard in Falador — he's lost Sir Vyvin's ceremonial sword and asks you to replace it.",
+          travel:
+            "Falador Teleport (37 Magic) or a Falador tablet drops you at the central fountain. Run west to the White Knights' Castle gates in the middle of the city, cross the entrance hall and climb the steps into the training courtyard — the Squire is the young soldier wandering between the training dummies.",
         },
         {
-          text: "Talk to the Squire — a young soldier wandering the courtyard between the training dummies. He's lost Sir Vyvin's ceremonial sword and asks you to replace it.",
-        },
-        {
-          text: "He says the only person who can forge a replacement is an Imcando dwarf — they live south of Rimmington.",
+          text: "Continue the dialogue: the only smith who can forge a replacement is an Imcando dwarf, and they live on the coast south of Rimmington.",
         },
       ],
     },
@@ -37,16 +36,15 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Find the Imcando dwarf",
       steps: [
         {
-          text: "Travel to Rimmington (south-west of Falador) and walk south down the coast. Thurgo's small camp sits on the beach a short way south of Rimmington (the only inhabited camp on that southern beach).",
+          text: "Talk to Thurgo at his hut on the south Asgarnian beach — he refuses to help you at first.",
+          travel:
+            "Fairy ring AIQ (Mudskipper Point) then run a short way west along the beach. No fairy ring: leave Falador by the south gate, follow the road south-west past Port Sarim to Rimmington, then run south down to the coast — Thurgo's hut is the only building on that southern beach, beside the Imcando anvil.",
         },
         {
-          text: "Talk to Thurgo at his beach hut — he refuses to help you initially.",
+          text: "Give Thurgo a redberry pie (he loves them) — he becomes friendly.",
         },
         {
-          text: "Bring him a redberry pie (he loves them). Hand it over and he becomes friendlier.",
-        },
-        {
-          text: "Talk to Thurgo again — he explains he needs blurite ore and a picture of the original sword to forge a replica.",
+          text: "Talk to Thurgo again — he needs blurite ore and a picture of the original sword to forge a replica.",
         },
       ],
     },
@@ -54,13 +52,17 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Get the sword picture",
       steps: [
         {
-          text: "Return to the White Knights' Castle in Falador and talk to the Squire in the courtyard.",
+          text: "Return to the Squire in the White Knights' Castle courtyard in Falador and ask about a picture of the sword.",
+          travel:
+            "Falador Teleport (37 Magic) or a Falador tablet, then run west to the White Knights' Castle and up into the training courtyard. Walking: head north from Rimmington through Port Sarim and take the road north-east to Falador's south gate.",
         },
         {
-          text: "Ask if he has a picture of the sword. He suggests his brother Reldo, the librarian at Varrock Palace, might have one.",
+          text: "He suggests his brother Reldo, the librarian at Varrock Palace, might have one.",
         },
         {
-          text: "Travel to Varrock Palace (Varrock teleport, then walk into the palace). The library is on the ground floor of the palace, in the west wing. Talk to Reldo standing among the bookcases.",
+          text: "Talk to Reldo among the bookcases in the Varrock Palace library.",
+          travel:
+            "Varrock Teleport (25 Magic) or a Varrock tablet to Varrock Square, then run north up the main street to the palace. The library is the big room in the palace's west wing on the ground floor — enter through the palace's western door and Reldo is pacing between the bookcases.",
         },
         {
           text: "Reldo gives you a picture of the sword.",
@@ -71,16 +73,18 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Mine blurite ore",
       steps: [
         {
-          text: "Travel to the ice dungeon — the trapdoor is on the south side of Asgarnian Ice Mountain (north of Falador, near where Wyson the gardener stands). The trapdoor is just south of the mountain peak.",
+          text: "Climb down the trapdoor into the Asgarnian Ice Dungeon on the south Asgarnian coast.",
+          travel:
+            "Fairy ring AIQ (Mudskipper Point), then run east along the coast — the trapdoor is on the shoreline a short way north-east of Thurgo's hut, south of Port Sarim. No fairy ring: run south out of Port Sarim along the coastal path and keep going until you spot the lone trapdoor near the water.",
         },
         {
-          text: "Climb down. Navigate carefully past the ice warriors and ice giants — hug the western wall to avoid most aggressive enemies.",
+          text: "Navigate carefully past the ice warriors and ice giants — hug the western wall to avoid most of the aggressive ones.",
         },
         {
-          text: "The blurite room is at the south end of the dungeon — small chamber with the distinctive blurite rocks.",
+          text: "The blurite room is the small chamber at the far south end of the dungeon, past the ice giants.",
         },
         {
-          text: "Mine 1 blurite ore (mine 2-3 spares in case of failure or ice giant interference).",
+          text: "Mine 1 blurite ore (grab 2-3 spares in case of interference).",
         },
         {
           text: "Climb back out via the trapdoor.",
@@ -91,13 +95,17 @@ export const theKnightsSword: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         {
-          text: "Return to Thurgo at his beach hut south of Rimmington with the picture, blurite ore, and 2 iron bars.",
+          text: "Return to Thurgo at his beach hut with the picture, blurite ore, and 2 iron bars.",
+          travel:
+            "From the ice dungeon trapdoor, run west/south-west along the beach — the hut is only a short run away. From elsewhere: fairy ring AIQ to Mudskipper Point and run west along the shore.",
         },
         {
           text: "Talk to Thurgo — he forges the sword.",
         },
         {
           text: "Take the new sword back to the Squire in the White Knights' Castle courtyard in Falador.",
+          travel:
+            "Falador Teleport (37 Magic) or a Falador tablet, then run west to the castle and up into the training courtyard. Walking: north through Rimmington and Port Sarim, then north-east to Falador's south gate.",
         },
         { text: "Quest complete." },
       ],
@@ -106,6 +114,6 @@ export const theKnightsSword: QuestWalkthrough = {
   rewards: [
     "1 Quest Point",
     "12,725 Smithing experience (one of the best early Smithing rewards in OSRS)",
-    "Permission to forge blurite items via Thurgo (used in later quests like Knight's Sword's spin-off content)",
+    "Ability to have Thurgo smith blurite items for you",
   ],
 };

@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const eaglesPeak: QuestWalkthrough = {
-  startPoint: "Talk to Charlie the zookeeper at Ardougne Zoo.",
+  startPoint:
+    "Talk to Charlie the zookeeper at Ardougne Zoo. Ardougne Teleport drops you in the East Ardougne market square — run north-east past the castle to the zoo; Charlie paces among the enclosures.",
   itemsRequired: [
     "Yellow dye",
     "Swamp tar",
@@ -18,16 +19,25 @@ export const eaglesPeak: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Charlie at Ardougne Zoo. He needs an unusual ferret from Eagles' Peak." },
         {
-          text: "Travel to Eagles' Peak in north-west Kandarin (use fairy ring AKQ if available).",
+          text: "Talk to Charlie at Ardougne Zoo — he needs an unusual ferret from Eagles' Peak.",
+          travel:
+            "Ardougne Teleport to the East Ardougne market square, then run north-east past the castle into the zoo. Ardougne cloak → Ardougne Monastery and running south-east also works.",
+        },
+        {
+          text: "Travel to Eagles' Peak, the mountain in north-west Kandarin.",
+          travel:
+            "Fairy ring AKQ (Piscatoris Hunter area), then run south-east to the peak. Without fairy rings: spirit tree or gnome glider to the Tree Gnome Stronghold and run north, or run north from Ardougne past the Fishing Guild and Baxtorian Falls.",
         },
       ],
     },
     {
       title: "Find the entrance",
       steps: [
-        { text: "At the campsite east of the peak, talk to Nickolaus and pick up the Bird book and a Metal feather." },
+        {
+          text: "At the campsite east of the peak, talk to Nickolaus and pick up the Bird book and a Metal feather.",
+          travel: "The camp is the small tent-and-fire site on the eastern side of the mountain, at the base of the slope.",
+        },
         { text: "Climb to the top of Eagles' Peak via the rocks/path." },
         { text: "Use the Metal feather on the Rocky outcrop to enter the dungeon." },
         { text: "Inside, collect 10 eagle feathers from the piles around the dungeon." },
@@ -36,7 +46,11 @@ export const eaglesPeak: QuestWalkthrough = {
     {
       title: "Make the bird disguise",
       steps: [
-        { text: "Travel to the Fancy Clothes Store in Varrock." },
+        {
+          text: "Travel to the Fancy Clothes Store in south-east Varrock.",
+          travel:
+            "Varrock Teleport to the central square, then run south-east — the Fancy Clothes Store is the shop near the road down to Varrock's south gate.",
+        },
         { text: "Trade 10 eagle feathers, 50 coins, swamp tar, and yellow dye for the Eagle cape and Fake beak." },
       ],
     },
@@ -45,6 +59,8 @@ export const eaglesPeak: QuestWalkthrough = {
       steps: [
         {
           text: "Bronze feather: re-enter Eagles' Peak dungeon and operate all 4 winches in sequence to drop the bronze feather into the chamber.",
+          travel:
+            "Fairy ring AKQ then run south-east to the peak, climb to the top and use the Metal feather on the Rocky outcrop again.",
           notes: ["The puzzle requires a specific order — the wiki has the diagram. Generally pull each winch then re-pull as needed."],
         },
         {
@@ -67,8 +83,15 @@ export const eaglesPeak: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to the campsite and finish the dialogue with Nickolaus there." },
-        { text: "Bring the ferret back to Charlie at Ardougne Zoo." },
+        {
+          text: "Return to the campsite east of the peak and finish the dialogue with Nickolaus there.",
+          travel: "Leave the dungeon and run back down the east side of the mountain to the tents.",
+        },
+        {
+          text: "Bring the ferret back to Charlie at Ardougne Zoo.",
+          travel:
+            "Ardougne Teleport to the market square, then north-east past the castle into the zoo.",
+        },
         { text: "Quest complete." },
       ],
     },

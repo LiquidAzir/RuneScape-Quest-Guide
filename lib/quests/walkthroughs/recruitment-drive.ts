@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const recruitmentDrive: QuestWalkthrough = {
-  startPoint: "Talk to Sir Amik Varze on the top floor of the western tower in the White Knights' Castle, Falador (after Black Knights' Fortress and Druidic Ritual).",
+  startPoint:
+    "Talk to Sir Amik Varze on the top floor of the western tower of the White Knights' Castle, Falador (after Black Knights' Fortress and Druidic Ritual). Falador Teleport (or a Falador teleport tab) drops you by the central fountain — run west through the castle's east gate, cross the courtyard to the tower in the north-west corner and climb its staircases to the top.",
   itemsRequired: ["None — bank everything before starting"],
   recommended: ["Combat 10+", "5+ Strength for the warhammer fight"],
   enemies: ["Sir Leye (level 20)"],
@@ -9,9 +10,15 @@ export const recruitmentDrive: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Sir Amik Varze on the top floor of the western tower in the White Knights' Castle, Falador (after Black Knights' Fortress and Druidic Ritual) and pick 'Yes please'." },
+        {
+          text: "Talk to Sir Amik Varze on the top floor of the western tower of the White Knights' Castle in Falador and pick 'Yes please'.",
+          travel:
+            "Falador Teleport (37 Magic) or a Falador teleport tab lands you at the central fountain; run west into the White Knights' Castle courtyard, then climb the staircases of the north-west tower to the top floor. No teleport: run west from Varrock along the main road past Barbarian Village, or north from Port Sarim through Draynor Manor's road.",
+        },
         {
           text: "Bank ALL your equipped items and inventory before continuing.",
+          travel:
+            "Falador has two banks: the west bank a short run north of the White Knights' Castle, and the east bank beside the eastern city gate. The west bank is the shorter walk from Sir Amik.",
           notes: ["Anything you bring will be confiscated. You must complete the quest with only the tools the rooms give you."],
         },
       ],
@@ -19,7 +26,11 @@ export const recruitmentDrive: QuestWalkthrough = {
     {
       title: "Begin the trial",
       steps: [
-        { text: "Talk to Sir Tiffy Cashien in Falador Park." },
+        {
+          text: "Talk to Sir Tiffy Cashien on the bench in Falador Park.",
+          travel:
+            "From the White Knights' Castle leave by the east gate, run east past the fountain and then north — Falador Park is the walled garden in the north-east of the city. Sir Tiffy is the white knight sitting on the park bench in the middle of the lawn.",
+        },
         { text: "Pick 'Yes, let's go!' to start the puzzle test." },
       ],
     },

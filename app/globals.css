@@ -16,4 +16,27 @@ html, body {
 /* Avoid the iOS overscroll background flash on dark UIs */
 html {
   background: #09090b;
+  /* Stop pull-to-refresh reloading the page mid-quest */
+  overscroll-behavior-y: none;
+}
+
+/* Tapping checkboxes and buttons repeatedly shouldn't flash a blue box */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Anchors and scroll-into-view land below the sticky header */
+:target,
+[data-scroll-anchor] {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

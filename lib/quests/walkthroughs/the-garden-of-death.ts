@@ -2,13 +2,13 @@ import type { QuestWalkthrough } from "../types";
 
 export const theGardenOfDeath: QuestWalkthrough = {
   startPoint:
-    "Travel to the campsite at the southern end of the Kebos Lowlands, just east of the chasm leading down to the Lizardman caves (south of Mount Karuulm). Search the small tent at the campsite to start.",
+    "Search the small tent at the campsite in the southern Kebos Lowlands to start. Fairy ring BLS (south of Mount Quidamortem) then run south-east to the camp; without a fairy ring, take the Lovakengj minecart to Mount Quidamortem and run south-east.",
   itemsRequired: ["Secateurs (a pair spawns in the camping equipment at the start)"],
   recommended: [
     "Combat 20+ (no mandatory fights, but jungle can have aggressive Lizardmen)",
     "Antipoison",
     "Book of the Dead or Kharedst's memoirs (for Kourend city teleports)",
-    "Fairy ring access (CKR = Kebos near Molch)",
+    "Fairy ring access (BLS for the campsite, DJR for Lake Molch)",
     "Stamina/energy potions",
   ],
   sections: [
@@ -16,7 +16,9 @@ export const theGardenOfDeath: QuestWalkthrough = {
       title: "Find the journal at the campsite",
       steps: [
         {
-          text: "Search the small tent at the Kebos campsite (south Kebos Lowlands, east of the chasm) for Kasonde's journal and read it.",
+          text: "Search the small tent at the Kebos campsite for Kasonde's journal and read it.",
+          travel:
+            "Fairy ring BLS (south of Mount Quidamortem), then run south-east to the camp on the edge of the jungle. No fairy ring: Lovakengj minecart to Mount Quidamortem and run south-east on foot.",
         },
         {
           text: "Take the secateurs from the camping equipment beside the tent.",
@@ -44,7 +46,9 @@ export const theGardenOfDeath: QuestWalkthrough = {
       title: "Lake Molch Island — second tablet",
       steps: [
         {
-          text: "Travel to Molch in the Kebos Lowlands (fairy ring CKR, then run south to Molch). On the dock, talk to Boaty and pay 50gp to sail to Molch Island in the centre of the lake.",
+          text: "Go to the Molch dock on Lake Molch, talk to Boaty and pay to sail to Molch Island in the centre of the lake.",
+          travel:
+            "Fairy ring DJR (Chasm of Fire) and run west to the lake shore. Alternatives: Rada's blessing 3/4 to Mount Karuulm and run south-east, or Xeric's talisman to Xeric's Glade and run south. Boaty waits on the wooden jetty at Molch.",
         },
         {
           text: "On the island, walk to the central rock formation and enter the hole. Inspect the vines blocking the next chamber for a dirty note.",
@@ -64,7 +68,9 @@ export const theGardenOfDeath: QuestWalkthrough = {
       title: "Xeric's Shrine — third tablet",
       steps: [
         {
-          text: "Travel to Xeric's Shrine (south-east Kebos, on the cliffside above the Lizardmen caves; teleport with Xeric's talisman → Inferno or → Heart, then run). The shrine is a stone-arched ruin on the hillside.",
+          text: "Travel to Xeric's Shrine, the stone-arched ruin on the hillside above the lizardman caves.",
+          travel:
+            "Board Boaty on Molch Island and select Molch to get back to the mainland dock, then run west and then south up to the shrine.",
         },
         {
           text: "Enter the hole inside the shrine and search the stone table for the third tablet.",
@@ -78,7 +84,9 @@ export const theGardenOfDeath: QuestWalkthrough = {
       title: "Ruins of Morra — final tablet",
       steps: [
         {
-          text: "Travel to the Ruins of Morra (the small ruined village on the western edge of Kebos Lowlands, west of Molch on the coast).",
+          text: "Travel to the Ruins of Morra, the ruined settlement south-west of Shayzien.",
+          travel:
+            "Easiest is Boaty at the Molch dock — pick the Shayzien destination, then run south to the ruins. Otherwise Kharedst's memoirs / Book of the Dead to Shayzien and run south, or Xeric's talisman to Xeric's Look-out and run south-west.",
         },
         {
           text: "Search the stone table inside the ruins for the final tablet.",

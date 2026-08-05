@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const lunarDiplomacy: QuestWalkthrough = {
-  startPoint: "Talk to Lokar Searunner at the westernmost dock of Rellekka.",
+  startPoint:
+    "Talk to Lokar Searunner on the westernmost pier of Rellekka. Enchanted lyre or Fremennik sea boots 3 teleport straight to Rellekka; otherwise Camelot Teleport and run north past Sinclair Mansion and the coal trucks, then north-west into the village.",
   itemsRequired: [
     "Tinderbox",
     "Bullseye lantern (lit)",
@@ -30,9 +31,17 @@ export const lunarDiplomacy: QuestWalkthrough = {
     {
       title: "Get the seal of passage",
       steps: [
-        { text: "Talk to Lokar Searunner at the western Rellekka dock." },
-        { text: "Talk to Brundt the Chieftain in the longhall for the seal of passage." },
-        { text: "Return to Lokar and board the pirate ship Lady Zay." },
+        {
+          text: "Talk to Lokar Searunner on the westernmost pier of Rellekka.",
+          travel:
+            "Enchanted lyre (or Fremennik sea boots 3) teleports to Rellekka. Otherwise Camelot Teleport, run north up the road past Sinclair Mansion and the coal trucks, then north-west into Rellekka. Lokar is on the western shore, on the far pier past the fish stalls.",
+        },
+        {
+          text: "Talk to Brundt the Chieftain in the Rellekka longhall for the seal of passage.",
+          travel:
+            "The longhall is the large hall in the middle of Rellekka, a short run east of the docks — Brundt stands inside near the head of the hall.",
+        },
+        { text: "Return to Lokar on the pier and board the pirate ship Lady Zay." },
         { text: "Talk to Captain Bentley on the Lady Zay about sailing to Lunar Isle." },
       ],
     },
@@ -49,9 +58,17 @@ export const lunarDiplomacy: QuestWalkthrough = {
     {
       title: "Make the Sleep potion",
       steps: [
-        { text: "Travel to Lunar Isle and find the Oneiromancer." },
-        { text: "Kill Suqah until you get a Suqah tooth." },
-        { text: "Visit Baba Yaga and brew a potion using guam, marrentill, and ground tooth." },
+        {
+          text: "Sail to Lunar Isle and talk to the Oneiromancer at the Astral Altar outside the city.",
+          travel:
+            "Bentley sails you from the Lady Zay to the Lunar Isle dock. From the dock, run through the city and out to the south-east — the Oneiromancer stands beside the Astral Altar just outside the city walls.",
+        },
+        { text: "Kill Suqah roaming the island outside the city until you get a Suqah tooth." },
+        {
+          text: "Visit Baba Yaga in her walking house and brew a potion using guam, marrentill, and ground Suqah tooth.",
+          travel:
+            "Baba Yaga's house is the chicken-legged hut on the western side of the Lunar Isle city — head back in through the gate and follow the path west.",
+        },
       ],
     },
     {
@@ -59,25 +76,31 @@ export const lunarDiplomacy: QuestWalkthrough = {
       steps: [
         {
           text: "Use your dramen staff on each elemental altar in this order: Air, Fire, Water, Earth.",
+          travel:
+            "Air: Falador Teleport, run south-west toward the Crafting Guild — ruins on the left. Fire: ring of dueling to the Duel Arena, run north-east of Al Kharid. Water: Lumbridge Home Teleport, run south-west into the marsh past Lumbridge Swamp. Earth: Varrock Teleport, run east out of the east gate toward the Lumber Yard — the ruins are just south of it. Use the matching talisman on each ruin (or use the Abyss).",
         },
-        { text: "Return the lunar staff to the Oneiromancer." },
+        {
+          text: "Return the lunar staff to the Oneiromancer at the Astral Altar on Lunar Isle.",
+          travel:
+            "Rellekka via enchanted lyre, then Lokar's boat/Bentley to Lunar Isle; run south-east out of the city to the Astral Altar.",
+        },
       ],
     },
     {
       title: "Make ceremonial clothing",
       steps: [
-        { text: "Mine lunar ore on the island and smelt into bars." },
+        { text: "Mine lunar ore in the Lunar Isle mine and smelt it into bars at the island furnace." },
         { text: "Craft the lunar helm from a bar." },
         { text: "Get a special tiara from Suqah drops." },
-        { text: "Collect 4 Suqah hides and have them tanned." },
+        { text: "Collect 4 Suqah hides and have them tanned in the city." },
         { text: "Craft torso, trousers, gloves, and boots from the tanned hides." },
-        { text: "Dig at the blue flowers south-west of the city for the lunar ring." },
+        { text: "Dig with a spade at the blue flowers south-west of the city for the lunar ring." },
       ],
     },
     {
       title: "Dream-world trials",
       steps: [
-        { text: "Equip the full lunar set and enter the dream." },
+        { text: "Equip the full lunar set and enter the dream at the Oneiromancer's bed." },
         {
           text: "Complete 6 challenges: dice game, number sequences, logging race, platforming, race course, emote copying.",
         },
@@ -88,7 +111,7 @@ export const lunarDiplomacy: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         { text: "Read the lectern to return to Lunar Isle." },
-        { text: "Talk to the Oneiromancer at the Astral Altar on Lunar Isle." },
+        { text: "Talk to the Oneiromancer at the Astral Altar just south-east of the Lunar Isle city walls." },
         { text: "Quest complete." },
       ],
     },

@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const demonSlayer: QuestWalkthrough = {
   startPoint:
-    "Talk to Aris in the small fortune-teller's tent in Varrock central square (the small striped tent in the middle of the square, between the fountain and the market stalls).",
+    "Talk to Aris in the small striped fortune-teller's tent in Varrock central square. Varrock Teleport (or the Grand Exchange lodestone-free route: run east from the GE) drops you in the square — the tent sits among the market stalls a few steps from the fountain.",
   itemsRequired: [
     "Bucket of water",
     "25 bones (any normal bones — kill cows, chickens, or rats)",
@@ -17,16 +17,20 @@ export const demonSlayer: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Travel to Varrock central square and find Aris's small striped fortune-teller tent in the middle of the square. Talk to Aris inside.",
+          text: "Talk to Aris inside her small striped fortune-teller's tent in Varrock central square.",
+          travel:
+            "Varrock Teleport lands you in the central square beside the fountain; the striped tent is right there among the market stalls. Without runes, run north from Lumbridge along the main road, or east from the Grand Exchange through the city.",
         },
         {
-          text: "She tells you the demon Delrith is returning and only Silverlight can banish him.",
+          text: "Hear her out — the demon Delrith is returning and only Silverlight can banish him.",
         },
         {
-          text: "Walk north to Varrock Palace (north side of the central square). Find Sir Prysin on the ground floor of the palace courtyard. Talk to him.",
+          text: "Walk north into Varrock Palace and talk to Sir Prysin, who stands on the ground floor near the palace entrance.",
+          travel:
+            "From the central square run north through the palace gates and in through the main doors. Sir Prysin is the knight standing in the entrance hall on the ground floor.",
         },
         {
-          text: "Sir Prysin explains he hid the three Silverlight keys in different places.",
+          text: "Listen as Sir Prysin explains he hid the three Silverlight keys in different places.",
         },
       ],
     },
@@ -34,16 +38,28 @@ export const demonSlayer: QuestWalkthrough = {
       title: "Recover the three keys",
       steps: [
         {
-          text: "Key 1 — Captain Rovin's key: climb to the top floor of Varrock Palace (stairs in the central tower) and talk to Captain Rovin until he hands over his key.",
+          text: "Key 1 — climb to the top of Varrock Palace's north-west tower and pester Captain Rovin until he hands over his key.",
+          travel:
+            "Stay in the palace: take the staircase in the north-west corner of the ground floor and climb it twice to the top of the tower. Rovin is alone up there.",
         },
         {
-          text: "Key 2 — Drain key: walk to the palace kitchen (south-west side of the palace ground floor). Use a bucket of water on the manhole in the south-west corner of the kitchen, then exit the palace and walk south to the city sewer drain. Search the drain to retrieve the key.",
+          text: "Key 2 — use a bucket of water on the drain in the Varrock Palace kitchen to flush Sir Prysin's key into the sewers below.",
+          travel:
+            "The kitchen is on the west side of the palace's ground floor — the room with the cooking range and the sink. The drain is on the floor there.",
         },
         {
-          text: "Key 3 — Wizards' Tower key: travel to the Wizards' Tower south of Draynor Village (south-west of Lumbridge across the river). Climb the stairs to the second floor and find Wizard Traiborn — he has the key.",
+          text: "Climb down into the Varrock Sewers and search the drain pipe to recover the washed-through key.",
+          travel:
+            "Leave the palace and take the manhole just outside the palace grounds to the north-east (the same entrance used for the Varrock Sewers). Climb down, then follow the tunnel to the drain pipe below the kitchen and search it.",
         },
         {
-          text: "Bring 25 bones (any normal bones — pile up cow bones from Lumbridge cow field) to Wizard Traiborn on the second floor of the Wizards' Tower. He gives you the third key in exchange.",
+          text: "Key 3 — travel to the Wizards' Tower south of Draynor Village and climb one flight of stairs to find Wizard Traiborn.",
+          travel:
+            "Necklace of passage → Wizards' Tower puts you at the front door. Otherwise amulet of glory → Draynor Village and run south over the bridge to the tower on its little island, or run south-west from Lumbridge along the river road. Traiborn is up the first staircase.",
+        },
+        {
+          text: "Hand Wizard Traiborn 25 normal bones and he gives you the third key.",
+          notes: ["Cow bones from the Lumbridge cow field north-west of the castle are the quickest 25 bones in the game."],
         },
       ],
     },
@@ -51,7 +67,9 @@ export const demonSlayer: QuestWalkthrough = {
       title: "Get Silverlight",
       steps: [
         {
-          text: "Return to Sir Prysin in Varrock Palace's courtyard with all three keys.",
+          text: "Return to Sir Prysin on the ground floor of Varrock Palace with all three keys.",
+          travel:
+            "Varrock Teleport to the central square, then run north through the palace gates and in the main doors.",
         },
         {
           text: "He hands you Silverlight.",
@@ -62,7 +80,9 @@ export const demonSlayer: QuestWalkthrough = {
       title: "Defeat Delrith",
       steps: [
         {
-          text: "Travel south of Varrock to the stone circle (just south of Varrock's south gate, in the field between the city and the road to Lumbridge).",
+          text: "Travel to the stone circle south of Varrock, in the field between the city's south gate and the Lumbridge road.",
+          travel:
+            "From the central square run south out of Varrock's south gate and keep going south-west — the ring of standing stones is in the open field on the west side of the road, just past the city wall.",
         },
         {
           text: "Wait for the cutscene to play, then attack Delrith with Silverlight equipped.",

@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const enakhrasLament: QuestWalkthrough = {
   startPoint:
-    "Talk to Lazim, who stands beside a flat stone slab in the Kharidian Desert north-east of the Desert Quarry / Mining Camp and just south of the Bedabin Camp (use Pharaoh's sceptre to Necropolis then run west, or take the magic carpet from Shantay Pass to Bedabin Camp and walk south).",
+    "Talk to Lazim, who stands beside a flat stone slab in the Kharidian Desert between the Desert Quarry and the Bedabin Camp. Getting there: go through the Shantay Pass south of Al Kharid, pay Rug merchant Shantay 200 coins for the magic carpet to the Bedabin Camp, then run south-west across the sand to the slab (the Desert Quarry pit is the landmark just west of it). Bring waterskins and desert robes — the heat drains run energy and hit points the whole way.",
   itemsRequired: [
     "Chisel",
     "Tinderbox + Candle (or candle from a candle store)",
@@ -24,10 +24,13 @@ export const enakhrasLament: QuestWalkthrough = {
       title: "Build the statue",
       steps: [
         {
-          text: "Travel to Lazim — he stands beside a flat slab in the desert, just east of the Desert Quarry (south of Bedabin Camp). Talk to him; he won't let you in until you build a statue of Enakhra on the slab.",
+          text: "Talk to Lazim at the flat stone slab in the desert — he won't let you in until you build a statue of Enakhra on it.",
+          travel:
+            "Get to the Shantay Pass south of Al Kharid (ring of dueling to Emir's Arena and run north-west into Al Kharid, then straight south out of the city), then take Shantay's magic carpet to the Bedabin Camp for 200 coins and run south-west. The slab sits in open sand just east of the Desert Quarry pit. Walking instead: from the Shantay Pass run south past the Bandit Camp and then south-west — bring 3-4 waterskins.",
         },
         {
-          text: "Mine 32kg of sandstone from the Desert Quarry just to the west (the large open mining pit). Chisel each block down on the slab to form the base.",
+          text: "Mine 32kg of sandstone from the Desert Quarry and chisel each block down on the slab to form the base.",
+          travel: "The Desert Quarry is the big open mining pit a short run west of Lazim's slab.",
         },
         {
           text: "Place the sandstone base on the flat slab.",
@@ -42,7 +45,7 @@ export const enakhrasLament: QuestWalkthrough = {
           text: "Choose your statue's head design from Lazim's options (your choice changes the puzzle answer later — write it down).",
         },
         {
-          text: "Mine two 5kg granite pieces from the Desert Quarry (granite rocks at the south-east of the pit).",
+          text: "Mine two 5kg granite rocks in the Desert Quarry (the granite rocks sit at the south-east side of the pit).",
         },
         {
           text: "Craft the chosen head from a granite piece on the slab using a chisel.",
@@ -60,6 +63,7 @@ export const enakhrasLament: QuestWalkthrough = {
       steps: [
         {
           text: "Climb down into the temple and talk to Lazim at the bottom.",
+          travel: "The entrance is the slab itself — climb down once Lazim opens it.",
         },
         {
           text: "Chisel the fallen statue in the centre 4 times to get four limbs (labelled M, R, K, Z for the 4 chambers).",
@@ -71,7 +75,7 @@ export const enakhrasLament: QuestWalkthrough = {
           text: "Collect the M sigil from the central pedestal in the bottom floor's main room.",
         },
         {
-          text: "Travel out through the four outer hallways: each leads to a sigil room (R, K, Z). Use the matching limb (R-limb on R door, etc.) to open each door, then take its sigil.",
+          text: "Follow each of the four outer hallways to its sigil room, use the matching limb on the door (R-limb on the R door, and so on), and take the sigil inside.",
         },
         {
           text: "Return to the central room and place all 4 sigils on the central pedestal to dispel the magic barrier.",
@@ -85,7 +89,7 @@ export const enakhrasLament: QuestWalkthrough = {
       title: "Middle floor — puzzle chambers",
       steps: [
         {
-          text: "On the middle floor, use soft clay on the central pedestal to make a clay impression.",
+          text: "Use soft clay on the central pedestal of the middle floor to make a clay impression.",
         },
         {
           text: "Chisel the second 5kg granite piece into a stone head matching the design you chose earlier.",
@@ -94,19 +98,23 @@ export const enakhrasLament: QuestWalkthrough = {
           text: "Place the stone head on the central pedestal.",
         },
         {
-          text: "Walk to the north-west chamber: use any cooked food on Pentyn (the trapped NPC inside) to free him.",
+          text: "Use any cooked food on Pentyn, the trapped NPC in the north-west chamber, to free him.",
+          travel: "From the middle floor's central pedestal, take the north-west corridor.",
         },
         {
-          text: "North-east chamber: cast a Wind spell on the unlit furnace inside to ignite it.",
+          text: "Cast a Wind spell on the unlit furnace in the north-east chamber to ignite it.",
+          travel: "Back to the centre, then take the north-east corridor.",
         },
         {
-          text: "South-east chamber: light all 6 braziers with their correct fuels — each brazier accepts a specific log type (regular / oak / willow / maple, in the order shown by the wall murals beside the braziers).",
+          text: "Light all 6 braziers in the south-east chamber with their correct fuels — each brazier takes a specific log type (regular / oak / willow / maple) in the order shown by the wall murals beside them.",
+          travel: "Back to the centre, then take the south-east corridor.",
         },
         {
-          text: "South-west chamber: cast a Fire spell on the frozen fountain inside to thaw it.",
+          text: "Cast a Fire spell on the frozen fountain in the south-west chamber to thaw it.",
+          travel: "Back to the centre, then take the south-west corridor.",
         },
         {
-          text: "Once all 4 chambers are solved, the magic barrier in the centre drops; pass through and climb the ladder up to the top floor.",
+          text: "Once all 4 chambers are solved the central barrier drops — pass through and climb the ladder up to the top floor.",
         },
       ],
     },
@@ -114,7 +122,7 @@ export const enakhrasLament: QuestWalkthrough = {
       title: "Top floor and finish",
       steps: [
         {
-          text: "On the top floor, cast Crumble Undead on the first boneguard blocking the way.",
+          text: "Cast Crumble Undead on the first boneguard blocking the top-floor passage.",
         },
         {
           text: "Climb down the stone ladder past the boneguard into the inner sanctum.",

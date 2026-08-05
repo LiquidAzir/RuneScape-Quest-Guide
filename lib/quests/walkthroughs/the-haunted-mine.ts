@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const theHauntedMine: QuestWalkthrough = {
   startPoint:
-    "Talk to the Zealot standing outside the abandoned mine in northern Morytania (the mine entrance is marked with a wooden sign just north of the Mort'ton path, between Canifis and the Salve). Use Salve Graveyard teleport (Arceuus spellbook) or Drakan's medallion → Burgh de Rott then run north.",
+    "Talk to the Zealot outside the Abandoned Mine beneath Mort Ridge, in southern Morytania between Mort'ton and Burgh de Rott on the east bank of the River Salve. Fairy ring BIP (on the Salve, south-west of Mort Myre), cross the river shortcut (50 Agility) and run south; or Drakan's medallion to Burgh de Rott and follow the road out of town, using the fence shortcut (25 Agility).",
   itemsRequired: ["Chisel (one drops in the dungeon if you don't have one)"],
   recommended: [
     "Combat 50+",
@@ -18,7 +18,9 @@ export const theHauntedMine: QuestWalkthrough = {
       title: "Get into the mines",
       steps: [
         {
-          text: "Travel to the Zealot at the abandoned mine entrance in northern Morytania (just north-east of Mort'ton, west of the Salve).",
+          text: "Travel to the Zealot standing at the Abandoned Mine entrance in southern Morytania.",
+          travel:
+            "Fairy ring BIP puts you on the Salve south-west of Mort Myre — cross via the river shortcut (50 Agility) and run south to the mine. Otherwise Drakan's medallion to Burgh de Rott and follow the road out of town, hopping the fence shortcut (25 Agility). Without either, Salve Graveyard teleport (Arceuus) and run south down the east bank of the Salve.",
         },
         {
           text: "Pickpocket the Zealot to steal the Zealot's key.",

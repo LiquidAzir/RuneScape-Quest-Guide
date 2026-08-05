@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const shadowOfTheStorm: QuestWalkthrough = {
   startPoint:
-    "Talk to Father Reen at the small chapel just south of the Al Kharid bank (the priest stands by the small altar inside the chapel south of the central market). Requires Demon Slayer + Shadow of the Storm prerequisites.",
+    "Talk to Father Reen in the small chapel just south of the Al Kharid bank. Amulet of glory to Al Kharid drops you beside the bank and palace — the chapel is a few steps south. Requires Demon Slayer and The Golem.",
   itemsRequired: [
     "Silverlight (from Demon Slayer)",
     "Strange implement (in-quest)",
@@ -23,10 +23,14 @@ export const shadowOfTheStorm: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Talk to Father Reen at the small chapel just south of the Al Kharid bank.",
+          text: "Talk to Father Reen in the small chapel just south of the Al Kharid bank.",
+          travel:
+            "Amulet of glory to Al Kharid lands you between the bank and the palace gates; the chapel is the small building just south. No glory: ring of dueling to the Emir's Arena and run west into town, or run east from Lumbridge over the toll gate (10gp).",
         },
         {
-          text: "Travel to Uzer (magic carpet from Shantay Pass to Uzer, fairy ring DLQ + run east, or run east through the desert from Pollnivneach).",
+          text: "Travel to the Uzer ruins in the eastern Kharidian Desert.",
+          travel:
+            "Magic carpet from the Shantay Pass to Pollnivneach, then a second carpet from Pollnivneach to Uzer (a few hundred coins total). Fairy ring DLQ then a run east also works. Bring waterskins — the desert drains run energy and damages you.",
         },
         {
           text: "At the Uzer ruins (the half-buried desert ruin south of the Uzer oasis), talk to Father Badden standing near the entrance.",
@@ -38,7 +42,9 @@ export const shadowOfTheStorm: QuestWalkthrough = {
           text: "Grab the Strange implement from the north-west corner of the Uzer ruins (small wooden tool on the floor).",
         },
         {
-          text: "Travel to Edgeville and find Doris's house (north-east of the bank). Climb down the trapdoor in her basement and talk to Evil Dave wearing 3+ pieces of black clothing AND the black-dyed Silverlight.",
+          text: "Travel to Edgeville and climb down the trapdoor in Doris's house to talk to Evil Dave, wearing 3+ pieces of black clothing AND carrying the black-dyed Silverlight.",
+          travel:
+            "Amulet of glory to Edgeville lands you at the bank; Doris's house is just north-east of it. Go inside and climb down the trapdoor into the basement. No glory: Varrock Teleport and run west along the road out of the west gate.",
         },
       ],
     },
@@ -53,9 +59,11 @@ export const shadowOfTheStorm: QuestWalkthrough = {
         },
         {
           text: "Travel back to the Uzer ruins; talk to Matthew (the demonologist) inside the ruins.",
+          travel: "Shantay Pass magic carpet to Pollnivneach, then the Uzer carpet, and run south to the ruins.",
         },
         {
-          text: "Smelt the silver bar in the demonic sigil mould at any furnace (Al Kharid is closest) to make a demonic sigil.",
+          text: "Smelt the silver bar in the demonic sigil mould at a furnace to make a demonic sigil.",
+          travel: "The nearest furnace is in Al Kharid — amulet of glory to Al Kharid, then run a short way west from the bank to the open-fronted furnace building.",
         },
         {
           text: "Bank for combat — best melee gear + food.",
@@ -70,7 +78,8 @@ export const shadowOfTheStorm: QuestWalkthrough = {
           text: "Read the book, then take it to Matthew inside the ruins.",
         },
         {
-          text: "Travel back to Evil Dave's basement and talk to Denath through the portal — get the incantation (write it down — random per player).",
+          text: "Travel back to Evil Dave's basement in Edgeville and talk to Denath through the portal — get the incantation (write it down, it is random per player).",
+          travel: "Amulet of glory to Edgeville, into Doris's house north-east of the bank, and down the trapdoor.",
         },
         {
           text: "Chant the incantation in front of the summoning circle in Evil Dave's basement.",
@@ -79,7 +88,8 @@ export const shadowOfTheStorm: QuestWalkthrough = {
           text: "Take the demonic sigil that drops on the floor.",
         },
         {
-          text: "Exit Evil Dave's basement and travel back to the Uzer ruins; collect Tanya's sigil from the ruins.",
+          text: "Travel back to the Uzer ruins and collect Tanya's sigil from the ruins.",
+          travel: "Shantay Pass carpet to Pollnivneach, carpet on to Uzer, then run south to the ruins.",
         },
         {
           text: "Tell Evil Dave (in his Edgeville basement) to return to the throne room of the Uzer ruins.",
@@ -93,7 +103,8 @@ export const shadowOfTheStorm: QuestWalkthrough = {
           text: "Talk to Father Badden at the entrance of the Uzer ruins.",
         },
         {
-          text: "Travel to Al Kharid; convince Father Reen at the Al Kharid chapel south of the bank to join the ritual.",
+          text: "Convince Father Reen at the Al Kharid chapel south of the bank to join the ritual.",
+          travel: "Amulet of glory to Al Kharid; the chapel is just south of the bank where you started the quest.",
         },
         {
           text: "Return to the Uzer ruins and talk to the clay golem outside — he refuses to enter.",

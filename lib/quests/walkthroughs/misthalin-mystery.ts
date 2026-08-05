@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const misthalinMystery: QuestWalkthrough = {
-  startPoint: "Talk to Abigale in the south-eastern corner of Lumbridge Swamp, near the fishing spots.",
+  startPoint:
+    "Talk to Abigale in the south-eastern corner of Lumbridge Swamp, by the fishing spots on the shore. Lumbridge Home Teleport, then run south past the church and keep going south-east through the swamp to the water's edge.",
   itemsRequired: [
     "Bucket (in-quest)",
     "Tinderbox (in-quest)",
@@ -12,13 +13,20 @@ export const misthalinMystery: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to Abigale in the south-eastern corner of Lumbridge Swamp, near the fishing spots and offer help." },
-        { text: "Take the boat south." },
-        { text: "Collect a bucket from the fountain if needed." },
-        { text: "Walk west of the manor." },
+        {
+          text: "Talk to Abigale by the fishing spots in the south-eastern corner of Lumbridge Swamp and offer to help.",
+          travel:
+            "Lumbridge Home Teleport, run south out of the castle grounds past the church, then south-east across the swamp to the shoreline — Abigale stands beside her rowboat next to the fishing spots.",
+        },
+        {
+          text: "Board Abigale's boat to sail south to the manor island.",
+          travel: "The boat is right beside Abigale — it drops you at the island's dock, north of the manor.",
+        },
+        { text: "Fill a bucket at the fountain in the manor grounds if you don't have one." },
+        { text: "Walk around to the west side of the manor." },
         { text: "Use the bucket on the rainwater barrel to empty it." },
         { text: "Take the manor key from the bottom of the barrel." },
-        { text: "Enter the manor." },
+        { text: "Enter the manor through the front door." },
       ],
     },
     {
@@ -27,7 +35,7 @@ export const misthalinMystery: QuestWalkthrough = {
         { text: "Pick up the knife from the table if needed." },
         { text: "Try the pink-knobbed door." },
         { text: "Read the note on the ground." },
-        { text: "Use a knife on the gloomy valley painting in the south-west room; search for the ruby key." },
+        { text: "Use a knife on the gloomy valley painting in the south-west room; search it for the ruby key." },
         { text: "Take the tinderbox from the south-east room." },
         { text: "Light all 4 unlit candles with the tinderbox." },
         { text: "Light the barrel with the fuse." },

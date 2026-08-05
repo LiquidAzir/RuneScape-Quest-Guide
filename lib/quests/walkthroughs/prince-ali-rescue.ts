@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const princeAliRescue: QuestWalkthrough = {
   startPoint:
-    "Talk to Hassan inside the Al Kharid Palace (Hassan stands in the throne room — the central building behind the Al Kharid market square).",
+    "Talk to Hassan in the throne room of the Al Kharid Palace — the large walled building in the middle of Al Kharid. Lumbridge Home Teleport, then run north out of the castle grounds and east through the toll gate (10gp) into Al Kharid; the palace is straight ahead past the market stalls. Amulet of glory to Al Kharid drops you a few steps north of it.",
   itemsRequired: [
     "3 balls of wool",
     "Pink skirt (buy from the Varrock clothing shop in central Varrock, or kill goblins for an alternative)",
@@ -24,13 +24,15 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Travel to the Al Kharid Palace (east of Lumbridge across the desert toll gate). Talk to Hassan in the central throne room of the palace.",
+          text: "Travel to the Al Kharid Palace and talk to Hassan in the central throne room.",
+          travel:
+            "Lumbridge Home Teleport, run north and then east through the desert toll gate (10gp) into Al Kharid — the palace is the big walled building in the centre of town. Amulet of glory to Al Kharid or ring of dueling to Emir's Arena and running west both skip the toll.",
         },
         {
-          text: "He explains Prince Ali has been kidnapped by Lady Keli and is being held in Draynor Village.",
+          text: "He explains Prince Ali has been kidnapped by Lady Keli and is being held near Draynor Village.",
         },
         {
-          text: "Walk south-west of the palace to the Al Kharid market square. Find Osman (a hooded NPC standing among the stalls) and talk to him for the rescue plan.",
+          text: "Walk out of the palace and talk to Osman by the market stalls just outside its north-west corner for the rescue plan.",
         },
       ],
     },
@@ -38,7 +40,9 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Make the wig",
       steps: [
         {
-          text: "Travel to Draynor Village and find Ned in his small cottage just south-east of the bank. Give him 3 balls of wool — he can spin them into a rope and weave a wig.",
+          text: "Travel to Draynor Village and talk to Ned in his cottage in the north-west of the village.",
+          travel:
+            "Amulet of glory to Draynor Village, or run west from Lumbridge along the south river road. Ned's house is the northernmost cottage on the village's west side, just north of Aggie's hut.",
         },
         {
           text: "Bring Ned 3 balls of wool + yellow dye (made by Aggie from 2 onions). He weaves a blonde wig.",
@@ -49,7 +53,9 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Make the skin paste",
       steps: [
         {
-          text: "Walk to Aggie the witch's house in Draynor Village (small house just east of the bank, south of the market). Talk to her about skin paste.",
+          text: "Walk to Aggie the witch's house in Draynor Village and talk to her about skin paste.",
+          travel:
+            "Aggie's hut is a few steps south of Ned's, on the west side of Draynor Village and just west of the market stalls.",
         },
         {
           text: "Give her: a pot of flour, ashes, redberries, and the small fee. She brews the skin paste used to disguise Prince Ali.",
@@ -60,16 +66,20 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Get the key impression and the key",
       steps: [
         {
-          text: "Go to Lady Keli's house in northern Draynor Village (the small jail-house east of the wheat field). Talk to Lady Keli — keep talking and pick the dialogue option that asks to see the key.",
+          text: "Go to Lady Keli's jail-house north-east of Draynor Village and talk to her — keep talking and pick the dialogue option that asks to see the key.",
+          travel:
+            "From the Draynor bank run north-east up the road toward Falador; the small jail building sits just east of the wheat field, with guards outside. Leela, Osman's daughter, waits nearby if you need a hint.",
         },
         {
-          text: "While Keli is holding the key, use soft clay on the key to make a key print impression. (Talk to Leela — Osman's daughter, who waits just outside Keli's house — first if you need a hint.)",
+          text: "While Keli is holding the key, use soft clay on the key to make a key print impression.",
         },
         {
-          text: "Take the key print + a bronze bar to Osman in the Al Kharid market square.",
+          text: "Take the key print + a bronze bar back to Osman outside the Al Kharid Palace.",
+          travel:
+            "Amulet of glory to Al Kharid, or run east from Draynor through Lumbridge and the toll gate. Osman is by the market stalls off the palace's north-west corner.",
         },
         {
-          text: "Osman casts the impression onto the bronze bar to make a copy of the key.",
+          text: "Osman casts the impression onto the bronze bar to make a copy of the key — take it back to Leela outside Lady Keli's jail-house.",
         },
       ],
     },
@@ -77,10 +87,12 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Distract the guard",
       steps: [
         {
-          text: "Buy a beer at any pub (Rusty Anchor in Port Sarim is closest, or the Asgarnian pub in Falador) if you don't already have one.",
+          text: "Buy a beer at any pub if you don't already have one.",
+          travel:
+            "Closest options: the Rusty Anchor in Port Sarim (west along the coast road from Draynor), or the Rising Sun Inn in central Falador, just north-west of the Falador Teleport spot.",
         },
         {
-          text: "Walk to Joe, the guard outside Lady Keli's jail-house in northern Draynor Village.",
+          text: "Walk to Joe, the guard standing outside Lady Keli's jail-house north-east of Draynor Village.",
         },
         {
           text: "Give him the beer to put him to sleep — he wanders away from his post.",
@@ -91,7 +103,7 @@ export const princeAliRescue: QuestWalkthrough = {
       title: "Free the Prince",
       steps: [
         {
-          text: "With the wig, pink skirt, skin paste, copied key, and a rope in your inventory, enter Lady Keli's house in northern Draynor Village.",
+          text: "With the wig, pink skirt, skin paste, copied key, and a rope in your inventory, enter Lady Keli's jail-house.",
         },
         {
           text: "Talk to Prince Ali inside the cell.",
@@ -106,6 +118,8 @@ export const princeAliRescue: QuestWalkthrough = {
       steps: [
         {
           text: "Return to Hassan in the Al Kharid Palace throne room.",
+          travel:
+            "Amulet of glory to Al Kharid and walk south to the palace, or run east from Draynor through Lumbridge and the toll gate.",
         },
         { text: "Quest complete." },
       ],
