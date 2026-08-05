@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const lostCity: QuestWalkthrough = {
   startPoint:
-    "Talk to the Warrior at the small adventurers' campsite north-west of Lumbridge Swamp (the campfire and tents in the woods just north-west of the swamp's wheat field, between Lumbridge and the Lumbridge Swamp).",
+    "Talk to the Warrior at the small adventurers' campsite north-west of Lumbridge Swamp (the campfire and tents in the woods just north-west of the swamp's wheat field). Lumbridge Home Teleport, then run south-west out of the castle grounds and across the field into the trees.",
   itemsRequired: [
     "Knife",
     "Woodcutting axe (a bronze axe drops from the zombies in the Entrana dungeon — leave yours at the bank if you forget)",
@@ -23,7 +23,9 @@ export const lostCity: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Travel to the adventurers' campsite north-west of Lumbridge Swamp (the small clearing with a fire and three NPCs in the woods just north-west of the swamp's wheat field). Talk to the Warrior beside the fire.",
+          text: "Talk to the Warrior beside the fire at the adventurers' campsite north-west of Lumbridge Swamp.",
+          travel:
+            "Lumbridge Home Teleport, then run west across the River Lum bridge and south-west into the woods — the camp is the small clearing with a fire and four NPCs, just north-west of the swamp's wheat field.",
         },
         {
           text: "Talk to the other adventurers around the fire — the Monk, the Leprechaun, and Shamus the Dwarf. Keep going through dialogue until the Leprechaun mentions the magical tree nearby.",
@@ -43,7 +45,9 @@ export const lostCity: QuestWalkthrough = {
           text: "Bank ALL weapons and armour — the Monks of Entrana strip them on landing. Jewellery, runes, and food are allowed.",
         },
         {
-          text: "Travel to the Port Sarim docks (the southern dock specifically — boat to Entrana is the white-hulled boat). Talk to the Monk of Entrana on the gangplank to sail to Entrana.",
+          text: "Sail to Entrana by talking to the Monk of Entrana on the gangplank at the Port Sarim docks.",
+          travel:
+            "Falador Teleport then run south down the road to Port Sarim, or amulet of glory to Draynor Village and run west. The Entrana ship is the northernmost of the three piers, north of the fishing and food shops — monks stand on the gangplank.",
         },
       ],
     },
@@ -51,7 +55,9 @@ export const lostCity: QuestWalkthrough = {
       title: "Get a Dramen branch",
       steps: [
         {
-          text: "On Entrana, walk north-east from the dock, cross the bridge over the river, then walk west to the cave entrance. Climb down the ladder into the Entrana dungeon.",
+          text: "On Entrana, run north-east from the dock and climb down the ladder into the Entrana dungeon.",
+          travel:
+            "From the boat, head north-east across the island past the church and the herb patch — the dungeon ladder is in the north-eastern corner of the island, beyond the river crossing.",
         },
         {
           text: "Inside the dungeon, kill zombies until one drops a bronze axe (~40% drop rate) — this is the only axe you can use here.",
@@ -77,7 +83,9 @@ export const lostCity: QuestWalkthrough = {
           text: "Use a knife on the Dramen branch to whittle it into a Dramen staff.",
         },
         {
-          text: "Travel to the Lumbridge Swamp (south of Lumbridge). Find the small isolated tool shed in the centre of the swamp (it's a tiny one-room wooden shed that looks abandoned, surrounded by water).",
+          text: "Travel to the isolated tool shed in the middle of Lumbridge Swamp.",
+          travel:
+            "Lumbridge Home Teleport, then run south out of the castle grounds past the church and into the swamp — the shed is a tiny one-room wooden hut standing alone in the centre of the swamp, west of the swamp's mining site.",
         },
         {
           text: "Equip the Dramen staff and click the shed door — you're teleported into Zanaris.",

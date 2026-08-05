@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const legendsQuest: QuestWalkthrough = {
-  startPoint: "Talk to Legends' Guard east of Ardougne (50 QP requirement to start).",
+  startPoint:
+    "Talk to the Legends' Guard outside the Legends' Guild, north-east of East Ardougne (50 QP required to start). Ardougne Teleport to the market square, then run east out of the city and follow the road north-east up the hill to the walled guild.",
   itemsRequired: [
     "Machete",
     "2 Gold bars",
@@ -29,38 +30,46 @@ export const legendsQuest: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to the Legends' Guard outside the Legends' Guild (3, 1, 2)." },
-        { text: "Talk to Radimus at the Legends' Guild." },
-        { text: "Accept the quest challenge." },
+        {
+          text: "Talk to the Legends' Guard at the Legends' Guild gate and answer 3, 1, 2.",
+          travel:
+            "Ardougne Teleport lands in the East Ardougne market square — run east out of the city gate, then follow the road north-east up the hill. The guard stands at the guild's front gate.",
+        },
+        { text: "Talk to Radimus Erkle inside the Legends' Guild ground floor." },
+        { text: "Accept the quest challenge and take Radimus's notes." },
       ],
     },
     {
       title: "Map the Kharazi Jungle",
       steps: [
-        { text: "Travel to the Kharazi Jungle south of Shilo Village." },
-        { text: "Map all 3 jungle sections using Radimus's notes." },
-        { text: "Trade the notes to the Jungle forester for a bullroarer." },
-        { text: "Summon Gujuo with the bullroarer at the totem pole." },
-        { text: "Search the mossy rock and crawl inside (50 Agility)." },
-        { text: "Investigate the Fire Wall." },
+        {
+          text: "Travel to the Kharazi Jungle on the southern coast of Karamja, south of Shilo Village.",
+          travel:
+            "Fairy ring CKR lands in the north-east of the Kharazi Jungle. Without a fairy ring: boat from Port Sarim to Musa Point, walk to Brimhaven, take Vigroy's cart to Shilo Village (Shilo Village quest required), then run south and hack through the jungle vines with your machete.",
+        },
+        { text: "Map all 3 jungle sections (west, centre, east) using Radimus's notes." },
+        { text: "Trade the completed notes to a Jungle forester chopping trees along the jungle's northern edge." },
+        { text: "Blow the bullroarer beside the totem pole in the jungle to summon Gujuo." },
+        { text: "Search the mossy rock in the south-west of the jungle and crawl inside (50 Agility)." },
+        { text: "Investigate the Fire Wall in the cave below." },
       ],
     },
     {
       title: "Sacred pool",
       steps: [
-        { text: "Smith a golden bowl from 2 gold bars." },
-        { text: "Have Gujuo enchant it (42 Prayer)." },
-        { text: "Collect reeds and fill the bowl with sacred water." },
-        { text: "Navigate the Viyeldi caves using lockpick + mining." },
+        { text: "Smith a golden bowl from 2 gold bars at any furnace." },
+        { text: "Have Gujuo enchant the bowl at the sacred pool (42 Prayer)." },
+        { text: "Collect reeds and fill the bowl with sacred water from the pool." },
+        { text: "Navigate the Viyeldi caves using your lockpick and pickaxe." },
         { text: "Use runes on the marked wall (Soul, Mind, Earth, Law, Law)." },
-        { text: "Place cut gems on the carved rocks per the map." },
+        { text: "Place the cut gems on the carved rocks per the map." },
         { text: "Collect the binding book." },
       ],
     },
     {
       title: "First Nezikchened fight",
       steps: [
-        { text: "Use the golden bowl (sacred water) on the fire around Ungadulu." },
+        { text: "Use the golden bowl of sacred water on the fire surrounding Ungadulu." },
         { text: "Use the binding book on Ungadulu." },
         { text: "Defeat Nezikchened (level 187)." },
       ],
@@ -68,9 +77,9 @@ export const legendsQuest: QuestWalkthrough = {
     {
       title: "Restore the pool",
       steps: [
-        { text: "Collect ardrigal + snake weed; brew bravery potion." },
-        { text: "Navigate the cave with rope to the lower chamber." },
-        { text: "Kill 3 skeleton variants (Ranalph, Irvig, San Tojalon)." },
+        { text: "Collect ardrigal and snake weed from the jungle palms and vines, then brew the bravery potion." },
+        { text: "Tie your rope to the rocks and climb down to the lower chamber." },
+        { text: "Kill the 3 skeleton champions (Ranalph Devere, Irvig Senay, San Tojalon)." },
         {
           text: "Pick path: evil (pick up the hat, fight Viyeldi) or good (skip the hat, use dark dagger).",
         },
@@ -80,17 +89,21 @@ export const legendsQuest: QuestWalkthrough = {
     {
       title: "Yommi tree + final fight",
       steps: [
-        { text: "Plant germinated seeds on fertile soil." },
+        { text: "Plant the germinated seeds on the fertile soil patch in the jungle." },
         { text: "Use sacred water on the yommi bush to grow the tree." },
-        { text: "Chop the tree and carve a totem." },
+        { text: "Chop the tree with a rune axe and carve a totem." },
         { text: "Use the totem on the old totem pole." },
-        { text: "Defeat 3 skeletons + Nezikchened (final time)." },
+        { text: "Defeat the 3 skeletons and Nezikchened one final time." },
       ],
     },
     {
       title: "Finish the quest",
       steps: [
-        { text: "Talk to Radimus Erkle in the Legends' Guild with the gilded totem and notes." },
+        {
+          text: "Return to Radimus Erkle in the Legends' Guild with the gilded totem and notes.",
+          travel:
+            "Fairy ring CKR back out of the jungle, then Ardougne Teleport and run east out of the city and north-east up the road to the guild. Radimus is on the ground floor.",
+        },
         { text: "Choose 4 skills for 30,000 XP each." },
         { text: "Quest complete." },
       ],

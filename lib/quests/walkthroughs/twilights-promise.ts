@@ -2,11 +2,11 @@ import type { QuestWalkthrough } from "../types";
 
 export const twilightsPromise: QuestWalkthrough = {
   startPoint:
-    "Talk to either Ennius Tullus or Furia Tullus (Varlamore guards in red and gold) standing in the plaza in front of the Sunrise Palace in central Civitas illa Fortis.",
+    "Talk to either Ennius Tullus or Furia Tullus (the Varlamore guards in red and gold) in the plaza in front of the Sunrise Palace in central Civitas illa Fortis. Rub a Pendant of Ates (kept from Children of the Sun) to land in the city; without one, travel overland through the Avium Savannah east of Mount Quidamortem and enter the city by its western gate.",
   itemsRequired: [
     "Items for two different combat classes (or a poisoned weapon for the slow path through the Colosseum trial)",
   ],
-  recommended: ["Combat 40+", "Stamina potions", "Some food"],
+  recommended: ["Combat 40+", "Stamina potions", "Some food", "Pendant of Ates charges"],
   enemies: [
     "Knight of Varlamore (level 81) — Mezan's Colosseum trial",
     "8 Cultists (level 34) — final fight at Ralos' Rise",
@@ -16,22 +16,25 @@ export const twilightsPromise: QuestWalkthrough = {
       title: "Friends like these",
       steps: [
         {
-          text: "Travel to Civitas illa Fortis (Pendant of ates teleport, or Quetzal whistle from Hunter Guild). Walk to the Sunrise Palace in the city centre.",
+          text: "Travel to Civitas illa Fortis and walk to the Sunrise Palace in the city centre.",
+          travel:
+            "Rub a Pendant of Ates (from Children of the Sun) and choose Civitas illa Fortis — it drops you in the city. Without a pendant, take the overland route: get to Mount Quidamortem in south-west Kourend (Xeric's talisman to Xeric's Glade, then run south-west), follow the pass east into the Avium Savannah and keep going east to the city's west gate. The Sunrise Palace is the huge stepped building in the middle of the city, impossible to miss.",
         },
         {
-          text: "Talk to Ennius Tullus or Furia Tullus standing in the plaza in front of the palace; answer Yes to start.",
+          text: "Talk to Ennius Tullus or Furia Tullus standing in the plaza in front of the palace and answer Yes to start.",
         },
         {
-          text: "Walk south of the Sunrise Palace plaza to the temple. Talk to Metzli at the temple entrance.",
+          text: "Talk to Metzli at the entrance of the temple south of the Sunrise Palace plaza.",
+          travel: "From the palace steps walk south across the plaza — the temple is the columned building on its south side.",
         },
         {
           text: "Descend the trapdoor into the crypt below the temple.",
         },
         {
-          text: "Inside the crypt, talk to Prince Itzla and Servius (they're huddled near a stone tomb).",
+          text: "In the crypt, talk to Prince Itzla and Servius (huddled beside a stone tomb).",
         },
         {
-          text: "Climb back up and talk to Ennius/Furia outside the Sunrise Palace to receive the Varlamore crest.",
+          text: "Climb back up and talk to Ennius or Furia outside the Sunrise Palace to receive the Varlamore crest.",
         },
       ],
     },
@@ -39,22 +42,27 @@ export const twilightsPromise: QuestWalkthrough = {
       title: "Knight tasks (6 around Civitas illa Fortis)",
       steps: [
         {
-          text: "Find 6 knights wandering the city — each gives a small task. Locations are marked with the Varlamore crest icon.",
+          text: "Find the 6 knights scattered around the city — each gives a small task. Each is marked on the minimap with the Varlamore crest icon.",
         },
         {
-          text: "Arrun & Claudia (south Bazaar): pickpocket an amulet from a wandering citizen in the central bazaar.",
+          text: "Arrun and Claudia (south bazaar): pickpocket an amulet from a wandering citizen in the bazaar.",
+          travel: "From the Sunrise Palace plaza head south-west into the open-air bazaar with the market stalls.",
         },
         {
-          text: "Nel (harbour district, south-west of city): search the correct cargo crate at the south harbour for the contraband.",
+          text: "Nel (harbour district): search the correct cargo crate at the south harbour for the contraband.",
+          travel: "From the bazaar keep going south-west and downhill to the waterfront in the city's south-west corner.",
         },
         {
-          text: "Mezan (Colosseum, south-east of city): fight at the Fortis Colosseum entry trial — swap combat styles between rounds when prompted.",
+          text: "Mezan (Fortis Colosseum): fight the Colosseum entry trial and swap combat styles between rounds when prompted.",
+          travel: "From the harbour run east and then north-east — the Colosseum is the huge circular arena on the city's south-east side.",
         },
         {
-          text: "Velam & Azali (central plaza): lead the knight east to the fountain just east of the central pub.",
+          text: "Velam and Azali (central plaza): lead the knight east to the fountain just east of the central pub.",
+          travel: "Head back north-west to the main plaza in front of the Sunrise Palace.",
         },
         {
-          text: "Final knight task: search the chest inside the Kualti Headquarters (the cult-marked building west of the bazaar) for the incriminating letter.",
+          text: "Search the chest inside the Kualti Headquarters — the cult-marked building west of the bazaar — for the incriminating letter.",
+          travel: "From the bazaar walk west; the headquarters is the shuttered building with the cult symbol over its door.",
         },
         {
           text: "Return to Ennius or Furia in the Sunrise Palace plaza with all the evidence.",
@@ -65,13 +73,15 @@ export const twilightsPromise: QuestWalkthrough = {
       title: "The Twilight Emissaries",
       steps: [
         {
-          text: "Walk south-east of the Sunrise Palace plaza and talk to Regulus Cento (he runs the Quetzal Transport System stand).",
+          text: "Talk to Regulus Cento at his Quetzal Transport System stand south-east of the Sunrise Palace plaza.",
+          travel: "From the palace steps walk south-east; Regulus and his giant quetzal Renu are on the raised landing platform.",
         },
         {
-          text: "Feed Renu the quetzal (Regulus's mount) the food he requests.",
+          text: "Feed Renu the quetzal the food Regulus asks for.",
         },
         {
-          text: "Travel via the quetzal to Ralos' Rise (the temple plateau north of Civitas illa Fortis).",
+          text: "Ride the quetzal to Ralos' Rise.",
+          travel: "Talk to Regulus and pick Ralos' Rise from the quetzal destination list — the bird flies you straight to the temple plateau.",
         },
         {
           text: "Inside the Ralos' Rise temple, talk to Prince Itzla.",

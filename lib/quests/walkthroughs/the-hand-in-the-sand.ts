@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const theHandInTheSand: QuestWalkthrough = {
   startPoint:
-    "Talk to Bert in his small house just west of the Yanille sand pit (south-west corner of Yanille — the sand pit is a large pit just outside the south-west wall, and Bert's house is the small wooden cottage right beside it).",
+    "Talk to Bert in his small house beside the Yanille sand pit, just outside the south-west corner of the city wall. Fairy ring CIQ (north-west of Yanille) then run south, or Watchtower Teleport / a house teleport to Yanille and run to the south-west corner.",
   itemsRequired: [
     "Beer (2gp from the Dragon Inn in Yanille)",
     "~150 coins for misc items",
@@ -23,13 +23,17 @@ export const theHandInTheSand: QuestWalkthrough = {
       title: "Sandy hand",
       steps: [
         {
-          text: "Travel to Bert's house just west of the Yanille sand pit (south-west corner of Yanille). Talk to him; he gives you the Sandy hand he found in the pit.",
+          text: "Talk to Bert in his house beside the Yanille sand pit; he gives you the Sandy hand he found in the pit.",
+          travel:
+            "Fairy ring CIQ (north-west of Yanille) then run south into the city and out the west side, or Watchtower Teleport / house teleport to Yanille. The sand pit is the large pit outside the south-west corner of the wall and Bert's cottage sits right beside it.",
         },
         {
-          text: "Walk to the Dragon Inn (the pub on the south side of Yanille) and buy a beer for 2gp.",
+          text: "Walk to the Dragon Inn on the south side of Yanille and buy a beer for 2gp.",
+          travel: "From the sand pit go back through the west wall and east along the south of the city — the inn is the pub building near the south wall.",
         },
         {
-          text: "Give the beer to the Guard Captain standing at the Wizards' Guild front gate (south-east corner of Yanille); he wanders off, letting you ring the bell.",
+          text: "Give the beer to the Guard Captain at the Wizards' Guild front gate in the south-east corner of Yanille; he wanders off, letting you ring the bell.",
+          travel: "Continue east along the south of the city to the tall guild building on the south-east corner.",
         },
         {
           text: "Ring the bell at the Wizards' Guild door (or enter directly with 66 Magic).",
@@ -43,13 +47,16 @@ export const theHandInTheSand: QuestWalkthrough = {
       title: "Sandy the slavedriver",
       steps: [
         {
-          text: "Return to Bert's house in Yanille; ask for his work rota (he's been working for Sandy the slavedriver).",
+          text: "Return to Bert's house by the Yanille sand pit and ask for his work rota (he's been working for Sandy the slavedriver).",
+          travel: "Run west across Yanille and out the west wall to the sand pit.",
         },
         {
-          text: "Travel to Brimhaven on Karamja (charter ship from Port Sarim/Catherby/Yanille, or fairy ring CIQ + walk).",
+          text: "Travel to Brimhaven on Karamja.",
+          travel:
+            "Charter ship from Port Khazard, Catherby or Port Sarim straight to Brimhaven. Cheapest: Ardougne teleport, run south-west to the Ardougne docks and pay Captain Barnaby 30gp for the boat to Brimhaven.",
         },
         {
-          text: "Find Sandy's office in the small building just south of the Brimhaven docks (the wooden hut beside the cargo crates near the loading docks).",
+          text: "Find Sandy's office in the wooden hut just south of the Brimhaven docks, beside the cargo crates.",
         },
         {
           text: "Search Sandy's desk inside his office for Sandy's rota.",
@@ -64,9 +71,10 @@ export const theHandInTheSand: QuestWalkthrough = {
       steps: [
         {
           text: "Return to Yanille and talk to Bert in his house west of the sand pit; he gives you a magic scroll for Zavistic.",
+          travel: "Charter ship or Captain Barnaby's boat back to the mainland, then fairy ring CIQ / Watchtower Teleport to Yanille and out the west wall.",
         },
         {
-          text: "Take the scroll to Zavistic Rarve in the Wizards' Guild (south-east Yanille) — he hands you a magical orb in return.",
+          text: "Take the scroll to Zavistic Rarve on the ground floor of the Wizards' Guild in south-east Yanille — he hands you a magical orb in return.",
         },
         {
           text: "Accept Zavistic's teleport, which drops you in Port Sarim outside Betty's Magic Emporium.",
@@ -93,6 +101,7 @@ export const theHandInTheSand: QuestWalkthrough = {
       steps: [
         {
           text: "Travel back to Brimhaven and re-enter Sandy's office south of the docks.",
+          travel: "Walk north from Betty's shop to the Port Sarim charter ship dock and sail to Brimhaven; the office is the hut by the cargo crates.",
         },
         {
           text: "Distract Sandy with the absurd dialogue prompts the quest journal lists (e.g. compliment his clothes, ramble about weather).",
@@ -109,13 +118,17 @@ export const theHandInTheSand: QuestWalkthrough = {
       title: "Finish the quest",
       steps: [
         {
-          text: "Return to Yanille and ring the bell at the Wizards' Guild door again to enter.",
+          text: "Return to Yanille and ring the bell at the Wizards' Guild door again to enter and report to Zavistic.",
+          travel: "Boat back to the mainland, then fairy ring CIQ or Watchtower Teleport to Yanille and run to the guild in the south-east corner.",
         },
         {
-          text: "Travel to Entrana (boat from Port Sarim — bank weapons/armour first) and find Mazion, who gives you the wizard's head needed for evidence.",
+          text: "Travel to Entrana and find Mazion, who gives you the wizard's head needed for evidence.",
+          travel:
+            "Bank ALL weapons and armour first, then take the monks' boat from the northern dock of Port Sarim. Mazion is on the island near the landing point.",
         },
         {
           text: "Return to Yanille, ring the Wizards' Guild bell, and finish with Zavistic Rarve on the ground floor of the guild.",
+          travel: "Boat back to Port Sarim, then fairy ring CIQ or Watchtower Teleport to Yanille and run to the south-east corner.",
         },
         { text: "Quest complete." },
       ],

@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const theFinalDawn: QuestWalkthrough = {
   startPoint:
-    "Talk to Servius on the ground floor of the Sunrise Palace in the centre of Civitas illa Fortis (Varlamore).",
+    "Talk to Servius on the ground floor of the Sunrise Palace in the centre of Civitas illa Fortis (Varlamore). Pendant of Ates or the Civitas illa Fortis Teleport spell puts you in the city; the palace is the large stepped building in the middle of it.",
   itemsRequired: [
     "Emissary robes (looted from the chest in the Tower of Ascension during The Heart of Darkness; or sold by Twilight Emissary stalls)",
     "Bones or any raw/cooked meat (to feed the dog at the safe house)",
@@ -29,12 +29,16 @@ export const theFinalDawn: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to Servius on the ground floor of the Sunrise Palace in the centre of Civitas illa Fortis and confirm to start.",
+          travel:
+            "Pendant of Ates or the Civitas illa Fortis Teleport spell drops you in the city; the quetzal roost outside the north gate also works. The Sunrise Palace is the large stepped building in the middle of the city — Servius is just inside on the ground floor.",
         },
         {
-          text: "If you don't already have emissary robes, grab a set from the chest in the Tower of Ascension (where The Heart of Darkness took place — north-west of Civitas illa Fortis).",
+          text: "If you don't already have emissary robes, grab a set from the chest in the Tower of Ascension (where The Heart of Darkness took place).",
+          travel: "Leave the city by the north-west and run to the Tower of Ascension; the chest is where the quest fight took place.",
         },
         {
-          text: "Equip the emissary robes and enter the Twilight Temple (south of Civitas illa Fortis, the dark stone temple south of the Sunrise Palace area).",
+          text: "Equip the emissary robes and enter the Twilight Temple — the dark stone temple south of Civitas illa Fortis.",
+          travel: "From the Sunrise Palace, run south out of the city gates; the temple is the black-stone building on the plain below.",
         },
         {
           text: "At the locked basement door inside the temple, give the passcode 'Final Dawn' to the guard.",
@@ -55,7 +59,8 @@ export const theFinalDawn: QuestWalkthrough = {
           text: "Return to the basement and fight the Emissary Enforcer (level 196) — he's blocking the way out. Step back when he winds up an attack and step sideways to dodge his special attack.",
         },
         {
-          text: "Return the scroll to Queen Zyanyi on the top floor of the Sunrise Palace (climb the stairs in the centre of the palace).",
+          text: "Return the scroll to Queen Zyanyi on the top floor of the Sunrise Palace.",
+          travel: "Run back north into Civitas illa Fortis and climb the stairs in the centre of the palace to the top floor.",
         },
       ],
     },
@@ -63,7 +68,9 @@ export const theFinalDawn: QuestWalkthrough = {
       title: "Home invasion — Janus's safe house",
       steps: [
         {
-          text: "Travel to the safe house just south of the western bank in Civitas illa Fortis (small unmarked house south of the western bank chest).",
+          text: "Travel to the safe house just south of the western bank in Civitas illa Fortis.",
+          travel:
+            "From the Sunrise Palace head west across the city to the western bank chest; the safe house is the small unmarked building a few squares south of it.",
         },
         {
           text: "Talk to Captain Vibia, who waits outside the safe house.",
@@ -95,13 +102,15 @@ export const theFinalDawn: QuestWalkthrough = {
       title: "Dwarven traitor in Cam Torum",
       steps: [
         {
-          text: "Travel to Cam Torum (the underground dwarven city north of Civitas illa Fortis — use the Quetzal whistle, then take the Cam Torum lift).",
+          text: "Travel to Cam Torum, the underground city beneath the mountains north-east of Civitas illa Fortis.",
+          travel:
+            "Quetzal whistle (or the quetzal handler at the city's roost) to the Cam Torum stop, then ride the lift at the cave mouth down into the city. On foot: leave Civitas illa Fortis by the north-east and follow the mountain road to the Cam Torum entrance.",
         },
         {
-          text: "Talk to Attala in the central Cam Torum market square (she's the dwarf NPC near the market stalls).",
+          text: "Talk to Attala by the market stalls in the central Cam Torum market square.",
         },
         {
-          text: "Enter Teumo's house (north-west side of the market square) and climb the stairs to the upper floor; grab a beer from the table upstairs.",
+          text: "Enter Teumo's house on the north-west side of the market square and climb the stairs; grab a beer from the table upstairs.",
         },
         {
           text: "Go back downstairs and use the beer on Galna (the dwarf in the lower room) to put him to sleep.",
@@ -123,6 +132,7 @@ export const theFinalDawn: QuestWalkthrough = {
         },
         {
           text: "Travel back to Civitas illa Fortis and talk to Servius on the ground floor of the Sunrise Palace, then talk to Attala (now standing near him).",
+          travel: "Quetzal whistle or Pendant of Ates back to Civitas illa Fortis, then into the palace in the city centre.",
         },
       ],
     },
@@ -133,7 +143,9 @@ export const theFinalDawn: QuestWalkthrough = {
           text: "Bank for combat (best melee + ranged gear, prayer potions, sharks).",
         },
         {
-          text: "Travel to Neypotzli (the cavern dungeon north of Cam Torum — enter via the cave east of Cam Torum's market). Pick up a keystone fragment from the chest near the entrance.",
+          text: "Travel to the Neypotzli caverns north of Cam Torum and pick up a keystone fragment from the chest near the entrance.",
+          travel:
+            "Quetzal whistle back to Cam Torum, ride the lift down and cross the market to the tunnel mouth on its east side — that is the Neypotzli entrance.",
         },
         {
           text: "Navigate north through the Streambound and Earthbound Caverns following the quest arrows.",
@@ -148,7 +160,8 @@ export const theFinalDawn: QuestWalkthrough = {
           text: "Fight Lucius and Chimalli (level 160 each). Alternate Protect from Magic and Protect from Missiles based on which boss is attacking; dodge their melee specials. Kill Lucius first to make the fight easier.",
         },
         {
-          text: "After the fight, talk to Attala (back in the Cam Torum market square).",
+          text: "Talk to Attala back in the Cam Torum market square.",
+          travel: "Retrace your route south out of Neypotzli into Cam Torum; she is by the market stalls.",
         },
       ],
     },
@@ -156,7 +169,8 @@ export const theFinalDawn: QuestWalkthrough = {
       title: "Crypt assault",
       steps: [
         {
-          text: "Travel to the Crypt of Tonali, located south-east of Tal Teklan in southern Varlamore (use the Quetzal to Tal Teklan, then run south-east).",
+          text: "Travel to the Crypt of Tonali, south-east of Tal Teklan in southern Varlamore.",
+          travel: "Quetzal whistle to the Tal Teklan roost, then run south-east across the valley to the crypt entrance.",
         },
         {
           text: "Enter the crypt and watch the opening cutscene.",
@@ -215,6 +229,7 @@ export const theFinalDawn: QuestWalkthrough = {
       steps: [
         {
           text: "Return to the Mokhaiotl entrance — back through the Crypt of Tonali and down the central lift.",
+          travel: "Quetzal whistle to Tal Teklan and run south-east to the crypt again, then take the lift in the middle of the cavern.",
         },
         {
           text: "Enter the marked door at the bottom for the boss cutscene.",

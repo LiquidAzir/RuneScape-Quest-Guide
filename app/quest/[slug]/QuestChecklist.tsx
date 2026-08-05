@@ -70,9 +70,7 @@ export default function QuestChecklist({
     // localStorage is browser-only; sync into state after mount.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setState(load(slug));
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMode(window.localStorage.getItem(MODE_KEY) === "focus" ? "focus" : "list");
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setHydrated(true);
   }, [slug]);
 

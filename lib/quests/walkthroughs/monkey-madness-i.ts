@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const monkeyMadnessI: QuestWalkthrough = {
   startPoint:
-    "Talk to King Narnode Shareen at the base of the Grand Tree (Tree Gnome Stronghold — north-west of Ardougne; spirit tree teleport from Tree Gnome Village, gnome glider, or run from Ardougne north-west). Requires The Grand Tree + Tree Gnome Village.",
+    "Talk to King Narnode Shareen at the base of the Grand Tree (Tree Gnome Stronghold — north-west of Ardougne). Fastest: spirit tree to the Tree Gnome Stronghold (unlocked by Tree Gnome Village), or a gnome glider to Ta Quir Priw; otherwise Ardougne Teleport and run north-west along the road past the Outpost. Requires The Grand Tree + Tree Gnome Village.",
   itemsRequired: [
     "Gold bar",
     "Ball of wool",
@@ -27,9 +27,13 @@ export const monkeyMadnessI: QuestWalkthrough = {
       steps: [
         {
           text: "Travel to the Grand Tree (Tree Gnome Stronghold north-west of Ardougne) and talk to King Narnode Shareen at the base of the trunk. He gives you the gnome royal seal.",
+          travel:
+            "Spirit tree to the Tree Gnome Stronghold, or a gnome glider to Ta Quir Priw (which lands on top of the Grand Tree — climb down). No gnome transport yet: Ardougne Teleport, run north-west out of the city past the Outpost and over the log bridges into the stronghold; the Grand Tree is the enormous tree in the middle.",
         },
         {
           text: "Climb to the top floor of the Grand Tree and use the gnome glider to fly to Gandius (Karamja shipyard, south-west Karamja).",
+          travel:
+            "Climb the ladders inside the Grand Tree to the very top, then talk to Captain Errdo and pick Gandius on the glider map.",
         },
         {
           text: "Kill any monkey near the Karamja shipyard for monkey bones if you don't have any (small level-3 monkeys roam outside the shipyard fence).",
@@ -39,6 +43,8 @@ export const monkeyMadnessI: QuestWalkthrough = {
         },
         {
           text: "Return to King Narnode at the Grand Tree (gnome glider back to Ta Quir Priw).",
+          travel:
+            "Use the glider by the shipyard and pick Ta Quir Priw — it lands on top of the Grand Tree, so climb down to Narnode at the base.",
         },
         {
           text: "Climb 2 floors DOWN below the Grand Tree (down the central trapdoor twice) to the Grand Tree bar. Talk to Daero behind the counter.",
@@ -59,6 +65,8 @@ export const monkeyMadnessI: QuestWalkthrough = {
       steps: [
         {
           text: "Walk into the Ape Atoll village (north of the dock) — you're arrested and jailed automatically.",
+          travel:
+            "From Lumdo's boat, follow the path north through the jungle into Marim, the monkey village.",
         },
         {
           text: "Inside the cell, pick the lock on the door to escape; sneak past the patrolling monkey guards (they wander predictable patterns).",
@@ -95,7 +103,9 @@ export const monkeyMadnessI: QuestWalkthrough = {
       title: "Make the M'speak amulet",
       steps: [
         {
-          text: "Return to Ape Atoll (via Grand Tree → Daero → Waydar → Lumdo) and enter the Ape Atoll Dungeon (rope down the hole at the south-east edge of the village).",
+          text: "Return to Ape Atoll and enter the Ape Atoll Dungeon (tie a rope to the hole at the south-east edge of the village).",
+          travel:
+            "Repeat the route in: spirit tree/glider to the Tree Gnome Stronghold, down two floors under the Grand Tree to Daero, then Waydar to Crash Island and Lumdo's boat to Ape Atoll.",
         },
         {
           text: "Run through the dungeon using Protect from Melee prayer (skeletons are aggressive).",
@@ -110,7 +120,9 @@ export const monkeyMadnessI: QuestWalkthrough = {
           text: "Teleport out and bank again.",
         },
         {
-          text: "Return to the Temple of Marimbo on Ape Atoll.",
+          text: "Return to the Temple of Marimbo in the centre of Ape Atoll village.",
+          travel:
+            "Grand Tree → Daero → Waydar → Lumdo again, then run north from the dock into Marim; the temple is the big U-shaped building in the middle of the village.",
         },
         {
           text: "Use the enchanted gold bar on the wall of flames inside the temple to forge an unstrung amulet.",
@@ -137,6 +149,8 @@ export const monkeyMadnessI: QuestWalkthrough = {
         },
         {
           text: "Return to Zooknock at the end of the Ape Atoll Dungeon with the talisman + monkey bones.",
+          travel:
+            "Rope down the hole at the south-east edge of the village again and run the dungeon with Protect from Melee.",
         },
         {
           text: "Use both on Zooknock — he carves the karamjan monkey greegree.",
@@ -147,10 +161,14 @@ export const monkeyMadnessI: QuestWalkthrough = {
       title: "Recruit Awowogei and defeat the Jungle Demon",
       steps: [
         {
-          text: "Travel to Ardougne Zoo (south-west East Ardougne). Equip the karamjan greegree to disguise as a monkey, then capture a small monkey using the M'speak amulet.",
+          text: "Travel to Ardougne Zoo, equip the karamjan greegree to disguise as a monkey, then capture a small monkey using the M'speak amulet.",
+          travel:
+            "Ardougne Teleport to the market square, then run south-east — the zoo is the fenced enclosure area in the south-east of East Ardougne. The small monkeys are in the pen near the zookeeper.",
         },
         {
           text: "Travel back to Ape Atoll via the Grand Tree → Daero → Waydar → Lumdo route.",
+          travel:
+            "Spirit tree or glider to the Tree Gnome Stronghold, climb down two floors under the Grand Tree to Daero, fly with Waydar to Crash Island, then sail with Lumdo.",
         },
         {
           text: "Equip the greegree and M'speak amulet to walk freely past the guards into the Ape Atoll palace.",
@@ -163,6 +181,8 @@ export const monkeyMadnessI: QuestWalkthrough = {
         },
         {
           text: "Return to King Narnode at the base of the Grand Tree to finish.",
+          travel:
+            "Teleport out of Ape Atoll, then spirit tree or gnome glider (Ta Quir Priw) back to the Tree Gnome Stronghold — Narnode is at the foot of the Grand Tree.",
         },
         { text: "Quest complete." },
       ],

@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const dragonSlayerI: QuestWalkthrough = {
   startPoint:
-    "Talk to the Guildmaster on the ground floor of the Champions' Guild — south-west of Varrock, just south of the road between Lumbridge and Varrock (you need 33 Quest Points to enter the guild).",
+    "Talk to the Guildmaster on the ground floor of the Champions' Guild, south-west of Varrock (33 Quest Points needed to get in). Varrock Teleport, leave by the south gate and follow the road south-west — the guild is the large building on the west side of the road, north of the river.",
   itemsRequired: [
     "Anti-dragon shield (the Guildmaster gives you one when you start)",
     "~2,500 coins (to buy Klarense's ship at Port Sarim docks)",
@@ -33,7 +33,9 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "Start the quest",
       steps: [
         {
-          text: "Travel to the Champions' Guild (south-west of Varrock, just south of the main Varrock-to-Lumbridge road; requires 33 QP to enter).",
+          text: "Travel to the Champions' Guild south-west of Varrock (requires 33 QP to enter).",
+          travel:
+            "Varrock Teleport to the central square, run south out of the south gate and follow the road south-west; the guild is the big building on the west of the road just north of the river. From Lumbridge instead: run north along the Varrock road and turn west at the river.",
         },
         {
           text: "Talk to the Guildmaster on the ground floor of the guild and agree to take on Elvarg.",
@@ -50,7 +52,9 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "Talk to Oziach for armour permission",
       steps: [
         {
-          text: "Travel to Edgeville (use the Amulet of glory or run from Varrock west). Oziach's hut is in the north-east corner of Edgeville (small wooden hut north of the bank).",
+          text: "Travel to Edgeville and find Oziach's hut in the north-east of the village.",
+          travel:
+            "Amulet of glory → Edgeville drops you at the bank. Oziach's small wooden hut is a few steps north-east of the bank, near the Wilderness ditch. No glory: run west from Varrock along the road.",
         },
         {
           text: "Talk to Oziach in his hut — he agrees to sell you a rune platebody after the quest. Bring him silk later.",
@@ -61,7 +65,9 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "First map piece — Melzar's Maze",
       steps: [
         {
-          text: "Travel to Melzar's Maze, west of Rimmington (south-west of Falador, on the south coast — Falador teleport then walk south, or charter ship to Port Sarim and walk west).",
+          text: "Travel to Melzar's Maze on the coast west of Rimmington.",
+          travel:
+            "Falador Teleport, run south through the gate and down the road to Port Sarim, then west to Rimmington and out to the coast — the maze is the fenced stone building on the western shore. Amulet of glory → Draynor Village and running south-west also works.",
         },
         {
           text: "Use the Guildmaster's Maze Key on the front door of the maze (or pick up the spare key inside the front room).",
@@ -90,10 +96,14 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "Second map piece — Karamja volcano dungeon",
       steps: [
         {
-          text: "Travel to the Port Sarim docks (south-west of Falador) and pay 30gp to the Customs Officer for boat passage to Musa Point on Karamja.",
+          text: "Sail from Port Sarim to Musa Point on Karamja — pay the Customs Officer 30gp at the southern dock.",
+          travel:
+            "Falador Teleport, then run south down the road to Port Sarim. The Karamja boat is at the southernmost dock; the Entrana monks' boat further north is a different ship, so make sure you talk to the Customs Officer.",
         },
         {
-          text: "On Karamja, walk north from Musa Point to the volcano and enter the volcano dungeon via the rope down the volcano cone (or via the entrance just north of Musa Point).",
+          text: "On Karamja, walk north from Musa Point to the volcano and climb down the rope into the volcano dungeon.",
+          travel:
+            "From the Musa Point dock head north-west up the slope to the volcano; the entrance rope is on the volcano's side, a short run from the banana plantation.",
         },
         {
           text: "Bring an unfired bowl, a wizard's mind bomb (or Magic potion), and a lobster pot.",
@@ -113,7 +123,9 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "Third map piece — Wormbrain in Port Sarim jail",
       steps: [
         {
-          text: "Travel to Port Sarim jail (the building with the iron-barred windows just east of Port Sarim docks, on the road to Falador).",
+          text: "Travel to the Port Sarim jail, the barred-window building at the south-east edge of Port Sarim.",
+          travel:
+            "Sail back to Port Sarim (30gp to the Customs Officer at Musa Point), then run south-east along the shore road — the jail is the walled compound with iron-barred cells.",
         },
         {
           text: "Wormbrain (level 2 goblin) is locked in one of the cells. He has the third map piece.",
@@ -133,13 +145,17 @@ export const dragonSlayerI: QuestWalkthrough = {
           text: "Use the three map pieces on each other to assemble the full Crandor map.",
         },
         {
-          text: "Travel to Port Sarim docks and find Klarense on the southernmost dock with his ship the Lady Lumbridge. Buy the ship (~2,000 coins) or talk through dialogue to lend it.",
+          text: "Find Klarense on the Port Sarim docks with his ship the Lady Lumbridge and buy it (~2,000 coins).",
+          travel:
+            "Walk north-west from the jail back to the Port Sarim waterfront; Klarense stands on the middle dock beside his ship.",
         },
         {
           text: "Board the Lady Lumbridge and climb down into the hold below deck. Inside, the hull has 3 holes — use 3 planks (one each), then use a hammer + 90 steel nails on the patched holes to seal them.",
         },
         {
-          text: "Return up to deck and travel to Draynor Village. Talk to Ned in his small house in north-east Draynor — he agrees to be your sailor.",
+          text: "Travel to Draynor Village and talk to Ned in his house at the north end of the village — he agrees to be your sailor.",
+          travel:
+            "Amulet of glory → Draynor Village drops you at the bank; Ned's small house is just north-west of the market square. On foot from Port Sarim, run north then east along the road past the Wizards' Tower turn-off.",
         },
       ],
     },
@@ -147,7 +163,9 @@ export const dragonSlayerI: QuestWalkthrough = {
       title: "Sail to Crandor and slay Elvarg",
       steps: [
         {
-          text: "Return to Port Sarim docks; board the Lady Lumbridge with Ned and sail to Crandor.",
+          text: "Return to the Port Sarim docks; board the Lady Lumbridge with Ned and sail to Crandor.",
+          travel:
+            "From Draynor Village run west along the road and then south to the Port Sarim waterfront; the Lady Lumbridge is on the middle dock.",
         },
         {
           text: "On Crandor, climb down the rope into the dungeon under the island.",
@@ -159,10 +177,7 @@ export const dragonSlayerI: QuestWalkthrough = {
           text: "Walk through the dungeon to Elvarg's lair and engage Elvarg (level 83). Use Protect from Melee if available; eat aggressively.",
         },
         {
-          text: "After Elvarg dies, climb out of Crandor's dungeon via the rope back to the surface.",
-        },
-        {
-          text: "Use the magic teleport orb in the dungeon (the glowing orb near where Elvarg died) to teleport back to the Crandor entrance / mainland.",
+          text: "After Elvarg dies, use the magic teleport orb near where she died to return to the mainland (or climb back out via the rope).",
         },
       ],
     },
@@ -171,6 +186,8 @@ export const dragonSlayerI: QuestWalkthrough = {
       steps: [
         {
           text: "Return to the Guildmaster on the ground floor of the Champions' Guild south-west of Varrock.",
+          travel:
+            "Varrock Teleport, then south out of the south gate and south-west along the road to the guild.",
         },
         { text: "Quest complete." },
       ],

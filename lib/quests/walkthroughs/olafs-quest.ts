@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const olafsQuest: QuestWalkthrough = {
-  startPoint: "Talk to Olaf Hradson at his small camp west of fairy ring DKS (north-east of Rellekka).",
+  startPoint:
+    "Talk to Olaf Hradson at his small camp on the snowy coast north-east of Rellekka (just west of fairy ring DKS). Get to Rellekka with an enchanted lyre or Fremennik sea boots 3; otherwise Camelot Teleport and run north-west along the road, then north through the mountain pass into Rellekka. From the village head north-east along the coast to Olaf's camp fire.",
   itemsRequired: [
     "Woodcutting axe",
     "Tinderbox",
@@ -23,20 +24,37 @@ export const olafsQuest: QuestWalkthrough = {
     {
       title: "Help Olaf",
       steps: [
-        { text: "Talk to Olaf Hradson west of fairy ring DKS." },
-        { text: "Chop the windswept tree east and north of the fairy ring." },
-        { text: "Bring the logs back to Olaf." },
-        { text: "Travel to Rellekka and talk to Ingrid Hradson by the well." },
-        { text: "Talk to Volf Olafson outside the helmet shop." },
-        { text: "Return to Olaf at his camp west of fairy ring DKS and use the damp planks on his fire pit." },
-        { text: "Talk to Olaf again at his camp west of fairy ring DKS." },
+        {
+          text: "Talk to Olaf Hradson at his camp north-east of Rellekka.",
+          travel:
+            "Enchanted lyre (or Fremennik sea boots 3) teleports straight to Rellekka; otherwise Camelot Teleport, run north-west up the road and through the mountain pass into the village. From Rellekka run north-east along the snowy coast to the camp fire — fairy ring DKS is just east of it.",
+        },
+        { text: "Chop the lone windswept tree east and north of Olaf's camp for damp planks." },
+        { text: "Bring the logs back to Olaf at the camp." },
+        {
+          text: "Travel to Rellekka and talk to Ingrid Hradson by the well in the centre of the village.",
+          travel:
+            "Run south-west back down the coast into Rellekka, or use an enchanted lyre. The well is in the middle of the village, north of the market stalls.",
+        },
+        {
+          text: "Talk to Volf Olafson outside the helmet shop in eastern Rellekka.",
+          travel:
+            "From the well walk east to Skulgrimen's Battle Gear — Volf loiters outside the shop door.",
+        },
+        {
+          text: "Return to Olaf at his camp and use the damp planks on his fire pit.",
+          travel: "Run north-east out of Rellekka along the coast back to the camp.",
+        },
+        { text: "Talk to Olaf again at his camp." },
       ],
     },
     {
       title: "Treasure trail",
       steps: [
-        { text: "Return to the windswept tree and dig next to it with a spade." },
-        { text: "Travel east then north through the tunnel." },
+        {
+          text: "Return to the windswept tree east and north of the camp and dig next to it with a spade.",
+        },
+        { text: "Travel east then north through the tunnel you open up." },
         { text: "Defeat a Skeleton Fremennik (level 40) and take its key." },
         {
           text: "Search the picture wall and input the pattern: East, North, West, South, then Confirm.",

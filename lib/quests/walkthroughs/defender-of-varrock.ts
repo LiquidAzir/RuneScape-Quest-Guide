@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const defenderOfVarrock: QuestWalkthrough = {
   startPoint:
-    "Talk to Elias White inside the Jolly Boar Inn (the inn on the road north-east of Varrock, between Varrock and Edgeville).",
+    "Talk to Elias White inside the Jolly Boar Inn, the roadside inn north-east of Varrock. Varrock Teleport, leave by the north-east gate and follow the road north-east past the Varrock east mine — the inn is the lone building at the junction below the Wilderness ditch.",
   itemsRequired: [
     "Chaos core (in-quest)",
     "Barronite deposit (or pickaxe to mine one)",
@@ -24,7 +24,9 @@ export const defenderOfVarrock: QuestWalkthrough = {
       title: "Investigate the zombies",
       steps: [
         {
-          text: "Talk to Elias White inside the Jolly Boar Inn (north-east of Varrock).",
+          text: "Talk to Elias White inside the Jolly Boar Inn north-east of Varrock.",
+          travel:
+            "Varrock Teleport to the central square, run east then north-east out of the city gate and follow the road past the Varrock east mine. The Jolly Boar Inn is the isolated building at the road junction, south of the Wilderness ditch.",
         },
         {
           text: "Walk outside the inn and inspect the suspicious plant just outside the front door; follow the trail west.",
@@ -68,16 +70,22 @@ export const defenderOfVarrock: QuestWalkthrough = {
       title: "Sacred Forge",
       steps: [
         {
-          text: "Travel to Varrock Palace and find Elias on the ground floor (he's moved into the palace meeting hall) — report your findings.",
+          text: "Report your findings to Elias, who has moved into the meeting hall on the ground floor of Varrock Palace.",
+          travel:
+            "Varrock Teleport to the central square, then run north through the palace gates and in the main doors. Elias is on the ground floor.",
         },
         {
-          text: "Climb to the second floor of Varrock Palace (top floor) and talk to Captain Rovin.",
+          text: "Climb to the top floor of Varrock Palace's north-west tower and talk to Captain Rovin.",
+          travel:
+            "Same building — take the staircase in the north-west corner of the ground floor and climb it to the top of the tower.",
         },
         {
-          text: "Travel to the Ruins of Camdozaal (the dwarven ruins beneath Asgarnian Ice Mountain — entrance via the trapdoor in the small house south of the mountain peak; also reachable via the Combat Achievement teleport tab post Below Ice Mountain).",
+          text: "Travel to the Ruins of Camdozaal, the dwarven ruins beneath Ice Mountain (requires Below Ice Mountain).",
+          travel:
+            "Amulet of glory → Edgeville, then run west along the road and south-west up Ice Mountain; the Camdozaal cave entrance is set into the western slope, a little below and west of the Oracle. Alternative: Falador Teleport and run north-east past Doric's hut and the Dwarven Mine to the foot of the mountain.",
         },
         {
-          text: "Talk to Ramarno at the Sacred Forge inside the ruins (the forge is the large central anvil-and-altar setup) about the shield.",
+          text: "Talk to Ramarno at the Sacred Forge inside the ruins (the large central anvil-and-altar setup) about the shield.",
         },
         {
           text: "Use a chaos core (collected during the previous quest from Zemouregal's chamber) on a barronite deposit (mined from the rocks just north of the forge).",
@@ -91,10 +99,14 @@ export const defenderOfVarrock: QuestWalkthrough = {
       title: "True descendant",
       steps: [
         {
-          text: "Travel back to Varrock Palace; climb to the second floor and talk to Captain Rovin for the finished shield.",
+          text: "Return to Captain Rovin at the top of Varrock Palace's north-west tower for the finished shield.",
+          travel:
+            "Varrock Teleport, run north into the palace, then up the north-west corner staircase twice.",
         },
         {
-          text: "Walk to the Varrock Palace library on the ground floor (west wing) and talk to Reldo standing among the bookcases.",
+          text: "Walk to the Varrock Palace library in the west wing on the ground floor and talk to Reldo among the bookcases.",
+          travel:
+            "Back down the tower stairs and west through the palace — the library is the long book-lined room on the west side of the ground floor.",
         },
         {
           text: "Search the scrolls scattered near the flipped table inside the library for the List of elders.",
@@ -106,10 +118,13 @@ export const defenderOfVarrock: QuestWalkthrough = {
           text: "Talk to the named librarian candidates listed in the Census (each is a Varrock NPC) until one mentions the Fitzharmon family lineage.",
         },
         {
-          text: "Travel to south-east Varrock and find Dimintheis at his small cottage (south-east of Varrock central square — the same Dimintheis from Family Crest). Talk to him about the lineage.",
+          text: "Talk to Dimintheis about the lineage at his cottage in south-east Varrock.",
+          travel:
+            "From the palace run south through the central square and then south-east past the Varrock east bank; Dimintheis's small house is the one tucked in the south-east corner of the city, the same one used in Family Crest.",
         },
         {
-          text: "Watch the cutscene, then return to Captain Rovin on the second floor of Varrock Palace and finish the dialogue.",
+          text: "Watch the cutscene, then return to Captain Rovin at the top of the Varrock Palace north-west tower and finish the dialogue.",
+          travel: "Run back north through the square into the palace and up the north-west tower stairs.",
         },
         { text: "Quest complete." },
       ],

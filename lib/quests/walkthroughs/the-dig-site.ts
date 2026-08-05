@@ -22,13 +22,18 @@ export const theDigSite: QuestWalkthrough = {
       title: "Get the sealed letter",
       steps: [
         {
-          text: "Talk to any Examiner inside the Digsite Exam Centre and ask to take the entrance exam. Answer wrong on purpose to fail (the wrong answers don't matter — just pick anything to fail).",
+          text: "Talk to any Examiner inside the Digsite Exam Centre and ask to take the entrance exam. Answer wrong on purpose to fail — the answers don't matter yet.",
+          travel:
+            "Digsite pendant to the Digsite, then run south to the small school building. No pendant: Varrock Teleport, leave by the south-east gate and follow the road east past the Varrock Museum until the Exam Centre appears on your right.",
         },
         {
-          text: "Travel to the Varrock Museum (south-east Varrock, just inside the south-east gate) and talk to Curator Haig Halen on the ground floor for a sealed letter.",
+          text: "Talk to Curator Haig Halen on the ground floor of the Varrock Museum for a sealed letter.",
+          travel:
+            "Run back west along the Digsite road into Varrock — the museum is the big building just inside the south-east gate, south of Varrock square. Varrock Teleport also drops you a short run north of it.",
         },
         {
-          text: "If you don't have a cup of tea, steal one from the Varrock tea stall in central Varrock (Thieving 5+, near the Varrock palace courtyard).",
+          text: "If you don't have a cup of tea, steal one from the tea stall in central Varrock (5 Thieving).",
+          travel: "From the museum run north up the main street towards Varrock palace; the tea stall is on the road just south-west of the palace courtyard.",
         },
       ],
     },
@@ -36,10 +41,12 @@ export const theDigSite: QuestWalkthrough = {
       title: "Help the students",
       steps: [
         {
-          text: "Find the teddy bear in one of the bushes just north of the Digsite Exam Centre (search the bushes; one yields the bear).",
+          text: "Search the bushes just north of the Digsite Exam Centre until one yields a teddy bear.",
+          travel: "Digsite pendant, or Varrock Teleport and run east out of the south-east gate down the Digsite road. The bushes are the clump immediately north of the Exam Centre.",
         },
         {
-          text: "Walk north into the Digsite proper and pick up a panning tray from the rack near the river bank (north end of the Digsite, by the river).",
+          text: "Walk north into the Digsite proper and take a panning tray from the rack by the river bank.",
+          travel: "From the Exam Centre head north through the Digsite fences to the far north end, where the river runs — the tray rack sits on the bank there.",
         },
         {
           text: "Walk to the panning guide near the river and use the cup of tea on him.",
@@ -83,7 +90,8 @@ export const theDigSite: QuestWalkthrough = {
           text: "Talk to Terry Balando inside the Exam Centre — he gives you an invitation. Use the invitation on a workman at the Digsite gate to pass the gate.",
         },
         {
-          text: "Walk to the western winch at the Digsite (the wooden winch by the western dig pit) and use a rope on it; climb down.",
+          text: "Use a rope on the western winch by the western dig pit and climb down.",
+          travel: "The two winches stand side by side in the middle of the fenced Digsite, north of the Exam Centre — take the left-hand (western) one.",
         },
         {
           text: "In the underground passage, collect an arcenia root from the floor and search the bricks in the wall.",
@@ -97,7 +105,8 @@ export const theDigSite: QuestWalkthrough = {
       title: "Make the explosive compound",
       steps: [
         {
-          text: "Unlock the locked chest in the eastern winch underground area; take the chemical powder.",
+          text: "Unlock the locked chest in the underground area below the eastern winch and take the chemical powder.",
+          travel: "Climb out and use your second rope on the eastern winch (the right-hand one of the pair), then climb down into that passage.",
         },
         {
           text: "Use a trowel on the barrel near the chest to collect unidentified liquid.",

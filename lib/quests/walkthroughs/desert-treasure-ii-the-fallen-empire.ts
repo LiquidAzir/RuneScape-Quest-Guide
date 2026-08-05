@@ -31,12 +31,16 @@ export const desertTreasureII: QuestWalkthrough = {
       steps: [
         {
           text: "Travel to the Ancient Vault north-east of Nardah and inspect the four statues + the central plaque to start.",
+          travel:
+            "Magic carpet from Shantay Pass to Pollnivneach, then a second carpet from Pollnivneach to Nardah, and run north-east out of town into the cliffs — the vault entrance is cut into the rock face. Pharaoh's sceptre → Necropolis and running south-east also works. Bring waterskins or a Desert amulet.",
         },
         {
           text: "Talk to Asgarnia Smith just outside the Ancient Vault.",
         },
         {
-          text: "Travel to the Exam Centre south of the Digsite (south-east of Varrock — use Digsite pendant or Varrock teleport then walk south-east). Talk to Terry Balando inside.",
+          text: "Talk to Terry Balando inside the Exam Centre, the walled building just south of the Digsite.",
+          travel:
+            "Digsite pendant → Digsite, then run south to the Exam Centre. No pendant: Varrock Teleport, leave by the east gate and follow the road south-east along the river.",
         },
         {
           text: "Walk north into the Digsite proper and operate the western winch to descend into the dig.",
@@ -76,13 +80,17 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "Vardorvis (Carnifex Maximus) — The Stranglewood",
       steps: [
         {
-          text: "Visit the Burning Man pub in central Lovakengj (Kourend). Talk to Barus inside.",
+          text: "Talk to Barus inside the Burning Man pub in central Lovakengj.",
+          travel:
+            "Kharedst's memoirs → Lovakengj drops you in the settlement. Otherwise Xeric's talisman → Xeric's Glade (or Skills necklace → Woodcutting Guild) and take the minecart network from Kourend Castle to the Lovakengj stop. The pub is the building in the middle of town.",
         },
         {
           text: "Search the desk at the back of the pub for a strange potion and a note.",
         },
         {
-          text: "Walk to the boat dock just south of Lovakengj and sail with the captain to The Stranglewood (the cursed jungle south of Kourend).",
+          text: "Walk to the boat dock on the coast south of Lovakengj and sail with the captain to The Stranglewood, the cursed jungle south of Kourend.",
+          travel:
+            "From the Burning Man pub head south out of Lovakengj to the shoreline and follow the quest marker to the moored boat; talk to the captain to sail.",
         },
         {
           text: "Defend Kasonde for 3 in-game minutes from waves of ranged enemies — use the barricades scattered around the camp and throw satchel charges at incoming waves.",
@@ -101,6 +109,8 @@ export const desertTreasureII: QuestWalkthrough = {
         },
         {
           text: "Place Vardorvis's medallion on the matching statue inside the Ancient Vault near Nardah.",
+          travel:
+            "Pharaoh's sceptre → Necropolis and run south-east, or magic carpet Shantay Pass → Pollnivneach → Nardah then run north-east into the cliffs to the vault entrance.",
         },
       ],
     },
@@ -108,7 +118,9 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "The Leviathan (Praefectus Classis) — The Scar",
       steps: [
         {
-          text: "Travel to the Guardians of the Rift temple (Temple of the Eye, north of Al Kharid). Talk to the Catalytic Guardian inside the central altar room and ask to enter The Scar.",
+          text: "Talk to the Catalytic Guardian in the central altar room of the Temple of the Eye and ask to enter The Scar.",
+          travel:
+            "Minigame teleport → Guardians of the Rift puts you in the temple. Otherwise talk to Apprentice Tamara on the ground floor of the Wizards' Tower south of Draynor Village (Necklace of passage → Wizards' Tower) and ask to be sent to the temple.",
         },
         {
           text: "Inside The Scar, complete the 3 puzzle passages: Axon Terminal (electrical wiring puzzle), Nerve Endings (timing puzzle), Summoning Circle (rune-arrangement puzzle).",
@@ -124,6 +136,8 @@ export const desertTreasureII: QuestWalkthrough = {
         },
         {
           text: "Place Perseriya's medallion on the matching statue at the Ancient Vault.",
+          travel:
+            "Pharaoh's sceptre → Necropolis then south-east, or magic carpet to Nardah and run north-east into the cliffs.",
         },
       ],
     },
@@ -131,7 +145,9 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "Duke Sucellus — Ghorrock",
       steps: [
         {
-          text: "Travel to Ghorrock Prison far north of the Wilderness (use Ice Mountain teleport from the Wintertodt area, or Ghorrock Teleport on the Ancient spellbook). Navigate the prison maze.",
+          text: "Travel to the frozen fortress of Ghorrock in the far north and navigate the prison maze.",
+          travel:
+            "Icy basalt → Weiss (Making Friends with My Arm), then head west across the ice to the fortress. Without it: Trollheim Teleport, run north through the Troll Stronghold and out onto the northern ice fields. Once the quest is done the Ancient Magicks Ghorrock Teleport takes you straight there.",
         },
         {
           text: "Solve the cell puzzle in the central wing: find the letter on the corpse, the knife in the chest, and a lockpick under the bed.",
@@ -153,6 +169,8 @@ export const desertTreasureII: QuestWalkthrough = {
         },
         {
           text: "Place his medallion on the matching statue at the Ancient Vault.",
+          travel:
+            "Pharaoh's sceptre → Necropolis then south-east, or magic carpet to Nardah and run north-east into the cliffs.",
         },
       ],
     },
@@ -160,7 +178,9 @@ export const desertTreasureII: QuestWalkthrough = {
       title: "The Whisperer — Lassar Undercity",
       steps: [
         {
-          text: "Return to the Lassar Undercity (rope down from Ghorrock) and access the deeper levels.",
+          text: "Return to the Lassar Undercity and descend to the deeper levels.",
+          travel:
+            "Same trip as Duke Sucellus — Icy basalt → Weiss then west across the ice to Ghorrock (or Ghorrock Teleport if you have it), then take the rope down into the Undercity.",
         },
         {
           text: "Collect 5 shadow keys (green, purple, blue, white, red) from the Whispered districts.",
@@ -184,6 +204,8 @@ export const desertTreasureII: QuestWalkthrough = {
       steps: [
         {
           text: "Return to the Ancient Vault near Nardah with all 4 medallions placed on their statues.",
+          travel:
+            "Pharaoh's sceptre → Necropolis and run south-east, or magic carpet Shantay Pass → Pollnivneach → Nardah then north-east into the cliffs. Bank for a long fight before you go in.",
         },
         {
           text: "Inspect the central plaque to unlock the inner cell.",

@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const witchsHouse: QuestWalkthrough = {
-  startPoint: "Talk to the boy outside the gates of Taverley.",
+  startPoint:
+    "Talk to the boy standing on the path outside the Witch's house, on the road between Falador and Taverley. Cast Falador Teleport, run west out of Falador's west gate and follow the road — the walled house on the south side of the road just before Taverley's gate is the Witch's.",
   itemsRequired: ["Cheese", "Leather gloves (or any gloves)"],
   recommended: [
     "Combat 35+ for the experiment fight",
@@ -14,20 +15,23 @@ export const witchsHouse: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Travel to Taverley (west of Falador) and find the boy near the eastern gate." },
-        { text: "Talk to the boy outside Taverley's eastern gate. He's lost his ball over the Witch's garden wall — agree to retrieve it." },
+        {
+          text: "Talk to the boy on the path outside the Witch's house, by Taverley's eastern gate. He has lost his ball over the garden wall — agree to fetch it.",
+          travel:
+            "Falador Teleport, then run west out of Falador's west gate and along the road towards Taverley. The Witch's house is the walled property on the south side of that road just short of the Taverley gate, and the boy is standing right outside it. Without runes, walk north from Port Sarim or west from Draynor Village to Falador first.",
+        },
       ],
     },
     {
       title: "Enter the witch's house",
       steps: [
-        { text: "Walk west then north to the front of the witch's house." },
-        { text: "Search under the potted plant by the front door for the door key." },
-        { text: "Enter and read the diary on the table." },
+        { text: "Walk around to the front door of the witch's house." },
+        { text: "Search under the potted plant beside the front door for the door key." },
+        { text: "Enter the house and read the diary on the table." },
         { text: "Climb down the ladder in the kitchen." },
         {
-          text: "Equip leather gloves before going through the gate (the gate shocks bare hands).",
-          notes: ["If you don't have any, search the boxes in this basement to find a pair."],
+          text: "Equip leather gloves before going through the gate in the basement (the gate shocks bare hands).",
+          notes: ["If you do not have any, search the boxes in this basement to find a pair."],
         },
         { text: "Go through the gate and search the cupboard to get a magnet." },
       ],
@@ -38,13 +42,13 @@ export const witchsHouse: QuestWalkthrough = {
         { text: "Climb back upstairs and enter the small south-eastern room with the mouse hole." },
         {
           text: "Drop a piece of cheese on the floor near the hole and quickly use the magnet on the mouse when it appears.",
-          notes: ["The mouse will run to the garden and hit a switch that opens the shed."],
+          notes: ["The mouse runs to the garden and hits a switch that opens the shed."],
         },
-        { text: "Walk through the garden to the shed in the south-east — sneak between the hedges to avoid the witch spotting you." },
+        { text: "Go out into the garden and walk to the shed in the south-east, weaving between the hedges so the witch does not spot you." },
         { text: "Search the shed to provoke the Witch's experiment." },
         {
           text: "Defeat the experiment in all 4 forms (it transforms each time).",
-          notes: ["Forms get tougher each time. Eat aggressively — you can't bank between forms."],
+          notes: ["Forms get tougher each time. Eat aggressively — you cannot bank between forms."],
         },
         { text: "Pick up the ball from inside the shed." },
       ],
@@ -52,7 +56,7 @@ export const witchsHouse: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Return to the boy outside Taverley with the ball." },
+        { text: "Return the ball to the boy on the path outside the house." },
         { text: "Quest complete." },
       ],
     },

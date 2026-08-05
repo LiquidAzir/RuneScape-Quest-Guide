@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const forgettableTale: QuestWalkthrough = {
   startPoint:
-    "Talk to Commander Veldaban inside the Black Guard headquarters in West Keldagrim (the central stone building west of the river bridge, immediately west of the Keldagrim bank). The Giant Dwarf must be complete.",
+    "Talk to Commander Veldaban inside the Black Guard headquarters in West Keldagrim, the stone building just west of the Keldagrim bank. Getting there: ride the mine cart into Keldagrim — Falador Teleport, run north-east to the trapdoor at the foot of Ice Mountain and talk to the dwarf at the cart, or use the mine cart in the White Wolf Mountain tunnel if you have done Fishing Contest. The Giant Dwarf must be complete.",
   itemsRequired: [
     "~400 coins",
     "2 Barley malt",
@@ -23,12 +23,18 @@ export const forgettableTale: QuestWalkthrough = {
     {
       title: "Start the chain",
       steps: [
-        { text: "Talk to Commander Veldaban in the Black Guard headquarters west of the Keldagrim bank (1, 1, 1)." },
         {
-          text: "Walk to the East Keldagrim pub (cross the river bridge to East Keldagrim — the pub is on the south side of the marketplace). Buy 3 beers from the bartender.",
+          text: "Talk to Commander Veldaban in the Black Guard headquarters west of the Keldagrim bank (dialogue 1, 1, 1).",
+          travel:
+            "Take the mine cart to Keldagrim: Falador Teleport, run north-east to the trapdoor at the foot of Ice Mountain and ride the cart, or board at the dwarven camp inside the White Wolf Mountain tunnel. From the Keldagrim cart station head north to the West Keldagrim bank — the Black Guard HQ is the stone building immediately west of it.",
         },
         {
-          text: "Walk to the drunken dwarf's house in East Keldagrim (the small house just north of the pub). Talk to the drunken dwarf inside — pick 'I need to know about Red Axe'.",
+          text: "Buy 3 beers from the bartender in the East Keldagrim pub.",
+          travel: "Cross the river bridge east out of West Keldagrim; the pub is on the south side of the East Keldagrim marketplace.",
+        },
+        {
+          text: "Talk to the drunken dwarf in his house just north of the East Keldagrim pub and pick 'I need to know about Red Axe'.",
+          travel: "Step out of the pub and go north — his is the small house nearest the pub door.",
         },
         {
           text: "Give him a beer and repeat the dialogue (he needs the beer to think clearly).",
@@ -39,16 +45,20 @@ export const forgettableTale: QuestWalkthrough = {
       title: "Get the seeds",
       steps: [
         {
-          text: "Walk just outside the East Keldagrim pub and talk to the rowdy dwarf hanging around. He demands a random item — bring it (the journal lists what he wants).",
+          text: "Talk to the rowdy dwarf loitering outside the East Keldagrim pub and bring him the random item he demands (your journal lists it).",
+          travel: "He is right outside the pub door on the marketplace side.",
         },
         {
-          text: "Travel to the White Wolf Mountain underground tunnel pub (entrance via the trapdoor in Taverley near the lake, accessible after Fishing Contest, OR via the Keldagrim minecart). Find Khorvak the dwarf inside the small underground bar.",
+          text: "Find Khorvak the dwarven engineer in the pub inside the White Wolf Mountain tunnel.",
+          travel:
+            "Ride the Keldagrim mine cart to the White Wolf Mountain station, or walk in from the Taverley side of the mountain tunnel (needs Fishing Contest). The bar is the small underground room off the tunnel's dwarven camp.",
         },
         {
           text: "Offer Khorvak a drink and give him dwarven stout — he becomes talkative.",
         },
         {
-          text: "Return to the East Keldagrim pub; give another beer and talk to Gauss the bartender.",
+          text: "Return to the East Keldagrim pub, give Gauss the bartender another beer and talk to him.",
+          travel: "Mine cart back to Keldagrim, then east over the river bridge to the marketplace pub.",
         },
       ],
     },
@@ -56,7 +66,8 @@ export const forgettableTale: QuestWalkthrough = {
       title: "Plant kelda hops",
       steps: [
         {
-          text: "Walk to the Kelda Hops patch in West Keldagrim, south-east of the bank (the small farming patch near the river bank).",
+          text: "Walk to the kelda hops patch in West Keldagrim, south-east of the bank near the river.",
+          travel: "Back west over the river bridge, then south-east of the bank — the patch is the fenced plot beside the riverbank.",
         },
         {
           text: "Talk to Rind the Gardener tending the patch and ask permission to plant.",
@@ -77,32 +88,37 @@ export const forgettableTale: QuestWalkthrough = {
       steps: [
         {
           text: "Climb the stairs inside the East Keldagrim pub up to the brewery on the upper floor.",
+          travel: "East over the river bridge to the marketplace pub, then up the staircase inside.",
         },
         {
-          text: "Buy ale yeast from Blandebir (the brewer upstairs) for 25gp if you don't have any.",
+          text: "Buy ale yeast from Blandebir the brewer upstairs for 25gp if you don't have any.",
         },
         {
           text: "Add to the vat in order: 2 buckets water, 2 barley malts, kelda hops, ale yeast.",
         },
         { text: "Wait 15-20 minutes for the ferment." },
-        { text: "Turn the valve and use beer glass on the barrel." },
-        { text: "Return to the drunken dwarf's house and discuss the Red Axe." },
+        { text: "Turn the valve and use the beer glass on the barrel." },
+        {
+          text: "Return to the drunken dwarf's house north of the pub and discuss the Red Axe.",
+        },
       ],
     },
     {
       title: "Mine cart puzzles",
       steps: [
         {
-          text: "Walk to the southernmost minecart conductor in south-eastern Keldagrim (the conductor at the cart system station). Ask about the closed-off tunnel south of the station.",
+          text: "Ask the southernmost minecart conductor in south-east Keldagrim about the closed-off tunnel south of the station.",
+          travel: "From the East Keldagrim marketplace run south to the cart system station; take the conductor at the very southern end of the platforms.",
         },
         {
-          text: "Walk to the East Keldagrim Marketplace (the large building west of the river bridge in East Keldagrim) and climb to the upper floor. Talk to your mining company director (the one for whichever Consortium company you joined in The Giant Dwarf).",
+          text: "Climb to the upper floor of the East Keldagrim marketplace building and talk to your mining company director (whichever Consortium company you joined in The Giant Dwarf).",
+          travel: "North back to the marketplace — the directors' offices are up the stairs inside the large marketplace building by the bridge.",
         },
         {
           text: "Ask the director for help with the boarded tunnel.",
         },
         {
-          text: "Return to the cart conductor in south-eastern Keldagrim and ride the southernmost minecart.",
+          text: "Return to the cart conductor in south-east Keldagrim and ride the southernmost minecart.",
         },
         {
           text: "Solve the 5 cart puzzle rooms in order: rotate cart paths, listen to a conversation, search crates for 3 Red Axe documents, watch the cutscene.",
@@ -113,12 +129,13 @@ export const forgettableTale: QuestWalkthrough = {
     {
       title: "Finish the quest",
       steps: [
-        { text: "Buy a kebab and beer in East Keldagrim if needed." },
+        { text: "Buy a kebab and a beer in East Keldagrim if you need them." },
         {
-          text: "Return to Commander Veldaban inside the Black Guard headquarters (west of the West Keldagrim bank).",
+          text: "Return to Commander Veldaban inside the Black Guard headquarters west of the West Keldagrim bank.",
+          travel: "West over the river bridge from the marketplace, past the bank — the HQ is the stone building just west of it.",
         },
         {
-          text: "Walk to the East Keldagrim pub and drink the beer + eat the kebab in front of the drunken dwarf to finish.",
+          text: "Go back to the East Keldagrim pub and drink the beer and eat the kebab in front of the drunken dwarf to finish.",
         },
         { text: "Quest complete." },
       ],

@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const secretsOfTheNorth: QuestWalkthrough = {
   startPoint:
-    "Talk to the guard standing outside Carnillean Mansion in central East Ardougne (the large mansion just south of the central market square — the building used during Heroes' Quest).",
+    "Talk to the guard standing outside Carnillean Mansion in East Ardougne (the large walled mansion a short run south of the central market square — the house used during Hazeel Cult). Ardougne Teleport or an Ardougne cloak gets you into the city; run to the mansion's front door.",
   itemsRequired: [
     "100 coins (small bribes)",
     "Lockpick",
@@ -26,7 +26,9 @@ export const secretsOfTheNorth: QuestWalkthrough = {
       title: "A death in the family",
       steps: [
         {
-          text: "Travel to Carnillean Mansion in central East Ardougne (just south of the market square). Talk to the guard standing at the front door.",
+          text: "Travel to Carnillean Mansion in East Ardougne and talk to the guard standing at the front door.",
+          travel:
+            "Ardougne Teleport (51 Magic) or an Ardougne teleport tab drops you in the market square; run south to the large walled mansion and up to its front door. No teleport: skills necklace to the Fishing Guild and run south into the city, or charter ship to Port Khazard and run north.",
         },
         {
           text: "Climb upstairs in the mansion and talk to the second guard standing by the master bedroom.",
@@ -46,7 +48,9 @@ export const secretsOfTheNorth: QuestWalkthrough = {
       title: "On the trail of Evelot",
       steps: [
         {
-          text: "Travel south-west of Ardougne to the Fight Arena bar (the small pub south-west of the Khazard battlefield, near the Tree Gnome Village maze entrance). Talk to the Khazard Barman about Evelot.",
+          text: "Talk to the Khazard Barman about Evelot in the bar at the Fight Arena, south of Ardougne.",
+          travel:
+            "From East Ardougne run south out of the city past the farm, then follow the road south-west toward Port Khazard — the Fight Arena is on the way, and the Khazard bar is the small building beside the arena gates. Alternative: charter ship to Port Khazard and run north up the road.",
         },
         {
           text: "Track Evelot through 6 sequential locations across Kandarin (the trail leads through barrels, boulders, bushes, and a tree stump — each clue points to the next; quest journal updates as you go).",
@@ -60,7 +64,9 @@ export const secretsOfTheNorth: QuestWalkthrough = {
       title: "The Mysterious Benefactor",
       steps: [
         {
-          text: "Travel to the Ardougne Sewers (manhole in central East Ardougne, north-east of the market). Navigate to the Hazeel Cult cave hideout under Carnillean Mansion (south side of the sewer).",
+          text: "Return to East Ardougne and make your way down to the Hazeel Cult cave hideout beneath the city.",
+          travel:
+            "Ardougne Teleport back to the market square. The cult's underground hideout sits beneath the Carnillean mansion area — follow the same entrance you used during Hazeel Cult and head to the cult chamber.",
         },
         {
           text: "Talk to Alomone or Clivet inside the Hazeel Cult cave, then to Hazeel himself.",
@@ -83,7 +89,9 @@ export const secretsOfTheNorth: QuestWalkthrough = {
       title: "Weiss expedition",
       steps: [
         {
-          text: "Travel to Weiss in far north Trollheim (use Icy basalt teleport, or run north from Trollheim teleport via Eadgar's Ruse). Talk to Big Fish (the dwarven trader) and Snowflake (Snowflake the troll child) in the centre of Weiss.",
+          text: "Travel to Weiss in the far north of Trollheim and talk to Big Fish (the dwarven trader) and Snowflake in the centre of the village.",
+          travel:
+            "Icy basalt (basalt + snowflakes, unlocked by Making Friends with My Arm) teleports straight into Weiss. Otherwise cast Trollheim Teleport (61 Magic) and take the mountain path north past Trollweiss mountain — bring stamina potions, it is a long climb.",
         },
         {
           text: "Walk to the cave entrance on the south side of Weiss village. Enter and defeat the Assassin (level 262) waiting inside.",

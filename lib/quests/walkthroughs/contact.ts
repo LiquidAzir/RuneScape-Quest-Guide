@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const contact: QuestWalkthrough = {
   startPoint:
-    "Talk to the High Priest of Icthlarin inside the Temple of Icthlarin in central Sophanem (the desert city south of Pollnivneach — Pharaoh's sceptre → Sophanem, or magic carpet from Shantay Pass to Pollnivneach + walk south). The temple is the large stone-pillared building in the centre of the city.",
+    "Talk to the High Priest of Icthlarin inside the Temple of Icthlarin in central Sophanem, the desert city far south of Pollnivneach. Pharaoh's sceptre teleports to Jalsavrah inside Sophanem itself; otherwise take the magic carpet from Shantay Pass to Pollnivneach and run south along the river past the Agility Pyramid to Sophanem's north gate. The temple is the large stone-pillared building in the middle of the city.",
   itemsRequired: [
     "A reliable light source (Bullseye lantern or better — Kandarin headgear/Firemaking cape/Bruma torch ideal)",
     "Tinderbox (unless using a non-extinguishable light)",
@@ -30,9 +30,12 @@ export const contact: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to the High Priest inside the Temple of Icthlarin in central Sophanem (chat option 1 or 4).",
+          travel:
+            "Pharaoh's sceptre to Jalsavrah drops you in Sophanem. On foot: Shantay Pass (south of Al Kharid), magic carpet to Pollnivneach, then run south along the eastern bank of the river past the Agility Pyramid and in through Sophanem's north gate. Carry waterskins and desert robes — the desert drains run energy fast.",
         },
         {
-          text: "Walk to the building in the north-east corner of Sophanem (the small house in the north-east — Jex's house, the only building with a trapdoor in the floor). Talk to Jex inside.",
+          text: "Talk to Jex inside the small house in the north-east corner of Sophanem (the only building with a trapdoor in its floor).",
+          travel: "From the temple in the middle of the city, run north-east to the corner house against the city wall.",
         },
         {
           text: "Pick option 2 — 'Better get down there'.",
@@ -42,7 +45,7 @@ export const contact: QuestWalkthrough = {
     {
       title: "Navigate the dungeon",
       steps: [
-        { text: "Climb down the ladder, then the trapdoor in the building." },
+        { text: "Climb down the trapdoor in Jex's house, then the ladder below." },
         {
           text: "Follow the red line on the map to the next ladder, avoiding the scarab trap (don't step under it).",
         },
@@ -62,13 +65,18 @@ export const contact: QuestWalkthrough = {
           text: "Read the parchment.",
         },
         {
-          text: "Travel west of Sophanem to Maisa's small camp just outside the city walls (north-west of Sophanem near the Menaphos canyon). Talk to Maisa (option 2 or 3).",
+          text: "Talk to Maisa at her small camp just outside Sophanem's walls (option 2 or 3).",
+          travel:
+            "Climb back out of the dungeon and leave Sophanem by the north gate, then run west along the outside of the wall — Maisa's camp is the cluster of tents north-west of the city, by the Menaphos canyon.",
         },
         {
-          text: "Travel to Al Kharid Palace and talk to Osman in the central market square just south-west of the palace (the hooded NPC). Pick option 2 or 3.",
+          text: "Talk to Osman outside Al Kharid Palace (option 2 or 3).",
+          travel:
+            "Amulet of glory to Al Kharid, or ring of dueling to the Duel Arena then run north-west. Osman is the hooded figure standing in the market just south-west of the palace gates.",
         },
         {
-          text: "Return to Sophanem and talk to Osman, who now stands outside the north gate of the city (option 3).",
+          text: "Return to Sophanem — Osman now stands outside the city's north gate (option 3).",
+          travel: "Pharaoh's sceptre to Jalsavrah then run out the north gate, or retrace the Pollnivneach carpet + southern desert run.",
         },
       ],
     },
@@ -82,7 +90,10 @@ export const contact: QuestWalkthrough = {
           notes: ["Scarab Mages and Locust riders spawn during the fight — kill or run from them."],
         },
         { text: "Defeat the boss." },
-        { text: "Talk to Osman at Al Kharid Palace (option 2 or 3)." },
+        {
+          text: "Talk to Osman outside Al Kharid Palace (option 2 or 3).",
+          travel: "Amulet of glory to Al Kharid, or ring of dueling to the Duel Arena and run north-west to the palace market.",
+        },
       ],
     },
     {
@@ -92,7 +103,8 @@ export const contact: QuestWalkthrough = {
           text: "Pick up the Keris dagger (drops from the boss; needed for Desert Hard Diary).",
         },
         {
-          text: "Climb back out of the dungeon and return to Sophanem. Talk to the High Priest inside the Temple of Icthlarin to finish.",
+          text: "Return to Sophanem and talk to the High Priest inside the Temple of Icthlarin to finish.",
+          travel: "Pharaoh's sceptre to Jalsavrah, then walk to the pillared temple in the centre of the city.",
         },
         { text: "Quest complete." },
       ],

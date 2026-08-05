@@ -1,8 +1,9 @@
 import type { QuestWalkthrough } from "../types";
 
 export const xMarksTheSpot: QuestWalkthrough = {
-  startPoint: "Talk to Veos in The Sheared Ram in Lumbridge.",
-  itemsRequired: ["Spade (regular spade only — Eastfloor spade doesn't work)"],
+  startPoint:
+    "Talk to Veos in The Sheared Ram, the pub on the east side of Lumbridge. Lumbridge Home Teleport, then run north-east past the general store — the pub is just north of Bob's Brilliant Axes.",
+  itemsRequired: ["Spade (regular spade only — Eastfloor spade does not work)"],
   recommended: [
     "Energy or stamina potions (members)",
     "Amulet of glory for fast travel to Draynor (members)",
@@ -11,17 +12,34 @@ export const xMarksTheSpot: QuestWalkthrough = {
     {
       title: "Treasure hunt",
       steps: [
-        { text: "Talk to Veos in The Sheared Ram in Lumbridge and accept the quest." },
+        {
+          text: "Talk to Veos in The Sheared Ram on the east side of Lumbridge and accept the quest.",
+          travel:
+            "Lumbridge Home Teleport puts you in the castle courtyard. Run north-east past the general store; The Sheared Ram is the pub with the beer-mug icon, just north of Bob's Brilliant Axes.",
+        },
         {
           text: "Dig north-west of Bob's Brilliant Axes shop window, one tile west of the wall plant.",
+          travel: "Bob's axe shop is immediately south of The Sheared Ram — walk out of the pub and round the corner.",
         },
         {
           text: "Dig behind Lumbridge Castle, outside the kitchen door, south-west of the large crate.",
+          travel: "Run west from Bob's to the castle and go round to its west side — the kitchen door faces the courtyard's west wall.",
         },
-        { text: "Travel to Draynor Village." },
-        { text: "Dig north-west of the jail by the wheat farm, 4 tiles north of the bush." },
-        { text: "Dig in the pig pen near Martin the Master Gardener." },
-        { text: "Use the ancient casket on Veos at Port Sarim docks, south of the Rusty Anchor Inn." },
+        {
+          text: "Travel to Draynor Village.",
+          travel:
+            "Amulet of glory to Draynor Village, or run west from Lumbridge along the road on the north side of the river, past the wheat field.",
+        },
+        { text: "Dig north-west of the Draynor jail by the wheat farm, 4 tiles north of the bush." },
+        {
+          text: "Dig in the pig pen at Martin the Master Gardener's farm, north-west of Draynor Village.",
+          travel: "From the Draynor bank run north-west to the fenced farm — Martin wanders the crop field beside the pig pen.",
+        },
+        {
+          text: "Use the ancient casket on Veos at the Port Sarim docks, just south of the Rusty Anchor Inn.",
+          travel:
+            "From Draynor run west along the coast road into Port Sarim, then head to the northern dock — Veos is standing on the pier south of the Rusty Anchor. Falador Teleport and a run south also works.",
+        },
         { text: "Quest complete." },
       ],
     },

@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const beneathCursedSands: QuestWalkthrough = {
-  startPoint: "Talk to Jamila at her stall in Sophanem.",
+  startPoint:
+    "Talk to Jamila at her stall in Sophanem, the walled city in the far south of the Kharidian Desert. Pharaoh's sceptre → Jalsavrah puts you in the Sophanem pyramid — walk out into the city. Otherwise take the magic carpet from Shantay Pass to Pollnivneach, then the Sophanem carpet. Bring waterskins or a Desert amulet 4.",
   itemsRequired: [
     "Coal",
     "Iron bar",
@@ -28,20 +29,31 @@ export const beneathCursedSands: QuestWalkthrough = {
     {
       title: "Entranced Menaphites",
       steps: [
-        { text: "Talk to Jamila at her stall in Sophanem to receive a message." },
-        { text: "Travel east of Sophanem to the campsite north of the mining site." },
-        { text: "Talk to Maisa at the camp." },
-        { text: "Inspect the blocked entry at the Jaltevas Pyramid." },
-        { text: "Defeat the Head Menaphite Guard (level 174)." },
-        { text: "Return and talk to Maisa." },
+        {
+          text: "Talk to Jamila at her stall in Sophanem to receive a message.",
+          travel:
+            "Pharaoh's sceptre → Jalsavrah lands you inside the Sophanem pyramid; walk out into the city. No sceptre: magic carpet from Shantay Pass to Pollnivneach, then the carpet to Sophanem. Carry waterskins for the desert heat.",
+        },
+        {
+          text: "Talk to Maisa at the campsite east of Sophanem, north of the mining site.",
+          travel:
+            "Leave Sophanem by the east gate and follow the sand track east into the Necropolis approach — the tents are on the rise north of the quarry workings.",
+        },
+        { text: "Inspect the blocked entry at the Jaltevas Pyramid just south of the camp." },
+        { text: "Defeat the Head Menaphite Guard (level 174) that ambushes you." },
+        { text: "Return and talk to Maisa at the camp." },
       ],
     },
     {
       title: "Ruins of Ullek",
       steps: [
-        { text: "Return to Maisa's camp and pick up a tinderbox + spade if needed." },
-        { text: "Head south then north to the Ruins of Ullek stairs." },
-        { text: "Ignite the furnace with coal + tinderbox." },
+        { text: "Pick up a tinderbox and spade from Maisa's camp if you need them." },
+        {
+          text: "Travel east to the Ruins of Ullek and climb down the stairs into the ruined city.",
+          travel:
+            "From Maisa's camp head south around the cliffs then north-east along the coast — Ullek is the ruined city on the desert's south-east shore. Fairy ring AKP (unlocked by this quest) is the quick way back for return trips.",
+        },
+        { text: "Ignite the furnace in the ruins with coal + tinderbox." },
         { text: "Search the well for a stone tablet and read it." },
         { text: "Dig in front of the southernmost ritual pillar." },
         { text: "Open the chest with passcode 1118513." },
@@ -69,28 +81,49 @@ export const beneathCursedSands: QuestWalkthrough = {
         { text: "Defeat the Champion (level 379) using Ranged + Protect from Magic." },
         { text: "Destroy the Shadow Rifts quickly when they appear." },
         { text: "Kill scarab swarms before they spawn fire." },
-        { text: "Talk to the High Priest of Scabaras in the Scabaras tomb beneath the desert." },
+        { text: "Talk to the High Priest of Scabaras in the tomb room afterwards." },
       ],
     },
     {
       title: "Cure the Menaphites",
       steps: [
-        { text: "Travel to Nardah and talk to Maisa or Zahur." },
-        { text: "Buy raw beef if needed from the Nardah General Store." },
-        { text: "Head west to the River Elid and the lily island." },
-        { text: "Jump stepping stones; throw meat to the crocodile." },
+        {
+          text: "Travel to Nardah and talk to Maisa or Zahur.",
+          travel:
+            "Magic carpet: Shantay Pass to Pollnivneach, then Pollnivneach to Nardah. Zahur runs the herb shop on the west side of Nardah, near the fountain.",
+        },
+        { text: "Buy raw beef from the Nardah general store if you did not bring meat." },
+        {
+          text: "Head west out of Nardah to the River Elid and the lily island.",
+          travel: "Leave Nardah by the west gate and run west to the riverbank; the island is out in the middle of the River Elid.",
+        },
+        { text: "Jump the stepping stones across and throw the meat to the crocodile." },
         { text: "Pick a Lily of the Elid." },
-        { text: "Return to Zahur in her Nardah herb shop to warm the chemistry equipment." },
-        { text: "Collect the cure crate and deliver to the High Priest in Sophanem." },
+        {
+          text: "Return to Zahur in her Nardah herb shop to warm the chemistry equipment.",
+          travel: "Cross back over the stepping stones and run east into Nardah.",
+        },
+        {
+          text: "Collect the cure crate and deliver it to the High Priest in Sophanem.",
+          travel:
+            "Magic carpet from Nardah back to Pollnivneach, then the Sophanem carpet (or Pharaoh's sceptre → Jalsavrah). The High Priest is in the temple in the centre of Sophanem.",
+        },
       ],
     },
     {
       title: "Defeat the Menaphite Akh",
       steps: [
-        { text: "Travel to the necropolis and talk to Maisa." },
-        { text: "Defeat the Menaphite Akh (level 351) using melee — avoid lightning by moving to the side." },
+        {
+          text: "Travel to the Necropolis east of Sophanem and talk to Maisa.",
+          travel:
+            "Fairy ring AKP drops you in the Necropolis. Otherwise leave Sophanem by the east gate and follow the sand track east past Maisa's old camp.",
+        },
+        { text: "Defeat the Menaphite Akh (level 351) using melee — avoid the lightning by stepping to the side." },
         { text: "Kill the Menaphite Shadows quickly to prevent her switching." },
-        { text: "Return to Sophanem Palace and talk to Maisa or the High Priest." },
+        {
+          text: "Return to Sophanem Palace and talk to Maisa or the High Priest.",
+          travel: "Pharaoh's sceptre → Jalsavrah, or run west back through the Sophanem east gate; the palace is the large building in the north of the city.",
+        },
         { text: "Quest complete." },
       ],
     },

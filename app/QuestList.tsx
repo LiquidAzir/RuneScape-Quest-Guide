@@ -137,7 +137,7 @@ export default function QuestList({
             : null;
         return { quest, hint };
       });
-  }, [quests, progressBySlug, query, filter]);
+  }, [quests, progressBySlug, query, filter, common]);
 
   const completedCount = quests.filter((quest) =>
     progressBySlug[quest.slug]?.complete,

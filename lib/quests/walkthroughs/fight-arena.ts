@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const fightArena: QuestWalkthrough = {
   startPoint:
-    "Talk to Lady Servil in the small clearing south-west of the Ardougne Monastery (south of East Ardougne, between the monastery and the Khazard battlefield — she's sitting beside her two children near a small camp).",
+    "Talk to Lady Servil in the small camp south-west of the Ardougne Monastery, north of the Khazard battlefield. Getting there: Ardougne cloak teleport goes straight to the monastery — run south-west from it and she is sitting with her two children by the road. No cloak: Ardougne Teleport and run south past the Clocktower road, or spirit tree to Tree Gnome Village and run east across the battlefield.",
   itemsRequired: ["5 coins for Khali brew"],
   recommended: [
     "Combat 50+",
@@ -21,10 +21,14 @@ export const fightArena: QuestWalkthrough = {
       title: "Get into the prison",
       steps: [
         {
-          text: "Talk to Lady Servil south-west of the Ardougne Monastery with 'Can I help you?'.",
+          text: "Talk to Lady Servil south-west of the Ardougne Monastery and choose 'Can I help you?'.",
+          travel:
+            "Ardougne cloak teleport to the monastery, then run south-west down the road — Lady Servil and her children are camped beside it. Without the cloak, Ardougne Teleport and run south out of the city, or spirit tree to Tree Gnome Village and run east across the Khazard battlefield.",
         },
         {
-          text: "Walk west to the Khazard prison (the large fortress just west of the Khazard battlefield). The Khazard armour chest is in the north-east corner of the prison courtyard — search it for the disguise.",
+          text: "Search the Khazard armour chest in the north-east corner of the prison courtyard for the disguise.",
+          travel:
+            "From Lady Servil run west to the walled Khazard prison beside the battlefield. Go in through the courtyard entrance and head to the chest in the north-east corner.",
         },
         {
           text: "Equip the full Khazard armour before walking through the prison gate.",
@@ -35,19 +39,21 @@ export const fightArena: QuestWalkthrough = {
       title: "Inside the arena",
       steps: [
         {
-          text: "Walk south-east inside the prison to the jail rooms (the cell block on the south-east side of the courtyard).",
+          text: "Walk south-east inside the prison to the cell block.",
+          travel: "From the armour chest cut south-east across the courtyard — the cells are the barred rooms on that side.",
         },
         {
           text: "Talk to the Head Guard standing near the staircase by the cell block.",
         },
         {
-          text: "Walk south to the Khazard Barman in the small bar room (south end of the prison) and buy a Khali brew from him for 5gp.",
+          text: "Buy a Khali brew for 5gp from the Khazard Barman in the small bar room at the south end of the prison.",
+          travel: "Head south from the cell block; the bar is the room with the counter in the prison's southern range.",
         },
         {
-          text: "Return to the Khazard guard outside the prison cells; he hands you the cell keys.",
+          text: "Return to the Khazard guard by the prison cells; he hands you the cell keys.",
         },
         {
-          text: "Use the keys on Sammy's prison door (the locked cell in the north-east corner of the cell block).",
+          text: "Use the keys on Sammy's prison door in the north-east corner of the cell block.",
         },
       ],
     },
@@ -70,7 +76,9 @@ export const fightArena: QuestWalkthrough = {
           text: "Defeat or escape General Khazard (level 142) in the final round (you can flee — no kill required).",
         },
         {
-          text: "Walk back south-west of the Ardougne Monastery and talk to Lady Servil at her camp to finish.",
+          text: "Return to Lady Servil at her camp south-west of the Ardougne Monastery to finish.",
+          travel:
+            "Leave the arena and run north-east back up the road from the battlefield, or teleport out with an Ardougne cloak to the monastery and run south-west to her camp.",
         },
         { text: "Quest complete." },
       ],

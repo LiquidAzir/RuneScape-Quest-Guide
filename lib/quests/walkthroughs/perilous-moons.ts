@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const perilousMoons: QuestWalkthrough = {
-  startPoint: "Talk to Zuma or Attala at the entrance to Cam Torum.",
+  startPoint:
+    "Talk to Zuma or Attala outside the Cam Torum entrance in eastern Varlamore. Civitas illa Fortis Teleport (54 Magic) or a quetzal whistle gets you to Civitas illa Fortis; from the city's transport post ride the quetzal to Cam Torum, or leave by the east gate and follow the mountain road north-east to the cave mouth on foot.",
   itemsRequired: [
     "Knife (in-quest)",
     "Big fishing net (in-quest)",
@@ -27,38 +28,56 @@ export const perilousMoons: QuestWalkthrough = {
     {
       title: "Get into Cam Torum",
       steps: [
-        { text: "Talk to Attala near the temple entrance." },
-        { text: "Climb the rocks (47 Agility) or kill a Sulphur Nagua." },
-        { text: "Return to Attala near the temple entrance and cross the drawbridge." },
-        { text: "Talk to Jessamine in the northern part of the city." },
-        { text: "Enter the Neypotzli dungeon to the north." },
+        {
+          text: "Talk to Attala outside the Cam Torum temple entrance.",
+          travel:
+            "Civitas illa Fortis Teleport (or quetzal whistle) to Civitas illa Fortis, then take the quetzal from the transport post to Cam Torum. Running instead: leave Civitas illa Fortis by the east gate and follow the road north-east up into the mountains until you reach the carved cave entrance — Attala and Zuma wait outside it.",
+        },
+        { text: "Climb the rocks beside the entrance (47 Agility) or kill a Sulphur Nagua for a way through." },
+        { text: "Return to Attala at the temple entrance and cross the drawbridge into the city." },
+        {
+          text: "Talk to Jessamine in the northern part of Cam Torum.",
+          travel:
+            "From the drawbridge follow the main street north through the city; Jessamine stands near the northern buildings by the road up to the dungeon.",
+        },
+        {
+          text: "Enter the Neypotzli dungeon through the passage at the north end of Cam Torum.",
+          travel: "Keep going north past Jessamine and take the tunnel entrance at the back of the city.",
+        },
       ],
     },
     {
       title: "Set up base camps",
       steps: [
-        { text: "Take the building supplies crate (hammer, saw, three supplies)." },
-        { text: "Build camp in the Ancient Prison (south-western entrance)." },
-        { text: "Build camp in the Streambound Cavern (north-eastern entrance)." },
-        { text: "Build camp in the Earthbound Cavern (north-western entrance)." },
+        { text: "Take the building supplies crate in the Neypotzli antechamber (hammer, saw, three supplies)." },
+        { text: "Build camp in the Ancient Prison (south-western entrance off the antechamber)." },
+        { text: "Build camp in the Streambound Cavern (north-eastern entrance off the antechamber)." },
+        { text: "Build camp in the Earthbound Cavern (north-western entrance off the antechamber)." },
       ],
     },
     {
       title: "Get the talismans",
       steps: [
-        { text: "Talk to Attala in the Neypotzli antechamber for water + earth talismans." },
-        { text: "Visit Nahta at the Cam Torum magic shop." },
-        { text: "Visit the blacksmith at the furnace for talisman infusion." },
-        { text: "Use the talismans to locate Eyatlalli (location varies per player)." },
+        { text: "Talk to Attala in the Neypotzli antechamber for the water + earth talismans." },
+        {
+          text: "Visit Nahta at the Cam Torum magic shop.",
+          travel:
+            "Head back south out of the Neypotzli tunnel into Cam Torum — the magic shop is on the city's main street, signposted with the rune icon.",
+        },
+        {
+          text: "Visit the blacksmith at the Cam Torum furnace for talisman infusion.",
+          travel: "The forge is a short walk from the magic shop, on the same main street in Cam Torum.",
+        },
+        { text: "Use the talismans to locate Eyatlalli (the location varies per player)." },
         { text: "Return to the Neypotzli antechamber and talk to Eyatlalli." },
       ],
     },
     {
       title: "Prepare for the ritual",
       steps: [
-        { text: "Gather from a grubby sapling and process into paste." },
-        { text: "Fish raw bream and process into scales." },
-        { text: "Trap a moss lizard and process into a tail." },
+        { text: "Gather from a grubby sapling in the Earthbound Cavern and process it into paste." },
+        { text: "Fish raw bream in the Streambound Cavern and process them into scales." },
+        { text: "Trap a moss lizard in the Ancient Prison and process it into a tail." },
         { text: "Talk to Eyatlalli in the Neypotzli antechamber with all 3 items to begin the ritual." },
       ],
     },

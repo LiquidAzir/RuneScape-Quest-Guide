@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const monkeyMadnessII: QuestWalkthrough = {
   startPoint:
-    "Talk to King Narnode Shareen at the base of the Grand Tree (Tree Gnome Stronghold north-west of Ardougne — spirit tree teleport, gnome glider, or run from Ardougne north-west).",
+    "Talk to King Narnode Shareen at the base of the Grand Tree (Tree Gnome Stronghold north-west of Ardougne). Spirit tree to the Tree Gnome Stronghold or a gnome glider to Ta Quir Priw; otherwise Ardougne Teleport and run north-west past the Outpost.",
   itemsRequired: [
     "Lemon + Grapes + Pestle and mortar",
     "Logs + Tinderbox + Light source",
@@ -30,6 +30,8 @@ export const monkeyMadnessII: QuestWalkthrough = {
       steps: [
         {
           text: "Talk to King Narnode Shareen at the base of the Grand Tree to start.",
+          travel:
+            "Spirit tree to the Tree Gnome Stronghold, or gnome glider to Ta Quir Priw and climb down the Grand Tree. Without gnome transport, Ardougne Teleport and run north-west out of the city along the road past the Outpost.",
         },
         {
           text: "Walk south to Glough's house (the small house south of the Grand Tree, on the path to the gnome ball field). Search the house for a handkerchief, then investigate the tree outside.",
@@ -50,10 +52,13 @@ export const monkeyMadnessII: QuestWalkthrough = {
           text: "Return to King Narnode at the base of the Grand Tree; he gives you the translation book. Use it on the note to translate.",
         },
         {
-          text: "Climb to the top of the Grand Tree and use the gnome balloon to fly to Entrana. Talk to Auguste at the balloon landing site about Assistant Le Smith.",
+          text: "Fly to Entrana and talk to Auguste about Assistant Le Smith.",
+          travel:
+            "Climb to the top of the Grand Tree and use the gnome balloon to Entrana (Enlightened Journey and the right logs required) — Auguste is at the balloon landing site. No balloon: bank all weapons and armour, then take the monks' boat from the northern Port Sarim dock and run north-east to the balloon field.",
         },
         {
-          text: "Return to King Narnode at the Grand Tree.",
+          text: "Return to King Narnode at the base of the Grand Tree.",
+          travel: "Balloon back to the Grand Tree, or spirit tree to the Tree Gnome Stronghold.",
         },
       ],
     },
@@ -61,10 +66,12 @@ export const monkeyMadnessII: QuestWalkthrough = {
       title: "Chapter II — Kruk's Dungeon",
       steps: [
         {
-          text: "Teleport to Ape Atoll using the monkey/gorilla greegree from Monkey Madness I.",
+          text: "Travel to Ape Atoll and talk to Garkor in the southern jungle clearing.",
+          travel:
+            "Ape Atoll Teleport (64 Magic, requires Monkey Madness I) with a greegree equipped, or the long route: Grand Tree → down two floors to Daero → Waydar to Crash Island → Lumdo's boat.",
         },
         {
-          text: "Walk south of Ape Atoll village to Garkor's clearing in the southern jungle and talk to him, then walk north into the Ape Atoll palace and talk to King Awowogei in the throne room.",
+          text: "Walk north into the Ape Atoll palace and talk to King Awowogei in the throne room.",
         },
         {
           text: "Follow the gorilla tracks west of the palace until you find a trapdoor in the jungle grass.",
@@ -85,7 +92,9 @@ export const monkeyMadnessII: QuestWalkthrough = {
           text: "Collect Kruk's paw from his body.",
         },
         {
-          text: "Take the paw to Zooknock at the end of the original Ape Atoll Dungeon (the wizard who carved your first greegree). He carves the Kruk monkey greegree for you.",
+          text: "Take the paw to Zooknock at the end of the original Ape Atoll Dungeon — he carves the Kruk monkey greegree.",
+          travel:
+            "Leave Kruk's Dungeon, return to Marim and rope down the hole at the south-east edge of the village, then run the dungeon to Zooknock at the far end (Protect from Melee helps).",
         },
       ],
     },
@@ -93,13 +102,19 @@ export const monkeyMadnessII: QuestWalkthrough = {
       title: "Chapter III — Recruit allies",
       steps: [
         {
-          text: "Travel to the Troll Stronghold (Trollheim teleport, then run north into the stronghold). Find Kob inside one of the central chambers and defeat him — safespot from the doorway with ranged.",
+          text: "Travel to the Troll Stronghold and defeat Kob in one of the central chambers — safespot from the doorway with ranged.",
+          travel:
+            "Trollheim Teleport, then run north-west across the plateau to the stronghold door. No Trollheim Teleport: games necklace to Burthorpe and climb the Death Plateau path east.",
         },
         {
-          text: "Travel to Gu'Tanoth (the ogre city west of Yanille — Watchtower teleport then run west). Find Keef wandering the city; defeat him by safespotting behind a tree.",
+          text: "Travel to Gu'Tanoth, the ogre city north-west of Yanille, and defeat Keef — safespot him behind a tree.",
+          travel:
+            "Watchtower Teleport (58 Magic, needs Watchtower) then run west across the bridge into Gu'Tanoth. Otherwise house teleport to Yanille (or Ardougne Teleport and run south) and head north-west out of the city.",
         },
         {
-          text: "Travel to Marim (the Ape Atoll village). Equip the small/medium ninja monkey greegree to climb the rooftops; find Assistant Le Smith on the rooftops (4 possible spawn locations — patrol the rooftops).",
+          text: "Travel to Marim on Ape Atoll, climb the rooftops with the small/medium ninja monkey greegree and find Assistant Le Smith (4 possible spawn spots — patrol the rooftops).",
+          travel:
+            "Ape Atoll Teleport with a greegree equipped, or Grand Tree → Daero → Waydar → Lumdo, then run north into the village.",
         },
         {
           text: "After talking to Le Smith, descend and talk to a monkey guard at the airship platform south of Marim. Board the airship platform.",
@@ -125,7 +140,9 @@ export const monkeyMadnessII: QuestWalkthrough = {
       title: "Chapter IV — Gather forces",
       steps: [
         {
-          text: "Return to King Narnode at the base of the Grand Tree, then travel to the Stronghold Slayer Cave (north-west part of the Tree Gnome Stronghold) and talk to Nieve outside the cave entrance.",
+          text: "Return to King Narnode at the base of the Grand Tree, then talk to Nieve outside the Stronghold Slayer Cave.",
+          travel:
+            "Spirit tree or gnome glider (Ta Quir Priw) to the Tree Gnome Stronghold. From the Grand Tree, run north-west across the stronghold — Nieve stands at the cave entrance by the stronghold's north-western wall.",
         },
         {
           text: "Inside the Stronghold Slayer Cave, kill 4 tortured gorillas (level 141-142) — they roam the gorilla section of the cave.",

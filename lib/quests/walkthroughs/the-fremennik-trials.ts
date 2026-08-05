@@ -2,7 +2,7 @@ import type { QuestWalkthrough } from "../types";
 
 export const theFremennikTrials: QuestWalkthrough = {
   startPoint:
-    "Talk to Brundt the Chieftain inside the Rellekka longhall (the large central building in Rellekka — the Fremennik capital, north-west of Camelot/Seers' Village).",
+    "Talk to Brundt the Chieftain inside the Rellekka longhall (the large central building in Rellekka). Camelot teleport and run north-west past the Sinclair Mansion, or fairy ring AJR (slayer cave south-east of Rellekka) and run north-west.",
   itemsRequired: [
     "5,250 coins (5,000 for Askeladden + 250 for the low-alcohol keg)",
     "Beer (or buy one at the Rellekka pub for 2gp)",
@@ -27,7 +27,9 @@ export const theFremennikTrials: QuestWalkthrough = {
       title: "Trials introduction",
       steps: [
         {
-          text: "Travel to Rellekka (Enchanted lyre teleport, fairy ring AJR + walk west, or Fremennik sea boots) and enter the longhall in the village centre.",
+          text: "Travel to Rellekka and enter the longhall in the village centre.",
+          travel:
+            "Camelot teleport, then run north-west out of Seers' Village past the Sinclair Mansion and over the Fremennik border. Fairy ring AJR (slayer cave south-east of Rellekka) then north-west also works; after this quest the enchanted lyre teleports straight into the village.",
         },
         {
           text: "Talk to Brundt the Chieftain inside the longhall to begin.",
@@ -36,10 +38,11 @@ export const theFremennikTrials: QuestWalkthrough = {
           text: "Talk to Manni the Reveller (also inside the longhall, sitting at the head table) and lose his drinking contest — buys you time to prepare.",
         },
         {
-          text: "Talk to Sigli the Huntsman outside the longhall (south side of the building) to receive the hunters' talisman.",
+          text: "Talk to Sigli the Huntsman standing outside just south of the longhall entrance to receive the hunters' talisman.",
         },
         {
-          text: "Walk east of the longhall to Olaf the Bard's house (the small hut just east of the longhall) and talk to him about the lyre.",
+          text: "Walk east of the longhall to Olaf the Bard's hut and talk to him about the lyre.",
+          travel: "Leave the longhall by the front door and head a short way east — his is the small hut nearest the longhall.",
         },
       ],
     },
@@ -50,22 +53,29 @@ export const theFremennikTrials: QuestWalkthrough = {
           text: "Either craft an unstrung lyre yourself (25 Fletching using maple/yew logs + bow string and a knife, plus 40 Woodcutting + 40 Crafting requirements) or kill a Fremennik warrior in the Rellekka village square for one.",
         },
         {
-          text: "Travel north of Rellekka to Lalli the troll's small camp on the path to the Mountain Camp. Bring his veggies (potato, onion, dwellberries) + a pet rock and trade them for a golden fleece.",
+          text: "Trade Lalli the troll his veggies (potato, onion, dwellberries) plus a pet rock for a golden fleece.",
+          travel:
+            "Leave Rellekka by the east entrance and follow the path to the Swaying Tree; Lalli's little camp is just south-east of it, on the way up to the Mountain Camp.",
         },
         {
-          text: "Travel to Seers' Village (south of Rellekka via Camelot teleport). Use the spinning wheel on the upper floor of the south-eastern house to spin the golden fleece into golden wool.",
+          text: "Spin the golden fleece into golden wool on the spinning wheel upstairs in the house south-west of the Seers' Village bank.",
+          travel:
+            "Camelot teleport, run east to the Seers' Village bank, then take the house south-west of it and climb the staircase to the wheel.",
         },
         {
           text: "Use the golden wool on the unstrung lyre to make a finished lyre.",
         },
         {
           text: "While in Seers' Village, buy a Low alcohol keg from the Poison Salesman in the Seers' Village pub for 250gp.",
+          travel: "The pub is the building just north of the Seers' Village bank; the salesman stands inside.",
         },
         {
-          text: "Travel back to Rellekka. Use a beer on the council workman blocking the Rellekka south bridge (he's drunk; the beer makes him pass out so you can cross).",
+          text: "Travel back to Rellekka and use a beer on the council workman blocking the south bridge — he passes out so you can cross.",
+          travel: "Camelot teleport and run north-west again; the bridge is on the southern edge of Rellekka.",
         },
         {
-          text: "Walk south of the bridge to find the strange altar in the woods. Use a high-tier raw fish (raw shark / manta ray / sea turtle) on the altar to enchant the lyre.",
+          text: "Cross the bridge and follow the narrow spit of land into the water to the strange altar, then use a high-tier raw fish (raw shark / manta ray / sea turtle) on it to enchant the lyre.",
+          travel: "South-west of Rellekka — the altar sits beside the giant rib cage sticking out of the shallows.",
         },
       ],
     },
@@ -74,9 +84,10 @@ export const theFremennikTrials: QuestWalkthrough = {
       steps: [
         {
           text: "Equip the hunters' talisman; it makes the Draugen visible. The Draugen disguises itself as a colourful butterfly somewhere outside the Rellekka longhall — find and kill it.",
+          travel: "Run back north into Rellekka; the butterfly flits around the open ground surrounding the longhall.",
         },
         {
-          text: "Light a 'strange object' (gathered earlier in the trials) with a tinderbox and use it on the longhall pipe outside (south wall) to drive Manni's drinking contestants out of the building.",
+          text: "Light a 'strange object' (gathered earlier in the trials) with a tinderbox and use it on the longhall pipe on the outside south wall to smoke Manni's drinking contestants out.",
         },
         {
           text: "Enter the longhall back door, climb on the stage at the back, and play the enchanted lyre.",
@@ -90,10 +101,10 @@ export const theFremennikTrials: QuestWalkthrough = {
       title: "Merchant trial",
       steps: [
         {
-          text: "Talk to all the council members standing around Rellekka about the merchant's trial to gather information (Sigli, Olaf, Manni, Thorvald, Peer, Swensen, Askeladden's father).",
+          text: "Talk to all the council members around Rellekka about the merchant's trial to gather information (Sigli, Olaf, Manni, Thorvald, Peer, Swensen, Askeladden's father).",
         },
         {
-          text: "Find Askeladden (a young Fremennik wandering near Rellekka's north entrance) and pay him 5,000 coins to learn the merchant's secret.",
+          text: "Find Askeladden loitering just outside the longhall entrance and pay him 5,000 coins to learn the merchant's secret.",
         },
       ],
     },
@@ -107,7 +118,7 @@ export const theFremennikTrials: QuestWalkthrough = {
           text: "Bring a dramen branch or celastrus bark — these technically aren't classified as weapons so they pass the strip check, but you can wield them inside.",
         },
         {
-          text: "Talk to Thorvald the Warrior at his hut in the south of Rellekka (the small hut south-west of the longhall). Descend into his chamber.",
+          text: "Talk to Thorvald the Warrior in his hut just north of the longhall, then descend into his chamber.",
         },
         {
           text: "Equip your dramen branch as a makeshift weapon.",
@@ -119,7 +130,7 @@ export const theFremennikTrials: QuestWalkthrough = {
           text: "On his fourth form, either let him kill you (you respawn safely outside) or fight him out — both finish the trial.",
         },
         {
-          text: "Talk to Thorvald the Warrior at his hut in Rellekka to claim the trial.",
+          text: "Talk to Thorvald the Warrior in his hut north of the longhall to claim the trial.",
         },
       ],
     },
@@ -127,7 +138,8 @@ export const theFremennikTrials: QuestWalkthrough = {
       title: "Seer trial — Peer's puzzle",
       steps: [
         {
-          text: "Talk to Peer the Seer at his house in north Rellekka (north-east of the longhall). He deposits your inventory before you start.",
+          text: "Talk to Peer the Seer in his house south-west of the Rellekka market. He deposits your inventory before you start.",
+          travel: "From the longhall head west to the market stalls, then south-west — his is the house with the green bed.",
         },
         {
           text: "Inside the puzzle: gather a bucket, disks, jug and red herring from the various containers around his house.",
@@ -151,6 +163,7 @@ export const theFremennikTrials: QuestWalkthrough = {
       steps: [
         {
           text: "Return to Brundt the Chieftain inside the Rellekka longhall.",
+          travel: "North-east from Peer's house, back to the big building in the middle of the village.",
         },
         { text: "Quest complete." },
       ],

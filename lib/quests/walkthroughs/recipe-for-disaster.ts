@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const recipeForDisaster: QuestWalkthrough = {
-  startPoint: "Talk to the Cook in Lumbridge Castle's kitchen.",
+  startPoint:
+    "Talk to the Cook in Lumbridge Castle's kitchen. Lumbridge Home Teleport (or a Lumbridge teleport tab) drops you in the castle courtyard — go in through the north door and take the first room on your left; the kitchen is the north-west room of the ground floor.",
   itemsRequired: [
     "Pot of cream",
     "Eye of newt",
@@ -19,7 +20,11 @@ export const recipeForDisaster: QuestWalkthrough = {
     {
       title: "Start the chain",
       steps: [
-        { text: "Talk to the Cook in the Lumbridge Castle kitchen — the dinner party went sideways." },
+        {
+          text: "Talk to the Cook in the Lumbridge Castle kitchen — the dinner party went sideways.",
+          travel:
+            "Lumbridge Home Teleport lands you in the Lumbridge Castle courtyard. Enter the castle by the north door and turn left into the north-west room — the Cook stands between the range and the sink.",
+        },
         { text: "Listen as he explains the Culinaromancer has frozen the Lumbridge Guide's friends in time." },
       ],
     },
@@ -28,8 +33,15 @@ export const recipeForDisaster: QuestWalkthrough = {
       steps: [
         {
           text: "Bring the Cook: pot of cream, eye of newt, greater demon ashes, egg, pot of flour, and bucket of milk.",
+          notes: [
+            "Everything on this list can be bought from the Culinaromancer's Chest once you have access to it.",
+          ],
         },
-        { text: "He bakes a special enchanted gnome cake — give it to the Gnome Child to release her." },
+        {
+          text: "He bakes a special enchanted gnome cake — give it to the frozen Gnome Child in the dining room to release her.",
+          travel:
+            "The frozen guests sit in the dining room off the Lumbridge Castle cellar: take the staircase down from the castle kitchen and go through the dining-room doors. The Culinaromancer's Chest bank sits in the same room.",
+        },
       ],
     },
     {

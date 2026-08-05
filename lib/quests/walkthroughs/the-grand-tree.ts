@@ -1,7 +1,8 @@
 import type { QuestWalkthrough } from "../types";
 
 export const theGrandTree: QuestWalkthrough = {
-  startPoint: "Talk to King Narnode Shareen at the base of the Grand Tree (Tree Gnome Stronghold).",
+  startPoint:
+    "Talk to King Narnode Shareen at the base of the Grand Tree in the Tree Gnome Stronghold. Spirit tree to the Tree Gnome Stronghold if you have one; otherwise Ardougne teleport, leave by the north gate and follow the road north-west to the Stronghold's south-east gate, then run north-west to the huge tree in the middle.",
   itemsRequired: [
     "1,000 coins (only if you didn't help Femi at the gate to skip the fee)",
     "2 free inventory slots to start",
@@ -18,24 +19,36 @@ export const theGrandTree: QuestWalkthrough = {
     {
       title: "Start the quest",
       steps: [
-        { text: "Talk to King Narnode at the Grand Tree. He gives you a translation book and a bark sample." },
         {
-          text: "Travel to Hazelmere's house east of Yanille (use fairy ring CLS).",
+          text: "Talk to King Narnode at the base of the Grand Tree. He gives you a translation book and a bark sample.",
+          travel:
+            "Spirit tree to the Tree Gnome Stronghold. Without one: Ardougne teleport, out the north gate and north-west along the road to the Stronghold's south-east gate (Femi is on the gate), then run north-west to the Grand Tree. Narnode stands on the ground floor at its base.",
         },
-        { text: "Climb the ladder and give Hazelmere the bark sample to get a translated scroll." },
+        {
+          text: "Travel to Hazelmere's hut on the small island east of Yanille.",
+          travel:
+            "Fairy ring CLS drops you right beside the hut. No fairy ring: Watchtower Teleport (or a house/Nightmare Zone teleport) to Yanille and run east out of the city to the island.",
+        },
+        { text: "Climb the ladder and give Hazelmere the bark sample upstairs to get a translated scroll." },
       ],
     },
     {
       title: "Confront Glough",
       steps: [
-        { text: "Return to King Narnode at the Grand Tree and reveal the scroll's contents." },
-        { text: "Walk south then up the ladder to confront Glough." },
-        { text: "Report back to King Narnode that Glough has a human prisoner." },
-        { text: "Talk to the prisoner Charlie on the top floor of the Grand Tree." },
-        { text: "Search Glough's cupboard for his journal." },
+        {
+          text: "Return to King Narnode at the Grand Tree and reveal the scroll's contents.",
+          travel: "Spirit tree back to the Tree Gnome Stronghold, or Ardougne teleport and run north-west along the road again.",
+        },
+        {
+          text: "Walk south-east to Glough's house and climb the ladder to confront him.",
+          travel: "From the Grand Tree, run down the incline to the south-east; his house is the tree-house at the bottom — go up the ladder.",
+        },
+        { text: "Report back to King Narnode at the Grand Tree that Glough has a human prisoner." },
+        { text: "Talk to the prisoner Charlie on the top floor of the Grand Tree (climb the ladders inside)." },
+        { text: "Search Glough's cupboard in his house for his journal." },
         { text: "Confront Glough — you'll be arrested by Narnode's order." },
         { text: "Talk to Charlie again on the top floor of the Grand Tree. He tells you the password Ka-Lu-Min." },
-        { text: "Use the gnome glider on the top of the tree to escape to Karamja." },
+        { text: "Use the gnome glider on the top of the Grand Tree to escape to Karamja." },
       ],
     },
     {
@@ -43,11 +56,14 @@ export const theGrandTree: QuestWalkthrough = {
       steps: [
         {
           text: "After the glider crashes, run east past the level 53 jogres to the shipyard gate.",
+          travel: "The glider dumps you in the far north-east of Karamja; the shipyard is the fenced compound directly east of the crash site.",
         },
         { text: "Tell the shipyard worker Glough sent you and give the password Ka-Lu-Min in three parts." },
-        { text: "Find the Foreman on the southern dock and get the lumber order." },
+        { text: "Find the Foreman on the southern dock of the shipyard and get the lumber order." },
         {
-          text: "Return to King Narnode (use teleport, glider, or pay Femi 1,000gp at the gate).",
+          text: "Return to King Narnode at the Grand Tree.",
+          travel:
+            "Spirit tree or any Stronghold teleport is fastest. Otherwise take the Gandius gnome glider back to the Grand Tree, or run in through the south-east gate and pay Femi 1,000gp if you didn't help her earlier.",
         },
       ],
     },
@@ -55,10 +71,16 @@ export const theGrandTree: QuestWalkthrough = {
       title: "The invasion plans",
       steps: [
         { text: "Talk to Charlie again on the top floor of the Grand Tree." },
-        { text: "Visit Anita's house north-west of the Grand Tree to get Glough's key." },
-        { text: "Open Glough's chest with the key and take the invasion plans." },
-        { text: "Give the plans to King Narnode — he hands you four stick letters." },
-        { text: "Climb the watchtower in Glough's house and use the sticks to spell TUZO on the four pillars." },
+        {
+          text: "Visit Anita's house north-west of the Grand Tree to get Glough's key.",
+          travel: "From the Grand Tree run north-west and climb the stairs west of the swamp — her house sits at the top.",
+        },
+        {
+          text: "Open Glough's chest in his house with the key and take the invasion plans.",
+          travel: "Back south-east past the Grand Tree and down the incline to Glough's tree-house; the chest is upstairs.",
+        },
+        { text: "Give the plans to King Narnode at the Grand Tree — he hands you four stick letters." },
+        { text: "Climb the watchtower tree in the east part of Glough's house and use the sticks to spell TUZO on the four pillars." },
         { text: "Eat a summer pie for an Agility boost if your level is below 25." },
         { text: "Climb down the trapdoor that opens." },
       ],
