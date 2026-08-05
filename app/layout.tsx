@@ -1,16 +1,27 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
+import KeepAwake from "./KeepAwake";
+import ServiceWorker from "./ServiceWorker";
 
 export const metadata: Metadata = {
   title: "OSRS Quest Guide",
   description:
-    "An interactive Old School RuneScape quest guide with checkable step-by-step walkthroughs. Designed to be opened side-by-side with OSRS Mobile.",
+    "An interactive Old School RuneScape quest guide with checkable step-by-step walkthroughs and exact travel routes. Designed to be opened side-by-side with OSRS Mobile.",
   manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "OSRS Quests",
+    statusBarStyle: "black-translucent",
+  },
+  icons: {
+    icon: [{ url: "/icon-192.png", sizes: "192x192", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1f2937",
+  themeColor: "#09090b",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -23,15 +34,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">
-        <header className="sticky top-0 z-10 border-b border-zinc-800 bg-zinc-900/95 backdrop-blur supports-[backdrop-filter]:bg-zinc-900/80">
-          <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
-            <Link href="/" className="text-lg font-semibold tracking-tight">
+      <body className="flex min-h-full flex-col bg-zinc-950 text-zinc-100">
+        <header className="sticky top-0 z-30 border-b border-zinc-800 bg-zinc-900/95 pt-[env(safe-area-inset-top)] backdrop-blur supports-[backdrop-filter]:bg-zinc-900/80">
+          <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
+            <Link
+              href="/"
+              className="truncate text-lg font-semibold tracking-tight"
+            >
               OSRS Quest Guide
             </Link>
-            <span className="text-xs text-zinc-400">
-              Tap a step to check it off
-            </span>
+            <KeepAwake />
           </div>
         </header>
         <main className="flex-1">{children}</main>
@@ -47,6 +59,7 @@ export default function RootLayout({
           </a>
           . Not affiliated with Jagex.
         </footer>
+        <ServiceWorker />
       </body>
     </html>
   );

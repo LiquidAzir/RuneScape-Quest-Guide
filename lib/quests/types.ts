@@ -28,6 +28,13 @@ export interface QuestRequirements {
 export interface QuestStep {
   /** Short imperative text shown next to the checkbox. */
   text: string;
+  /**
+   * Exact route to the place this step happens: the fastest teleport or
+   * transport, then the walk from where it drops you. Rendered as a
+   * highlighted "Getting there" line so it can be scanned at a glance.
+   * Only set it when the step sends you somewhere new.
+   */
+  travel?: string;
   /** Optional sub-bullets or hints rendered under the step. */
   notes?: string[];
 }
